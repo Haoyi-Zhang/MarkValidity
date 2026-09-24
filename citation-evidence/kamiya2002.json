@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "kamiya2002",
+  "entry_type": "article",
+  "title": "{CCFinder}: A Multilinguistic Token-Based Code Clone Detection System for Large Scale Source Code",
+  "authors": "Toshihiro Kamiya and Shinji Kusumoto and Katsuro Inoue",
+  "venue": "IEEE Transactions on Software Engineering",
+  "year": "2002",
+  "pages_or_article": "654--670",
+  "verified_scholarly_identifier": "doi:10.1109/TSE.2002.1019480",
+  "source_locator": "https://doi.org/10.1109/TSE.2002.1019480",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1126,
+      "claim": "Token clone detection abstracts from distinctions retained by syntax trees"
+    }
+  ],
+  "evidence_sha256": "8fd9f21456721d9b34a285bace84b4ac6a2d25b2dd97ded00bac9d86180d9196"
+}

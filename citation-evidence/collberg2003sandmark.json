@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "collberg2003sandmark",
+  "entry_type": "article",
+  "title": "{SandMark}: A Tool for Software Protection Research",
+  "authors": "Christian Collberg and Ginger Myles and Andrew Huntwork",
+  "venue": "IEEE Security and Privacy",
+  "year": "2003",
+  "pages_or_article": "40--49",
+  "verified_scholarly_identifier": "doi:10.1109/MSECP.2003.1219058",
+  "source_locator": "https://doi.org/10.1109/MSECP.2003.1219058",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1115,
+      "claim": "SandMark enabled multiple embedders and attacks to be compared in one framework"
+    }
+  ],
+  "evidence_sha256": "0b6dd60bb6414b06ec0f42ee8acc081c03ed5dcfa2232aecd8f82e09aa252360"
+}

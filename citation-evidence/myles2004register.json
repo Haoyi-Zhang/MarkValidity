@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "myles2004register",
+  "entry_type": "inproceedings",
+  "title": "Software Watermarking through Register Allocation: Implementation, Analysis, and Attacks",
+  "authors": "Ginger Myles and Christian Collberg",
+  "venue": "Information Security and Cryptology---ICISC 2003",
+  "year": "2004",
+  "pages_or_article": "274--293",
+  "verified_scholarly_identifier": "doi:10.1007/978-3-540-24691-6_21",
+  "source_locator": "https://doi.org/10.1007/978-3-540-24691-6_21",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1117,
+      "claim": "Register-allocation watermarks depend on compiler allocation decisions"
+    }
+  ],
+  "evidence_sha256": "aba6f7f05b2367c7eb00da97320f61e6a5700e5f7dbf305f5ebb1f0aebbe1fef"
+}

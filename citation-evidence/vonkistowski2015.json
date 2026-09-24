@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "vonkistowski2015",
+  "entry_type": "inproceedings",
+  "title": "How to Build a Benchmark",
+  "authors": "Joakim von Kistowski and Jeremy A. Arnold and Karl Huppler and Klaus-Dieter Lange and John L. Henning and Paul Cao",
+  "venue": "Proceedings of the 6th ACM/SPEC International Conference on Performance Engineering",
+  "year": "2015",
+  "pages_or_article": "333--336",
+  "verified_scholarly_identifier": "doi:10.1145/2668930.2688819",
+  "source_locator": "https://doi.org/10.1145/2668930.2688819",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 260,
+      "claim": "This follows benchmark methodology that ties procedures to a declared purpose and workload"
+    }
+  ],
+  "evidence_sha256": "1cc5d68df67249972e0c53536fc21ecf0c5ef1b5151da577a0a4022d3ec00ad1"
+}

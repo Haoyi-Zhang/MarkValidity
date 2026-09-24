@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "demsar2006",
+  "entry_type": "article",
+  "title": "Statistical Comparisons of Classifiers over Multiple Data Sets",
+  "authors": "Janez Dem{\\v{s}}ar",
+  "venue": "Journal of Machine Learning Research",
+  "year": "2006",
+  "pages_or_article": "1--30",
+  "verified_scholarly_identifier": "formal-record:https://www.jmlr.org/papers/v7/demsar06a.html",
+  "source_locator": "https://www.jmlr.org/papers/v7/demsar06a.html",
+  "verification_status": "VERIFIED_FORMAL_SCHOLARLY_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1133,
+      "claim": "Dataset-level comparison should preserve the dataset as an analysis unit"
+    }
+  ],
+  "evidence_sha256": "1635bcdecf6c0b23f9437941b1c3278a8b4ed10e69617f352b436d06945aac8d"
+}

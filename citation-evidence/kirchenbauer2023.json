@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "kirchenbauer2023",
+  "entry_type": "inproceedings",
+  "title": "A Watermark for Large Language Models",
+  "authors": "John Kirchenbauer and Jonas Geiping and Yuxin Wen and Jonathan Katz and Ian Miers and Tom Goldstein",
+  "venue": "Proceedings of the 40th International Conference on Machine Learning",
+  "year": "2023",
+  "pages_or_article": "17061--17084",
+  "verified_scholarly_identifier": "formal-record:https://proceedings.mlr.press/v202/kirchenbauer23a.html",
+  "source_locator": "https://proceedings.mlr.press/v202/kirchenbauer23a.html",
+  "verification_status": "VERIFIED_FORMAL_SCHOLARLY_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1119,
+      "claim": "Keyed token partitions couple detection to sequence length and token distributions"
+    }
+  ],
+  "evidence_sha256": "ca52a460c6df5c972cafdccb59f8ec82d12cefd0229ad410a6329fe020e9166e"
+}

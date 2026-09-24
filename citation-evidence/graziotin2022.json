@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "graziotin2022",
+  "entry_type": "article",
+  "title": "Psychometrics in Behavioral Software Engineering: A Methodological Introduction with Guidelines",
+  "authors": "Daniel Graziotin and Per Lenberg and Robert Feldt and Stefan Wagner",
+  "venue": "ACM Transactions on Software Engineering and Methodology",
+  "year": "2022",
+  "pages_or_article": "7",
+  "verified_scholarly_identifier": "doi:10.1145/3469888",
+  "source_locator": "https://doi.org/10.1145/3469888",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 157,
+      "claim": "organize reliability, convergence, discrimination, and fairness as distinct properties of an instrument"
+    }
+  ],
+  "evidence_sha256": "7a0599ba6a4999440826a9b533cc7ef382c1971ff2284e71762bfacc42ffb0fa"
+}

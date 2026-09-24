@@ -1,0 +1,19 @@
+{
+  "commit": "853b47eb064c180beebd383302d09491fc98a565",
+  "definition_record": {
+    "definition": "Compute AUROC from negative and watermarked z-score arrays and report TPR at FPR bounds of zero, one percent, and five percent.",
+    "replay_mapping": "Watermarked z scores come from observed match counts. Negative scores are the exact fair-bit binomial null pooled over the observed surviving-site distribution.",
+    "source_locator": "calculate_auroc_tpr.py:38-56,58-70,78-103"
+  },
+  "full_system_execution": "NO",
+  "imported_definition": "AUROC and TPR at declared FPR bounds from negative and positive z-score arrays",
+  "official_repository": "https://github.com/hongcheki/sweet-watermark",
+  "paper_doi": "10.18653/v1/2024.acl-long.268",
+  "reason_full_system_not_executed": "Requires language-model generation and evaluation dependencies outside the frozen CPU-only no-model contract",
+  "redistributed_source": "NO",
+  "repository_license": "NO_LICENSE_FILE_FOUND",
+  "retrieved_utc_date": "2026-07-25",
+  "source_blob_sha": "b8eff404324de3a1ccde8ea2f638e50b8e3fe100",
+  "source_path": "calculate_auroc_tpr.py",
+  "system": "SWEET"
+}

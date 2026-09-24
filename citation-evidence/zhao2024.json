@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "zhao2024",
+  "entry_type": "inproceedings",
+  "title": "Provable Robust Watermarking for AI-Generated Text",
+  "authors": "Xuandong Zhao and Prabhanjan Ananth and Lei Li and Yu-Xiang Wang",
+  "venue": "International Conference on Learning Representations",
+  "year": "2024",
+  "pages_or_article": "",
+  "verified_scholarly_identifier": "formal-record:https://proceedings.iclr.cc/paper_files/paper/2024/hash/beae9ed5316bcc48e616754c06c11875-Abstract-Conference.html",
+  "source_locator": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/beae9ed5316bcc48e616754c06c11875-Abstract-Conference.html",
+  "verification_status": "VERIFIED_FORMAL_SCHOLARLY_RECORD",
+  "verification_basis": "Official ICLR 2024 proceedings record; title, complete author list, venue, and year cross-checked against the formal conference record.",
+  "manuscript_occurrences": [
+    {
+      "line": 1119,
+      "claim": "Provable robustness makes the admissible edit model explicit"
+    }
+  ],
+  "evidence_sha256": "8d0aa221f2a9094e6a64ecebbcc3bf6924af8780576a552a63e17ee92b035791"
+}

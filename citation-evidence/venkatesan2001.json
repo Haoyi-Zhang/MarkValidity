@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "venkatesan2001",
+  "entry_type": "inproceedings",
+  "title": "A Graph Theoretic Approach to Software Watermarking",
+  "authors": "Ramarathnam Venkatesan and Vijay V. Vazirani and Saurabh Sinha",
+  "venue": "Information Hiding",
+  "year": "2001",
+  "pages_or_article": "157--168",
+  "verified_scholarly_identifier": "doi:10.1007/3-540-45496-9_12",
+  "source_locator": "https://doi.org/10.1007/3-540-45496-9_12",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1115,
+      "claim": "Graph encodings exposed watermarks to graph-level attacks"
+    }
+  ],
+  "evidence_sha256": "b88c8349e95e8122a523216d3c18f2e12c0c004178b9e705ebc8d835af24689b"
+}

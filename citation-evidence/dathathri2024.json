@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "dathathri2024",
+  "entry_type": "article",
+  "title": "Scalable Watermarking for Identifying Large Language Model Outputs",
+  "authors": "Sumanth Dathathri and Abigail See and Sumedh Ghaisas and Po-Sen Huang and Rob McAdam and Johannes Welbl and Vandana Bachani and Alex Kaskasoli and Robert Stanforth and Tatiana Matejovicova and Jamie Hayes and Nidhi Vyas and Majd Al Merey and Jonah Brown-Cohen and Rudy Bunel and Borja Balle and Taylan Cemgil and Zahra Ahmed and Kitty Stacpoole and Ilia Shumailov and Ciprian Baetu and Sven Gowal and Demis Hassabis and Pushmeet Kohli",
+  "venue": "Nature",
+  "year": "2024",
+  "pages_or_article": "818--823",
+  "verified_scholarly_identifier": "doi:10.1038/s41586-024-08025-4",
+  "source_locator": "https://doi.org/10.1038/s41586-024-08025-4",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1119,
+      "claim": "Production-scale evaluations report detectability across several models, temperatures, and text lengths rather than as a single context-free operating point"
+    }
+  ],
+  "evidence_sha256": "9a5e825a6cc06ec8016c1166aaecb979adc30613bf7ccd52b90e2e0db9b4328a"
+}

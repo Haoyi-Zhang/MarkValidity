@@ -1,0 +1,16 @@
+scheme,attack,first_below_0_5,first_below_0_1,first_below_0_01,first_zero
+lexical,rename,0.2,0.4,0.6,0.7
+lexical,normalize,,,,
+lexical,random_flip,0.1,0.2,0.3,0.3
+lexical,strip,0.4,0.6,0.7,0.7
+lexical,mixed,0.2,0.3,0.4,0.5
+structural,rename,,,,
+structural,normalize,0.2,0.4,0.6,0.7
+structural,random_flip,0.2,0.2,0.4,0.4
+structural,strip,0.4,0.6,0.7,0.7
+structural,mixed,0.2,0.3,0.4,0.6
+hybrid,rename,0.4,0.7,,
+hybrid,normalize,0.4,0.7,,
+hybrid,random_flip,0.2,0.2,0.3,0.3
+hybrid,strip,0.5,0.6,0.7,0.8
+hybrid,mixed,0.2,0.3,0.4,0.5

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "pineau2021",
+  "entry_type": "article",
+  "title": "Improving Reproducibility in Machine Learning Research (A Report from the {NeurIPS} 2019 Reproducibility Program)",
+  "authors": "Joelle Pineau and Philippe Vincent-Lamarre and Koustuv Sinha and Vincent Larivi{\\`e}re and Alina Beygelzimer and Florence d'Alch{\\'e}-Buc and Emily Fox and Hugo Larochelle",
+  "venue": "Journal of Machine Learning Research",
+  "year": "2021",
+  "pages_or_article": "1--20",
+  "verified_scholarly_identifier": "formal-record:https://www.jmlr.org/papers/v22/20-303.html",
+  "source_locator": "https://www.jmlr.org/papers/v22/20-303.html",
+  "verification_status": "VERIFIED_FORMAL_SCHOLARLY_RECORD",
+  "verification_basis": "Official JMLR record; exact title, complete author list, volume, article number, pages, and year cross-checked against the journal record.",
+  "manuscript_occurrences": [
+    {
+      "line": 1133,
+      "claim": "Reproducibility guidance binds claims to code, data, and reporting choices"
+    }
+  ],
+  "evidence_sha256": "053ea86a906aa434abe3d1f645e6388db21e27ad15c42998ed0cbb7bb56681ba"
+}

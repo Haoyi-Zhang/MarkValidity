@@ -1,0 +1,32 @@
+{
+  "construct_note": "Order-sensitive sequence transformation.",
+  "domain_size": 1093,
+  "javascript_signature": "function solve(text) {",
+  "mutations": [
+    "Return the input unchanged.",
+    "Drop the final character before reversing.",
+    "Sort characters instead of reversing their order."
+  ],
+  "nominal_case_count": 5,
+  "nominal_cases": [
+    [
+      ""
+    ],
+    [
+      "a"
+    ],
+    [
+      "abc"
+    ],
+    [
+      "abba"
+    ],
+    [
+      "abcabc"
+    ]
+  ],
+  "observation_normalization": "Canonical JSON with sorted object keys; explicit exception records.",
+  "python_signature": "def solve(text):",
+  "task": "reverse_text",
+  "timeout_policy": "Deterministic tasks include an internal Collatz guard; any runtime failure is retained as evidence."
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "segura2016",
+  "entry_type": "article",
+  "title": "A Survey on Metamorphic Testing",
+  "authors": "Sergio Segura and Gordon Fraser and Ana B. S{\\'a}nchez and Antonio Ruiz-Cort{\\'e}s",
+  "venue": "IEEE Transactions on Software Engineering",
+  "year": "2016",
+  "pages_or_article": "805--824",
+  "verified_scholarly_identifier": "doi:10.1109/TSE.2016.2532875",
+  "source_locator": "https://doi.org/10.1109/TSE.2016.2532875",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1124,
+      "claim": "Metamorphic testing derives relations among executions when pointwise outcomes are unavailable"
+    }
+  ],
+  "evidence_sha256": "0024ff60d9ae29889f963066cec20a323732c6db6069ee9dc8ce753f84d4b0c1"
+}

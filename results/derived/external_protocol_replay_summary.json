@@ -1,0 +1,42 @@
+{
+  "comparison_unit": "frozen diagnostic carrier outcome",
+  "distinct_numeric_winners": [
+    "hybrid",
+    "lexical",
+    "structural"
+  ],
+  "protocols_with_numeric_replay": [
+    "native_exact_tail_detection",
+    "srcmarker_bit_accuracy",
+    "srcmarker_exact_message",
+    "codeip_available_prefix_exact",
+    "sweet_exact_null_auroc",
+    "sweet_tpr_at_fpr_0_01",
+    "sweet_tpr_at_fpr_0_05"
+  ],
+  "robustness_rows": 76032,
+  "schemes": [
+    "hybrid",
+    "lexical",
+    "structural"
+  ],
+  "scope": "Independent replay of public evaluation functionals on common frozen outcomes; not an execution or performance comparison of the external watermark systems.",
+  "stone_stem": {
+    "reason": "The public STEM formula requires human- and watermarked-code perplexities. This CPU-only diagnostic benchmark has neither an admissible language-model naturalness measure nor human ratings; substituting source similarity would change the construct.",
+    "status": "NOT_COMPUTED_COMPONENT_MISMATCH"
+  },
+  "winners": {
+    "codeip_available_prefix_exact": "structural",
+    "native_exact_tail_detection": "lexical",
+    "srcmarker_bit_accuracy": "structural",
+    "srcmarker_exact_message": "structural",
+    "sweet_exact_null_auroc": "hybrid",
+    "sweet_tpr_at_fpr_0_01": "hybrid",
+    "sweet_tpr_at_fpr_0_05": "hybrid"
+  },
+  "zero_surviving_site_rows": {
+    "hybrid": 651,
+    "lexical": 628,
+    "structural": 599
+  }
+}

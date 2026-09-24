@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "demillo1978",
+  "entry_type": "article",
+  "title": "Hints on Test Data Selection: Help for the Practicing Programmer",
+  "authors": "Richard A. DeMillo and Richard J. Lipton and Frederick G. Sayward",
+  "venue": "Computer",
+  "year": "1978",
+  "pages_or_article": "34--41",
+  "verified_scholarly_identifier": "doi:10.1109/C-M.1978.218136",
+  "source_locator": "https://doi.org/10.1109/C-M.1978.218136",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1122,
+      "claim": "The competent-programmer and coupling-effect hypotheses motivate mutants without making every mutant natural"
+    }
+  ],
+  "evidence_sha256": "627b7e8e76adeeac7e1da1dd24e5dd5012fd95d426b335bdda218e25e5a4d401"
+}

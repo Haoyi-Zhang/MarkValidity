@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "suresh2024",
+  "entry_type": "article",
+  "title": "Is the Watermarking of LLM-Generated Code Robust?",
+  "authors": "Tarun Suresh and Shubham Ugare and Gagandeep Singh and Sasa Misailovic",
+  "venue": "arXiv preprint arXiv:2403.17983",
+  "year": "2024",
+  "pages_or_article": "",
+  "verified_scholarly_identifier": "doi:10.48550/arXiv.2403.17983",
+  "source_locator": "https://doi.org/10.48550/arXiv.2403.17983",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1119,
+      "claim": "A recent preprint reports that semantics-preserving code transformations can sharply reduce the detectability of existing generated-code watermarks"
+    }
+  ],
+  "evidence_sha256": "657910630c486423cb589dce4873cf7c86e248f7a2921c52302102104223ea6b"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "le2014emi",
+  "entry_type": "inproceedings",
+  "title": "Compiler Validation via Equivalence Modulo Inputs",
+  "authors": "Vu Le and Mehrdad Afshari and Zhendong Su",
+  "venue": "Proceedings of the 35th ACM SIGPLAN Conference on Programming Language Design and Implementation",
+  "year": "2014",
+  "pages_or_article": "216--226",
+  "verified_scholarly_identifier": "doi:10.1145/2594291.2594334",
+  "source_locator": "https://doi.org/10.1145/2594291.2594334",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1124,
+      "claim": "Equivalence modulo inputs conditions transformations on observed executions"
+    }
+  ],
+  "evidence_sha256": "5db0b1f02bec6cfecbfb61f810aa8ee4880313b4dcd278c663030195bf49a1c4"
+}

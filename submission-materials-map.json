@@ -1,0 +1,134 @@
+{
+  "schema_version": "10.0",
+  "updated_at_utc": "2026-07-27T02:55:00Z",
+  "status": "SUBMISSION_POLICY_HOLD",
+  "rule_basis": "The sole retained PDF follows the official generic ACM single-column manuscript review mode, including class-generated line numbers and class-controlled US Letter geometry. Direct TOSEM portal fields remain authoritative because the public author-guide page returned access denied.",
+  "authors": [
+    {
+      "order": 1,
+      "name": "Haoyi Zhang",
+      "email": "hyeliozhang@gmail.com",
+      "orcid": "0009-0009-3693-786X",
+      "affiliation": "Xi'an Jiaotong-Liverpool University",
+      "city": "Suzhou",
+      "country": "China",
+      "corresponding": false
+    },
+    {
+      "order": 2,
+      "name": "Qihan Jin",
+      "email": "jinqihan498@gmail.com",
+      "orcid": "0009-0005-2106-4796",
+      "affiliation": "Xi'an Jiaotong-Liverpool University",
+      "city": "Suzhou",
+      "country": "China",
+      "corresponding": false
+    },
+    {
+      "order": 3,
+      "name": "Md Maruf Hasan",
+      "email": "mdmaruf.hasan@xjtlu.edu.cn",
+      "orcid": "0000-0001-9809-9376",
+      "affiliation": "Xi'an Jiaotong-Liverpool University",
+      "city": "Suzhou",
+      "country": "China",
+      "corresponding": false
+    },
+    {
+      "order": 4,
+      "name": "Huaijin Ran",
+      "email": "huaijin003@e.ntu.edu.sg",
+      "orcid": "0009-0009-2482-2344",
+      "affiliation": "Nanyang Technological University",
+      "city": "Singapore",
+      "country": "Singapore",
+      "corresponding": true
+    }
+  ],
+  "materials": [
+    {
+      "material": "initial-review main PDF",
+      "required": "yes, subject to live TOSEM confirmation",
+      "destination": "journal submission system",
+      "format": "PDF; paper/main.pdf in manuscript,screen,review mode with class-generated continuous left-margin line numbers",
+      "page_treatment": "37 pages total on class-controlled US Letter geometry; complete conclusion followed immediately by References on page 34",
+      "reviewer_duty": "primary",
+      "anonymity": "four authors visible; subject to direct portal confirmation",
+      "channel": "main manuscript upload",
+      "freeze": "hash-bound; template-compliance audit passed; live portal and human declarations still required",
+      "publication_route": "future user decision only"
+    },
+    {
+      "material": "submission metadata",
+      "required": "yes, subject to live system fields",
+      "destination": "journal submission system",
+      "format": "title, abstract, keywords, four authors, two unique institutions, corresponding author, ORCIDs, conflicts, funding, and declarations as requested",
+      "page_treatment": "not applicable",
+      "reviewer_duty": "administrative and conflict handling",
+      "anonymity": "must match the live review model",
+      "channel": "portal metadata",
+      "freeze": "requires human confirmation",
+      "publication_route": "future user decision only"
+    },
+    {
+      "material": "references",
+      "required": "yes",
+      "destination": "inside main PDF",
+      "format": "ACM bibliography",
+      "page_treatment": "begin on page 34 and continue through page 37",
+      "reviewer_duty": "primary",
+      "anonymity": "not applicable",
+      "channel": "main PDF",
+      "freeze": "hash-bound with manuscript",
+      "publication_route": "main article"
+    },
+    {
+      "material": "inline appendix",
+      "required": "no",
+      "destination": "not included",
+      "format": "not applicable",
+      "page_treatment": "none",
+      "reviewer_duty": "not applicable",
+      "anonymity": "not applicable",
+      "channel": "not applicable",
+      "freeze": "not applicable",
+      "publication_route": "not included"
+    },
+    {
+      "material": "separate online supplement",
+      "required": "optional supporting material, subject to live TOSEM confirmation",
+      "destination": "separate supplement channel",
+      "format": "14-page PDF; paper/online-supplement.pdf",
+      "page_treatment": "separate from article and bibliography",
+      "reviewer_duty": "noncritical support only",
+      "anonymity": "author-visible and consistent with main manuscript",
+      "channel": "separate upload only if the live TOSEM form permits it",
+      "freeze": "hash-bound",
+      "publication_route": "future rule-dependent"
+    },
+    {
+      "material": "replication package",
+      "required": "scientifically complete internally; external artifact channel subject to live TOSEM confirmation",
+      "destination": "permitted artifact or repository channel",
+      "format": "self-contained CPU-only snapshot",
+      "page_treatment": "not applicable",
+      "reviewer_duty": "artifact/reproducibility review if offered",
+      "anonymity": "author-visible release; source provenance and licenses retained",
+      "channel": "separate artifact upload or immutable snapshot if permitted",
+      "freeze": "release manifest and deterministic archive",
+      "publication_route": "future rule-dependent"
+    },
+    {
+      "material": "camera-ready source package",
+      "required": "after acceptance under general ACM production workflow",
+      "destination": "ACM production system",
+      "format": "LaTeX source package plus final PDF and separate supplemental files as applicable",
+      "page_treatment": "not applicable",
+      "reviewer_duty": "post-acceptance production",
+      "anonymity": "final authors visible",
+      "channel": "production system",
+      "freeze": "not a current submission action",
+      "publication_route": "accepted-paper production"
+    }
+  ]
+}

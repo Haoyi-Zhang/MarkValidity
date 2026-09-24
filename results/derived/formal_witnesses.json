@@ -1,0 +1,115 @@
+{
+  "analysis_configuration_sensitivity": {
+    "bootstrap_replicates": 5000,
+    "decision_functional_winners": {
+      "equal-family arithmetic mean": "lexical",
+      "equal-family geometric mean": "lexical",
+      "median family rate": "hybrid",
+      "share of families at or above 0.30": "hybrid",
+      "worst family rate": "lexical"
+    },
+    "holdout_recomputations": 38,
+    "mixture_uncertainty_rows": 21
+  },
+  "discrete_detector_calibration": {
+    "exact_probability": 1.7940998077392578e-05,
+    "k": 22,
+    "n": 24
+  },
+  "duplication_sensitivity": [
+    {
+      "base_equal_stratum_macro": "0.395738636364",
+      "copies_total": 20,
+      "duplicated_row_micro": "0.874112215909",
+      "favored_attack": "normalize",
+      "macro_after_duplication": "0.395738636364",
+      "micro_shift": "0.478373579545",
+      "scheme": "lexical"
+    },
+    {
+      "base_equal_stratum_macro": "0.395075757576",
+      "copies_total": 20,
+      "duplicated_row_micro": "0.873974116162",
+      "favored_attack": "rename",
+      "macro_after_duplication": "0.395075757576",
+      "micro_shift": "0.478898358586",
+      "scheme": "structural"
+    },
+    {
+      "base_equal_stratum_macro": "0.302746212121",
+      "copies_total": 20,
+      "duplicated_row_micro": "0.390684185606",
+      "favored_attack": "strip",
+      "macro_after_duplication": "0.302746212121",
+      "micro_shift": "0.087937973485",
+      "scheme": "hybrid"
+    }
+  ],
+  "finite_domain_decidability": {
+    "domain_cases_per_language": 33013,
+    "preconditions_checked": true,
+    "semantic_audit_failures": 0,
+    "semantic_audit_pairs": 504
+  },
+  "project_transfer_negative_control": {
+    "modules": 120,
+    "projects": 24,
+    "summary": [
+      {
+        "control_role": "positive",
+        "cp95_lower": "0.969727027423",
+        "cp95_upper": "1.000000000000",
+        "failures": 0,
+        "intervention": "inert-trailing-comment",
+        "maximum_project_success": 5,
+        "median_ast_profile_similarity": "1.000000000000",
+        "median_character_ngram_similarity": "0.996751488726",
+        "median_token_multiset_similarity": "1.000000000000",
+        "minimum_project_success": 5,
+        "modules": 120,
+        "parse_compile_successes": 120,
+        "projects_with_failure": 0
+      },
+      {
+        "control_role": "positive",
+        "cp95_lower": "0.969727027423",
+        "cp95_upper": "1.000000000000",
+        "failures": 0,
+        "intervention": "syntax-aware-local-rename",
+        "maximum_project_success": 5,
+        "median_ast_profile_similarity": "1.000000000000",
+        "median_character_ngram_similarity": "0.987493574595",
+        "median_token_multiset_similarity": "0.994032105256",
+        "minimum_project_success": 5,
+        "modules": 120,
+        "parse_compile_successes": 120,
+        "projects_with_failure": 0
+      },
+      {
+        "control_role": "negative",
+        "cp95_lower": "0.005185574958",
+        "cp95_upper": "0.071323194157",
+        "failures": 117,
+        "intervention": "scope-blind-identifier-collapse",
+        "maximum_project_success": 1,
+        "median_ast_profile_similarity": "1.000000000000",
+        "median_character_ngram_similarity": "0.497059436836",
+        "median_token_multiset_similarity": "0.585355471870",
+        "minimum_project_success": 0,
+        "modules": 120,
+        "parse_compile_successes": 3,
+        "projects_with_failure": 24
+      }
+    ]
+  },
+  "ranking_reversal": {
+    "rename_heavy_winner": "structural",
+    "structure_heavy_winner": "lexical",
+    "witness": "Winners differ under fixed observations and declared attack mixtures."
+  },
+  "zero_failure_upper_bound": {
+    "formula": "1 - gamma^(1/n)",
+    "n_for_1e-4": 29956,
+    "positive_for_every_finite_n": true
+  }
+}

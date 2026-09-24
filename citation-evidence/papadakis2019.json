@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "papadakis2019",
+  "entry_type": "article",
+  "title": "Mutation Testing Advances: An Analysis and Survey",
+  "authors": "Mike Papadakis and Marinos Kintis and Jie Zhang and Yue Jia and Yves Le Traon and Mark Harman",
+  "venue": "Advances in Computers",
+  "year": "2019",
+  "pages_or_article": "275--378",
+  "verified_scholarly_identifier": "doi:10.1016/bs.adcom.2018.03.015",
+  "source_locator": "https://doi.org/10.1016/bs.adcom.2018.03.015",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1122,
+      "claim": "Mutation surveys document the effects of operator choice, selection, and equivalent mutants"
+    }
+  ],
+  "evidence_sha256": "9f18739d5a101b000c7cab5430654120b8e15cc0008b972390ddb461fbb17f7f"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "jia2011",
+  "entry_type": "article",
+  "title": "An Analysis and Survey of the Development of Mutation Testing",
+  "authors": "Yue Jia and Mark Harman",
+  "venue": "IEEE Transactions on Software Engineering",
+  "year": "2011",
+  "pages_or_article": "649--678",
+  "verified_scholarly_identifier": "doi:10.1109/TSE.2010.62",
+  "source_locator": "https://doi.org/10.1109/TSE.2010.62",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 232,
+      "claim": "Mutation testing is established as a test-adequacy and experimental technique"
+    }
+  ],
+  "evidence_sha256": "e45dd309342d936b1a984b80179ec253e5e374f9d32ae456f05646059f3d2e8d"
+}

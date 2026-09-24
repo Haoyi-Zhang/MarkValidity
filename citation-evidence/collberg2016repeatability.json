@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "collberg2016repeatability",
+  "entry_type": "article",
+  "title": "Repeatability in Computer Systems Research",
+  "authors": "Christian Collberg and Todd A. Proebsting",
+  "venue": "Communications of the ACM",
+  "year": "2016",
+  "pages_or_article": "62--69",
+  "verified_scholarly_identifier": "doi:10.1145/2812803",
+  "source_locator": "https://doi.org/10.1145/2812803",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1133,
+      "claim": "Systems results are difficult to repeat when replication materials and environments are underspecified"
+    }
+  ],
+  "evidence_sha256": "5162f4a16d465dea589932b2ed882dc3778104f38455f37e243e1e89b95510d1"
+}

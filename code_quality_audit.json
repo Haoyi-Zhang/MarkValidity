@@ -1,0 +1,209 @@
+{
+  "status": "REVIEW",
+  "python_files": 179,
+  "syntax_valid_files": 179,
+  "todo_fixme_hits": [
+    [
+      "artifact/corpus/transfer/aiohttp/module-02.py",
+      165,
+      "# FIXME cgi.FieldStorage doesn't likes body parts with"
+    ],
+    [
+      "artifact/corpus/transfer/aiohttp/module-03.py",
+      28,
+      "else:  # TODO(PY314): Remove mentions of backports.zstd across codebase"
+    ],
+    [
+      "artifact/corpus/transfer/babel/module-05.py",
+      354,
+      "# TODO: this doesn't support \"compound_variations\" (or \"prefix\"), and will fall back to the \"x/y\" representation"
+    ],
+    [
+      "artifact/corpus/transfer/beautifulsoup4/module-04.py",
+      154,
+      "# TODO: handle namespaces here?"
+    ],
+    [
+      "artifact/corpus/transfer/beautifulsoup4/module-04.py",
+      233,
+      "# TODO: This was originally a workaround for a bug in"
+    ],
+    [
+      "artifact/corpus/transfer/beautifulsoup4/module-05.py",
+      195,
+      "# TODO: Why is the parser 'html.parser' here? Using"
+    ],
+    [
+      "artifact/corpus/transfer/beautifulsoup4/module-05.py",
+      201,
+      "# TODO: What are **kwargs exactly? Should they be passed in"
+    ],
+    [
+      "artifact/corpus/transfer/beautifulsoup4/module-05.py",
+      258,
+      "# TODO: This code is not covered by the BS4 tests, and"
+    ],
+    [
+      "artifact/corpus/transfer/beautifulsoup4/module-05.py",
+      349,
+      "# TODO-TYPING: typeshed stubs are incorrect about this;"
+    ],
+    [
+      "artifact/corpus/transfer/beautifulsoup4/module-05.py",
+      391,
+      "# TODO This has O(n^2) performance, for input like"
+    ],
+    [
+      "artifact/corpus/transfer/beautifulsoup4/module-05.py",
+      560,
+      "# TODO-COVERAGE: This code has no test coverage and"
+    ],
+    [
+      "artifact/corpus/transfer/beautifulsoup4/module-05.py",
+      581,
+      "# TODO-TYPING: typeshed stubs are incorrect about this;"
+    ],
+    [
+      "artifact/corpus/transfer/beautifulsoup4/module-05.py",
+      586,
+      "# TODO-TYPING: typeshed stubs are incorrect about this;"
+    ],
+    [
+      "artifact/corpus/transfer/h11/module-03.py",
+      186,
+      "# XX FIXME: we discard chunk extensions. Does anyone care?"
+    ],
+    [
+      "artifact/corpus/transfer/httpx/module-03.py",
+      267,
+      "# TODO: implement auth-int"
+    ],
+    [
+      "artifact/corpus/transfer/lark/module-03.py",
+      135,
+      "pass    # TODO Add support for macros!"
+    ],
+    [
+      "artifact/corpus/transfer/lark/module-04.py",
+      47,
+      "# TODO add typing info"
+    ],
+    [
+      "artifact/corpus/transfer/mako/module-04.py",
+      118,
+      "# TODO: no coverage here"
+    ],
+    [
+      "artifact/corpus/transfer/mako/module-05.py",
+      207,
+      "# TODO: make the \"filter\" shortcut list configurable at parse/gen time"
+    ],
+    [
+      "artifact/corpus/transfer/packaging/module-05.py",
+      378,
+      "# TODO: Need to care about 32-bit PPC for ppc64 through 10.2?"
+    ],
+    [
+      "artifact/corpus/transfer/requests/module-01.py",
+      19,
+      "# TODO: response is the only one"
+    ],
+    [
+      "artifact/corpus/transfer/requests/module-04.py",
+      181,
+      "# XXX not implemented yet"
+    ],
+    [
+      "artifact/corpus/transfer/requests/module-04.py",
+      215,
+      "# XXX handle auth-int."
+    ],
+    [
+      "artifact/corpus/transfer/requests/module-04.py",
+      220,
+      "# XXX should the partial digests be encoded too?"
+    ],
+    [
+      "artifact/corpus/transfer/requests/module-05.py",
+      663,
+      "# TODO: Remove this in 3.0.0: see #2811"
+    ],
+    [
+      "artifact/corpus/transfer/urllib3/module-04.py",
+      144,
+      "# TODO SKIPPABLE_HEADERS from urllib3 are ignored."
+    ],
+    [
+      "artifact/corpus/transfer/urllib3/module-04.py",
+      234,
+      "# TODO: Arbitrary read value."
+    ],
+    [
+      "artifact/corpus/transfer/urllib3/module-04.py",
+      282,
+      "# TODO this is often present from upstream."
+    ],
+    [
+      "artifact/corpus/transfer/urllib3/module-04.py",
+      325,
+      "# TODO: This is a woefully incomplete response object, but works for non-streaming."
+    ],
+    [
+      "artifact/corpus/transfer/urllib3/module-04.py",
+      332,
+      "decode_content: bool = False,  # TODO: support decoding"
+    ]
+  ],
+  "absolute_runtime_path_hits": [
+    [
+      "artifact/corpus/transfer/coverage/module-05.py",
+      252,
+      "start_import_stop : /Users/ned/coverage/trunk/tests/coveragetest.py:95"
+    ],
+    [
+      "artifact/corpus/transfer/coverage/module-05.py",
+      253,
+      "import_local_file : /Users/ned/coverage/trunk/tests/coveragetest.py:81"
+    ],
+    [
+      "artifact/corpus/transfer/coverage/module-05.py",
+      254,
+      "import_local_file : /Users/ned/coverage/trunk/coverage/backward.py:159"
+    ],
+    [
+      "artifact/corpus/transfer/jinja2/module-04.py",
+      201,
+      ">>> bcc = FileSystemBytecodeCache('/tmp/jinja_cache', '%s.cache')"
+    ],
+    [
+      "artifact/verify_release.py",
+      93,
+      "for bad in ['Reserved Author','Reserved Institution','ChatGPT','OpenAI','Codex','Web Pro','/mnt/data','/home/oai','Author Placeholder']:"
+    ],
+    [
+      "artifact/verify_release.py",
+      120,
+      "for bad in ['ChatGPT','OpenAI','Codex','Web Pro','chain of thought','/mnt/data','/home/oai']:"
+    ]
+  ],
+  "dynamic_execution_hits": [
+    [
+      "artifact/src/covewm/benchmark.py",
+      337,
+      "exec(code, namespace)"
+    ],
+    [
+      "artifact/tests/test_artifact.py",
+      62,
+      "exec(compile(transformed, \"<test>\", \"exec\"), namespace)"
+    ]
+  ],
+  "embedded_secret_hits": [],
+  "unit_test_status": "PASS",
+  "reconstruction_status": "PASS",
+  "determinism_status": "PASS",
+  "notes": [
+    "Dynamic execution hits, if any, are recorded for inspection and are not automatically classified as failures.",
+    "External full-system baselines are not silently executed; formula-level mappings and resource boundaries are explicit."
+  ]
+}

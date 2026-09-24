@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "xiao2025",
+  "entry_type": "article",
+  "title": "{DeCoMa}: Detecting and Purifying Code Dataset Watermarks through Dual Channel Code Abstraction",
+  "authors": "Yuan Xiao and Yuchen Chen and Shiqing Ma and Haocheng Huang and Chunrong Fang and Yanwei Chen and Weisong Sun and Yunfeng Zhu and Xiaofang Zhang and Zhenyu Chen",
+  "venue": "Proceedings of the ACM on Software Engineering",
+  "year": "2025",
+  "pages_or_article": "ISSTA075",
+  "verified_scholarly_identifier": "doi:10.1145/3728952",
+  "source_locator": "https://doi.org/10.1145/3728952",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 146,
+      "claim": "DeCoMa studies watermark removal from code datasets"
+    }
+  ],
+  "evidence_sha256": "0388a137c7253c95928a3ab1dc620523f757b433cc21aa1f9dbf3af8af17597d"
+}

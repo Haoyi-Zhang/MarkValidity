@@ -1,0 +1,29 @@
+{
+  "schema_version": "5.0",
+  "updated_at_utc": "2026-07-25T04:35:00Z",
+  "status": "TWO_OBJECTIVELY_UNAVAILABLE_GAPS",
+  "gaps": [
+    {
+      "gap_id": "LIVE_TOSEM_AUTHOR_GUIDE_AND_PORTAL_RULES",
+      "category": "official_submission_rule_retrieval",
+      "attempted_here": true,
+      "attempted_resource": "https://dl.acm.org/journal/tosem/author-guidelines",
+      "observed_failure": "The direct TOSEM author-guidelines endpoint was not publicly retrievable during the final live check (access denied/internal retrieval failure). No account login or portal action was attempted.",
+      "scientific_execution_blocked": false,
+      "submission_blocked": true,
+      "external_handoff_available": false,
+      "acceptance_condition": "On the actual submission day, a qualified human author reads the live TOSEM page and submission form and confirms review mode, author visibility, required declarations, supplement and artifact channels, and metadata fields before upload."
+    },
+    {
+      "gap_id": "FRESH_STATELESS_ARTIFACT_ONLY_REVIEW",
+      "category": "review_independence",
+      "attempted_here": true,
+      "attempted_resource": "Current conversation context",
+      "observed_failure": "An evaluator sharing this execution context cannot be proven independent of project history. A fresh artifact-only context is required for an independent blind-review verdict.",
+      "scientific_execution_blocked": false,
+      "submission_blocked": true,
+      "external_handoff_available": true,
+      "acceptance_condition": "A fresh context reviews only the frozen archive, article PDF, and supplement; every material finding is repaired and the new bytes are re-reviewed."
+    }
+  ]
+}

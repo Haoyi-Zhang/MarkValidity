@@ -1,0 +1,10 @@
+{
+  "status": "FAIL",
+  "checks": {
+    "configuration_sensitivity": false,
+    "balanced_claim_downgraded": true,
+    "directed_conclusions_stable": true,
+    "external_protocol_boundary": true,
+    "human_construct_boundary": true
+  }
+}

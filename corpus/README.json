@@ -1,0 +1,9 @@
+{
+  "eligibility": "Parseable Python modules with 20--600 nonblank lines and a locally used, nonprivate function parameter; tests, examples, benchmarks, package initializers, and vendored trees excluded.",
+  "evidence_boundary": "The audit measures transformation materialization and parse-and-compile success. It does not establish behavioral equivalence or repository-population prevalence.",
+  "modules": 120,
+  "modules_per_project": 5,
+  "projects": 24,
+  "purpose": "Frozen multi-project parser-transfer audit for controlled source interventions.",
+  "selection": "Within each project, order eligible modules by nonblank line count and hashed-path tie break; choose nearest ranks to the 5th, 27.5th, 50th, 72.5th, and 95th percentiles before observing intervention outcomes."
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "hu2024",
+  "entry_type": "inproceedings",
+  "title": "Unbiased Watermark for Large Language Models",
+  "authors": "Zhengmian Hu and Lichang Chen and Xidong Wu and Yihan Wu and Hongyang Zhang and Heng Huang",
+  "venue": "International Conference on Learning Representations",
+  "year": "2024",
+  "pages_or_article": "",
+  "verified_scholarly_identifier": "formal-record:https://proceedings.iclr.cc/paper_files/paper/2024/hash/c5b00c5bdcc6fe35907dbcca03d27652-Abstract-Conference.html",
+  "source_locator": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/c5b00c5bdcc6fe35907dbcca03d27652-Abstract-Conference.html",
+  "verification_status": "VERIFIED_FORMAL_SCHOLARLY_RECORD",
+  "verification_basis": "Official ICLR 2024 proceedings record; title, complete author list, venue, and year cross-checked against the formal conference record.",
+  "manuscript_occurrences": [
+    {
+      "line": 1119,
+      "claim": "Unbiased reweighting also targets distribution preservation"
+    }
+  ],
+  "evidence_sha256": "c675715608e8860be913cff5c3b40c56712029359b42fddb110e1401fe9282a7"
+}

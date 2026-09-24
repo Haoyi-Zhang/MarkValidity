@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "nagra2004threading",
+  "entry_type": "inproceedings",
+  "title": "Threading Software Watermarks",
+  "authors": "Jasvir Nagra and Clark Thomborson",
+  "venue": "Information Hiding",
+  "year": "2004",
+  "pages_or_article": "208--223",
+  "verified_scholarly_identifier": "doi:10.1007/978-3-540-30114-1_15",
+  "source_locator": "https://doi.org/10.1007/978-3-540-30114-1_15",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1117,
+      "claim": "Thread-scheduling watermarks introduce concurrency assumptions"
+    }
+  ],
+  "evidence_sha256": "c7c6ff4ca3f12f2329c965cfbbff90f167010f1ed74f97ff9b8e978f1ec03fcb"
+}

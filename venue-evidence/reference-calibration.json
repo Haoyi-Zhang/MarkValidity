@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "audited_at_utc": "2026-07-23T13:21:16Z",
+  "sample_size": 12,
+  "years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "reference_counts": [
+    35,
+    47,
+    48,
+    55,
+    61,
+    69,
+    76,
+    89,
+    90,
+    95,
+    96,
+    96
+  ],
+  "median": 72.5,
+  "p75_definition": "nearest-rank, ceil(0.75*n)",
+  "p75": 90,
+  "numeric_reference_floor": 73,
+  "current_bibliography_entries": 82,
+  "floor_satisfied": true,
+  "interpretation": "Coverage sanity check only; no references were added merely to approach P75."
+}

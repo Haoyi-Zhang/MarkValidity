@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "jiang2007",
+  "entry_type": "inproceedings",
+  "title": "{DECKARD}: Scalable and Accurate Tree-Based Detection of Code Clones",
+  "authors": "Lingxiao Jiang and Ghassan Misherghi and Zhendong Su and St{\\'e}phane Glondu",
+  "venue": "Proceedings of the 29th International Conference on Software Engineering",
+  "year": "2007",
+  "pages_or_article": "96--105",
+  "verified_scholarly_identifier": "doi:10.1109/ICSE.2007.30",
+  "source_locator": "https://doi.org/10.1109/ICSE.2007.30",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1126,
+      "claim": "Vectorized syntax trades order for scalable matching"
+    }
+  ],
+  "evidence_sha256": "e5dacb8e1cc0baa7cf017375442198699fbe4d89478ec2eaba8a6d0530830a84"
+}

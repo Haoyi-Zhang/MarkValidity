@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "kim2025",
+  "entry_type": "inproceedings",
+  "title": "Marking Code Without Breaking It: Code Watermarking for Detecting LLM-Generated Code",
+  "authors": "Jungin Kim and Shinwoo Park and Yo-Sub Han",
+  "venue": "Findings of the Association for Computational Linguistics: EACL 2026",
+  "year": "2026",
+  "pages_or_article": "3990--4002",
+  "verified_scholarly_identifier": "doi:10.18653/v1/2026.findings-eacl.207",
+  "source_locator": "https://doi.org/10.18653/v1/2026.findings-eacl.207",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 146,
+      "claim": "STONE restricts embedding to non-syntax tokens and combines correctness, detectability, and naturalness"
+    },
+    {
+      "line": 286,
+      "claim": "Naturalness is a legitimate watermark concern in prior system work"
+    },
+    {
+      "line": 471,
+      "claim": "STONE averages correctness, detectability, and perplexity-based naturalness"
+    }
+  ],
+  "evidence_sha256": "6ffd1709478e3eeed4470623f6aae4ef3407a6fdc149074798f62b651c315f84"
+}

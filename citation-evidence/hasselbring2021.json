@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "hasselbring2021",
+  "entry_type": "inproceedings",
+  "title": "Benchmarking as Empirical Standard in Software Engineering Research",
+  "authors": "Wilhelm Hasselbring",
+  "venue": "Proceedings of the 25th International Conference on Evaluation and Assessment in Software Engineering",
+  "year": "2021",
+  "pages_or_article": "365--372",
+  "verified_scholarly_identifier": "doi:10.1145/3463274.3463361",
+  "source_locator": "https://doi.org/10.1145/3463274.3463361",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 260,
+      "claim": "Benchmarking as an empirical standard likewise depends on explicit workload and comparison contracts"
+    }
+  ],
+  "evidence_sha256": "331a8d791a9b7fca469d65dd1a8373ae446795d6048608bdf78ea6ae2f00f564"
+}

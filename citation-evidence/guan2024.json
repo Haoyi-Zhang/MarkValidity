@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "guan2024",
+  "entry_type": "inproceedings",
+  "title": "{CodeIP}: A Grammar-Guided Multi-Bit Watermark for Large Language Models of Code",
+  "authors": "Batu Guan and Yao Wan and Zhangqian Bi and Zheng Wang and Hongyu Zhang and Pan Zhou and Lichao Sun",
+  "venue": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+  "year": "2024",
+  "pages_or_article": "9243--9258",
+  "verified_scholarly_identifier": "doi:10.18653/v1/2024.findings-emnlp.541",
+  "source_locator": "https://doi.org/10.18653/v1/2024.findings-emnlp.541",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 146,
+      "claim": "CodeIP uses grammar-aware multi-bit encoding during generation"
+    },
+    {
+      "line": 471,
+      "claim": "CodeIP tests exact equality over the message prefix available at the generated length"
+    }
+  ],
+  "evidence_sha256": "04685c27d6b8e8b527530e75fa0db62b6252ee76dd956c0b2a02d9472345e382"
+}

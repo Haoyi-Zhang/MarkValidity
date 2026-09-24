@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "meneely2013",
+  "entry_type": "article",
+  "title": "Validating Software Metrics: A Spectrum of Philosophies",
+  "authors": "Andrew Meneely and Ben Smith and Laurie Williams",
+  "venue": "ACM Transactions on Software Engineering and Methodology",
+  "year": "2013",
+  "pages_or_article": "24",
+  "verified_scholarly_identifier": "doi:10.1145/2377656.2377661",
+  "source_locator": "https://doi.org/10.1145/2377656.2377661",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1131,
+      "claim": "separate several software-metric validation philosophies"
+    }
+  ],
+  "evidence_sha256": "ac0822618ef435fbbd37086ddd1773e601a4f103c95a4832ee3ac3b5bff736d8"
+}

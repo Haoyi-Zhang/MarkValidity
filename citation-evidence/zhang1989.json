@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "zhang1989",
+  "entry_type": "article",
+  "title": "Simple Fast Algorithms for the Editing Distance between Trees and Related Problems",
+  "authors": "Kaizhong Zhang and Dennis Shasha",
+  "venue": "SIAM Journal on Computing",
+  "year": "1989",
+  "pages_or_article": "1245--1262",
+  "verified_scholarly_identifier": "doi:10.1137/0218082",
+  "source_locator": "https://doi.org/10.1137/0218082",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1126,
+      "claim": "Tree-edit distance depends on its tree and edit model"
+    }
+  ],
+  "evidence_sha256": "b9a582d67bf6e10a0bfd2bcdcc8de89a2c9d5c727dfcaaf59f30ec3f5d347ebd"
+}

@@ -1,0 +1,105 @@
+{
+  "sentence_count": 891,
+  "mean_sentence_words": 16.12,
+  "median_sentence_words": 14,
+  "p90_sentence_words": 27,
+  "max_sentence_words": 102,
+  "template_phrase_hits": {},
+  "duplicate_sentences": {},
+  "private_trace_hits": {},
+  "top_sentence_starts": [
+    [
+      "cross language",
+      6
+    ],
+    [
+      "table tab",
+      6
+    ],
+    [
+      "figure fig",
+      4
+    ],
+    [
+      "the four",
+      4
+    ],
+    [
+      "a production",
+      4
+    ],
+    [
+      "the robustness",
+      4
+    ],
+    [
+      "for rq",
+      4
+    ],
+    [
+      "the exact",
+      4
+    ],
+    [
+      "the balanced",
+      4
+    ],
+    [
+      "software measurement",
+      3
+    ],
+    [
+      "none of",
+      3
+    ],
+    [
+      "these are",
+      3
+    ],
+    [
+      "let be",
+      3
+    ],
+    [
+      "it is",
+      3
+    ],
+    [
+      "nominal tests",
+      3
+    ],
+    [
+      "a mutant",
+      3
+    ],
+    [
+      "a scalar",
+      3
+    ],
+    [
+      "it does",
+      3
+    ],
+    [
+      "in this",
+      3
+    ],
+    [
+      "because the",
+      3
+    ]
+  ],
+  "sections": [
+    "Introduction",
+    "A Claim Calculus for Watermark Evaluation",
+    "Evaluation Architecture",
+    "Formal Consequences and Failure Modes",
+    "Empirical Findings",
+    "From Results to Evaluation Practice",
+    "Related Work",
+    "Conclusion"
+  ],
+  "subsections": 28,
+  "subsubsections": 0,
+  "verdict": "PASS"
+}

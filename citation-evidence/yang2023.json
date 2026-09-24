@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "yang2023",
+  "entry_type": "inproceedings",
+  "title": "{SrcMarker}: Dual-Channel Source Code Watermarking via Scalable Code Transformations",
+  "authors": "Borui Yang and Wei Li and Liyao Xiang and Bo Li",
+  "venue": "Proceedings of the 45th IEEE Symposium on Security and Privacy",
+  "year": "2024",
+  "pages_or_article": "4088--4106",
+  "verified_scholarly_identifier": "doi:10.1109/SP54263.2024.00097",
+  "source_locator": "https://doi.org/10.1109/SP54263.2024.00097",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Final IEEE Symposium on Security and Privacy proceedings record and DOI metadata; repository title and authors cross-checked against the formal publication.",
+  "manuscript_occurrences": [
+    {
+      "line": 146,
+      "claim": "SrcMarker embeds messages through lexical and syntactic transformations"
+    },
+    {
+      "line": 471,
+      "claim": "SrcMarker reports per-bit agreement and exact payload recovery"
+    }
+  ],
+  "evidence_sha256": "9b32e00ba9683a4c82fab08e3ca9f1f27829f4b06ceba147dbf92af30056a740"
+}

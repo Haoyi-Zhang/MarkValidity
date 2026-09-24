@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "musgrave2020",
+  "entry_type": "inproceedings",
+  "title": "A Metric Learning Reality Check",
+  "authors": "Kevin Musgrave and Serge Belongie and Ser-Nam Lim",
+  "venue": "Computer Vision---ECCV 2020",
+  "year": "2020",
+  "pages_or_article": "681--699",
+  "verified_scholarly_identifier": "doi:10.1007/978-3-030-58595-2_41",
+  "source_locator": "https://doi.org/10.1007/978-3-030-58595-2_41",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1133,
+      "claim": "Standardized protocols can overturn conclusions obtained under heterogeneous evaluation"
+    }
+  ],
+  "evidence_sha256": "0bfc82a3110e8ff434ad94304388a26d61623e29a68cb0dd3f87e8532949b629"
+}

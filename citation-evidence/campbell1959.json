@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "campbell1959",
+  "entry_type": "article",
+  "title": "Convergent and Discriminant Validation by the Multitrait-Multimethod Matrix",
+  "authors": "Donald T. Campbell and Donald W. Fiske",
+  "venue": "Psychological Bulletin",
+  "year": "1959",
+  "pages_or_article": "81--105",
+  "verified_scholarly_identifier": "doi:10.1037/h0046016",
+  "source_locator": "https://doi.org/10.1037/h0046016",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 148,
+      "claim": "Convergent and discriminant evidence test whether indicators agree where they should and separate where they should not"
+    }
+  ],
+  "evidence_sha256": "1a8e8fd1c4e7ebb880de0564a53c637595c5997318db1395662491319670ff0a"
+}

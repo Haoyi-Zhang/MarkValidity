@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "chen2018",
+  "entry_type": "article",
+  "title": "Metamorphic Testing: A Review of Challenges and Opportunities",
+  "authors": "Tsong Yueh Chen and Fei-Ching Kuo and Huai Liu and Pak-Lok Poon and Dave Towey and T. H. Tse and Zhi Quan Zhou",
+  "venue": "ACM Computing Surveys",
+  "year": "2018",
+  "pages_or_article": "4",
+  "verified_scholarly_identifier": "doi:10.1145/3143561",
+  "source_locator": "https://doi.org/10.1145/3143561",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 735,
+      "claim": "Metamorphic testing similarly relies on executable relations when direct expected outputs are difficult to obtain"
+    }
+  ],
+  "evidence_sha256": "185e23eee14981c8656375ca38b47a3787cf10fc327f9f371ee8ce93feffeca7"
+}

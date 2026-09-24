@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "sjoberg2023reporting",
+  "entry_type": "inproceedings",
+  "title": "Improving the Reporting of Threats to Construct Validity",
+  "authors": "Dag I. K. Sj{\\o}berg and Gunnar R. Bergersen",
+  "venue": "Proceedings of the 27th International Conference on Evaluation and Assessment in Software Engineering",
+  "year": "2023",
+  "pages_or_article": "205--209",
+  "verified_scholarly_identifier": "doi:10.1145/3593434.3593449",
+  "source_locator": "https://doi.org/10.1145/3593434.3593449",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 157,
+      "claim": "Their reporting guidance recommends identifying the threatened interpretation rather than appending a generic checklist"
+    }
+  ],
+  "evidence_sha256": "4636e6a9225725e4eccd6c40880dc67f7001770003e0b910edf873d2142467a3"
+}

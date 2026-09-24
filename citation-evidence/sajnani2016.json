@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "sajnani2016",
+  "entry_type": "inproceedings",
+  "title": "{SourcererCC}: Scaling Code Clone Detection to Big-Code",
+  "authors": "Hitesh Sajnani and Vaibhav Saini and Jeffrey Svajlenko and Chanchal K. Roy and Cristina V. Lopes",
+  "venue": "Proceedings of the 38th International Conference on Software Engineering",
+  "year": "2016",
+  "pages_or_article": "1157--1168",
+  "verified_scholarly_identifier": "doi:10.1145/2884781.2884877",
+  "source_locator": "https://doi.org/10.1145/2884781.2884877",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1126,
+      "claim": "SourcererCC scales a token representation distinct from tree similarity"
+    }
+  ],
+  "evidence_sha256": "aa42d8b6535d734de81f5b4baf0b8094ae788caed2eb46f34310154b9086896d"
+}

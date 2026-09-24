@@ -1,0 +1,187 @@
+{
+  "schema_version": "12.0",
+  "audited_at_utc": "2026-07-27T08:40:10Z",
+  "execution_class": "IMPLEMENTATION_EVALUATION",
+  "benchmark_execution": {
+    "status": "EXECUTED",
+    "task_families": 12,
+    "languages": 2,
+    "domain_cases_per_language": 33013,
+    "mutants": 72,
+    "nominal_surviving_mutants": 6,
+    "semantic_audit_pairs": 504,
+    "semantic_audit_failures": 0,
+    "metric_intervention_observations": 1296,
+    "robustness_observations": 76032,
+    "robustness_shards": [
+      38016,
+      38016
+    ],
+    "project_transfer_projects": 24,
+    "project_transfer_modules": 120,
+    "project_transfer_observations": 360,
+    "holdout_recomputations": 38,
+    "bootstrap_replicates": 5000,
+    "public_numeric_functionals_replayed": 7,
+    "public_evaluation_protocols_recorded": 4
+  },
+  "unit_tests": {
+    "framework": "unittest",
+    "discovery_command": "python -m unittest discover -s tests -p 'test*.py' -v",
+    "tests": 10,
+    "failures": 0,
+    "status": "PASS"
+  },
+  "deterministic_recheck": {
+    "checks": 900,
+    "failures": 0,
+    "results_directory_sha256": "0f0fcb2c51ddf6bd5f4bfd46fce777cc3d83b21575ccc001333b4198f8aac243",
+    "scientific_results_sha256": "034812f8c869f902291b20a812761aeb97bf56f7e307dffe3ab59a885fd6fe48",
+    "volatile_result_paths": [
+      "environment.json"
+    ],
+    "status": "VERIFIED"
+  },
+  "fresh_two_seed_reexecution": {
+    "executed_at_utc": "2026-07-25T01:45:10Z",
+    "python_hash_seeds": [
+      1,
+      987
+    ],
+    "seed_1_recheck_checks": 900,
+    "seed_987_recheck_checks": 900,
+    "failures": 0,
+    "nonvolatile_files_compared": 149,
+    "nonvolatile_file_mismatches": 0,
+    "frozen_release_nonvolatile_mismatches": 0,
+    "scientific_results_sha256": "034812f8c869f902291b20a812761aeb97bf56f7e307dffe3ab59a885fd6fe48",
+    "status": "PASS"
+  },
+  "paper_build": {
+    "clean_temporary_build": true,
+    "repeat_build_bit_identical": true,
+    "submission_mode": "manuscript,screen,review",
+    "main_source_sha256": "8019ad567ba9af2eb1d649551b9d7b1c7702a0ab900d096fbb17bdd761cb3a7a",
+    "supplement_source_sha256": "8d5bc11b945f257896d9d18896515f4417cb35df788e682690897cc31c55d795",
+    "main_pdf_sha256": "fc0fd1a3e0a62df464e6856108bb36b5d7158209468ac0d82988b9c3f810fb44",
+    "online_supplement_pdf_sha256": "3a4fbe9ff4b377c6d40a1067cd3871cde9d3ac09cb8c3ef8af994a6cbb9449b0",
+    "final_main_pass_undefined_references": 0,
+    "final_main_pass_undefined_citations": 0,
+    "final_main_pass_overfull_boxes": 0,
+    "final_supplement_pass_undefined_references": 0,
+    "final_supplement_pass_overfull_boxes": 0,
+    "article_body_pages": 34,
+    "bibliography_start_page": 34,
+    "article_total_pages": 37,
+    "online_supplement_pages": 14,
+    "inline_appendix_present": false,
+    "supplement_empty_doi_prefix_visible": false,
+    "full_body_only_pages": 33,
+    "references_share_body_final_page": true,
+    "definition_heading_text_extraction_correct": true,
+    "alternate_manuscript_renderings": 0,
+    "single_manuscript_version": true,
+    "one_author_per_rendered_line": true,
+    "review_line_numbers_present": true,
+    "review_line_number_first": 1,
+    "review_line_number_last": 1924,
+    "review_line_number_count": 1924,
+    "review_line_number_sequence_continuous": true,
+    "manual_margin_or_spacing_modification_present": false,
+    "unassigned_production_metadata_present": false,
+    "template_compliance_verdict": "PASS_WITH_LIVE_PORTAL_HOLD",
+    "figures": 7,
+    "tables": 8,
+    "definitions": 1,
+    "propositions": 7,
+    "numbered_equation_environments": 21
+  },
+  "visual_validation": {
+    "article_pages_rendered": 37,
+    "supplement_pages_rendered": 14,
+    "renderer": "PDFium",
+    "dpi": 200,
+    "clipping": 0,
+    "overlap": 0,
+    "broken_glyphs": 0,
+    "identity_leaks": 0,
+    "one_author_per_title_line": true,
+    "status": "PASS",
+    "review_line_numbers_present": true,
+    "review_line_number_sequence_continuous": true,
+    "class_controlled_letter_geometry": true,
+    "figures_reviewed": 7,
+    "tables_reviewed": 8,
+    "out_of_page_objects": 0
+  },
+  "citation_alignment": {
+    "cited_occurrences": 88,
+    "unique_keys": 82,
+    "bib_entries": 82,
+    "evidence_records": 82,
+    "support_rows": 88,
+    "multi_key_commands": 0,
+    "reference_floor": 73,
+    "status": "PASS",
+    "claim_audit_rows": 88,
+    "unsupported_or_overbroad_claims": 0,
+    "irrelevant_citations": 0
+  },
+  "external_protocol_replay": {
+    "source_revisions": 4,
+    "numeric_functionals": 7,
+    "common_outcome_rows": 76032,
+    "distinct_winners": [
+      "hybrid",
+      "lexical",
+      "structural"
+    ],
+    "stone_status": "NOT_COMPUTED_COMPONENT_MISMATCH",
+    "full_external_system_execution": "OUTSIDE_FROZEN_RESOURCE_CONTRACT",
+    "status": "VERIFIED"
+  },
+  "material_boundary": {
+    "essential_content_in_main_article": true,
+    "inline_appendix_present": false,
+    "separate_online_supplement_present": true,
+    "supplement_contains_only_noncritical_support": true,
+    "status": "PASS"
+  },
+  "cross_seed_reproduction": {
+    "status": "PASS",
+    "python_hash_seeds": [
+      1,
+      987
+    ],
+    "scientific_results_sha256": "034812f8c869f902291b20a812761aeb97bf56f7e307dffe3ab59a885fd6fe48",
+    "nonvolatile_files_compared": 149,
+    "nonvolatile_file_mismatches": 0,
+    "seed_987_recheck": {
+      "checks": 900,
+      "failures": 0,
+      "scientific_results_sha256": "034812f8c869f902291b20a812761aeb97bf56f7e307dffe3ab59a885fd6fe48"
+    },
+    "volatile_exclusions": [
+      "environment.json",
+      "results_manifest.csv",
+      "recheck_report.json"
+    ]
+  },
+  "independent_recheck_status": "VERIFIED_DETERMINISTIC_NOT_FRESH_STATELESS_REVIEW",
+  "author_metadata": {
+    "authors": 4,
+    "corresponding_author": "Huaijin Ran",
+    "all_orcids_supplied": true,
+    "orcid_checksum_validated": true,
+    "status": "PASS",
+    "affiliations": 4,
+    "xjtlu_authors": 3,
+    "ntu_authors": 1,
+    "corresponding_author_email": "huaijin003@e.ntu.edu.sg",
+    "xjtlu_affiliation_declarations": 3,
+    "ntu_affiliation_declarations": 1,
+    "one_author_per_rendered_line": true,
+    "unique_institutions": 2,
+    "one_author_per_title_line": true
+  }
+}

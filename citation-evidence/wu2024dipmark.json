@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "wu2024dipmark",
+  "entry_type": "inproceedings",
+  "title": "A Resilient and Accessible Distribution-Preserving Watermark for Large Language Models",
+  "authors": "Yihan Wu and Zhengmian Hu and Junfeng Guo and Hongyang Zhang and Heng Huang",
+  "venue": "Proceedings of the 41st International Conference on Machine Learning",
+  "year": "2024",
+  "pages_or_article": "53443--53470",
+  "verified_scholarly_identifier": "formal-record:https://proceedings.mlr.press/v235/wu24h.html",
+  "source_locator": "https://proceedings.mlr.press/v235/wu24h.html",
+  "verification_status": "VERIFIED_FORMAL_SCHOLARLY_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1119,
+      "claim": "DiPmark constrains marginal token probabilities"
+    }
+  ],
+  "evidence_sha256": "56668d7c8aeafcd566fe8d68be04ed01604fd8b32dc425a8c39f707f4a76ed09"
+}

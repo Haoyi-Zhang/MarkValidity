@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "andrews2005",
+  "entry_type": "inproceedings",
+  "title": "Is Mutation an Appropriate Tool for Testing Experiments?",
+  "authors": "James H. Andrews and Lionel C. Briand and Yvan Labiche",
+  "venue": "Proceedings of the 27th International Conference on Software Engineering",
+  "year": "2005",
+  "pages_or_article": "402--411",
+  "verified_scholarly_identifier": "doi:10.1145/1062455.1062530",
+  "source_locator": "https://doi.org/10.1145/1062455.1062530",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1122,
+      "claim": "Comparisons with hand-seeded faults make representativeness empirical"
+    }
+  ],
+  "evidence_sha256": "bfec4e10d8a4ebc8bd69254c8f6d1e9cd240e220c1a828e58e592744c2c0c463"
+}

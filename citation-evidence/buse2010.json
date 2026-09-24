@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "buse2010",
+  "entry_type": "article",
+  "title": "Learning a Metric for Code Readability",
+  "authors": "Raymond P. L. Buse and Westley R. Weimer",
+  "venue": "IEEE Transactions on Software Engineering",
+  "year": "2010",
+  "pages_or_article": "546--558",
+  "verified_scholarly_identifier": "doi:10.1109/TSE.2009.70",
+  "source_locator": "https://doi.org/10.1109/TSE.2009.70",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1126,
+      "claim": "Readability models instead rely on human labels"
+    }
+  ],
+  "evidence_sha256": "1ef0f8910baf8711cdc47b8edcab1d18bc7e4e2c067eae55f6034545c72ac8ea"
+}

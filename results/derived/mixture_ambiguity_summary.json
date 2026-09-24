@@ -1,0 +1,213 @@
+{
+  "envelope_rows": 63,
+  "pairwise": [
+    {
+      "baseline_margin": "0.000662878788",
+      "baseline_margin_exact": "7/10560",
+      "challenger": "structural",
+      "minimum_tv_to_tie": "0.000435797665",
+      "minimum_tv_to_tie_exact": "14/32125",
+      "mixture": "balanced",
+      "tie_weights": "{\"mixed\": \"0.200000000000\", \"normalize\": \"0.199564202335\", \"random_flip\": \"0.200000000000\", \"rename\": \"0.200435797665\", \"strip\": \"0.200000000000\"}",
+      "tie_weights_exact": "{\"mixed\": \"1/5\", \"normalize\": \"6411/32125\", \"random_flip\": \"1/5\", \"rename\": \"6439/32125\", \"strip\": \"1/5\"}",
+      "winner": "lexical"
+    },
+    {
+      "baseline_margin": "0.092992424242",
+      "baseline_margin_exact": "491/5280",
+      "challenger": "hybrid",
+      "minimum_tv_to_tie": "0.124382520583",
+      "minimum_tv_to_tie_exact": "982/7895",
+      "mixture": "balanced",
+      "tie_weights": "{\"mixed\": \"0.200000000000\", \"normalize\": \"0.075617479417\", \"random_flip\": \"0.200000000000\", \"rename\": \"0.324382520583\", \"strip\": \"0.200000000000\"}",
+      "tie_weights_exact": "{\"mixed\": \"1/5\", \"normalize\": \"597/7895\", \"random_flip\": \"1/5\", \"rename\": \"2561/7895\", \"strip\": \"1/5\"}",
+      "winner": "lexical"
+    },
+    {
+      "baseline_margin": "0.092329545455",
+      "baseline_margin_exact": "65/704",
+      "challenger": "hybrid",
+      "minimum_tv_to_tie": "0.119375573921",
+      "minimum_tv_to_tie_exact": "130/1089",
+      "mixture": "balanced",
+      "tie_weights": "{\"mixed\": \"0.200000000000\", \"normalize\": \"0.319375573921\", \"random_flip\": \"0.200000000000\", \"rename\": \"0.080624426079\", \"strip\": \"0.200000000000\"}",
+      "tie_weights_exact": "{\"mixed\": \"1/5\", \"normalize\": \"1739/5445\", \"random_flip\": \"1/5\", \"rename\": \"439/5445\", \"strip\": \"1/5\"}",
+      "winner": "structural"
+    },
+    {
+      "baseline_margin": "0.409933712121",
+      "baseline_margin_exact": "43289/105600",
+      "challenger": "lexical",
+      "minimum_tv_to_tie": "0.269503501946",
+      "minimum_tv_to_tie_exact": "43289/160625",
+      "mixture": "rename-heavy",
+      "tie_weights": "{\"mixed\": \"0.000000000000\", \"normalize\": \"0.269503501946\", \"random_flip\": \"0.240000000000\", \"rename\": \"0.270496498054\", \"strip\": \"0.220000000000\"}",
+      "tie_weights_exact": "{\"mixed\": \"0/1\", \"normalize\": \"43289/160625\", \"random_flip\": \"6/25\", \"rename\": \"86897/321250\", \"strip\": \"11/50\"}",
+      "winner": "structural"
+    },
+    {
+      "baseline_margin": "0.078063446970",
+      "baseline_margin_exact": "16487/211200",
+      "challenger": "lexical",
+      "minimum_tv_to_tie": "0.104414186194",
+      "minimum_tv_to_tie_exact": "16487/157900",
+      "mixture": "rename-heavy",
+      "tie_weights": "{\"mixed\": \"0.000000000000\", \"normalize\": \"0.104414186194\", \"random_flip\": \"0.240000000000\", \"rename\": \"0.435585813806\", \"strip\": \"0.220000000000\"}",
+      "tie_weights_exact": "{\"mixed\": \"0/1\", \"normalize\": \"16487/157900\", \"random_flip\": \"6/25\", \"rename\": \"68779/157900\", \"strip\": \"11/50\"}",
+      "winner": "hybrid"
+    },
+    {
+      "baseline_margin": "0.331870265152",
+      "baseline_margin_exact": "70091/211200",
+      "challenger": "hybrid",
+      "minimum_tv_to_tie": "0.429084787267",
+      "minimum_tv_to_tie_exact": "70091/163350",
+      "mixture": "rename-heavy",
+      "tie_weights": "{\"mixed\": \"0.000000000000\", \"normalize\": \"0.429084787267\", \"random_flip\": \"0.240000000000\", \"rename\": \"0.110915212733\", \"strip\": \"0.220000000000\"}",
+      "tie_weights_exact": "{\"mixed\": \"0/1\", \"normalize\": \"70091/163350\", \"random_flip\": \"6/25\", \"rename\": \"9059/81675\", \"strip\": \"11/50\"}",
+      "winner": "structural"
+    },
+    {
+      "baseline_margin": "0.411444128788",
+      "baseline_margin_exact": "86897/211200",
+      "challenger": "structural",
+      "minimum_tv_to_tie": "0.270496498054",
+      "minimum_tv_to_tie_exact": "86897/321250",
+      "mixture": "structure-heavy",
+      "tie_weights": "{\"mixed\": \"0.000000000000\", \"normalize\": \"0.269503501946\", \"random_flip\": \"0.240000000000\", \"rename\": \"0.270496498054\", \"strip\": \"0.220000000000\"}",
+      "tie_weights_exact": "{\"mixed\": \"0/1\", \"normalize\": \"43289/160625\", \"random_flip\": \"6/25\", \"rename\": \"86897/321250\", \"strip\": \"11/50\"}",
+      "winner": "lexical"
+    },
+    {
+      "baseline_margin": "0.325658143939",
+      "baseline_margin_exact": "68779/211200",
+      "challenger": "hybrid",
+      "minimum_tv_to_tie": "0.435585813806",
+      "minimum_tv_to_tie_exact": "68779/157900",
+      "mixture": "structure-heavy",
+      "tie_weights": "{\"mixed\": \"0.000000000000\", \"normalize\": \"0.104414186194\", \"random_flip\": \"0.240000000000\", \"rename\": \"0.435585813806\", \"strip\": \"0.220000000000\"}",
+      "tie_weights_exact": "{\"mixed\": \"0/1\", \"normalize\": \"16487/157900\", \"random_flip\": \"6/25\", \"rename\": \"68779/157900\", \"strip\": \"11/50\"}",
+      "winner": "lexical"
+    },
+    {
+      "baseline_margin": "0.085785984848",
+      "baseline_margin_exact": "9059/105600",
+      "challenger": "structural",
+      "minimum_tv_to_tie": "0.110915212733",
+      "minimum_tv_to_tie_exact": "9059/81675",
+      "mixture": "structure-heavy",
+      "tie_weights": "{\"mixed\": \"0.000000000000\", \"normalize\": \"0.429084787267\", \"random_flip\": \"0.240000000000\", \"rename\": \"0.110915212733\", \"strip\": \"0.220000000000\"}",
+      "tie_weights_exact": "{\"mixed\": \"0/1\", \"normalize\": \"70091/163350\", \"random_flip\": \"6/25\", \"rename\": \"9059/81675\", \"strip\": \"11/50\"}",
+      "winner": "hybrid"
+    }
+  ],
+  "pairwise_rows": 9,
+  "robust_sets": [
+    {
+      "certified_strict_winners": "lexical",
+      "mixture": "balanced",
+      "tv_radius": "0.00"
+    },
+    {
+      "certified_strict_winners": "indeterminate",
+      "mixture": "balanced",
+      "tv_radius": "0.01"
+    },
+    {
+      "certified_strict_winners": "indeterminate",
+      "mixture": "balanced",
+      "tv_radius": "0.05"
+    },
+    {
+      "certified_strict_winners": "indeterminate",
+      "mixture": "balanced",
+      "tv_radius": "0.10"
+    },
+    {
+      "certified_strict_winners": "indeterminate",
+      "mixture": "balanced",
+      "tv_radius": "0.20"
+    },
+    {
+      "certified_strict_winners": "indeterminate",
+      "mixture": "balanced",
+      "tv_radius": "0.30"
+    },
+    {
+      "certified_strict_winners": "indeterminate",
+      "mixture": "balanced",
+      "tv_radius": "0.50"
+    },
+    {
+      "certified_strict_winners": "structural",
+      "mixture": "rename-heavy",
+      "tv_radius": "0.00"
+    },
+    {
+      "certified_strict_winners": "structural",
+      "mixture": "rename-heavy",
+      "tv_radius": "0.01"
+    },
+    {
+      "certified_strict_winners": "structural",
+      "mixture": "rename-heavy",
+      "tv_radius": "0.05"
+    },
+    {
+      "certified_strict_winners": "structural",
+      "mixture": "rename-heavy",
+      "tv_radius": "0.10"
+    },
+    {
+      "certified_strict_winners": "structural",
+      "mixture": "rename-heavy",
+      "tv_radius": "0.20"
+    },
+    {
+      "certified_strict_winners": "indeterminate",
+      "mixture": "rename-heavy",
+      "tv_radius": "0.30"
+    },
+    {
+      "certified_strict_winners": "indeterminate",
+      "mixture": "rename-heavy",
+      "tv_radius": "0.50"
+    },
+    {
+      "certified_strict_winners": "lexical",
+      "mixture": "structure-heavy",
+      "tv_radius": "0.00"
+    },
+    {
+      "certified_strict_winners": "lexical",
+      "mixture": "structure-heavy",
+      "tv_radius": "0.01"
+    },
+    {
+      "certified_strict_winners": "lexical",
+      "mixture": "structure-heavy",
+      "tv_radius": "0.05"
+    },
+    {
+      "certified_strict_winners": "lexical",
+      "mixture": "structure-heavy",
+      "tv_radius": "0.10"
+    },
+    {
+      "certified_strict_winners": "lexical",
+      "mixture": "structure-heavy",
+      "tv_radius": "0.20"
+    },
+    {
+      "certified_strict_winners": "indeterminate",
+      "mixture": "structure-heavy",
+      "tv_radius": "0.30"
+    },
+    {
+      "certified_strict_winners": "indeterminate",
+      "mixture": "structure-heavy",
+      "tv_radius": "0.50"
+    }
+  ],
+  "robust_winner_rows": 21
+}

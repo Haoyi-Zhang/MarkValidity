@@ -1,0 +1,23 @@
+{
+  "CodeIP": {
+    "definition": "Compare the decoded and target message prefixes up to the number of message units available at the generated length; the result is exact prefix equality.",
+    "replay_mapping": "A surviving carrier site is an available message unit. Exact equality is true when all surviving sites match, including the public-code empty-prefix behavior when no sites remain.",
+    "source_locator": "examples/codeip/src/watermarking/wm.py:127-133"
+  },
+  "STONE": {
+    "definition": "Average correctness, detectability, and perplexity-based naturalness after the public implementation's component transformations.",
+    "replay_mapping": "No numeric score is produced because the diagnostic benchmark has no admissible perplexity-based naturalness component. Automatic source similarity is not substituted.",
+    "source_locator": "stone_implementation/evaluation/stem.py:11-17"
+  },
+  "SWEET": {
+    "definition": "Compute AUROC from negative and watermarked z-score arrays and report TPR at FPR bounds of zero, one percent, and five percent.",
+    "replay_mapping": "Watermarked z scores come from observed match counts. Negative scores are the exact fair-bit binomial null pooled over the observed surviving-site distribution.",
+    "source_locator": "calculate_auroc_tpr.py:38-56,58-70,78-103"
+  },
+  "SrcMarker": {
+    "definition": "Report mean per-bit agreement and exact recovery of all payload bits.",
+    "replay_mapping": "Per-bit agreement divides matching sites by the declared 24-bit payload, so deleted sites count as incorrect. Exact recovery requires all 24 sites to survive and match.",
+    "source_locator": "eval_main.py:303-312; eval_utils.py:16-24"
+  },
+  "scope": "These are independent protocol definitions. External source code is not redistributed, and the full external watermark systems are not executed."
+}

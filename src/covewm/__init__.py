@@ -1,0 +1,1 @@
+"""Cove-WM executable benchmark."""

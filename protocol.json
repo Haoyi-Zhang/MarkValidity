@@ -1,0 +1,152 @@
+{
+  "constructs": {
+    "attack_conditioned_robustness": {
+      "aggregation": "full response curves plus explicitly declared mixture functionals",
+      "falsifier": "ranking or conclusion changes under a substantively plausible declared mixture",
+      "indicator": "detector success by scheme, attack family, severity, task, language, and payload",
+      "unit": "one attacked watermarked program"
+    },
+    "bounded_executable_semantics": {
+      "falsifier": "any parse failure or unequal normalized observation",
+      "indicator": "parse success plus exhaustive differential execution over each task's frozen finite domain",
+      "scope": "declared domain and frozen runtime only",
+      "unit": "reference/transformed program pair"
+    },
+    "evaluation_protocol_transfer": {
+      "falsifier": "all admissible functionals preserve one ordering and every required component maps without changing construct",
+      "indicator": "independent replay of frozen public evaluation functionals on one common 76,032-row attack outcome matrix",
+      "scope": "scoring-contract sensitivity; not external-system performance",
+      "unit": "one carrier-specific score under one named evaluation functional"
+    },
+    "false_positive_control": {
+      "indicator": "exact binomial null tail plus exact binomial uncertainty intervals",
+      "scope": "24 independent fair null bits and frozen acceptance threshold",
+      "unit": "one independent null payload trial"
+    },
+    "structural_distortion": {
+      "exclusion": "human readability, naturalness, and imperceptibility",
+      "indicator": [
+        "character similarity",
+        "token similarity",
+        "identifier-normalized similarity",
+        "AST-type similarity",
+        "control-profile similarity",
+        "identifier-multiset similarity",
+        "identifier-style similarity"
+      ],
+      "scope": "machine-observable source structure",
+      "unit": "source pair"
+    }
+  },
+  "detector": {
+    "accepted_matches": 22,
+    "exact_null_probability": 1.7940998077392578e-05,
+    "nominal_alpha": 0.0001,
+    "payload_bits": 24
+  },
+  "execution_class": "IMPLEMENTATION_EVALUATION",
+  "external_protocol_replay": {
+    "common_outcomes": 76032,
+    "edge_policies": {
+      "CodeIP": "empty available prefix compares equal and is also reported under a nonempty-prefix sensitivity",
+      "STONE": "not computed because the required perplexity-based naturalness component is absent",
+      "SWEET": "zero-survivor rows have undefined z score and are omitted with counts reported",
+      "SrcMarker": "deleted payload sites count as incorrect"
+    },
+    "execution_boundary": "full external embedding systems are not run because they require learned-model inference, trained checkpoints, or CUDA outside the frozen resource profile",
+    "numeric_functionals": [
+      "native exact-tail detection",
+      "SrcMarker per-bit agreement",
+      "SrcMarker exact message recovery",
+      "CodeIP available-prefix exact recovery",
+      "SWEET exact-null AUROC",
+      "SWEET TPR at FPR <= 0.01",
+      "SWEET TPR at FPR <= 0.05"
+    ],
+    "provenance": "artifact/external-baselines/protocol-sources.csv and artifact/external-baselines/evidence/*.json",
+    "systems": [
+      "SWEET",
+      "CodeIP",
+      "SrcMarker",
+      "STONE"
+    ]
+  },
+  "factors": {
+    "attacks": [
+      "format",
+      "rename",
+      "normalize",
+      "random_flip",
+      "strip",
+      "mixed"
+    ],
+    "languages": [
+      "python",
+      "javascript"
+    ],
+    "metric_profiles_per_scheme_task_language": 18,
+    "mutants_per_task_language": 3,
+    "payload_bits": 24,
+    "payloads_per_stratum": 16,
+    "schemes": [
+      "lexical",
+      "structural",
+      "hybrid"
+    ],
+    "severity_levels": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "task_families": [
+      "leap_year",
+      "collatz_steps",
+      "raindrops",
+      "grains",
+      "hamming",
+      "isogram",
+      "triangle",
+      "luhn",
+      "darts",
+      "armstrong",
+      "nucleotide_count",
+      "reverse_text"
+    ]
+  },
+  "failure_semantics": "parse, runtime, extraction, and bounded-observation mismatches are retained as failures",
+  "mixtures": {
+    "balanced": {
+      "mixed": 0.2,
+      "normalize": 0.2,
+      "random_flip": 0.2,
+      "rename": 0.2,
+      "strip": 0.2
+    },
+    "rename-heavy": {
+      "random_flip": 0.24,
+      "rename": 0.54,
+      "strip": 0.22
+    },
+    "structure-heavy": {
+      "normalize": 0.54,
+      "random_flip": 0.24,
+      "strip": 0.22
+    }
+  },
+  "protocol_version": "COVE-WM-1.1",
+  "randomness": {
+    "false_positive_monte_carlo_seed": 69,
+    "parser_path_seed": 2,
+    "payloads_and_attacks": "SHA-256-derived deterministic values"
+  },
+  "resource_profile": "CPU_ONLY_NO_GPU_NO_MODEL_API_NO_LLM",
+  "uncertainty": "two-sided 95% Clopper-Pearson intervals for response curves; one-sided 95% exact zero-failure upper bounds"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "collberg1999",
+  "entry_type": "inproceedings",
+  "title": "Software Watermarking: Models and Dynamic Embeddings",
+  "authors": "Christian S. Collberg and Clark D. Thomborson",
+  "venue": "Proceedings of the 26th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+  "year": "1999",
+  "pages_or_article": "311--324",
+  "verified_scholarly_identifier": "doi:10.1145/292540.292569",
+  "source_locator": "https://doi.org/10.1145/292540.292569",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1115,
+      "claim": "Dynamic execution entered this relation in early program-watermark models"
+    }
+  ],
+  "evidence_sha256": "e201dc98e7d56561988c3e212980183596329e7d01bd53b57d2aab4ad28be90d"
+}

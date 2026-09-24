@@ -1,0 +1,37 @@
+{
+  "construct_note": "Pairwise sequence comparison and length precondition.",
+  "domain_size": 4369,
+  "javascript_signature": "function solve(left, right) {",
+  "mutations": [
+    "Count equal positions instead of unequal positions.",
+    "Ignore unequal-length preconditions.",
+    "Add one to every distance."
+  ],
+  "nominal_case_count": 5,
+  "nominal_cases": [
+    [
+      "",
+      ""
+    ],
+    [
+      "A",
+      "A"
+    ],
+    [
+      "A",
+      "G"
+    ],
+    [
+      "GATT",
+      "GACT"
+    ],
+    [
+      "A",
+      ""
+    ]
+  ],
+  "observation_normalization": "Canonical JSON with sorted object keys; explicit exception records.",
+  "python_signature": "def solve(left, right):",
+  "task": "hamming",
+  "timeout_policy": "Deterministic tasks include an internal Collatz guard; any runtime failure is retained as evidence."
+}

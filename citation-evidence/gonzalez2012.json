@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "gonzalez2012",
+  "entry_type": "article",
+  "title": "On the Reproducibility of Empirical Software Engineering Studies Based on Data Retrieved from Development Repositories",
+  "authors": "Jes{\\'u}s M. Gonz{\\'a}lez-Barahona and Gregorio Robles",
+  "venue": "Empirical Software Engineering",
+  "year": "2012",
+  "pages_or_article": "75--89",
+  "verified_scholarly_identifier": "doi:10.1007/s10664-011-9181-9",
+  "source_locator": "https://doi.org/10.1007/s10664-011-9181-9",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1133,
+      "claim": "Repository-mining studies likewise require retained provenance and extraction procedures"
+    }
+  ],
+  "evidence_sha256": "70362a67009848b62b60594e09b268f9d720951f83f90372e2afe4563c0f8015"
+}

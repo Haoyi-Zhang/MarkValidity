@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "schneidewind1992",
+  "entry_type": "article",
+  "title": "Methodology for Validating Software Metrics",
+  "authors": "Norman F. Schneidewind",
+  "venue": "IEEE Transactions on Software Engineering",
+  "year": "1992",
+  "pages_or_article": "410--422",
+  "verified_scholarly_identifier": "doi:10.1109/32.135774",
+  "source_locator": "https://doi.org/10.1109/32.135774",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1131,
+      "claim": "Schneidewind validates metrics against a declared quality purpose"
+    }
+  ],
+  "evidence_sha256": "6f513a16fa746e87cdae70e7ffffa1dcd31ad507c8fb7c3f451bc94c16e8d810"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "ralph2018",
+  "entry_type": "inproceedings",
+  "title": "Construct Validity in Software Engineering Research and Software Metrics",
+  "authors": "Paul Ralph and Ewan Tempero",
+  "venue": "Proceedings of the 22nd International Conference on Evaluation and Assessment in Software Engineering",
+  "year": "2018",
+  "pages_or_article": "13--23",
+  "verified_scholarly_identifier": "doi:10.1145/3210459.3210461",
+  "source_locator": "https://doi.org/10.1145/3210459.3210461",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 157,
+      "claim": "Ralph and Tempero show how validity arguments weaken when the intended interpretation is left implicit"
+    }
+  ],
+  "evidence_sha256": "ea01061663157c7f15c1a5f459b7708ac959752d7b31f255cb8290aa28d5a3ef"
+}

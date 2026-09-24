@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "borsboom2004",
+  "entry_type": "article",
+  "title": "The Concept of Validity",
+  "authors": "Denny Borsboom and Gideon J. Mellenbergh and Jaap van Heerden",
+  "venue": "Psychological Review",
+  "year": "2004",
+  "pages_or_article": "1061--1071",
+  "verified_scholarly_identifier": "doi:10.1037/0033-295X.111.4.1061",
+  "source_locator": "https://doi.org/10.1037/0033-295X.111.4.1061",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1129,
+      "claim": "connect an attributed property to variation in the measure"
+    }
+  ],
+  "evidence_sha256": "9834b0a06821c703eeca5b28ecfc8d8c91a7e16dbcfa0b43d4b90918f8c41110"
+}

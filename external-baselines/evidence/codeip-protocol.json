@@ -1,0 +1,19 @@
+{
+  "commit": "5f84062064947a0e2137ebda0bd3a9ae8ceb1736",
+  "definition_record": {
+    "definition": "Compare the decoded and target message prefixes up to the number of message units available at the generated length; the result is exact prefix equality.",
+    "replay_mapping": "A surviving carrier site is an available message unit. Exact equality is true when all surviving sites match, including the public-code empty-prefix behavior when no sites remain.",
+    "source_locator": "examples/codeip/src/watermarking/wm.py:127-133"
+  },
+  "full_system_execution": "NO",
+  "imported_definition": "Exact equality of the decoded message prefix available at the generated length",
+  "official_repository": "https://github.com/CGCL-codes/naturalcc",
+  "paper_doi": "10.18653/v1/2024.findings-emnlp.541",
+  "reason_full_system_not_executed": "Requires a transformer language model and model-generated code outside the frozen no-model contract",
+  "redistributed_source": "NO",
+  "repository_license": "MIT",
+  "retrieved_utc_date": "2026-07-25",
+  "source_blob_sha": "517627a1166be6c468baff304328579bfe03caaa",
+  "source_path": "examples/codeip/src/watermarking/wm.py",
+  "system": "CodeIP"
+}

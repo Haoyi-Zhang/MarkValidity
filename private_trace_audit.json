@@ -1,0 +1,113 @@
+{
+  "status": "FAIL",
+  "hits": [
+    {
+      "path": "paper/ACM-Reference-Format.bst",
+      "pattern": "Web Pro"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "ChatGPT"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "ChatGPT"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "OpenAI"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "OpenAI"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "Codex"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "Codex"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "Web Pro"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "Web Pro"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "chain of thought"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "/mnt/data"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "/mnt/data"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "/home/oai"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "/home/oai"
+    },
+    {
+      "path": "artifact/code_quality_audit.json",
+      "pattern": "ChatGPT"
+    },
+    {
+      "path": "artifact/code_quality_audit.json",
+      "pattern": "ChatGPT"
+    },
+    {
+      "path": "artifact/code_quality_audit.json",
+      "pattern": "OpenAI"
+    },
+    {
+      "path": "artifact/code_quality_audit.json",
+      "pattern": "OpenAI"
+    },
+    {
+      "path": "artifact/code_quality_audit.json",
+      "pattern": "Codex"
+    },
+    {
+      "path": "artifact/code_quality_audit.json",
+      "pattern": "Codex"
+    },
+    {
+      "path": "artifact/code_quality_audit.json",
+      "pattern": "Web Pro"
+    },
+    {
+      "path": "artifact/code_quality_audit.json",
+      "pattern": "Web Pro"
+    },
+    {
+      "path": "artifact/code_quality_audit.json",
+      "pattern": "chain of thought"
+    },
+    {
+      "path": "artifact/code_quality_audit.json",
+      "pattern": "/mnt/data"
+    },
+    {
+      "path": "artifact/code_quality_audit.json",
+      "pattern": "/mnt/data"
+    },
+    {
+      "path": "artifact/code_quality_audit.json",
+      "pattern": "/home/oai"
+    },
+    {
+      "path": "artifact/code_quality_audit.json",
+      "pattern": "/home/oai"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "nagra2002taxonomy",
+  "entry_type": "inproceedings",
+  "title": "A Functional Taxonomy for Software Watermarking",
+  "authors": "Jasvir Nagra and Clark Thomborson and Christian Collberg",
+  "venue": "Proceedings of the 25th Australasian Computer Science Conference",
+  "year": "2002",
+  "pages_or_article": "177--186",
+  "verified_scholarly_identifier": "doi:10.1145/563857.563822",
+  "source_locator": "https://doi.org/10.1145/563857.563822",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1115,
+      "claim": "A functional taxonomy separated embedding, recognition, stealth, and resilience"
+    }
+  ],
+  "evidence_sha256": "8f3f6c4d867bf2a8028e451bf0decabf3ee8efcc3e4d1a2a834bbbed8759fbda"
+}

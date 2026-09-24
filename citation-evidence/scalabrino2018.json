@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "scalabrino2018",
+  "entry_type": "article",
+  "title": "A Comprehensive Model for Code Readability",
+  "authors": "Simone Scalabrino and Mario Linares-V{\\'a}squez and Rocco Oliveto and Denys Poshyvanyk",
+  "venue": "Journal of Software: Evolution and Process",
+  "year": "2018",
+  "pages_or_article": "e1958",
+  "verified_scholarly_identifier": "doi:10.1002/smr.1958",
+  "source_locator": "https://doi.org/10.1002/smr.1958",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1126,
+      "claim": "Broader models also retain ratings as the outcome"
+    }
+  ],
+  "evidence_sha256": "d1191314aa2d5898037a076337e2ed8d2dadf7a0c0552c350feb9c2cb3463857"
+}

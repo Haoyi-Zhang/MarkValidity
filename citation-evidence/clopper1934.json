@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "clopper1934",
+  "entry_type": "article",
+  "title": "The Use of Confidence or Fiducial Limits Illustrated in the Case of the Binomial",
+  "authors": "C. J. Clopper and E. S. Pearson",
+  "venue": "Biometrika",
+  "year": "1934",
+  "pages_or_article": "404--413",
+  "verified_scholarly_identifier": "doi:10.1093/biomet/26.4.404",
+  "source_locator": "https://doi.org/10.1093/biomet/26.4.404",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 274,
+      "claim": "We use exact Clopper--Pearson intervals under the binomial model"
+    }
+  ],
+  "evidence_sha256": "d713fe8c68e5272e2d994036bf5a8066ddc6f937f399a175f61e951e94b4fa49"
+}

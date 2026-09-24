@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "choi2026",
+  "entry_type": "article",
+  "title": "Multi-Channel Spread-Spectrum Code Watermarking",
+  "authors": "Soohyeon Choi and Debin Gao and Yue Duan",
+  "venue": "arXiv preprint arXiv:2607.06009",
+  "year": "2026",
+  "pages_or_article": "",
+  "verified_scholarly_identifier": "doi:10.48550/arXiv.2607.06009",
+  "source_locator": "https://doi.org/10.48550/arXiv.2607.06009",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 146,
+      "claim": "Another distributes payloads across several syntactic channels"
+    }
+  ],
+  "evidence_sha256": "6f0ab1ccb935fca0ac8b0daa490f23692e911f3a9c9926f2b97207946a8e4809"
+}

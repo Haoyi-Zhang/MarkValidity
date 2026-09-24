@@ -1,0 +1,42 @@
+{
+  "construct_note": "Piecewise geometric classification and equality boundaries.",
+  "domain_size": 1331,
+  "javascript_signature": "function solve(a, b, c) {",
+  "mutations": [
+    "Accept degenerate triangles by using strict inequalities.",
+    "Recognize only one isosceles orientation.",
+    "Misclassify any a=b triangle as equilateral."
+  ],
+  "nominal_case_count": 5,
+  "nominal_cases": [
+    [
+      1,
+      1,
+      2
+    ],
+    [
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      3
+    ],
+    [
+      2,
+      3,
+      3
+    ],
+    [
+      2,
+      3,
+      4
+    ]
+  ],
+  "observation_normalization": "Canonical JSON with sorted object keys; explicit exception records.",
+  "python_signature": "def solve(a, b, c):",
+  "task": "triangle",
+  "timeout_policy": "Deterministic tasks include an internal Collatz guard; any runtime failure is retained as evidence."
+}

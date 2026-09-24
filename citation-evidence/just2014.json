@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "just2014",
+  "entry_type": "inproceedings",
+  "title": "{Defects4J}: A Database of Existing Faults to Enable Controlled Testing Studies for Java Programs",
+  "authors": "Ren{\\'e} Just and Darioush Jalali and Michael D. Ernst",
+  "venue": "Proceedings of the 2014 International Symposium on Software Testing and Analysis",
+  "year": "2014",
+  "pages_or_article": "437--440",
+  "verified_scholarly_identifier": "doi:10.1145/2610384.2628055",
+  "source_locator": "https://doi.org/10.1145/2610384.2628055",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1122,
+      "claim": "Defects4J supplies reproducible real faults when exhaustive domains are unavailable"
+    }
+  ],
+  "evidence_sha256": "66afdfb160fed8134bcb0d59d1cb1930bd8cc164220982dd6ac58d6fd944317b"
+}

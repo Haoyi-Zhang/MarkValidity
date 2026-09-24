@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "roy2009",
+  "entry_type": "article",
+  "title": "Comparison and Evaluation of Code Clone Detection Techniques and Tools: A Qualitative Approach",
+  "authors": "Chanchal K. Roy and James R. Cordy and Rainer Koschke",
+  "venue": "Science of Computer Programming",
+  "year": "2009",
+  "pages_or_article": "470--495",
+  "verified_scholarly_identifier": "doi:10.1016/j.scico.2009.02.007",
+  "source_locator": "https://doi.org/10.1016/j.scico.2009.02.007",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1126,
+      "claim": "Clone surveys require supported clone types to accompany performance claims"
+    }
+  ],
+  "evidence_sha256": "48f7380e5047810c540332747e83d4d22e509e3e5c951f2d6ed634c8f1ea399f"
+}

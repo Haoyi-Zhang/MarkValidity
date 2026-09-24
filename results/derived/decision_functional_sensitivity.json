@@ -1,0 +1,15 @@
+{
+  "distinct_winners": [
+    "hybrid",
+    "lexical"
+  ],
+  "functionals": 5,
+  "rows": 15,
+  "winners": {
+    "equal-family arithmetic mean": "lexical",
+    "equal-family geometric mean": "lexical",
+    "median family rate": "hybrid",
+    "share of families at or above 0.30": "hybrid",
+    "worst family rate": "lexical"
+  }
+}

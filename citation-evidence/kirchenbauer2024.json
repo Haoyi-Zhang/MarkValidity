@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "kirchenbauer2024",
+  "entry_type": "inproceedings",
+  "title": "On the Reliability of Watermarks for Large Language Models",
+  "authors": "John Kirchenbauer and Jonas Geiping and Yuxin Wen and Manli Shu and Khalid Saifullah and Kezhi Kong and Kasun Fernando and Aniruddha Saha and Micah Goldblum and Tom Goldstein",
+  "venue": "International Conference on Learning Representations",
+  "year": "2024",
+  "pages_or_article": "",
+  "verified_scholarly_identifier": "formal-record:https://proceedings.iclr.cc/paper_files/paper/2024/hash/d78e9e4316e1714fbb0f20be66f8044c-Abstract-Conference.html",
+  "source_locator": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/d78e9e4316e1714fbb0f20be66f8044c-Abstract-Conference.html",
+  "verification_status": "VERIFIED_FORMAL_SCHOLARLY_RECORD",
+  "verification_basis": "Official ICLR 2024 proceedings record; title, complete author list, venue, and year cross-checked against the formal conference record.",
+  "manuscript_occurrences": [
+    {
+      "line": 1119,
+      "claim": "Reliability studies separate removal, spoofing, quality, and calibration"
+    }
+  ],
+  "evidence_sha256": "314c202062a2bbf0788d25c5bbaa5b09f226635582be99f91c0e032983eb9532"
+}

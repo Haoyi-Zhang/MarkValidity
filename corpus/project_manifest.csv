@@ -1,0 +1,25 @@
+project,version,license_metadata,source_url,eligible_modules,selected_modules,license_files
+aiohttp,3.13.3,Apache-2.0 AND MIT,https://github.com/aio-libs/aiohttp,30,5,aiohttp-01-LICENSE.txt|aiohttp-02-LICENSE
+anyio,4.13.0,See copied license notice,https://anyio.readthedocs.io/en/latest/,22,5,anyio-01-LICENSE
+asn1crypto,1.5.1,MIT,https://github.com/wbond/asn1crypto,9,5,asn1crypto-01-LICENSE
+attrs,26.1.0,See copied license notice,https://www.attrs.org/,9,5,attrs-01-LICENSE
+babel,2.18.0,BSD-3-Clause,https://github.com/python-babel/babel,14,5,babel-01-LICENSE|babel-02-LICENSE.unicode
+beautifulsoup4,4.14.3,MIT License,https://www.crummy.com/software/BeautifulSoup/bs4/download/,7,5,beautifulsoup4-01-LICENSE
+cattrs,26.1.0,MIT,https://catt.rs,26,5,cattrs-01-LICENSE
+charset-normalizer,3.4.7,MIT,https://github.com/jawah/charset_normalizer/blob/master/CHANGELOG.md,5,5,charset-normalizer-01-LICENSE
+click,8.1.8,See copied license notice,https://click.palletsprojects.com/changes/,11,5,click-01-LICENSE.txt
+coverage,7.13.3,Apache-2.0,https://coverage.readthedocs.io/en/7.13.3,30,5,coverage-01-LICENSE.txt
+defusedxml,0.7.1,PSFL,https://github.com/tiran/defusedxml,9,5,defusedxml-01-LICENSE
+dnspython,2.8.0,ISC,https://www.dnspython.org,97,5,dnspython-01-LICENSE
+h11,0.16.0,MIT,https://github.com/python-hyper/h11,7,5,h11-01-LICENSE.txt
+httpx,0.28.1,BSD-3-Clause,https://github.com/encode/httpx/blob/master/CHANGELOG.md,16,5,httpx-01-LICENSE.md
+idna,3.17,See copied license notice,https://github.com/kjd/idna/blob/master/HISTORY.md,5,5,idna-01-LICENSE.md
+jinja2,3.1.6,See copied license notice,https://jinja.palletsprojects.com/changes/,12,5,jinja2-01-LICENSE.txt
+jmespath,1.1.0,MIT,https://github.com/jmespath/jmespath.py,6,5,jmespath-01-LICENSE
+lark,1.3.1,MIT,https://github.com/lark-parser/lark,25,5,lark-01-LICENSE
+Mako,1.3.12,MIT,https://docs.makotemplates.org,19,5,mako-01-LICENSE
+mistune,3.2.1,BSD-3-Clause,https://mistune.lepture.com/,30,5,mistune-01-LICENSE
+requests,2.32.5,Apache-2.0,https://requests.readthedocs.io,8,5,requests-01-LICENSE
+rich,15.0.0,MIT,https://rich.readthedocs.io/en/latest/,41,5,rich-01-LICENSE
+urllib3,2.7.0,See copied license notice,https://github.com/urllib3/urllib3/blob/main/CHANGES.rst,22,5,urllib3-01-LICENSE.txt
+packaging,25.0,See copied license notice,https://packaging.pypa.io/,8,5,packaging-01-LICENSE|packaging-02-LICENSE.APACHE|packaging-03-LICENSE.BSD

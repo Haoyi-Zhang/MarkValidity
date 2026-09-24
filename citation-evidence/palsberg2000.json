@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "palsberg2000",
+  "entry_type": "inproceedings",
+  "title": "Experience with Software Watermarking",
+  "authors": "Jens Palsberg and Sowmya Krishnaswamy and Minseok Kwon and Di Ma and Qiuyun Shao and Yi Zhang",
+  "venue": "Proceedings of the 16th Annual Computer Security Applications Conference",
+  "year": "2000",
+  "pages_or_article": "308--316",
+  "verified_scholarly_identifier": "doi:10.1109/ACSAC.2000.898885",
+  "source_locator": "https://doi.org/10.1109/ACSAC.2000.898885",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1115,
+      "claim": "Representation choices were shown to change cost and resilience"
+    }
+  ],
+  "evidence_sha256": "c5f63f90c9c65f03f83658d795727c6b827c3aeacd4b830806b5934a0cc05f13"
+}

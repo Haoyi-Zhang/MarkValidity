@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "zhang2025",
+  "entry_type": "article",
+  "title": "Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice",
+  "authors": "Gehao Zhang and Eugene Bagdasarian and Juan Zhai and Shiqing Ma",
+  "venue": "arXiv preprint arXiv:2507.05512",
+  "year": "2025",
+  "pages_or_article": "",
+  "verified_scholarly_identifier": "doi:10.48550/arXiv.2507.05512",
+  "source_locator": "https://doi.org/10.48550/arXiv.2507.05512",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 146,
+      "claim": "A recent preprint examines obfuscation attacks on n-gram watermarks"
+    }
+  ],
+  "evidence_sha256": "3e997b41be6739d125372b7c96aa581aebaeda3f88f5a291134adba36ac9b50a"
+}

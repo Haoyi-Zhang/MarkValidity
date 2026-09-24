@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "weyuker1982",
+  "entry_type": "article",
+  "title": "On Testing Non-Testable Programs",
+  "authors": "Elaine J. Weyuker",
+  "venue": "The Computer Journal",
+  "year": "1982",
+  "pages_or_article": "465--470",
+  "verified_scholarly_identifier": "doi:10.1093/comjnl/25.4.465",
+  "source_locator": "https://doi.org/10.1093/comjnl/25.4.465",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1124,
+      "claim": "Oracle-free programs require relations or partial specifications"
+    }
+  ],
+  "evidence_sha256": "2fd4f6ecbf27ab7d65c08f94ec7146092f26aa7778954386cb73e7bece1e291e"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "matching_files": [
+    "paper/main.tex",
+    "artifact/claim_evidence_ledger.csv",
+    "artifact/run_all.py",
+    "artifact/recheck_extended.py",
+    "artifact/corpus/transfer/mistune/module-03.py",
+    "artifact/corpus/transfer/coverage/module-03.py",
+    "artifact/corpus/transfer/anyio/module-04.py",
+    "artifact/corpus/transfer/cattrs/module-04.py",
+    "artifact/src/covewm/extended.py",
+    "artifact/results/derived/formal_witnesses.json"
+  ],
+  "numeric_result_files": [
+    {
+      "path": "artifact/results/derived/formal_witnesses.json",
+      "kind": "json"
+    }
+  ],
+  "claim": "The release contains an explicit post-hoc generator-configuration sensitivity analysis; balanced-mixture micro-ordering is not treated as an intrinsic carrier advantage."
+}

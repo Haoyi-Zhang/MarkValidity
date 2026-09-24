@@ -1,0 +1,19 @@
+{
+  "commit": "bb5d809c0c494a219411e861f2313cca2b9fd7b4",
+  "definition_record": {
+    "definition": "Average correctness, detectability, and perplexity-based naturalness after the public implementation's component transformations.",
+    "replay_mapping": "No numeric score is produced because the diagnostic benchmark has no admissible perplexity-based naturalness component. Automatic source similarity is not substituted.",
+    "source_locator": "stone_implementation/evaluation/stem.py:11-17"
+  },
+  "full_system_execution": "NO",
+  "imported_definition": "Equal-weight STEM formula over correctness detectability and perplexity-based naturalness",
+  "official_repository": "https://github.com/inistory/STONE-watermarking",
+  "paper_doi": "10.18653/v1/2026.findings-eacl.207",
+  "reason_full_system_not_executed": "Requires model generation and a perplexity component absent from the declared automatic construct boundary",
+  "redistributed_source": "NO",
+  "repository_license": "NO_LICENSE_FILE_FOUND",
+  "retrieved_utc_date": "2026-07-25",
+  "source_blob_sha": "06a68d4ea0a25bc098ec68ee64222c7dff63846d",
+  "source_path": "stone_implementation/evaluation/stem.py",
+  "system": "STONE"
+}

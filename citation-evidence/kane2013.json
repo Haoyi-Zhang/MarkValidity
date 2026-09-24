@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "kane2013",
+  "entry_type": "article",
+  "title": "Validating the Interpretations and Uses of Test Scores",
+  "authors": "Michael T. Kane",
+  "venue": "Journal of Educational Measurement",
+  "year": "2013",
+  "pages_or_article": "1--73",
+  "verified_scholarly_identifier": "doi:10.1111/jedm.12000",
+  "source_locator": "https://doi.org/10.1111/jedm.12000",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1129,
+      "claim": "Kane frames validation as an interpretive argument"
+    }
+  ],
+  "evidence_sha256": "85c25aca2841e8f3b085ceab6879501f2460250a9e3aa7fd2fe92aa6edbd946f"
+}

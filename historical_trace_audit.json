@@ -1,0 +1,100 @@
+{
+  "status": "REVIEW",
+  "hits": [
+    {
+      "path": "CURRENT-STATE.md",
+      "pattern": "Qihan Jin",
+      "context": "re embedded, subset, and Unicode mapped.\n\n## Authors\n\nThe order is Haoyi Zhang, Qihan Jin, Md Maruf Hasan, and Huaijin Ran. Each author is separately declared and render"
+    },
+    {
+      "path": "CURRENT-STATE.md",
+      "pattern": "Md Maruf Hasan",
+      "context": ", subset, and Unicode mapped.\n\n## Authors\n\nThe order is Haoyi Zhang, Qihan Jin, Md Maruf Hasan, and Huaijin Ran. Each author is separately declared and renders on one title-b"
+    },
+    {
+      "path": "paper/page_fit_audit.json",
+      "pattern": "Qihan Jin",
+      "context": "\n    \"visible_authors\": 4,\n    \"ordered_authors\": [\n      \"Haoyi Zhang\",\n      \"Qihan Jin\",\n      \"Md Maruf Hasan\",\n      \"Huaijin Ran\"\n    ],\n    \"corresponding_author\""
+    },
+    {
+      "path": "paper/page_fit_audit.json",
+      "pattern": "Qihan Jin",
+      "context": "u\",\n        \"country\": \"China\"\n      },\n      {\n        \"authors\": [\n          \"Qihan Jin\"\n        ],\n        \"institution\": \"Xi'an Jiaotong-Liverpool University\",\n     "
+    },
+    {
+      "path": "paper/page_fit_audit.json",
+      "pattern": "Qihan Jin",
+      "context": "\n      {\n        \"Haoyi Zhang\": \"0009-0009-3693-786X\"\n      },\n      {\n        \"Qihan Jin\": \"0009-0005-2106-4796\"\n      },\n      {\n        \"Md Maruf Hasan\": \"0000-0001-9"
+    },
+    {
+      "path": "paper/page_fit_audit.json",
+      "pattern": "Md Maruf Hasan",
+      "context": "rs\": 4,\n    \"ordered_authors\": [\n      \"Haoyi Zhang\",\n      \"Qihan Jin\",\n      \"Md Maruf Hasan\",\n      \"Huaijin Ran\"\n    ],\n    \"corresponding_author\": \"Huaijin Ran\",\n    \"co"
+    },
+    {
+      "path": "paper/page_fit_audit.json",
+      "pattern": "Md Maruf Hasan",
+      "context": "u\",\n        \"country\": \"China\"\n      },\n      {\n        \"authors\": [\n          \"Md Maruf Hasan\"\n        ],\n        \"institution\": \"Xi'an Jiaotong-Liverpool University\",\n     "
+    },
+    {
+      "path": "paper/page_fit_audit.json",
+      "pattern": "Md Maruf Hasan",
+      "context": "},\n      {\n        \"Qihan Jin\": \"0009-0005-2106-4796\"\n      },\n      {\n        \"Md Maruf Hasan\": \"0000-0001-9809-9376\"\n      },\n      {\n        \"Huaijin Ran\": \"0009-0009-2482"
+    },
+    {
+      "path": "paper/template_compliance_audit.json",
+      "pattern": "Qihan Jin",
+      "context": "_per_rendered_line\": true,\n    \"ordered_authors\": [\n      \"Haoyi Zhang\",\n      \"Qihan Jin\",\n      \"Md Maruf Hasan\",\n      \"Huaijin Ran\"\n    ],\n    \"corresponding_author\""
+    },
+    {
+      "path": "paper/template_compliance_audit.json",
+      "pattern": "Md Maruf Hasan",
+      "context": ": true,\n    \"ordered_authors\": [\n      \"Haoyi Zhang\",\n      \"Qihan Jin\",\n      \"Md Maruf Hasan\",\n      \"Huaijin Ran\"\n    ],\n    \"corresponding_author\": \"Huaijin Ran\",\n    \"na"
+    },
+    {
+      "path": "paper/AUTHOR_MODE.md",
+      "pattern": "Qihan Jin",
+      "context": "niversity, Suzhou, China — ORCID 0009-0009-3693-786X — hyeliozhang@gmail.com\n2. Qihan Jin — Xi'an Jiaotong-Liverpool University, Suzhou, China — ORCID 0009-0005-2106-479"
+    },
+    {
+      "path": "paper/AUTHOR_MODE.md",
+      "pattern": "Md Maruf Hasan",
+      "context": "niversity, Suzhou, China — ORCID 0009-0005-2106-4796 — jinqihan498@gmail.com\n3. Md Maruf Hasan — Xi'an Jiaotong-Liverpool University, Suzhou, China — ORCID 0000-0001-9809-937"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "Qihan Jin",
+      "context": "']:\n  if src.count(email)!=1:fail(name+' email mismatch: '+email)\n for old in ['Qihan Jin','Md Maruf Hasan','seventeen17510@gmail.com']:\n  if old in src:fail(name+' cont"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "Md Maruf Hasan",
+      "context": ".count(email)!=1:fail(name+' email mismatch: '+email)\n for old in ['Qihan Jin','Md Maruf Hasan','seventeen17510@gmail.com']:\n  if old in src:fail(name+' contains superseded a"
+    },
+    {
+      "path": "artifact/verify_release.py",
+      "pattern": "seventeen17510@gmail\\.com",
+      "context": "fail(name+' email mismatch: '+email)\n for old in ['Qihan Jin','Md Maruf Hasan','seventeen17510@gmail.com']:\n  if old in src:fail(name+' contains superseded author metadata: '+old)\n# PD"
+    },
+    {
+      "path": "artifact/submission-materials-map.json",
+      "pattern": "Qihan Jin",
+      "context": "na\",\n      \"corresponding\": false\n    },\n    {\n      \"order\": 2,\n      \"name\": \"Qihan Jin\",\n      \"email\": \"jinqihan498@gmail.com\",\n      \"orcid\": \"0009-0005-2106-4796\","
+    },
+    {
+      "path": "artifact/submission-materials-map.json",
+      "pattern": "Md Maruf Hasan",
+      "context": "na\",\n      \"corresponding\": false\n    },\n    {\n      \"order\": 3,\n      \"name\": \"Md Maruf Hasan\",\n      \"email\": \"mdmaruf.hasan@xjtlu.edu.cn\",\n      \"orcid\": \"0000-0001-9809-9"
+    },
+    {
+      "path": "artifact/venue-evidence/official-lock.json",
+      "pattern": "publication-layout",
+      "context": "The bundled class remains byte-identical to the supplied template. No alternate publication-layout PDF is released.\",\n      \"source_priority\": \"official template\",\n      \"cycle\":"
+    },
+    {
+      "path": "artifact/corpus/transfer/packaging/module-05.py",
+      "pattern": "previous version",
+      "context": "er the latest version, the major-only version will be yielded, and then\n    all previous versions of that major version.\n    \"\"\"\n    if len(py_version) > 1:\n        yield f\"py{"
+    }
+  ]
+}

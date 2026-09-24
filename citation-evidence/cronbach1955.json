@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "cronbach1955",
+  "entry_type": "article",
+  "title": "Construct Validity in Psychological Tests",
+  "authors": "Lee J. Cronbach and Paul E. Meehl",
+  "venue": "Psychological Bulletin",
+  "year": "1955",
+  "pages_or_article": "281--302",
+  "verified_scholarly_identifier": "doi:10.1037/h0040957",
+  "source_locator": "https://doi.org/10.1037/h0040957",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 148,
+      "claim": "Construct validity asks whether an operationalization supports the interpretation attached to it"
+    }
+  ],
+  "evidence_sha256": "4af8b0241cb89756d7949d305d8cbd09f477b8c7fa9ac7ae64df183677d76d78"
+}

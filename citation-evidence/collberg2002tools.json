@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "collberg2002tools",
+  "entry_type": "article",
+  "title": "Watermarking, Tamper-Proofing, and Obfuscation---Tools for Software Protection",
+  "authors": "Christian S. Collberg and Clark D. Thomborson",
+  "venue": "IEEE Transactions on Software Engineering",
+  "year": "2002",
+  "pages_or_article": "735--746",
+  "verified_scholarly_identifier": "doi:10.1109/TSE.2002.1027797",
+  "source_locator": "https://doi.org/10.1109/TSE.2002.1027797",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1115,
+      "claim": "Watermarking was later positioned beside obfuscation and tamper resistance"
+    }
+  ],
+  "evidence_sha256": "26d4d6154957aafdc8835b72d6cfd3636f21881ee64adbd588f353f992ee971d"
+}

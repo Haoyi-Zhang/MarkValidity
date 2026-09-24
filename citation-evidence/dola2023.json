@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "dola2023",
+  "entry_type": "article",
+  "title": "Input Distribution Coverage: Measuring Feature Interaction Adequacy in Neural Network Testing",
+  "authors": "Swaroopa Dola and Matthew B. Dwyer and Mary Lou Soffa",
+  "venue": "ACM Transactions on Software Engineering and Methodology",
+  "year": "2023",
+  "pages_or_article": "81",
+  "verified_scholarly_identifier": "doi:10.1145/3576040",
+  "source_locator": "https://doi.org/10.1145/3576040",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1135,
+      "claim": "Input-distribution coverage measures feature-interaction adequacy"
+    }
+  ],
+  "evidence_sha256": "14caf00ea3cf5c33dc64c7088c62b24d404c1e93ed9f10f20c74b984b52fe565"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "monden2000",
+  "entry_type": "inproceedings",
+  "title": "A Practical Method for Watermarking Java Programs",
+  "authors": "Akito Monden and Hajimu Iida and Ken-ichi Matsumoto and Katsuro Inoue and Koji Torii",
+  "venue": "Proceedings of the 24th Annual International Computer Software and Applications Conference",
+  "year": "2000",
+  "pages_or_article": "191--197",
+  "verified_scholarly_identifier": "doi:10.1109/CMPSAC.2000.884716",
+  "source_locator": "https://doi.org/10.1109/CMPSAC.2000.884716",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1115,
+      "claim": "Transformation-based identifiers were evaluated in executable Java programs"
+    }
+  ],
+  "evidence_sha256": "458402d0021373c36404c683246f09289e0e7e6983ec6a8bffbbad43e6178dc1"
+}

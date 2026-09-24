@@ -1,0 +1,19 @@
+{
+  "commit": "2fb71cf816c12b0b07bb4d84dbe44ca0816662eb",
+  "definition_record": {
+    "definition": "Report mean per-bit agreement and exact recovery of all payload bits.",
+    "replay_mapping": "Per-bit agreement divides matching sites by the declared 24-bit payload, so deleted sites count as incorrect. Exact recovery requires all 24 sites to survive and match.",
+    "source_locator": "eval_main.py:303-312; eval_utils.py:16-24"
+  },
+  "full_system_execution": "NO",
+  "imported_definition": "Per-bit payload accuracy and exact whole-message recovery",
+  "official_repository": "https://github.com/YBRua/SrcMarker",
+  "paper_doi": "10.1109/SP54263.2024.00097",
+  "reason_full_system_not_executed": "Requires trained checkpoints and CUDA evaluation outside the frozen CPU-only no-model contract",
+  "redistributed_source": "NO",
+  "repository_license": "MIT",
+  "retrieved_utc_date": "2026-07-25",
+  "source_blob_sha": "841578ddd327f8ff090215efbd18fcb8c69e5262|65c545bc3e436d2b0985849e0df464ca11473fcf",
+  "source_path": "eval_main.py|eval_utils.py",
+  "system": "SrcMarker"
+}

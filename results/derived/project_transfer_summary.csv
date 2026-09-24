@@ -1,0 +1,4 @@
+intervention,control_role,modules,parse_compile_successes,failures,projects_with_failure,minimum_project_success,maximum_project_success,cp95_lower,cp95_upper,median_character_ngram_similarity,median_token_multiset_similarity,median_ast_profile_similarity
+inert-trailing-comment,positive,120,120,0,0,5,5,0.969727027423,1.000000000000,0.996751488726,1.000000000000,1.000000000000
+syntax-aware-local-rename,positive,120,120,0,0,5,5,0.969727027423,1.000000000000,0.987493574595,0.994032105256,1.000000000000
+scope-blind-identifier-collapse,negative,120,3,117,24,0,1,0.005185574958,0.071323194157,0.497059436836,0.585355471870,1.000000000000

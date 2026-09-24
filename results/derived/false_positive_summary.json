@@ -1,0 +1,30 @@
+{
+  "exact_null_false_positive_probability": 1.7940998077392578e-05,
+  "minimal_accepted_match_count": 22,
+  "monte_carlo": {
+    "clopper_pearson_95": [
+      1.769575676774382e-05,
+      3.182039366417255e-05
+    ],
+    "false_positives": 48,
+    "rate": 2.4e-05,
+    "seed": 69,
+    "trials": 2000000
+  },
+  "nominal_alpha": 0.0001,
+  "parser_path": {
+    "false_positives": 1,
+    "rate": 3.3333333333333335e-05,
+    "seed": 2,
+    "trials": 30000
+  },
+  "payload_bits": 24,
+  "zero_failure_5000_upper_95": 0.0005989670023148763,
+  "zero_failure_trial_requirements": {
+    "1e-02": 299,
+    "1e-03": 2995,
+    "1e-04": 29956,
+    "1e-05": 299572,
+    "1e-06": 2995731
+  }
+}

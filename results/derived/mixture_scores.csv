@@ -1,0 +1,10 @@
+mixture,scheme,score,rank
+balanced,lexical,0.395738636364,1
+balanced,structural,0.395075757576,2
+balanced,hybrid,0.302746212121,3
+rename-heavy,lexical,0.255606060606,3
+rename-heavy,structural,0.665539772727,1
+rename-heavy,hybrid,0.333669507576,2
+structure-heavy,lexical,0.665080492424,1
+structure-heavy,structural,0.253636363636,3
+structure-heavy,hybrid,0.339422348485,2

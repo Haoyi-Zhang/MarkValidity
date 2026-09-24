@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "yang2011compiler",
+  "entry_type": "inproceedings",
+  "title": "Finding and Understanding Bugs in C Compilers",
+  "authors": "Xuejun Yang and Yang Chen and Eric Eide and John Regehr",
+  "venue": "Proceedings of the 32nd ACM SIGPLAN Conference on Programming Language Design and Implementation",
+  "year": "2011",
+  "pages_or_article": "283--294",
+  "verified_scholarly_identifier": "doi:10.1145/1993498.1993532",
+  "source_locator": "https://doi.org/10.1145/1993498.1993532",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1124,
+      "claim": "Differential testing finds compiler defects through implementation disagreement"
+    }
+  ],
+  "evidence_sha256": "09a18c3dfa538a5d3f44eea3ce1c42cbb920ab794d8b828d123df273be743d0e"
+}

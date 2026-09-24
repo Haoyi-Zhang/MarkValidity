@@ -1,0 +1,73 @@
+{
+  "total": 82,
+  "recent_watermark_related": [
+    {
+      "key": "choi2026",
+      "year": "2026",
+      "title": "Multi-Channel Spread-Spectrum Code Watermarking",
+      "venue": "arXiv preprint arXiv:2607.06009"
+    },
+    {
+      "key": "christ2024",
+      "year": "2024",
+      "title": "Undetectable Watermarks for Language Models",
+      "venue": "Proceedings of the 37th Conference on Learning Theory"
+    },
+    {
+      "key": "dathathri2024",
+      "year": "2024",
+      "title": "Scalable Watermarking for Identifying Large Language Model Outputs",
+      "venue": "Nature"
+    },
+    {
+      "key": "hu2024",
+      "year": "2024",
+      "title": "Unbiased Watermark for Large Language Models",
+      "venue": "International Conference on Learning Representations"
+    },
+    {
+      "key": "kim2025",
+      "year": "2026",
+      "title": "Marking Code Without Breaking It: Code Watermarking for Detecting LLM-Generated Code",
+      "venue": "Findings of the Association for Computational Linguistics: EACL 2026"
+    },
+    {
+      "key": "kirchenbauer2024",
+      "year": "2024",
+      "title": "On the Reliability of Watermarks for Large Language Models",
+      "venue": "International Conference on Learning Representations"
+    },
+    {
+      "key": "lee2024",
+      "year": "2024",
+      "title": "Who Wrote this Code? Watermarking for Code Generation",
+      "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+    },
+    {
+      "key": "suresh2024",
+      "year": "2024",
+      "title": "Is the Watermarking of LLM-Generated Code Robust?",
+      "venue": "arXiv preprint arXiv:2403.17983"
+    },
+    {
+      "key": "wu2024dipmark",
+      "year": "2024",
+      "title": "A Resilient and Accessible Distribution-Preserving Watermark for Large Language Models",
+      "venue": "Proceedings of the 41st International Conference on Machine Learning"
+    },
+    {
+      "key": "zhang2025",
+      "year": "2025",
+      "title": "Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice",
+      "venue": "arXiv preprint arXiv:2507.05512"
+    },
+    {
+      "key": "zhao2024",
+      "year": "2024",
+      "title": "Provable Robust Watermarking for AI-Generated Text",
+      "venue": "International Conference on Learning Representations"
+    }
+  ],
+  "count": 11,
+  "verdict": "PASS"
+}

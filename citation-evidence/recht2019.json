@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "recht2019",
+  "entry_type": "inproceedings",
+  "title": "Do ImageNet Classifiers Generalize to ImageNet?",
+  "authors": "Benjamin Recht and Rebecca Roelofs and Ludwig Schmidt and Vaishaal Shankar",
+  "venue": "Proceedings of the 36th International Conference on Machine Learning",
+  "year": "2019",
+  "pages_or_article": "5389--5400",
+  "verified_scholarly_identifier": "formal-record:https://proceedings.mlr.press/v97/recht19a.html",
+  "source_locator": "https://proceedings.mlr.press/v97/recht19a.html",
+  "verification_status": "VERIFIED_FORMAL_SCHOLARLY_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1133,
+      "claim": "Reconstructed test distributions can change measured performance"
+    }
+  ],
+  "evidence_sha256": "7f7479adfb15ae39c6d03c5c020856ffd26db5fe6e93334b64404ae3e6423183"
+}

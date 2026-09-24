@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "mackenzie2011",
+  "entry_type": "article",
+  "title": "Construct Measurement and Validation Procedures in MIS and Behavioral Research: Integrating New and Existing Techniques",
+  "authors": "Scott B. MacKenzie and Philip M. Podsakoff and Nathan P. Podsakoff",
+  "venue": "MIS Quarterly",
+  "year": "2011",
+  "pages_or_article": "293--334",
+  "verified_scholarly_identifier": "doi:10.2307/23044045",
+  "source_locator": "https://doi.org/10.2307/23044045",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1131,
+      "claim": "distinguish failures of reflective and formative models"
+    }
+  ],
+  "evidence_sha256": "f0944f078a8fd5dd17a9bd633434cde1eb9c1b778e8386eec7d9dfcf376ec6be"
+}

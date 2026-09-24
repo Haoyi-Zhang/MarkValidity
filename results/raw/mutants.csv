@@ -1,0 +1,73 @@
+task,language,mutant_id,description,source_sha256,parse_ok,full_domain_equal,nominal_equal,first_mismatch_index,domain_cases
+leap_year,python,1,Narrow the 400-year exception to 800 years.,8fc50730d7bc400d34af2557e9586902f992db24bf824e9811b9e1baab8219e2,True,False,True,0,801
+leap_year,python,2,Ignore century exceptions.,7742843751f417f3bcc7c64e3ef5c93d6e9d0f89aaa3c4806670e0c04a59174f,True,False,False,100,801
+leap_year,python,3,Require mutually incompatible century conditions.,5334dd6d715f817f7312fc78b2daa4453f40d78f2577661c59a10612d487f2b1,True,False,False,0,801
+leap_year,javascript,1,Narrow the 400-year exception to 800 years.,72a2bee1977e81a4b9e3f29d6ff774ab013d286eeb06eb314985af81d2892503,True,False,True,0,801
+leap_year,javascript,2,Ignore century exceptions.,827db4255d03cc76727f818556aa47504f2757e89db4f45634bdaebf67f85c49,True,False,False,100,801
+leap_year,javascript,3,Require mutually incompatible century conditions.,9cb6636a0595e2f021154b40867f00d66154cfb26cc93259eba3ba6654765c1e,True,False,False,0,801
+collatz_steps,python,1,Change the odd recurrence from 3n+1 to 3n-1.,845b49ac215df50edb3f17a3521518cd214cfa237ddf4236b63207d6b091686f,True,False,False,2,500
+collatz_steps,python,2,Divide multiples of four by four in one step.,6a367db91d4fd4c1425ae5cc33559d90017a56e65462a59bf6c2ee3124f2c592,True,False,False,2,500
+collatz_steps,python,3,Initialize the step counter to one.,7d30bef026d50a80f4baa2443fb503b159a809a8847f003d7bea30591203df08,True,False,False,0,500
+collatz_steps,javascript,1,Change the odd recurrence from 3n+1 to 3n-1.,a367c8ab067af367829cb7b08eba3b318b97b2b31b943bbce6b8bfb25683ed9a,True,False,False,2,500
+collatz_steps,javascript,2,Divide multiples of four by four in one step.,cac88ea216af6f52501a35962cedca9fc29fcac4a76015fe554c141d4fd4ac22,True,False,False,2,500
+collatz_steps,javascript,3,Initialize the step counter to one.,116d806d76211c9612deffe1fe68bdb1935a612d0f2f4508d26d73683320d8c1,True,False,False,0,500
+raindrops,python,1,Change the first factor from three to two.,71c5a383a95f1d39ab095338200beeaae06131e8a9456891d94fe2747b57ce08,True,False,False,1,500
+raindrops,python,2,Make factor branches mutually exclusive.,b07dffedcf619f815f75f4403fae17309894eb5d222f19712e0f0401da9402e2,True,False,False,14,500
+raindrops,python,3,Omit the factor-seven channel.,680d0d702a2bed684a49d56176967fb83278a59c16bdfff0d5c6a0cf6c00e446,True,False,False,6,500
+raindrops,javascript,1,Change the first factor from three to two.,4ef0c50d5802ed54b5cef28f93feee736feea498501d806add062fd0020cc81f,True,False,False,1,500
+raindrops,javascript,2,Make factor branches mutually exclusive.,4f0b8304b47108cb5be100e5b7bb8ac706347796f5f4eb52da7cc45408bcf828,True,False,False,14,500
+raindrops,javascript,3,Omit the factor-seven channel.,cd1353783232796952f56ba352460254e888cbb653f76609fec9769c191c888f,True,False,False,6,500
+grains,python,1,Shift the exponent by one.,69249c21af4256761f1ee70d3cb19f6a260eeb8c3c2c5ae3979346ae941d74a0,True,False,False,0,64
+grains,python,2,Use base three.,8bdfa765b826db44126f1776931824a485ea97014cb6d525621398bf1641cd18,True,False,False,1,64
+grains,python,3,Return the cumulative total through the square.,e2fa65d785e667170308fb4d1b61d9a15a3a6b883e0034f596bc95824730c987,True,False,False,1,64
+grains,javascript,1,Shift the exponent by one.,581a5c1ceb2da430ca048be85aa4b48c87fcf90e5dba5a4875fbbe1ff29538f4,True,False,False,0,64
+grains,javascript,2,Use base three.,195c3a793e86fcdcad74b935cb212cf10d369547a6f3b8af18ba1a1070db6080,True,False,False,1,64
+grains,javascript,3,Return the cumulative total through the square.,66a4952d17bc6b20a8a7eef43983b0dae3741460b88389d2f6b9959f9b53dd3b,True,False,False,1,64
+hamming,python,1,Count equal positions instead of unequal positions.,48f1e5ecebe50102e4a2f3802aefbb6b3096b513e8ab1460d33837f72f625147,True,False,False,67,4369
+hamming,python,2,Ignore unequal-length preconditions.,357d19b059268c85a90dded27df05b9060931aea721aae5edef8f85ddd656eb9,True,False,False,1,4369
+hamming,python,3,Add one to every distance.,df645111721203fdcf6afb46cf7ddcc6ca6546fe4699909745bd9461a41e3580,True,False,False,0,4369
+hamming,javascript,1,Count equal positions instead of unequal positions.,0b0c854f4dda372d3641d161e68f8a54ea2c1d157c3ea8b6eb9cc25738c8ef6a,True,False,False,67,4369
+hamming,javascript,2,Ignore unequal-length preconditions.,a1cbb7f7a1577a754b7f5aac8ee7a56f167f9963bea68585244774e6a0b699ad,True,False,False,1,4369
+hamming,javascript,3,Add one to every distance.,eaeb8ed676a79bd4ec51b2a54a069024d847683da866ced5482cb1c664fee263,True,False,False,0,4369
+isogram,python,1,Check only adjacent duplicates.,4693f71de0200b1171253d872d0b3d446adc76516f3c4405bc9111755cd0f31b,True,False,False,25,1365
+isogram,python,2,Allow one repeated letter.,6d07d6510e915f5c3da8c11a3c664a8db97aa37eccacbabd4b30e2f4c2ef0bd4,True,False,False,5,1365
+isogram,python,3,Drop the final letter before checking.,cabe0c2afea97240d48e43e9ceff8dc3541407c207349bf31bc6d597395abaf5,True,False,False,5,1365
+isogram,javascript,1,Check only adjacent duplicates.,892753a0817c638c8ac65c294195c09337064f51e5984421a6295e1cd84da53f,True,False,False,25,1365
+isogram,javascript,2,Allow one repeated letter.,6bbeb9e31fe8cfd29b5a879a9d227a014a657c0987e8c2c3465e27f0080a5e77,True,False,False,5,1365
+isogram,javascript,3,Drop the final letter before checking.,97bfcb967d302a4a0e1776619476457be846c74cdb1c33f2294575a61b56e3d3,True,False,False,5,1365
+triangle,python,1,Accept degenerate triangles by using strict inequalities.,37505f73d3221e94e2ccdb3a4f2691cf94adc22e9d4098800c61d04262062881,True,False,False,134,1331
+triangle,python,2,Recognize only one isosceles orientation.,b79f30d2570a7dac43e7d994aa27a1f37cb6822fbc8522ba0c9f03e7b5ff025c,True,False,False,145,1331
+triangle,python,3,Misclassify any a=b triangle as equilateral.,50f5197af9080341b0ac0c5192f9ebb2c6b53876eab75145f21a8bef8843bf48,True,False,False,265,1331
+triangle,javascript,1,Accept degenerate triangles by using strict inequalities.,4fce5ab8d202f64693192a49025cdd4998079da512e156883ba2a0a24829a71a,True,False,False,134,1331
+triangle,javascript,2,Recognize only one isosceles orientation.,998cbeeff3328949ac46fd7dc944551b3775ee246bfa83d0f7ab0a0985f9c5ac,True,False,False,145,1331
+triangle,javascript,3,Misclassify any a=b triangle as equilateral.,791979bce58cfcb31c7c1318dcaf67444a3910f64c4a98e5fb9c059f69205466,True,False,False,265,1331
+luhn,python,1,Reverse the doubling parity.,77ad62787e258423e671d8b6e9789b8fabecf34e85fce516dd2857d5231a4c2c,True,False,False,18,11000
+luhn,python,2,Omit the subtract-nine correction.,f6dbf544fa58f733f2c09a0c27e88e993f20f4c1811c27197793dae518694330,True,False,False,50,11000
+luhn,python,3,Subtract eight rather than nine after doubling.,7caae6fb2947aa23baa0269793706dbebf6f1f72a8fd17eb960c89dec8139e2b,True,False,False,58,11000
+luhn,javascript,1,Reverse the doubling parity.,d2ddaf6154a46fb5fea6c3c99106f11e809b90c17e35c8d05dabce12a7cdbaac,True,False,False,18,11000
+luhn,javascript,2,Omit the subtract-nine correction.,654dc58f1f7a0b8cba9f7932f6a6e969f0167b4a9dbd0ac99a87c51d897bca0a,True,False,False,50,11000
+luhn,javascript,3,Subtract eight rather than nine after doubling.,09c0bfb9afa978a157708105ebec36f9da1a5a3ede1d3fdcbb9c62f162c93c1d,True,False,False,58,11000
+darts,python,1,Shift the outer squared-radius threshold from 100 to 90.,2e3f190e613b496961641c0667722880828e66e4ced20502b57bf1b7b9c98e54,True,False,True,62,625
+darts,python,2,Expand the inner ring from radius one to radius two.,a329d0979466e269013dc2f532226699260f2d559203de2e35832bb29249553f,True,False,False,262,625
+darts,python,3,Make the middle boundary strict.,f4f1d5881e6c6bb113ba005b70dd261c9ca37fb51e6a43cfe7cf99816ede1410,True,False,False,187,625
+darts,javascript,1,Shift the outer squared-radius threshold from 100 to 90.,f5620c1638ed8a3387936b0eb18d18950dae0b26b511d3d151bb63042e3f7da2,True,False,True,62,625
+darts,javascript,2,Expand the inner ring from radius one to radius two.,5916263ddd595d064352045e771cdbd45c9cdd9c975ba633b12b91d9f025729c,True,False,False,262,625
+darts,javascript,3,Make the middle boundary strict.,108bf51e1a58cad6324f62ba99ffad314db5930c42bf6b57c71ed2e4adf2a1f9,True,False,False,187,625
+armstrong,python,1,Use a fixed cubic exponent.,11e9f534268873564259e7c88e520c686aa561186691cb4f9663f952ff70ff75,True,False,False,2,10000
+armstrong,python,2,Add an erroneous special case for ten.,11b8dac359afbc97c74f3123c8e3a59c146d461851e99c344771b63a204ad6fe,True,False,False,10,10000
+armstrong,python,3,Increase the digit-count exponent by one.,062d289e6e24173b84aa0d929181c19e3622aca7cf50e533c69a21f23615739c,True,False,False,2,10000
+armstrong,javascript,1,Use a fixed cubic exponent.,2fef82588b30455e2204e7bff7f1b963a3293e2aa5cd8781cc6776ade14f4fc8,True,False,False,2,10000
+armstrong,javascript,2,Add an erroneous special case for ten.,a822de7f525f25f8e1deca0cbbdb3dc7362cf50a9a79c5625559fbeb3239d044,True,False,False,10,10000
+armstrong,javascript,3,Increase the digit-count exponent by one.,81bef92ddeb8a0970d8fd942d2efe3c7db7e500bfe5533b1f37666360c6fbd44,True,False,False,2,10000
+nucleotide_count,python,1,Swap the C and G output channels.,ca1c7c62778ecb8591d9067b696870f2a145a33722067eae11a76344f30f310b,True,False,True,2,1365
+nucleotide_count,python,2,Omit T counts.,da109cdd400c327ca41c6b108fb5bce5762ef82037241eaea02e421c369238b7,True,False,False,4,1365
+nucleotide_count,python,3,Accumulate A symbols in the C channel.,3f053ee40bb4832aaab1e27b9ae404bf4cc76f3e74bc2d2ec5255a0cc6a9de09,True,False,False,1,1365
+nucleotide_count,javascript,1,Swap the C and G output channels.,c394d5861149ef92dc06cbfa5db00dbd463aa4bf22b8faf11595a87ed25c472d,True,False,True,2,1365
+nucleotide_count,javascript,2,Omit T counts.,171db30e12c50863acbebca1c4d65b3c7832e054df49369d49b43d689f59c967,True,False,False,4,1365
+nucleotide_count,javascript,3,Accumulate A symbols in the C channel.,4dd5cc48ff782b231067aa7c33340356671e8e7a23a2188f9cfdb52da1a5b212,True,False,False,1,1365
+reverse_text,python,1,Return the input unchanged.,d5041747c0c557f0beb4cc97dfb708188f4b345e08d982bc4e2246b1170cbac5,True,False,False,5,1093
+reverse_text,python,2,Drop the final character before reversing.,93a5e2b79a9493a616bf238807206c5b9befde80621f955b3c8a9d1af6c9e1e9,True,False,False,1,1093
+reverse_text,python,3,Sort characters instead of reversing their order.,1c0009646f75a97878727e12b987b8057d4ff7bdc448dc5ee4da187a57c7d457,True,False,False,7,1093
+reverse_text,javascript,1,Return the input unchanged.,1f325c9f4ec78f953b52b32df332993eddaef47fa9eecdffe31d58322b02c5f6,True,False,False,5,1093
+reverse_text,javascript,2,Drop the final character before reversing.,f758ebd01bab6a6430d04d1b48d2aa994554e1b77744f0899e6a754d93022342,True,False,False,1,1093
+reverse_text,javascript,3,Sort characters instead of reversing their order.,0133a5fc06171fba146eb5b10c40e26b07d82e6ceac0d091bf1e5440807a2d9d,True,False,False,7,1093

@@ -1,0 +1,625 @@
+{
+  "status": "PASS",
+  "citation_positions": 88,
+  "unique_citation_keys": 82,
+  "multi_key_positions": 0,
+  "unsupported_positions": 0,
+  "positions": [
+    {
+      "claim_id": "CIT-001",
+      "citation_key": "lee2024",
+      "location": "main article, Section Introduction, source line 146",
+      "claim": "SWEET adapts entropy-thresholded watermarking to generated code",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-002",
+      "citation_key": "yang2023",
+      "location": "main article, Section Introduction, source line 146",
+      "claim": "SrcMarker embeds messages through lexical and syntactic transformations",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-003",
+      "citation_key": "guan2024",
+      "location": "main article, Section Introduction, source line 146",
+      "claim": "CodeIP uses grammar-aware multi-bit encoding during generation",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-004",
+      "citation_key": "kim2025",
+      "location": "main article, Section Introduction, source line 146",
+      "claim": "STONE restricts embedding to non-syntax tokens and combines correctness, detectability, and naturalness",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-005",
+      "citation_key": "xiao2025",
+      "location": "main article, Section Introduction, source line 146",
+      "claim": "DeCoMa studies watermark removal from code datasets",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-006",
+      "citation_key": "zhang2025",
+      "location": "main article, Section Introduction, source line 146",
+      "claim": "A recent preprint examines obfuscation attacks on n-gram watermarks",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-007",
+      "citation_key": "choi2026",
+      "location": "main article, Section Introduction, source line 146",
+      "claim": "Another distributes payloads across several syntactic channels",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-008",
+      "citation_key": "cronbach1955",
+      "location": "main article, Section Introduction, source line 148",
+      "claim": "Construct validity asks whether an operationalization supports the interpretation attached to it",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-009",
+      "citation_key": "campbell1959",
+      "location": "main article, Section Introduction, source line 148",
+      "claim": "Convergent and discriminant evidence test whether indicators agree where they should and separate where they should not",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-010",
+      "citation_key": "fenton1994",
+      "location": "main article, Section Introduction, source line 148",
+      "claim": "Software measurement reaches the same practical conclusion: a convenient numerical representation is not automatically a valid measure of the attribute named after it",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-011",
+      "citation_key": "ralph2018",
+      "location": "main article, Section A Claim Calculus for Watermark Evaluation, subsection From observations to warranted claims, source line 157",
+      "claim": "Ralph and Tempero show how validity arguments weaken when the intended interpretation is left implicit",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-012",
+      "citation_key": "sjoberg2023",
+      "location": "main article, Section A Claim Calculus for Watermark Evaluation, subsection From observations to warranted claims, source line 157",
+      "claim": "Sjøberg and Bergersen connect a construct to an operationalization that can be challenged by evidence",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-013",
+      "citation_key": "sjoberg2023reporting",
+      "location": "main article, Section A Claim Calculus for Watermark Evaluation, subsection From observations to warranted claims, source line 157",
+      "claim": "Their reporting guidance recommends identifying the threatened interpretation rather than appending a generic checklist",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-014",
+      "citation_key": "graziotin2022",
+      "location": "main article, Section A Claim Calculus for Watermark Evaluation, subsection From observations to warranted claims, source line 157",
+      "claim": "organize reliability, convergence, discrimination, and fairness as distinct properties of an instrument",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-015",
+      "citation_key": "jia2011",
+      "location": "main article, Section A Claim Calculus for Watermark Evaluation, subsection The four automatic constructs, source line 232",
+      "claim": "Mutation testing is established as a test-adequacy and experimental technique",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-016",
+      "citation_key": "kitchenham1995",
+      "location": "main article, Section A Claim Calculus for Watermark Evaluation, subsection The four automatic constructs, source line 248",
+      "claim": "Software measurement guidance recommends retaining vectors when artificial scalarization obscures attribute structure",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-017",
+      "citation_key": "vonkistowski2015",
+      "location": "main article, Section A Claim Calculus for Watermark Evaluation, subsection The four automatic constructs, source line 260",
+      "claim": "This follows benchmark methodology that ties procedures to a declared purpose and workload",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-018",
+      "citation_key": "hasselbring2021",
+      "location": "main article, Section A Claim Calculus for Watermark Evaluation, subsection The four automatic constructs, source line 260",
+      "claim": "Benchmarking as an empirical standard likewise depends on explicit workload and comparison contracts",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-019",
+      "citation_key": "clopper1934",
+      "location": "main article, Section A Claim Calculus for Watermark Evaluation, subsection The four automatic constructs, source line 274",
+      "claim": "We use exact Clopper--Pearson intervals under the binomial model",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-020",
+      "citation_key": "kim2025",
+      "location": "main article, Section A Claim Calculus for Watermark Evaluation, subsection Why human claims remain separate, source line 286",
+      "claim": "Naturalness is a legitimate watermark concern in prior system work",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-021",
+      "citation_key": "yang2023",
+      "location": "main article, Section Evaluation Architecture, subsection Measurement procedures and estimands, source line 471",
+      "claim": "SrcMarker reports per-bit agreement and exact payload recovery",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-022",
+      "citation_key": "guan2024",
+      "location": "main article, Section Evaluation Architecture, subsection Measurement procedures and estimands, source line 471",
+      "claim": "CodeIP tests exact equality over the message prefix available at the generated length",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-023",
+      "citation_key": "lee2024",
+      "location": "main article, Section Evaluation Architecture, subsection Measurement procedures and estimands, source line 471",
+      "claim": "SWEET summarizes discrimination by AUROC and TPR at declared false-positive bounds",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-024",
+      "citation_key": "kim2025",
+      "location": "main article, Section Evaluation Architecture, subsection Measurement procedures and estimands, source line 471",
+      "claim": "STONE averages correctness, detectability, and perplexity-based naturalness",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-025",
+      "citation_key": "chen2018",
+      "location": "main article, Section Empirical Findings, subsection Executable semantics and source proxies, source line 735",
+      "claim": "Metamorphic testing similarly relies on executable relations when direct expected outputs are difficult to obtain",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-026",
+      "citation_key": "collberg1999",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1115",
+      "claim": "Dynamic execution entered this relation in early program-watermark models",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-027",
+      "citation_key": "palsberg2000",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1115",
+      "claim": "Representation choices were shown to change cost and resilience",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-028",
+      "citation_key": "monden2000",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1115",
+      "claim": "Transformation-based identifiers were evaluated in executable Java programs",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-029",
+      "citation_key": "venkatesan2001",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1115",
+      "claim": "Graph encodings exposed watermarks to graph-level attacks",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-030",
+      "citation_key": "collberg2002tools",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1115",
+      "claim": "Watermarking was later positioned beside obfuscation and tamper resistance",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-031",
+      "citation_key": "nagra2002taxonomy",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1115",
+      "claim": "A functional taxonomy separated embedding, recognition, stealth, and resilience",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-032",
+      "citation_key": "collberg2003sandmark",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1115",
+      "claim": "SandMark enabled multiple embedders and attacks to be compared in one framework",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-033",
+      "citation_key": "cousot2004",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1115",
+      "claim": "Abstract interpretation supplied semantic conditions for insertion and attack",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-034",
+      "citation_key": "myles2004register",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1117",
+      "claim": "Register-allocation watermarks depend on compiler allocation decisions",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-035",
+      "citation_key": "nagra2004threading",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1117",
+      "claim": "Thread-scheduling watermarks introduce concurrency assumptions",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-036",
+      "citation_key": "collberg2004dynamicpath",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1117",
+      "claim": "Dynamic-path watermarks condition recognition on selected executions",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-037",
+      "citation_key": "collberg2009graph",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1117",
+      "claim": "Graph-watermark experiments show that encoding choice changes both cost and resilience",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-038",
+      "citation_key": "suresh2024",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1119",
+      "claim": "A recent preprint reports that semantics-preserving code transformations can sharply reduce the detectability of existing generated-code watermarks",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-039",
+      "citation_key": "kirchenbauer2023",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1119",
+      "claim": "Keyed token partitions couple detection to sequence length and token distributions",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-040",
+      "citation_key": "kirchenbauer2024",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1119",
+      "claim": "Reliability studies separate removal, spoofing, quality, and calibration",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-041",
+      "citation_key": "wu2024dipmark",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1119",
+      "claim": "DiPmark constrains marginal token probabilities",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-042",
+      "citation_key": "hu2024",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1119",
+      "claim": "Unbiased reweighting also targets distribution preservation",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-043",
+      "citation_key": "christ2024",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1119",
+      "claim": "Computationally undetectable constructions distinguish authorized detection from outside distinguishability",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-044",
+      "citation_key": "zhao2024",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1119",
+      "claim": "Provable robustness makes the admissible edit model explicit",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-045",
+      "citation_key": "dathathri2024",
+      "location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1119",
+      "claim": "Production-scale evaluations report detectability across several models, temperatures, and text lengths rather than as a single context-free operating point",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-046",
+      "citation_key": "demillo1978",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1122",
+      "claim": "The competent-programmer and coupling-effect hypotheses motivate mutants without making every mutant natural",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-047",
+      "citation_key": "andrews2005",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1122",
+      "claim": "Comparisons with hand-seeded faults make representativeness empirical",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-048",
+      "citation_key": "just2014",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1122",
+      "claim": "Defects4J supplies reproducible real faults when exhaustive domains are unavailable",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-049",
+      "citation_key": "papadakis2019",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1122",
+      "claim": "Mutation surveys document the effects of operator choice, selection, and equivalent mutants",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-050",
+      "citation_key": "barr2015",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1124",
+      "claim": "Partial and derived oracles constrain supported claims",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-051",
+      "citation_key": "weyuker1982",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1124",
+      "claim": "Oracle-free programs require relations or partial specifications",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-052",
+      "citation_key": "yang2011compiler",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1124",
+      "claim": "Differential testing finds compiler defects through implementation disagreement",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-053",
+      "citation_key": "le2014emi",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1124",
+      "claim": "Equivalence modulo inputs conditions transformations on observed executions",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-054",
+      "citation_key": "necula2000",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1124",
+      "claim": "Translation validation checks each produced program against a semantic relation",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-055",
+      "citation_key": "segura2016",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1124",
+      "claim": "Metamorphic testing derives relations among executions when pointwise outcomes are unavailable",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-056",
+      "citation_key": "zhang1989",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1126",
+      "claim": "Tree-edit distance depends on its tree and edit model",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-057",
+      "citation_key": "kamiya2002",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1126",
+      "claim": "Token clone detection abstracts from distinctions retained by syntax trees",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-058",
+      "citation_key": "bellon2007",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1126",
+      "claim": "Clone-detector results depend on corpus and taxonomy",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-059",
+      "citation_key": "jiang2007",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1126",
+      "claim": "Vectorized syntax trades order for scalable matching",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-060",
+      "citation_key": "roy2009",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1126",
+      "claim": "Clone surveys require supported clone types to accompany performance claims",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-061",
+      "citation_key": "svajlenko2014",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1126",
+      "claim": "BigCloneBench shows that inter-project composition changes measured recall",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-062",
+      "citation_key": "sajnani2016",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1126",
+      "claim": "SourcererCC scales a token representation distinct from tree similarity",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-063",
+      "citation_key": "buse2010",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1126",
+      "claim": "Readability models instead rely on human labels",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-064",
+      "citation_key": "scalabrino2018",
+      "location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1126",
+      "claim": "Broader models also retain ratings as the outcome",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-065",
+      "citation_key": "messick1995",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1129",
+      "claim": "Messick integrates score meaning and consequences",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-066",
+      "citation_key": "borsboom2004",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1129",
+      "claim": "connect an attributed property to variation in the measure",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-067",
+      "citation_key": "kane2013",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1129",
+      "claim": "Kane frames validation as an interpretive argument",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-068",
+      "citation_key": "flake2017",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1129",
+      "claim": "document recurring construct underspecification and weak discriminant evidence",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-069",
+      "citation_key": "fenton1994",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1131",
+      "claim": "Fenton starts from an empirical relational system",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-070",
+      "citation_key": "briand1996",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1131",
+      "claim": "define property-based criteria for software measures",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-071",
+      "citation_key": "schneidewind1992",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1131",
+      "claim": "Schneidewind validates metrics against a declared quality purpose",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-072",
+      "citation_key": "mackenzie2011",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1131",
+      "claim": "distinguish failures of reflective and formative models",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-073",
+      "citation_key": "meneely2013",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1131",
+      "claim": "separate several software-metric validation philosophies",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-074",
+      "citation_key": "myrtveit2005",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1131",
+      "claim": "distinguish reliability from validity in comparative prediction",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-075",
+      "citation_key": "demsar2006",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1133",
+      "claim": "Dataset-level comparison should preserve the dataset as an analysis unit",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-076",
+      "citation_key": "recht2019",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1133",
+      "claim": "Reconstructed test distributions can change measured performance",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-077",
+      "citation_key": "bouthillier2021",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1133",
+      "claim": "Benchmark variance can arise from data, implementation, and analysis choices",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-078",
+      "citation_key": "musgrave2020",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1133",
+      "claim": "Standardized protocols can overturn conclusions obtained under heterogeneous evaluation",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-079",
+      "citation_key": "pineau2021",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1133",
+      "claim": "Reproducibility guidance binds claims to code, data, and reporting choices",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-080",
+      "citation_key": "collberg2016repeatability",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1133",
+      "claim": "Systems results are difficult to repeat when replication materials and environments are underspecified",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-081",
+      "citation_key": "gonzalez2012",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1133",
+      "claim": "Repository-mining studies likewise require retained provenance and extraction procedures",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-082",
+      "citation_key": "dola2023",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1135",
+      "claim": "Input-distribution coverage measures feature-interaction adequacy",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-083",
+      "citation_key": "kim2023surprise",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1135",
+      "claim": "Surprise adequacy is useful only relative to a declared selection objective",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-084",
+      "citation_key": "sotovalero2023",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1135",
+      "claim": "Coverage-based debloating shows that coverage choice changes the retained program",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-085",
+      "citation_key": "zhi2024",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1135",
+      "claim": "Seed-selection studies show sensitivity to the initial corpus",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-086",
+      "citation_key": "brown2001",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1138",
+      "claim": "Binomial intervals differ materially in coverage",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-087",
+      "citation_key": "hanley1983",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1138",
+      "claim": "Zero events still imply a positive upper confidence limit",
+      "verdict": "PASS"
+    },
+    {
+      "claim_id": "CIT-088",
+      "citation_key": "delong1988",
+      "location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1138",
+      "claim": "Correlated-AUC inference presumes cases sampled from a defined population",
+      "verdict": "PASS"
+    }
+  ]
+}

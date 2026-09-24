@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "collberg2009graph",
+  "entry_type": "article",
+  "title": "More on Graph Theoretic Software Watermarks: Implementation, Analysis, and Attacks",
+  "authors": "Christian Collberg and Andrew Huntwork and Edward Carter and Gregg Townsend and Michael Stepp",
+  "venue": "Information and Software Technology",
+  "year": "2009",
+  "pages_or_article": "56--67",
+  "verified_scholarly_identifier": "doi:10.1016/j.infsof.2008.09.016",
+  "source_locator": "https://doi.org/10.1016/j.infsof.2008.09.016",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1117,
+      "claim": "Graph-watermark experiments show that encoding choice changes both cost and resilience"
+    }
+  ],
+  "evidence_sha256": "b847fccce594dbdc84c21a321fa88204cb9bc5d08372997586e0125355e10796"
+}

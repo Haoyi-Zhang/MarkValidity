@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "svajlenko2014",
+  "entry_type": "inproceedings",
+  "title": "Towards a Big Data Curated Benchmark of Inter-Project Code Clones",
+  "authors": "Jeffrey Svajlenko and Judith F. Islam and Iman Keivanloo and Chanchal K. Roy and Mohammad Mamun Mia",
+  "venue": "Proceedings of the 30th IEEE International Conference on Software Maintenance and Evolution",
+  "year": "2014",
+  "pages_or_article": "476--480",
+  "verified_scholarly_identifier": "doi:10.1109/ICSME.2014.77",
+  "source_locator": "https://doi.org/10.1109/ICSME.2014.77",
+  "verification_status": "VERIFIED_DOI_RECORD",
+  "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
+  "manuscript_occurrences": [
+    {
+      "line": 1126,
+      "claim": "BigCloneBench shows that inter-project composition changes measured recall"
+    }
+  ],
+  "evidence_sha256": "6a4cd78bdb13c66f7c405af9984cc33d824095a5bdd2ef74a3f4bac05900f3b1"
+}
