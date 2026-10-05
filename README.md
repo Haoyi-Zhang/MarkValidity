@@ -15,9 +15,9 @@ The frozen pipeline builds:
 - five declared decision functionals and exact attack-mixture stability calculations;
 - a transfer audit over 24 public Python projects, 120 frozen modules, and 360 interventions;
 - exact and empirical false-positive calculations; and
-- an independent replay of seven public evaluation functionals from SWEET, CodeIP, and SrcMarker on the same frozen outcome matrix, with the unavailable STONE naturalness component retained as a declared construct mismatch.
+- seven scoring rules derived from SWEET, CodeIP, and SrcMarker on the frozen matrix; CodeIP is adapted to original indexed-survivor agreement, and the absent STONE naturalness component is not replaced.
 
-The replay is not a performance comparison of the external watermark systems. Their complete pipelines require learned-model generation, trained checkpoints, or CUDA outside the frozen CPU-only no-model contract. Only their public scoring definitions are independently reimplemented and applied to common preserved outcomes. Source revisions, locators, licenses, and execution boundaries are recorded under `external-baselines/` and in `external_resources.csv`; external source code is not redistributed.
+This is not an external-system performance comparison. Pinned definitions and local mappings are recorded under `external-baselines/` and in `external_resources.csv`. The CodeIP-inspired rule requires all surviving original indexed bits to match, not equality with the original contiguous prefix; its historical `available_prefix` keys are unchanged. SWEET uses the declared analytic fair-bit null. The normalized source metric replaces both nonkeyword identifiers and numeric literals; its historical `identifier_normalized_similarity` key is retained. The intervention law and complete scheme-conditioned multipliers are defined in the supplement. External source code is not redistributed.
 
 ## Reproduce
 
@@ -29,11 +29,11 @@ python3 -m unittest discover -s tests -p 'test*.py' -v
 python3 recheck.py results
 ```
 
-Expected release results:
+Retained run results:
 
 - 10 unit tests, zero failures;
 - 900 independent reconstruction checks, zero failures;
 - 149 nonvolatile result files identical under Python hash seeds 1 and 987;
 - scientific-results SHA-256 `034812f8c869f902291b20a812761aeb97bf56f7e307dffe3ab59a885fd6fe48`.
 
-`verify_release.py` additionally checks the four-entry project root, result and document hashes, the single retained submission rendering, one-author-per-line title metadata, pagination, fonts, all 82 bibliographic evidence objects, the three-round audit of all 88 local citation positions, external protocol provenance, absence of generated debris, and release-manifest coverage.
+`verify_release.py` checks the packaged result and document bindings. The retained receipts predate these definition and labeling corrections; document/source-bound receipts require regeneration before being treated as checks of the current files. The scientific outcome matrix is unchanged.

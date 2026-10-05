@@ -137,9 +137,9 @@ def generate_external_protocol_replay(
             ),
             denominator,
         )
-        # This faithfully reproduces prefix equality: when zero sites remain,
-        # both prefixes are empty and equality evaluates to true.  The zero-site
-        # count is reported explicitly because the result depends on this policy.
+        # Indexed-survivor agreement inspired by CodeIP, not literal equality
+        # with the original contiguous message prefix after interior erasure.
+        # Zero-site agreement is vacuously true. Historical output keys remain.
         available_prefix = Fraction(
             sum(
                 int(row["match_count"]) == int(row["surviving_sites"])

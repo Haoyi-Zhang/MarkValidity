@@ -1,7 +1,7 @@
 {
   "CodeIP": {
     "definition": "Compare the decoded and target message prefixes up to the number of message units available at the generated length; the result is exact prefix equality.",
-    "replay_mapping": "A surviving carrier site is an available message unit. Exact equality is true when all surviving sites match, including the public-code empty-prefix behavior when no sites remain.",
+    "replay_mapping": "CodeIP-inspired indexed-survivor agreement: accept iff all surviving sites match their original indexed targets, with zero survivors accepted vacuously. Interior erasure changes the target to a subsequence, not the original contiguous prefix. Existing available_prefix output keys retain their historical names; they do not report literal public-prefix scores.",
     "source_locator": "examples/codeip/src/watermarking/wm.py:127-133"
   },
   "STONE": {
@@ -19,5 +19,5 @@
     "replay_mapping": "Per-bit agreement divides matching sites by the declared 24-bit payload, so deleted sites count as incorrect. Exact recovery requires all 24 sites to survive and match.",
     "source_locator": "eval_main.py:303-312; eval_utils.py:16-24"
   },
-  "scope": "These are independent protocol definitions. External source code is not redistributed, and the full external watermark systems are not executed."
+  "scope": "Public definitions and explicit local adaptations are distinguished above. External source code is not redistributed, and the full external watermark systems are not executed."
 }
