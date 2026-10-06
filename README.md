@@ -26,14 +26,25 @@ From this directory:
 ```sh
 PYTHONHASHSEED=1 PYTHONPATH=src python3 run_all.py --out results
 python3 -m unittest discover -s tests -p 'test*.py' -v
-python3 recheck.py results
+python3 recheck.py --results results
 ```
 
-Retained run results:
+Retained original run results (not measurements of the current Windows repair campaign):
 
 - 10 unit tests, zero failures;
 - 900 independent reconstruction checks, zero failures;
 - 149 nonvolatile result files identical under Python hash seeds 1 and 987;
 - scientific-results SHA-256 `034812f8c869f902291b20a812761aeb97bf56f7e307dffe3ab59a885fd6fe48`.
 
-`verify_release.py` checks the packaged result and document bindings. The retained receipts predate these definition and labeling corrections; document/source-bound receipts require regeneration before being treated as checks of the current files. The scientific outcome matrix is unchanged.
+`verify_release.py` is a legacy packaging validator that currently encodes a different release contract, including different domain and reconstruction counts. It has not been run on this revised bundle. Its expectations and document/source-bound receipts require reconciliation and regeneration during integration before they can establish current package consistency. The retained scientific outcome matrix is unchanged.
+
+The current unit suite contains 13 tests. It additionally checks detector accounting
+for one-shot iterators, Unicode byte/character offset alignment in the token-based
+local rename, and rejection of failed semantic premises before diagnostic AUCs.
+The rename deliberately skips nested functions, classes, and lambdas and is not a
+general binding-preserving transformation. The source token metrics retain the
+frozen regex profile (including its literal/comment limitations), not a full lexer.
+The generator writes raw semantic tables before its validation gate, and a rejected
+run must not be interpreted as a completed scientific result. Reconstruction can
+read an external `--results` directory while resolving the licensed corpus beside
+the checker source. Run outputs and local repair logs are not deployment evidence.

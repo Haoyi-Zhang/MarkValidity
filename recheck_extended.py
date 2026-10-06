@@ -165,9 +165,14 @@ def local_rename(source: str, function_line: int, old_name: str, new_name: str) 
     collector.visit(functions[0])
     if len(collector.positions) < 2:
         raise ValueError("insufficient rename positions")
+    lines = source.split("\n")
+    character_positions = set()
+    for line, byte_column in collector.positions:
+        prefix = lines[line - 1].encode("utf-8")[:byte_column].decode("utf-8")
+        character_positions.add((line, len(prefix)))
     output: list[tokenize.TokenInfo] = []
     for token in tokenize.generate_tokens(io.StringIO(source).readline):
-        if token.type == tokenize.NAME and token.string == old_name and token.start in collector.positions:
+        if token.type == tokenize.NAME and token.string == old_name and token.start in character_positions:
             token = tokenize.TokenInfo(token.type, new_name, token.start, token.end, token.line)
         output.append(token)
     return tokenize.untokenize(output)
@@ -277,7 +282,9 @@ def tv_distance(left: dict[str, Fraction], right: dict[str, Fraction]) -> Fracti
 
 
 def recheck_extended(results: Path, findings: list[dict[str, Any]], require: Callable[..., None]) -> None:
-    artifact = results.parent
+    # --results may point outside this artifact; the licensed corpus belongs
+    # to the checker source tree, not to an arbitrary output parent.
+    artifact = Path(__file__).resolve().parent
     summary = json.loads((results / "summary.json").read_text(encoding="utf-8"))
     require(summary["project_transfer"]["projects"] == 24, "extended::transfer_projects", findings)
     require(summary["project_transfer"]["modules"] == 120, "extended::transfer_modules", findings)

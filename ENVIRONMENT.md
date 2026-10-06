@@ -7,7 +7,7 @@ Canonical execution:
 ```sh
 PYTHONHASHSEED=1 PYTHONPATH=src python3 run_all.py --out results
 python3 -m unittest discover -s tests -p 'test*.py' -v
-python3 recheck.py results
+python3 recheck.py --results results
 ```
 
 The frozen environment record is `results/environment.json`, SHA-256 `97516740745c00a6eba6068cdeff2976f39a1fe93046ffc74d8603eb6ba1a644`.

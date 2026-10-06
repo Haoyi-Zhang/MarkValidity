@@ -17,6 +17,7 @@ sys.path.insert(0, str(ARTIFACT / "src"))
 
 from covewm.benchmark import (  # noqa: E402
     PAYLOAD_BITS,
+    CarrierState,
     binomial_tail,
     carrier_only_states,
     detector,
@@ -26,9 +27,48 @@ from covewm.benchmark import (  # noqa: E402
 )
 from covewm.extended import _tv_extreme, syntax_aware_local_rename  # noqa: E402
 from covewm.tasks import TASKS, domain_cases, validate_domains  # noqa: E402
+sys.path.insert(0, str(ARTIFACT))
+from run_all import validate_semantic_evidence  # noqa: E402
+from recheck_extended import local_rename  # noqa: E402
 
 
 class ArtifactTests(unittest.TestCase):
+    def test_detector_one_shot_accounting(self) -> None:
+        states = [CarrierState(0, "lexical", 1, 0, True, "bit_flip"),
+                  CarrierState(1, "lexical", 1, 1, False, "delete")]
+        expected = detector(states)
+        self.assertEqual(expected["realized_bit_changes"], 1)
+        self.assertEqual(expected["deletions"], 1)
+        self.assertEqual(detector(iter(states)), expected)
+
+    def test_unicode_rename_offsets(self) -> None:
+        for prefix in ('label = "é";', 'label = "汉字";', 'label = "🙂";',
+                       'label = "line\u2028separator";'):
+            source = f"def f(x):\n    {prefix} return x + 1\n"
+            transformed = syntax_aware_local_rename(source, 1, "x", "renamed")
+            self.assertEqual(local_rename(source, 1, "x", "renamed"), transformed)
+            namespace = {}
+            exec(compile(transformed, "<owned-unicode-test>", "exec"), namespace)
+            self.assertEqual(namespace["f"](2), 3)
+
+    def test_semantic_evidence_gates(self) -> None:
+        parity = [{"equal": True} for _ in TASKS]
+        mutants = [{"parse_ok": True, "full_domain_equal": False}
+                   for _ in range(len(TASKS) * 2 * 3)]
+        audits = [{"parse_ok": True, "bounded_equivalent": True}
+                  for _ in range(len(TASKS) * 2 * 3 * 7)]
+        validate_semantic_evidence(parity, mutants, audits)
+        for rows, key, bad in ((parity, "equal", False),
+                               (mutants, "parse_ok", False),
+                               (mutants, "full_domain_equal", True),
+                               (audits, "parse_ok", False),
+                               (audits, "bounded_equivalent", False)):
+            good = rows[0][key]
+            rows[0][key] = bad
+            with self.assertRaises(ValueError):
+                validate_semantic_evidence(parity, mutants, audits)
+            rows[0][key] = good
+
     def test_domain_contract(self) -> None:
         validate_domains()
         self.assertEqual(len(TASKS), 12)

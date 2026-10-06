@@ -226,6 +226,9 @@ def binomial_tail(n: int, matches: int) -> float:
 
 
 def detector(states: Iterable[CarrierState]) -> dict[str, Any]:
+    # Reuse the same observations for detection and operation accounting, even
+    # when the caller supplies a one-shot iterator.
+    states = list(states)
     present = [state for state in states if state.present]
     survivors = len(present)
     matches = sum(state.observed == state.expected for state in present)

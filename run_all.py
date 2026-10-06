@@ -268,6 +268,27 @@ def metric_profiles() -> list[dict[str, Any]]:
     return profiles
 
 
+def validate_semantic_evidence(parity_rows, mutant_rows, audit_rows) -> None:
+    """Stop before interpreting an invalid semantic contrast.
+
+    Raw observation tables are written first, so rejected runs retain their
+    counterevidence. This gate is not a test of natural defect prevalence.
+    """
+    failures = []
+    if len(parity_rows) != len(TASKS) or not all(row["equal"] for row in parity_rows):
+        failures.append("cross-language reference parity")
+    if len(mutant_rows) != len(TASKS) * 2 * 3 or not all(
+        row["parse_ok"] and not row["full_domain_equal"] for row in mutant_rows
+    ):
+        failures.append("mutant parsing/effectiveness")
+    if len(audit_rows) != len(TASKS) * 2 * len(SCHEMES) * (1 + len(ATTACKS)) or not all(
+        row["parse_ok"] and row["bounded_equivalent"] for row in audit_rows
+    ):
+        failures.append("no-op parsing/bounded equivalence")
+    if failures:
+        raise ValueError("semantic evidence gate failed: " + "; ".join(failures))
+
+
 def run(output: Path) -> dict[str, Any]:
     validate_domains()
     if output.exists():
@@ -409,7 +430,7 @@ def run(output: Path) -> dict[str, Any]:
                         "task": task.name,
                         "language": language,
                         "pair_class": "mutant",
-                        "bounded_equivalent": 0,
+                        "bounded_equivalent": int(result["parse_ok"] and result["domain_equal"]),
                         "nominal_test_pass": int(result["nominal_equal"]),
                         **metrics,
                     }
@@ -442,7 +463,7 @@ def run(output: Path) -> dict[str, Any]:
                             "task": task.name,
                             "language": language,
                             "pair_class": "no_op_transformation",
-                            "bounded_equivalent": 1,
+                            "bounded_equivalent": int(result["parse_ok"] and result["domain_equal"]),
                             "nominal_test_pass": int(result["nominal_equal"]),
                             **metrics,
                         }
@@ -451,6 +472,7 @@ def run(output: Path) -> dict[str, Any]:
     write_csv(output / "raw" / "mutants.csv", mutant_rows)
     write_csv(output / "raw" / "semantic_audit.csv", audit_rows)
     write_csv(output / "raw" / "diagnostic_pairs.csv", diagnostic_rows)
+    validate_semantic_evidence(parity_rows, mutant_rows, audit_rows)
 
     labels = [int(row["bounded_equivalent"]) for row in diagnostic_rows]
     auc_rows = [

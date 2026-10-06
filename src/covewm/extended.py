@@ -137,9 +137,16 @@ def syntax_aware_local_rename(source: str, function_line: int, old_name: str, ne
     collector.visit(target)
     if len(collector.positions) < 2:
         raise ValueError("rename target lacks declaration plus use")
+    # AST columns count UTF-8 bytes; tokenize columns count Unicode characters.
+    # Unicode separators inside literals are not Python physical newlines.
+    lines = source.split("\n")
+    positions = {
+        (line, len(lines[line - 1].encode("utf-8")[:column].decode("utf-8")))
+        for line, column in collector.positions
+    }
     output: list[tokenize.TokenInfo] = []
     for token in tokenize.generate_tokens(io.StringIO(source).readline):
-        if token.type == tokenize.NAME and token.string == old_name and token.start in collector.positions:
+        if token.type == tokenize.NAME and token.string == old_name and token.start in positions:
             token = tokenize.TokenInfo(token.type, new_name, token.start, token.end, token.line)
         output.append(token)
     transformed = tokenize.untokenize(output)
