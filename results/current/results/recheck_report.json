@@ -1,0 +1,4567 @@
+{
+  "checks": 900,
+  "failures": 0,
+  "findings": [
+    {
+      "check": "summary::task_families",
+      "detail": {
+        "actual": 12,
+        "expected": 12
+      },
+      "pass": true
+    },
+    {
+      "check": "summary::languages",
+      "detail": {
+        "actual": 2,
+        "expected": 2
+      },
+      "pass": true
+    },
+    {
+      "check": "summary::domain_cases_per_language",
+      "detail": {
+        "actual": 33013,
+        "expected": 33013
+      },
+      "pass": true
+    },
+    {
+      "check": "summary::cross_language_parity_failures",
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      },
+      "pass": true
+    },
+    {
+      "check": "summary::mutants",
+      "detail": {
+        "actual": 72,
+        "expected": 72
+      },
+      "pass": true
+    },
+    {
+      "check": "summary::ineffective_mutants",
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      },
+      "pass": true
+    },
+    {
+      "check": "summary::nominal_surviving_mutants",
+      "detail": {
+        "actual": 6,
+        "expected": 6
+      },
+      "pass": true
+    },
+    {
+      "check": "summary::semantic_audit_pairs",
+      "detail": {
+        "actual": 504,
+        "expected": 504
+      },
+      "pass": true
+    },
+    {
+      "check": "summary::semantic_audit_failures",
+      "detail": {
+        "actual": 0,
+        "expected": 0
+      },
+      "pass": true
+    },
+    {
+      "check": "summary::metric_intervention_observations",
+      "detail": {
+        "actual": 1296,
+        "expected": 1296
+      },
+      "pass": true
+    },
+    {
+      "check": "summary::robustness_observations",
+      "detail": {
+        "actual": 76032,
+        "expected": 76032
+      },
+      "pass": true
+    },
+    {
+      "check": "summary::robustness_shard_rows",
+      "detail": {
+        "actual": [
+          38016,
+          38016
+        ],
+        "expected": [
+          38016,
+          38016
+        ]
+      },
+      "pass": true
+    },
+    {
+      "check": "parity::row_count",
+      "detail": 12,
+      "pass": true
+    },
+    {
+      "check": "parity::all_equal",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "parity::domain_total",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "mutants::row_count",
+      "detail": 72,
+      "pass": true
+    },
+    {
+      "check": "mutants::unique_keys",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "mutants::all_parse",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "mutants::all_effective",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "mutants::nominal_survivors",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "semantic_audit::row_count",
+      "detail": 504,
+      "pass": true
+    },
+    {
+      "check": "semantic_audit::unique_keys",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "semantic_audit::all_pass",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "interventions::row_count",
+      "detail": 1296,
+      "pass": true
+    },
+    {
+      "check": "interventions::unique_keys",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "robustness::row_count",
+      "detail": 76032,
+      "pass": true
+    },
+    {
+      "check": "robustness::shard_counts",
+      "detail": [
+        38016,
+        38016
+      ],
+      "pass": true
+    },
+    {
+      "check": "robustness::unique_keys",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "robustness::shards_disjoint",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "robustness::shards_cover_combined",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "robustness::shard0_payload_partition",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "robustness::shard1_payload_partition",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "external_protocols::independent_reconstruction",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::row_count",
+      "detail": 198,
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'format', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'format', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'format', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'format', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'format', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'format', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'format', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'format', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'format', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'format', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'format', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'format', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'format', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'format', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'format', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'format', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'format', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'format', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'format', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'format', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'format', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'format', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'rename', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'rename', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'rename', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'rename', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'rename', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'rename', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'rename', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'rename', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'rename', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'rename', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'rename', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'rename', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'rename', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'rename', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'rename', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'rename', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'rename', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'rename', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'rename', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'rename', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'rename', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'rename', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'normalize', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'normalize', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'normalize', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'normalize', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'normalize', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'normalize', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'normalize', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'normalize', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'normalize', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'normalize', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'normalize', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'normalize', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'normalize', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'normalize', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'normalize', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'normalize', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'normalize', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'normalize', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'normalize', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'normalize', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'normalize', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'normalize', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'random_flip', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'random_flip', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'random_flip', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'random_flip', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'random_flip', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'random_flip', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'random_flip', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'random_flip', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'random_flip', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'random_flip', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'random_flip', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'random_flip', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'random_flip', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'random_flip', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'random_flip', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'random_flip', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'random_flip', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'random_flip', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'random_flip', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'random_flip', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'random_flip', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'random_flip', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'strip', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'strip', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'strip', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'strip', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'strip', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'strip', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'strip', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'strip', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'strip', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'strip', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'strip', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'strip', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'strip', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'strip', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'strip', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'strip', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'strip', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'strip', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'strip', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'strip', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'strip', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'strip', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'mixed', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'mixed', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'mixed', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'mixed', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'mixed', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'mixed', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'mixed', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'mixed', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'mixed', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'mixed', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'mixed', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'mixed', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'mixed', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'mixed', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'mixed', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'mixed', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'mixed', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'mixed', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'mixed', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'mixed', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('lexical', 'mixed', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('lexical', 'mixed', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'format', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'format', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'format', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'format', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'format', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'format', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'format', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'format', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'format', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'format', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'format', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'format', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'format', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'format', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'format', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'format', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'format', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'format', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'format', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'format', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'format', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'format', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'rename', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'rename', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'rename', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'rename', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'rename', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'rename', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'rename', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'rename', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'rename', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'rename', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'rename', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'rename', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'rename', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'rename', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'rename', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'rename', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'rename', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'rename', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'rename', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'rename', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'rename', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'rename', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'normalize', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'normalize', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'normalize', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'normalize', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'normalize', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'normalize', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'normalize', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'normalize', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'normalize', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'normalize', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'normalize', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'normalize', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'normalize', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'normalize', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'normalize', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'normalize', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'normalize', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'normalize', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'normalize', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'normalize', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'normalize', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'normalize', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'random_flip', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'random_flip', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'random_flip', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'random_flip', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'random_flip', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'random_flip', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'random_flip', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'random_flip', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'random_flip', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'random_flip', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'random_flip', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'random_flip', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'random_flip', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'random_flip', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'random_flip', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'random_flip', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'random_flip', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'random_flip', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'random_flip', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'random_flip', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'random_flip', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'random_flip', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'strip', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'strip', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'strip', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'strip', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'strip', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'strip', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'strip', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'strip', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'strip', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'strip', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'strip', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'strip', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'strip', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'strip', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'strip', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'strip', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'strip', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'strip', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'strip', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'strip', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'strip', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'strip', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'mixed', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'mixed', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'mixed', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'mixed', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'mixed', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'mixed', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'mixed', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'mixed', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'mixed', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'mixed', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'mixed', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'mixed', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'mixed', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'mixed', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'mixed', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'mixed', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'mixed', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'mixed', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'mixed', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'mixed', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('structural', 'mixed', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('structural', 'mixed', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'format', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'format', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'format', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'format', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'format', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'format', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'format', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'format', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'format', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'format', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'format', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'format', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'format', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'format', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'format', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'format', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'format', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'format', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'format', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'format', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'format', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'format', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'rename', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'rename', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'rename', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'rename', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'rename', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'rename', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'rename', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'rename', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'rename', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'rename', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'rename', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'rename', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'rename', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'rename', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'rename', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'rename', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'rename', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'rename', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'rename', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'rename', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'rename', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'rename', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'normalize', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'normalize', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'normalize', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'normalize', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'normalize', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'normalize', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'normalize', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'normalize', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'normalize', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'normalize', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'normalize', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'normalize', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'normalize', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'normalize', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'normalize', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'normalize', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'normalize', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'normalize', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'normalize', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'normalize', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'normalize', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'normalize', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'random_flip', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'random_flip', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'random_flip', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'random_flip', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'random_flip', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'random_flip', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'random_flip', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'random_flip', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'random_flip', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'random_flip', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'random_flip', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'random_flip', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'random_flip', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'random_flip', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'random_flip', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'random_flip', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'random_flip', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'random_flip', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'random_flip', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'random_flip', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'random_flip', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'random_flip', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'strip', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'strip', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'strip', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'strip', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'strip', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'strip', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'strip', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'strip', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'strip', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'strip', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'strip', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'strip', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'strip', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'strip', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'strip', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'strip', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'strip', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'strip', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'strip', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'strip', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'strip', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'strip', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'mixed', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'mixed', '0.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'mixed', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'mixed', '0.1')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'mixed', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'mixed', '0.2')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'mixed', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'mixed', '0.3')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'mixed', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'mixed', '0.4')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'mixed', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'mixed', '0.5')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'mixed', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'mixed', '0.6')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'mixed', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'mixed', '0.7')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'mixed', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'mixed', '0.8')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'mixed', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'mixed', '0.9')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::counts::('hybrid', 'mixed', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "response_curves::rate::('hybrid', 'mixed', '1.0')",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "curve_thresholds::row_count",
+      "detail": 15,
+      "pass": true
+    },
+    {
+      "check": "curve_thresholds::lexical_rename_half",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "curve_thresholds::structural_rename_invariant",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "curve_thresholds::hybrid_strip_zero",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "mixture_frontier::row_count",
+      "detail": 101,
+      "pass": true
+    },
+    {
+      "check": "mixture_frontier::endpoints",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "mixture_frontier::exact_rational_rows",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "mixture_frontier::crossing_and_envelope",
+      "detail": 51,
+      "pass": true
+    },
+    {
+      "check": "mixtures::rename_heavy_winner",
+      "detail": "structural",
+      "pass": true
+    },
+    {
+      "check": "mixtures::structure_heavy_winner",
+      "detail": "lexical",
+      "pass": true
+    },
+    {
+      "check": "mixtures::ranking_reversal",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "duplication::lexical::macro_invariant",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "duplication::lexical::micro_changes",
+      "detail": 0.478373579545,
+      "pass": true
+    },
+    {
+      "check": "duplication::structural::macro_invariant",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "duplication::structural::micro_changes",
+      "detail": 0.478898358586,
+      "pass": true
+    },
+    {
+      "check": "duplication::hybrid::macro_invariant",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "duplication::hybrid::micro_changes",
+      "detail": 0.087937973485,
+      "pass": true
+    },
+    {
+      "check": "false_positive::threshold",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "false_positive::exact_tail",
+      "detail": 1.7940998077392578e-05,
+      "pass": true
+    },
+    {
+      "check": "false_positive::monte_carlo",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "false_positive::parser_path",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "false_positive::zero_failure_requirement",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "formal::rename_winner",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "formal::structure_winner",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "formal::semantic_audit",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "extended::transfer_projects",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "extended::transfer_modules",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "extended::transfer_observations",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "extended::context_summary",
+      "detail": {
+        "bootstrap_replicates": 5000,
+        "contextual_auc_rows": 288,
+        "holdout_recomputations": 38
+      },
+      "pass": true
+    },
+    {
+      "check": "extended::ambiguity_summary",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "extended::decision_functionals",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::manifest_rows",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::manifest_projects",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::five_per_project",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::aiohttp-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::aiohttp-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::aiohttp-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::aiohttp-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::aiohttp-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::anyio-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::anyio-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::anyio-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::anyio-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::anyio-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::asn1crypto-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::asn1crypto-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::asn1crypto-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::asn1crypto-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::asn1crypto-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::attrs-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::attrs-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::attrs-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::attrs-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::attrs-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::babel-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::babel-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::babel-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::babel-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::babel-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::beautifulsoup4-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::beautifulsoup4-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::beautifulsoup4-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::beautifulsoup4-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::beautifulsoup4-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::cattrs-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::cattrs-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::cattrs-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::cattrs-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::cattrs-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::charset-normalizer-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::charset-normalizer-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::charset-normalizer-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::charset-normalizer-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::charset-normalizer-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::click-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::click-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::click-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::click-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::click-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::coverage-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::coverage-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::coverage-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::coverage-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::coverage-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::defusedxml-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::defusedxml-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::defusedxml-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::defusedxml-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::defusedxml-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::dnspython-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::dnspython-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::dnspython-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::dnspython-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::dnspython-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::h11-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::h11-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::h11-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::h11-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::h11-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::httpx-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::httpx-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::httpx-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::httpx-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::httpx-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::idna-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::idna-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::idna-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::idna-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::idna-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::jinja2-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::jinja2-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::jinja2-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::jinja2-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::jinja2-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::jmespath-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::jmespath-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::jmespath-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::jmespath-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::jmespath-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::lark-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::lark-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::lark-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::lark-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::lark-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::mako-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::mako-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::mako-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::mako-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::mako-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::mistune-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::mistune-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::mistune-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::mistune-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::mistune-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::requests-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::requests-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::requests-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::requests-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::requests-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::rich-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::rich-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::rich-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::rich-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::rich-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::urllib3-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::urllib3-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::urllib3-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::urllib3-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::urllib3-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::packaging-01",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::packaging-02",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::packaging-03",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::packaging-04",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::source_hash::packaging-05",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::rows",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::unique_keys",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::candidate_reconstruction",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "transfer::summary_reconstruction",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "context::holdout_rows",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "context::holdout_reconstruction",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "context::bootstrap_rows",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "context::bootstrap_reconstruction",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "context::bootstrap_summary",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "context::auc_reconstruction",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "context::cross_language_agreement",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "ambiguity::envelopes",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "ambiguity::pairwise_exact_witnesses",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "ambiguity::robust_winner_sets",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "decision_functionals::reconstruction_and_rank_change",
+      "detail": [
+        "hybrid",
+        "lexical"
+      ],
+      "pass": true
+    },
+    {
+      "check": "manifest::coverage",
+      "detail": {
+        "actual": 150,
+        "listed": 150
+      },
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/attack_family_means.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/attack_family_means.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/context_holdouts.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/context_holdouts.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/context_sensitivity_summary.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/context_sensitivity_summary.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/contextual_semantic_proxy_auc.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/contextual_semantic_proxy_auc.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/cross_language_metric_agreement.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/cross_language_metric_agreement.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/curve_thresholds.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/curve_thresholds.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/decision_functional_sensitivity.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/decision_functional_sensitivity.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/decision_functional_sensitivity.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/decision_functional_sensitivity.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/duplication_sensitivity.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/duplication_sensitivity.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/external_protocol_rankings.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/external_protocol_rankings.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/external_protocol_replay.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/external_protocol_replay.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/external_protocol_replay_summary.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/external_protocol_replay_summary.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/false_positive_summary.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/false_positive_summary.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/formal_witnesses.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/formal_witnesses.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/intervention_models.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/intervention_models.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/metric_rank_correlations.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/metric_rank_correlations.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/mixture_ambiguity_envelopes.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/mixture_ambiguity_envelopes.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/mixture_ambiguity_summary.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/mixture_ambiguity_summary.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/mixture_frontier.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/mixture_frontier.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/mixture_robust_winner_sets.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/mixture_robust_winner_sets.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/mixture_scores.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/mixture_scores.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/pairwise_mixture_stability.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/pairwise_mixture_stability.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/project_transfer_leave_one_project.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/project_transfer_leave_one_project.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/project_transfer_size_strata.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/project_transfer_size_strata.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/project_transfer_summary.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/project_transfer_summary.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/project_transfer_summary.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/project_transfer_summary.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/response_curves.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/response_curves.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/semantic_proxy_auc.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/semantic_proxy_auc.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/task_cluster_bootstrap.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/task_cluster_bootstrap.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/task_cluster_bootstrap_gaps.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/task_cluster_bootstrap_gaps.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::derived/task_cluster_bootstrap_summary.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::derived/task_cluster_bootstrap_summary.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::environment.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::environment.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/armstrong/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/armstrong/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/armstrong/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/armstrong/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/armstrong/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/armstrong/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/armstrong/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/armstrong/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/collatz_steps/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/collatz_steps/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/collatz_steps/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/collatz_steps/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/collatz_steps/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/collatz_steps/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/collatz_steps/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/collatz_steps/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/darts/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/darts/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/darts/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/darts/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/darts/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/darts/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/darts/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/darts/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/grains/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/grains/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/grains/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/grains/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/grains/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/grains/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/grains/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/grains/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/hamming/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/hamming/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/hamming/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/hamming/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/hamming/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/hamming/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/hamming/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/hamming/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/isogram/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/isogram/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/isogram/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/isogram/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/isogram/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/isogram/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/isogram/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/isogram/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/leap_year/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/leap_year/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/leap_year/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/leap_year/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/leap_year/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/leap_year/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/leap_year/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/leap_year/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/luhn/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/luhn/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/luhn/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/luhn/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/luhn/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/luhn/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/luhn/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/luhn/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/nucleotide_count/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/nucleotide_count/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/nucleotide_count/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/nucleotide_count/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/nucleotide_count/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/nucleotide_count/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/nucleotide_count/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/nucleotide_count/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/raindrops/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/raindrops/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/raindrops/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/raindrops/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/raindrops/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/raindrops/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/raindrops/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/raindrops/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/reverse_text/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/reverse_text/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/reverse_text/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/reverse_text/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/reverse_text/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/reverse_text/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/reverse_text/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/reverse_text/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/triangle/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/triangle/mutant_1.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/triangle/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/triangle/mutant_2.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/triangle/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/triangle/mutant_3.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/javascript/triangle/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/javascript/triangle/reference.js",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/armstrong/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/armstrong/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/armstrong/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/armstrong/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/armstrong/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/armstrong/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/armstrong/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/armstrong/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/collatz_steps/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/collatz_steps/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/collatz_steps/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/collatz_steps/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/collatz_steps/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/collatz_steps/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/collatz_steps/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/collatz_steps/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/darts/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/darts/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/darts/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/darts/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/darts/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/darts/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/darts/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/darts/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/grains/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/grains/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/grains/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/grains/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/grains/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/grains/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/grains/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/grains/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/hamming/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/hamming/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/hamming/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/hamming/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/hamming/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/hamming/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/hamming/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/hamming/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/isogram/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/isogram/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/isogram/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/isogram/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/isogram/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/isogram/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/isogram/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/isogram/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/leap_year/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/leap_year/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/leap_year/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/leap_year/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/leap_year/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/leap_year/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/leap_year/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/leap_year/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/luhn/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/luhn/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/luhn/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/luhn/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/luhn/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/luhn/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/luhn/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/luhn/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/nucleotide_count/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/nucleotide_count/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/nucleotide_count/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/nucleotide_count/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/nucleotide_count/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/nucleotide_count/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/nucleotide_count/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/nucleotide_count/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/raindrops/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/raindrops/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/raindrops/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/raindrops/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/raindrops/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/raindrops/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/raindrops/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/raindrops/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/reverse_text/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/reverse_text/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/reverse_text/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/reverse_text/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/reverse_text/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/reverse_text/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/reverse_text/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/reverse_text/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/triangle/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/triangle/mutant_1.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/triangle/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/triangle/mutant_2.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/triangle/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/triangle/mutant_3.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::programs/python/triangle/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::programs/python/triangle/reference.py",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::raw/cross_language_parity.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::raw/cross_language_parity.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::raw/diagnostic_pairs.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::raw/diagnostic_pairs.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::raw/metric_interventions.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::raw/metric_interventions.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::raw/mutants.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::raw/mutants.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::raw/project_transfer.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::raw/project_transfer.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::raw/robustness.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::raw/robustness.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::raw/robustness_shard_0.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::raw/robustness_shard_0.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::raw/robustness_shard_1.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::raw/robustness_shard_1.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::raw/semantic_audit.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::raw/semantic_audit.csv",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::summary.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::summary.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::task_cards/armstrong.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::task_cards/armstrong.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::task_cards/collatz_steps.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::task_cards/collatz_steps.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::task_cards/darts.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::task_cards/darts.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::task_cards/grains.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::task_cards/grains.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::task_cards/hamming.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::task_cards/hamming.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::task_cards/isogram.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::task_cards/isogram.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::task_cards/leap_year.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::task_cards/leap_year.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::task_cards/luhn.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::task_cards/luhn.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::task_cards/nucleotide_count.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::task_cards/nucleotide_count.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::task_cards/raindrops.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::task_cards/raindrops.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::task_cards/reverse_text.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::task_cards/reverse_text.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::size::task_cards/triangle.json",
+      "detail": "",
+      "pass": true
+    },
+    {
+      "check": "manifest::sha256::task_cards/triangle.json",
+      "detail": "",
+      "pass": true
+    }
+  ],
+  "results_directory_sha256": "848508ed43a773ec3a4cd7c03c8da26e189c4f14e6f650ad764861246f7f37dc",
+  "scientific_results_sha256": "034812f8c869f902291b20a812761aeb97bf56f7e307dffe3ab59a885fd6fe48",
+  "status": "VERIFIED",
+  "volatile_result_paths": [
+    "environment.json"
+  ]
+}

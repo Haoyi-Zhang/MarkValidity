@@ -1,0 +1,9 @@
+indicator,roc_auc
+nominal_test_pass_rate,0.9583333333333334
+character_similarity,0.14291225749559083
+token_similarity,0.1652336860670194
+identifier_normalized_similarity,0.14203042328042328
+ast_type_similarity,0.13740079365079366
+control_profile_similarity,0.27210097001763667
+identifier_multiset_similarity,0.19255676807760141
+identifier_style_similarity,0.12845844356261024

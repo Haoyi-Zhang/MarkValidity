@@ -1,0 +1,228 @@
+{
+  "bootstrap_gap_summary": [
+    {
+      "left_scheme": "lexical",
+      "lower_95": "0.089630681818",
+      "median_gap": "0.092992424242",
+      "mixture": "balanced",
+      "probability_left_exceeds_right": "1.000000000000",
+      "right_scheme": "hybrid",
+      "upper_95": "0.096117424242"
+    },
+    {
+      "left_scheme": "lexical",
+      "lower_95": "-0.002272727273",
+      "median_gap": "0.000615530303",
+      "mixture": "balanced",
+      "probability_left_exceeds_right": "0.653200000000",
+      "right_scheme": "structural",
+      "upper_95": "0.003740530303"
+    },
+    {
+      "left_scheme": "structural",
+      "lower_95": "0.088589015152",
+      "median_gap": "0.092329545455",
+      "mixture": "balanced",
+      "probability_left_exceeds_right": "1.000000000000",
+      "right_scheme": "hybrid",
+      "upper_95": "0.095691287879"
+    },
+    {
+      "left_scheme": "lexical",
+      "lower_95": "-0.082798413826",
+      "median_gap": "-0.078169981061",
+      "mixture": "rename-heavy",
+      "probability_left_exceeds_right": "0.000000000000",
+      "right_scheme": "hybrid",
+      "upper_95": "-0.073200520833"
+    },
+    {
+      "left_scheme": "lexical",
+      "lower_95": "-0.412012428977",
+      "median_gap": "-0.409952651515",
+      "mixture": "rename-heavy",
+      "probability_left_exceeds_right": "0.000000000000",
+      "right_scheme": "structural",
+      "upper_95": "-0.407831321023"
+    },
+    {
+      "left_scheme": "structural",
+      "lower_95": "0.326344696970",
+      "median_gap": "0.331827651515",
+      "mixture": "rename-heavy",
+      "probability_left_exceeds_right": "1.000000000000",
+      "right_scheme": "hybrid",
+      "upper_95": "0.337410274621"
+    },
+    {
+      "left_scheme": "lexical",
+      "lower_95": "0.319696141098",
+      "median_gap": "0.325556344697",
+      "mixture": "structure-heavy",
+      "probability_left_exceeds_right": "1.000000000000",
+      "right_scheme": "hybrid",
+      "upper_95": "0.332334280303"
+    },
+    {
+      "left_scheme": "lexical",
+      "lower_95": "0.405411576705",
+      "median_gap": "0.411268939394",
+      "mixture": "structure-heavy",
+      "probability_left_exceeds_right": "1.000000000000",
+      "right_scheme": "structural",
+      "upper_95": "0.418035866477"
+    },
+    {
+      "left_scheme": "structural",
+      "lower_95": "-0.094531486742",
+      "median_gap": "-0.085838068182",
+      "mixture": "structure-heavy",
+      "probability_left_exceeds_right": "0.000000000000",
+      "right_scheme": "hybrid",
+      "upper_95": "-0.076993371212"
+    }
+  ],
+  "bootstrap_replicates": 5000,
+  "bootstrap_seed": 20260721,
+  "bootstrap_summary": [
+    {
+      "lower_95": "0.393513257576",
+      "median_score": "0.395691287879",
+      "mixture": "balanced",
+      "scheme": "lexical",
+      "upper_95": "0.397821969697",
+      "winner_probability": "0.666400000000"
+    },
+    {
+      "lower_95": "0.392092803030",
+      "median_score": "0.395028409091",
+      "mixture": "balanced",
+      "scheme": "structural",
+      "upper_95": "0.397916666667",
+      "winner_probability": "0.333600000000"
+    },
+    {
+      "lower_95": "0.300189393939",
+      "median_score": "0.302746212121",
+      "mixture": "balanced",
+      "scheme": "hybrid",
+      "upper_95": "0.305350378788",
+      "winner_probability": "0.000000000000"
+    },
+    {
+      "lower_95": "0.252438328598",
+      "median_score": "0.255542140152",
+      "mixture": "rename-heavy",
+      "scheme": "lexical",
+      "upper_95": "0.258783262311",
+      "winner_probability": "0.000000000000"
+    },
+    {
+      "lower_95": "0.663991477273",
+      "median_score": "0.665525568182",
+      "mixture": "rename-heavy",
+      "scheme": "structural",
+      "upper_95": "0.666983901515",
+      "winner_probability": "1.000000000000"
+    },
+    {
+      "lower_95": "0.327371567235",
+      "median_score": "0.333676609848",
+      "mixture": "rename-heavy",
+      "scheme": "hybrid",
+      "upper_95": "0.340028645833",
+      "winner_probability": "0.000000000000"
+    },
+    {
+      "lower_95": "0.663579427083",
+      "median_score": "0.665071022727",
+      "mixture": "structure-heavy",
+      "scheme": "lexical",
+      "upper_95": "0.666524621212",
+      "winner_probability": "1.000000000000"
+    },
+    {
+      "lower_95": "0.247087831439",
+      "median_score": "0.253816287879",
+      "mixture": "structure-heavy",
+      "scheme": "structural",
+      "upper_95": "0.259356178977",
+      "winner_probability": "0.000000000000"
+    },
+    {
+      "lower_95": "0.333327769886",
+      "median_score": "0.339521780303",
+      "mixture": "structure-heavy",
+      "scheme": "hybrid",
+      "upper_95": "0.344839133523",
+      "winner_probability": "0.000000000000"
+    }
+  ],
+  "contextual_auc_rows": 288,
+  "cross_language_metric_agreement": [
+    {
+      "indicator": "ast_type_distortion",
+      "matched_profiles": 648,
+      "median_absolute_difference": "0.044427480916",
+      "p95_absolute_difference": "0.094220296461",
+      "spearman": "0.944465522877"
+    },
+    {
+      "indicator": "character_distortion",
+      "matched_profiles": 648,
+      "median_absolute_difference": "0.031566296778",
+      "p95_absolute_difference": "0.085173994056",
+      "spearman": "0.958174409586"
+    },
+    {
+      "indicator": "control_profile_distortion",
+      "matched_profiles": 648,
+      "median_absolute_difference": "0.000000000000",
+      "p95_absolute_difference": "0.123076923077",
+      "spearman": "0.974095402842"
+    },
+    {
+      "indicator": "identifier_multiset_distortion",
+      "matched_profiles": 648,
+      "median_absolute_difference": "0.038454106280",
+      "p95_absolute_difference": "0.186563691838",
+      "spearman": "0.930848671997"
+    },
+    {
+      "indicator": "identifier_normalized_distortion",
+      "matched_profiles": 648,
+      "median_absolute_difference": "0.037163800705",
+      "p95_absolute_difference": "0.097049180328",
+      "spearman": "0.964024566523"
+    },
+    {
+      "indicator": "identifier_style_distortion",
+      "matched_profiles": 648,
+      "median_absolute_difference": "0.086212590299",
+      "p95_absolute_difference": "0.336206896552",
+      "spearman": "0.872338332844"
+    },
+    {
+      "indicator": "token_distortion",
+      "matched_profiles": 648,
+      "median_absolute_difference": "0.037163800705",
+      "p95_absolute_difference": "0.097049180328",
+      "spearman": "0.964024566523"
+    },
+    {
+      "indicator": "carrier_retention",
+      "matched_profiles": 648,
+      "median_absolute_difference": "0.000000000000",
+      "p95_absolute_difference": "0.000000000000",
+      "spearman": "1.000000000000"
+    },
+    {
+      "indicator": "payload_match_rate",
+      "matched_profiles": 648,
+      "median_absolute_difference": "0.000000000000",
+      "p95_absolute_difference": "0.166666666667",
+      "spearman": "0.965029340376"
+    }
+  ],
+  "holdout_recomputations": 38
+}

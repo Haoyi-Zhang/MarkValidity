@@ -1,0 +1,7 @@
+{
+  "checks": 900,
+  "failures": 0,
+  "results_directory_sha256": "848508ed43a773ec3a4cd7c03c8da26e189c4f14e6f650ad764861246f7f37dc",
+  "scientific_results_sha256": "034812f8c869f902291b20a812761aeb97bf56f7e307dffe3ab59a885fd6fe48",
+  "status": "VERIFIED"
+}

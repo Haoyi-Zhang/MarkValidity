@@ -1,0 +1,32 @@
+{
+  "construct_note": "Structured map output and per-symbol counting.",
+  "domain_size": 1365,
+  "javascript_signature": "function solve(text) {",
+  "mutations": [
+    "Swap the C and G output channels.",
+    "Omit T counts.",
+    "Accumulate A symbols in the C channel."
+  ],
+  "nominal_case_count": 5,
+  "nominal_cases": [
+    [
+      ""
+    ],
+    [
+      "A"
+    ],
+    [
+      "CG"
+    ],
+    [
+      "ACGT"
+    ],
+    [
+      "CCGG"
+    ]
+  ],
+  "observation_normalization": "Canonical JSON with sorted object keys; explicit exception records.",
+  "python_signature": "def solve(text):",
+  "task": "nucleotide_count",
+  "timeout_policy": "Deterministic tasks include an internal Collatz guard; any runtime failure is retained as evidence."
+}

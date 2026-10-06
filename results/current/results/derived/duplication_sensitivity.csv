@@ -1,0 +1,4 @@
+scheme,favored_attack,base_equal_stratum_macro,duplicated_row_micro,micro_shift,macro_after_duplication,copies_total
+lexical,normalize,0.395738636364,0.874112215909,0.478373579545,0.395738636364,20
+structural,rename,0.395075757576,0.873974116162,0.478898358586,0.395075757576,20
+hybrid,strip,0.302746212121,0.390684185606,0.087937973485,0.302746212121,20

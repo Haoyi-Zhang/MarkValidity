@@ -1,0 +1,299 @@
+{
+  "auc": {
+    "ast_type_similarity": 0.13740079365079366,
+    "character_similarity": 0.14291225749559083,
+    "control_profile_similarity": 0.27210097001763667,
+    "identifier_multiset_similarity": 0.19255676807760141,
+    "identifier_normalized_similarity": 0.14203042328042328,
+    "identifier_style_similarity": 0.12845844356261024,
+    "nominal_test_pass_rate": 0.9583333333333334,
+    "token_similarity": 0.1652336860670194
+  },
+  "context_sensitivity": {
+    "bootstrap_replicates": 5000,
+    "contextual_auc_rows": 288,
+    "holdout_recomputations": 38
+  },
+  "cross_language_parity_failures": 0,
+  "decision_functional_sensitivity": {
+    "distinct_winners": [
+      "hybrid",
+      "lexical"
+    ],
+    "functionals": 5,
+    "rows": 15,
+    "winners": {
+      "equal-family arithmetic mean": "lexical",
+      "equal-family geometric mean": "lexical",
+      "median family rate": "hybrid",
+      "share of families at or above 0.30": "hybrid",
+      "worst family rate": "lexical"
+    }
+  },
+  "domain_cases_per_language": 33013,
+  "duplication_sensitivity": [
+    {
+      "base_equal_stratum_macro": "0.395738636364",
+      "copies_total": 20,
+      "duplicated_row_micro": "0.874112215909",
+      "favored_attack": "normalize",
+      "macro_after_duplication": "0.395738636364",
+      "micro_shift": "0.478373579545",
+      "scheme": "lexical"
+    },
+    {
+      "base_equal_stratum_macro": "0.395075757576",
+      "copies_total": 20,
+      "duplicated_row_micro": "0.873974116162",
+      "favored_attack": "rename",
+      "macro_after_duplication": "0.395075757576",
+      "micro_shift": "0.478898358586",
+      "scheme": "structural"
+    },
+    {
+      "base_equal_stratum_macro": "0.302746212121",
+      "copies_total": 20,
+      "duplicated_row_micro": "0.390684185606",
+      "favored_attack": "strip",
+      "macro_after_duplication": "0.302746212121",
+      "micro_shift": "0.087937973485",
+      "scheme": "hybrid"
+    }
+  ],
+  "external_protocol_replay": {
+    "comparison_unit": "frozen diagnostic carrier outcome",
+    "distinct_numeric_winners": [
+      "hybrid",
+      "lexical",
+      "structural"
+    ],
+    "protocols_with_numeric_replay": [
+      "native_exact_tail_detection",
+      "srcmarker_bit_accuracy",
+      "srcmarker_exact_message",
+      "codeip_available_prefix_exact",
+      "sweet_exact_null_auroc",
+      "sweet_tpr_at_fpr_0_01",
+      "sweet_tpr_at_fpr_0_05"
+    ],
+    "robustness_rows": 76032,
+    "schemes": [
+      "hybrid",
+      "lexical",
+      "structural"
+    ],
+    "scope": "Independent replay of public evaluation functionals on common frozen outcomes; not an execution or performance comparison of the external watermark systems.",
+    "stone_stem": {
+      "reason": "The public STEM formula requires human- and watermarked-code perplexities. This CPU-only diagnostic benchmark has neither an admissible language-model naturalness measure nor human ratings; substituting source similarity would change the construct.",
+      "status": "NOT_COMPUTED_COMPONENT_MISMATCH"
+    },
+    "winners": {
+      "codeip_available_prefix_exact": "structural",
+      "native_exact_tail_detection": "lexical",
+      "srcmarker_bit_accuracy": "structural",
+      "srcmarker_exact_message": "structural",
+      "sweet_exact_null_auroc": "hybrid",
+      "sweet_tpr_at_fpr_0_01": "hybrid",
+      "sweet_tpr_at_fpr_0_05": "hybrid"
+    },
+    "zero_surviving_site_rows": {
+      "hybrid": 651,
+      "lexical": 628,
+      "structural": 599
+    }
+  },
+  "false_positive": {
+    "exact_null_false_positive_probability": 1.7940998077392578e-05,
+    "minimal_accepted_match_count": 22,
+    "monte_carlo": {
+      "clopper_pearson_95": [
+        1.769575676774382e-05,
+        3.182039366417255e-05
+      ],
+      "false_positives": 48,
+      "rate": 2.4e-05,
+      "seed": 69,
+      "trials": 2000000
+    },
+    "nominal_alpha": 0.0001,
+    "parser_path": {
+      "false_positives": 1,
+      "rate": 3.3333333333333335e-05,
+      "seed": 2,
+      "trials": 30000
+    },
+    "payload_bits": 24,
+    "zero_failure_5000_upper_95": 0.0005989670023148763,
+    "zero_failure_trial_requirements": {
+      "1e-02": 299,
+      "1e-03": 2995,
+      "1e-04": 29956,
+      "1e-05": 299572,
+      "1e-06": 2995731
+    }
+  },
+  "ineffective_mutants": 0,
+  "languages": 2,
+  "metric_intervention_observations": 1296,
+  "mixture_ambiguity": {
+    "envelope_rows": 63,
+    "pairwise_rows": 9,
+    "robust_winner_rows": 21
+  },
+  "mixture_scores": [
+    {
+      "mixture": "balanced",
+      "rank": 1,
+      "scheme": "lexical",
+      "score": "0.395738636364"
+    },
+    {
+      "mixture": "balanced",
+      "rank": 2,
+      "scheme": "structural",
+      "score": "0.395075757576"
+    },
+    {
+      "mixture": "balanced",
+      "rank": 3,
+      "scheme": "hybrid",
+      "score": "0.302746212121"
+    },
+    {
+      "mixture": "rename-heavy",
+      "rank": 3,
+      "scheme": "lexical",
+      "score": "0.255606060606"
+    },
+    {
+      "mixture": "rename-heavy",
+      "rank": 1,
+      "scheme": "structural",
+      "score": "0.665539772727"
+    },
+    {
+      "mixture": "rename-heavy",
+      "rank": 2,
+      "scheme": "hybrid",
+      "score": "0.333669507576"
+    },
+    {
+      "mixture": "structure-heavy",
+      "rank": 1,
+      "scheme": "lexical",
+      "score": "0.665080492424"
+    },
+    {
+      "mixture": "structure-heavy",
+      "rank": 3,
+      "scheme": "structural",
+      "score": "0.253636363636"
+    },
+    {
+      "mixture": "structure-heavy",
+      "rank": 2,
+      "scheme": "hybrid",
+      "score": "0.339422348485"
+    }
+  ],
+  "mutants": 72,
+  "nominal_surviving_mutants": 6,
+  "project_transfer": {
+    "modules": 120,
+    "negative_control_leave_one_project_failure_range": [
+      112,
+      113
+    ],
+    "negative_control_quartiles": [
+      {
+        "ast_nodes_max": 347,
+        "ast_nodes_min": 50,
+        "ast_size_quartile": 1,
+        "failures": 27,
+        "modules": 30,
+        "successes": 3
+      },
+      {
+        "ast_nodes_max": 807,
+        "ast_nodes_min": 356,
+        "ast_size_quartile": 2,
+        "failures": 30,
+        "modules": 30,
+        "successes": 0
+      },
+      {
+        "ast_nodes_max": 1635,
+        "ast_nodes_min": 848,
+        "ast_size_quartile": 3,
+        "failures": 30,
+        "modules": 30,
+        "successes": 0
+      },
+      {
+        "ast_nodes_max": 4150,
+        "ast_nodes_min": 1675,
+        "ast_size_quartile": 4,
+        "failures": 30,
+        "modules": 30,
+        "successes": 0
+      }
+    ],
+    "observations": 360,
+    "projects": 24,
+    "summary": [
+      {
+        "control_role": "positive",
+        "cp95_lower": "0.969727027423",
+        "cp95_upper": "1.000000000000",
+        "failures": 0,
+        "intervention": "inert-trailing-comment",
+        "maximum_project_success": 5,
+        "median_ast_profile_similarity": "1.000000000000",
+        "median_character_ngram_similarity": "0.996751488726",
+        "median_token_multiset_similarity": "1.000000000000",
+        "minimum_project_success": 5,
+        "modules": 120,
+        "parse_compile_successes": 120,
+        "projects_with_failure": 0
+      },
+      {
+        "control_role": "positive",
+        "cp95_lower": "0.969727027423",
+        "cp95_upper": "1.000000000000",
+        "failures": 0,
+        "intervention": "syntax-aware-local-rename",
+        "maximum_project_success": 5,
+        "median_ast_profile_similarity": "1.000000000000",
+        "median_character_ngram_similarity": "0.987493574595",
+        "median_token_multiset_similarity": "0.994032105256",
+        "minimum_project_success": 5,
+        "modules": 120,
+        "parse_compile_successes": 120,
+        "projects_with_failure": 0
+      },
+      {
+        "control_role": "negative",
+        "cp95_lower": "0.005185574958",
+        "cp95_upper": "0.071323194157",
+        "failures": 117,
+        "intervention": "scope-blind-identifier-collapse",
+        "maximum_project_success": 1,
+        "median_ast_profile_similarity": "1.000000000000",
+        "median_character_ngram_similarity": "0.497059436836",
+        "median_token_multiset_similarity": "0.585355471870",
+        "minimum_project_success": 0,
+        "modules": 120,
+        "parse_compile_successes": 3,
+        "projects_with_failure": 24
+      }
+    ]
+  },
+  "robustness_observations": 76032,
+  "robustness_shard_rows": [
+    38016,
+    38016
+  ],
+  "semantic_audit_failures": 0,
+  "semantic_audit_pairs": 504,
+  "task_families": 12
+}

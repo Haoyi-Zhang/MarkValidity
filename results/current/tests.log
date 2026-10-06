@@ -1,0 +1,18 @@
+test_carrier_round_trip (test_artifact.ArtifactTests.test_carrier_round_trip) ... ok
+test_decision_functional_rank_change (test_artifact.ArtifactTests.test_decision_functional_rank_change) ... ok
+test_detector_one_shot_accounting (test_artifact.ArtifactTests.test_detector_one_shot_accounting) ... ok
+test_detector_threshold_probability (test_artifact.ArtifactTests.test_detector_threshold_probability) ... ok
+test_domain_contract (test_artifact.ArtifactTests.test_domain_contract) ... ok
+test_external_protocol_provenance_contract (test_artifact.ArtifactTests.test_external_protocol_provenance_contract) ... ok
+test_external_protocol_replay_rank_change (test_artifact.ArtifactTests.test_external_protocol_replay_rank_change) ... ok
+test_frozen_summary_when_present (test_artifact.ArtifactTests.test_frozen_summary_when_present) ... ok
+test_scope_aware_local_rename (test_artifact.ArtifactTests.test_scope_aware_local_rename) ... ok
+test_semantic_evidence_gates (test_artifact.ArtifactTests.test_semantic_evidence_gates) ... ok
+test_total_variation_extremes_and_tie (test_artifact.ArtifactTests.test_total_variation_extremes_and_tie) ... ok
+test_transfer_corpus_contract (test_artifact.ArtifactTests.test_transfer_corpus_contract) ... ok
+test_unicode_rename_offsets (test_artifact.ArtifactTests.test_unicode_rename_offsets) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.037s
+
+OK

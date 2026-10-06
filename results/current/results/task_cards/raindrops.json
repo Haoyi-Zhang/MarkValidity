@@ -1,0 +1,32 @@
+{
+  "construct_note": "Independent branch composition.",
+  "domain_size": 500,
+  "javascript_signature": "function solve(n) {",
+  "mutations": [
+    "Change the first factor from three to two.",
+    "Make factor branches mutually exclusive.",
+    "Omit the factor-seven channel."
+  ],
+  "nominal_case_count": 5,
+  "nominal_cases": [
+    [
+      1
+    ],
+    [
+      3
+    ],
+    [
+      5
+    ],
+    [
+      7
+    ],
+    [
+      105
+    ]
+  ],
+  "observation_normalization": "Canonical JSON with sorted object keys; explicit exception records.",
+  "python_signature": "def solve(n):",
+  "task": "raindrops",
+  "timeout_policy": "Deterministic tasks include an internal Collatz guard; any runtime failure is retained as evidence."
+}

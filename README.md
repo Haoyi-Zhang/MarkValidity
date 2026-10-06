@@ -36,7 +36,12 @@ Retained original run results (not measurements of the current Windows repair ca
 - 149 nonvolatile result files identical under Python hash seeds 1 and 987;
 - scientific-results SHA-256 `034812f8c869f902291b20a812761aeb97bf56f7e307dffe3ab59a885fd6fe48`.
 
-`verify_release.py` is a legacy packaging validator that currently encodes a different release contract, including different domain and reconstruction counts. It has not been run on this revised bundle. Its expectations and document/source-bound receipts require reconciliation and regeneration during integration before they can establish current package consistency. The retained scientific outcome matrix is unchanged.
+The current Ubuntu run is retained in `results/current/`: thirteen unit tests,
+900 reconstruction checks, and 504 semantic-audit pairs complete without
+failures, ineffective mutants, or cross-language disagreement. This directory
+contains regenerated observations and the accompanying command output. The
+earlier ten-test run above is a separate historical record. To reconstruct the
+current rows, run `python3 recheck.py --results results/current/results`.
 
 The current unit suite contains 13 tests. It additionally checks detector accounting
 for one-shot iterators, Unicode byte/character offset alignment in the token-based

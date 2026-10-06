@@ -1,0 +1,32 @@
+{
+  "construct_note": "Sparse calendar boundaries, including century and 400-year exceptions.",
+  "domain_size": 801,
+  "javascript_signature": "function solve(year) {",
+  "mutations": [
+    "Narrow the 400-year exception to 800 years.",
+    "Ignore century exceptions.",
+    "Require mutually incompatible century conditions."
+  ],
+  "nominal_case_count": 5,
+  "nominal_cases": [
+    [
+      1996
+    ],
+    [
+      1900
+    ],
+    [
+      1999
+    ],
+    [
+      1992
+    ],
+    [
+      1800
+    ]
+  ],
+  "observation_normalization": "Canonical JSON with sorted object keys; explicit exception records.",
+  "python_signature": "def solve(year):",
+  "task": "leap_year",
+  "timeout_policy": "Deterministic tasks include an internal Collatz guard; any runtime failure is retained as evidence."
+}

@@ -1,0 +1,32 @@
+{
+  "construct_note": "Set-based lexical predicate.",
+  "domain_size": 1365,
+  "javascript_signature": "function solve(text) {",
+  "mutations": [
+    "Check only adjacent duplicates.",
+    "Allow one repeated letter.",
+    "Drop the final letter before checking."
+  ],
+  "nominal_case_count": 5,
+  "nominal_cases": [
+    [
+      ""
+    ],
+    [
+      "abc"
+    ],
+    [
+      "aba"
+    ],
+    [
+      "abca"
+    ],
+    [
+      "letter"
+    ]
+  ],
+  "observation_normalization": "Canonical JSON with sorted object keys; explicit exception records.",
+  "python_signature": "def solve(text):",
+  "task": "isogram",
+  "timeout_policy": "Deterministic tasks include an internal Collatz guard; any runtime failure is retained as evidence."
+}

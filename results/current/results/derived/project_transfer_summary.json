@@ -1,0 +1,90 @@
+{
+  "modules": 120,
+  "negative_control_leave_one_project_failure_range": [
+    112,
+    113
+  ],
+  "negative_control_quartiles": [
+    {
+      "ast_nodes_max": 347,
+      "ast_nodes_min": 50,
+      "ast_size_quartile": 1,
+      "failures": 27,
+      "modules": 30,
+      "successes": 3
+    },
+    {
+      "ast_nodes_max": 807,
+      "ast_nodes_min": 356,
+      "ast_size_quartile": 2,
+      "failures": 30,
+      "modules": 30,
+      "successes": 0
+    },
+    {
+      "ast_nodes_max": 1635,
+      "ast_nodes_min": 848,
+      "ast_size_quartile": 3,
+      "failures": 30,
+      "modules": 30,
+      "successes": 0
+    },
+    {
+      "ast_nodes_max": 4150,
+      "ast_nodes_min": 1675,
+      "ast_size_quartile": 4,
+      "failures": 30,
+      "modules": 30,
+      "successes": 0
+    }
+  ],
+  "observations": 360,
+  "projects": 24,
+  "summary": [
+    {
+      "control_role": "positive",
+      "cp95_lower": "0.969727027423",
+      "cp95_upper": "1.000000000000",
+      "failures": 0,
+      "intervention": "inert-trailing-comment",
+      "maximum_project_success": 5,
+      "median_ast_profile_similarity": "1.000000000000",
+      "median_character_ngram_similarity": "0.996751488726",
+      "median_token_multiset_similarity": "1.000000000000",
+      "minimum_project_success": 5,
+      "modules": 120,
+      "parse_compile_successes": 120,
+      "projects_with_failure": 0
+    },
+    {
+      "control_role": "positive",
+      "cp95_lower": "0.969727027423",
+      "cp95_upper": "1.000000000000",
+      "failures": 0,
+      "intervention": "syntax-aware-local-rename",
+      "maximum_project_success": 5,
+      "median_ast_profile_similarity": "1.000000000000",
+      "median_character_ngram_similarity": "0.987493574595",
+      "median_token_multiset_similarity": "0.994032105256",
+      "minimum_project_success": 5,
+      "modules": 120,
+      "parse_compile_successes": 120,
+      "projects_with_failure": 0
+    },
+    {
+      "control_role": "negative",
+      "cp95_lower": "0.005185574958",
+      "cp95_upper": "0.071323194157",
+      "failures": 117,
+      "intervention": "scope-blind-identifier-collapse",
+      "maximum_project_success": 1,
+      "median_ast_profile_similarity": "1.000000000000",
+      "median_character_ngram_similarity": "0.497059436836",
+      "median_token_multiset_similarity": "0.585355471870",
+      "minimum_project_success": 0,
+      "modules": 120,
+      "parse_compile_successes": 3,
+      "projects_with_failure": 24
+    }
+  ]
+}

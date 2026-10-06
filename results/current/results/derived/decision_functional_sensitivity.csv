@@ -1,0 +1,16 @@
+functional,scheme,score,rank,winner
+equal-family arithmetic mean,lexical,0.395738636364,1,lexical
+equal-family arithmetic mean,structural,0.395075757576,2,lexical
+equal-family arithmetic mean,hybrid,0.302746212121,3,lexical
+equal-family geometric mean,lexical,0.304265864320,1,lexical
+equal-family geometric mean,structural,0.302992327098,2,lexical
+equal-family geometric mean,hybrid,0.275348066385,3,lexical
+median family rate,lexical,0.241714015152,2,hybrid
+median family rate,structural,0.237215909091,3,hybrid
+median family rate,hybrid,0.385653409091,1,hybrid
+worst family rate,lexical,0.144649621212,1,lexical
+worst family rate,structural,0.144176136364,2,lexical
+worst family rate,hybrid,0.143229166667,3,lexical
+share of families at or above 0.30,lexical,0.400000000000,2,hybrid
+share of families at or above 0.30,structural,0.400000000000,3,hybrid
+share of families at or above 0.30,hybrid,0.600000000000,1,hybrid

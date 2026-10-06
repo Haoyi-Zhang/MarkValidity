@@ -1,0 +1,35 @@
+{
+  "construct_note": "Digit aggregation with a length-dependent exponent.",
+  "domain_size": 10000,
+  "javascript_signature": "function solve(n) {",
+  "mutations": [
+    "Use a fixed cubic exponent.",
+    "Add an erroneous special case for ten.",
+    "Increase the digit-count exponent by one."
+  ],
+  "nominal_case_count": 6,
+  "nominal_cases": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      153
+    ],
+    [
+      9474
+    ],
+    [
+      10
+    ],
+    [
+      9475
+    ]
+  ],
+  "observation_normalization": "Canonical JSON with sorted object keys; explicit exception records.",
+  "python_signature": "def solve(n):",
+  "task": "armstrong",
+  "timeout_policy": "Deterministic tasks include an internal Collatz guard; any runtime failure is retained as evidence."
+}

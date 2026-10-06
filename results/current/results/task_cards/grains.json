@@ -1,0 +1,32 @@
+{
+  "construct_note": "Exact exponential arithmetic represented as decimal text.",
+  "domain_size": 64,
+  "javascript_signature": "function solve(square) {",
+  "mutations": [
+    "Shift the exponent by one.",
+    "Use base three.",
+    "Return the cumulative total through the square."
+  ],
+  "nominal_case_count": 5,
+  "nominal_cases": [
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      16
+    ],
+    [
+      64
+    ]
+  ],
+  "observation_normalization": "Canonical JSON with sorted object keys; explicit exception records.",
+  "python_signature": "def solve(square):",
+  "task": "grains",
+  "timeout_policy": "Deterministic tasks include an internal Collatz guard; any runtime failure is retained as evidence."
+}

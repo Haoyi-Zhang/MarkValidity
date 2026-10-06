@@ -1,0 +1,32 @@
+{
+  "construct_note": "Parity-sensitive checksum iteration and leading zeros.",
+  "domain_size": 11000,
+  "javascript_signature": "function solve(text) {",
+  "mutations": [
+    "Reverse the doubling parity.",
+    "Omit the subtract-nine correction.",
+    "Subtract eight rather than nine after doubling."
+  ],
+  "nominal_case_count": 5,
+  "nominal_cases": [
+    [
+      "00000"
+    ],
+    [
+      "00018"
+    ],
+    [
+      "05900"
+    ],
+    [
+      "05545"
+    ],
+    [
+      "79927"
+    ]
+  ],
+  "observation_normalization": "Canonical JSON with sorted object keys; explicit exception records.",
+  "python_signature": "def solve(text):",
+  "task": "luhn",
+  "timeout_policy": "Deterministic tasks include an internal Collatz guard; any runtime failure is retained as evidence."
+}
