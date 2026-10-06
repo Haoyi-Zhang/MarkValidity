@@ -2,7 +2,7 @@
   "commit": "5f84062064947a0e2137ebda0bd3a9ae8ceb1736",
   "definition_record": {
     "definition": "Compare the decoded and target message prefixes up to the number of message units available at the generated length; the result is exact prefix equality.",
-    "replay_mapping": "A surviving carrier site is an available message unit. Exact equality is true when all surviving sites match, including the public-code empty-prefix behavior when no sites remain.",
+    "replay_mapping": "Adaptation to original indexed-survivor agreement: every surviving site must match its original indexed target. Interior erasures select a target subsequence, not CodeIP's original contiguous prefix. Zero survivors satisfy the adapted rule vacuously. Historical available_prefix keys remain for compatibility; these scores are not literal CodeIP prefix scores.",
     "source_locator": "examples/codeip/src/watermarking/wm.py:127-133"
   },
   "full_system_execution": "NO",

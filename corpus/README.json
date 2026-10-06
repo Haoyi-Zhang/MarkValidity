@@ -5,5 +5,5 @@
   "modules_per_project": 5,
   "projects": 24,
   "purpose": "Frozen multi-project parser-transfer audit for controlled source interventions.",
-  "selection": "Within each project, order eligible modules by nonblank line count and hashed-path tie break; choose nearest ranks to the 5th, 27.5th, 50th, 72.5th, and 95th percentiles before observing intervention outcomes."
+  "selection": "Five frozen modules per project are identified in transfer_manifest.csv together with their reported size-quantile ranks, versions and source identities. Reproduction reads that exact manifest and retained source snapshot rather than reselecting modules from a package tree."
 }
