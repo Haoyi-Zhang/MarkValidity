@@ -40,4 +40,5 @@ jobs:
         with:
           name: scientific-output
           path: .scientific-output/
+          include-hidden-files: true
           if-no-files-found: warn
