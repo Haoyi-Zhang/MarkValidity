@@ -43,7 +43,7 @@ contains regenerated observations and the accompanying command output. The
 earlier ten-test run above is a separate historical record. To reconstruct the
 current rows, run `python3 recheck.py --results results/current/results`.
 
-The current unit suite contains 13 tests. It additionally checks detector accounting
+The retained Ubuntu unit suite contains 13 tests. It additionally checks detector accounting
 for one-shot iterators, Unicode byte/character offset alignment in the token-based
 local rename, and rejection of failed semantic premises before diagnostic AUCs.
 The rename deliberately skips nested functions, classes, and lambdas and is not a
@@ -53,3 +53,14 @@ The generator writes raw semantic tables before its validation gate, and a rejec
 run must not be interpreted as a completed scientific result. Reconstruction can
 read an external `--results` directory while resolving the licensed corpus beside
 the checker source. Run outputs and local repair logs are not deployment evidence.
+
+Six additional self-contained tests in `tests/test_metric_streams.py` check the
+seven source fields against hand-specified tokens/profiles and a test-local
+reference, plus helper compatibility and token-call counts (not elapsed time).
+Run `python -B -S -m unittest discover -s tests -p test_metric_streams.py -v`
+from the artifact root. `source_metrics` reuses its two regex token streams for
+identifier, normalized-token, and control features; source-taking helpers and
+the separate JavaScript syntax-profile path remain. Current discovery contains
+19 tests; the historical results and source/result manifests are not new
+measurements of this private change. No speedup or broader metric validity is
+claimed.

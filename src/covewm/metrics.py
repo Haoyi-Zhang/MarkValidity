@@ -43,9 +43,13 @@ def tokens(source: str, language: str) -> list[str]:
 
 
 def identifiers(source: str, language: str) -> list[str]:
+    return _identifiers_from_tokens(tokens(source, language), language)
+
+
+def _identifiers_from_tokens(toks: Sequence[str], language: str) -> list[str]:
     keywords = PY_KEYWORDS if language == "python" else JS_KEYWORDS
     return [
-        token for token in tokens(source, language)
+        token for token in toks
         if IDENTIFIER_RE.match(token) and token not in keywords
     ]
 
@@ -64,9 +68,13 @@ def _weighted_jaccard(left: Counter, right: Counter) -> float:
 
 
 def _normalized_tokens(source: str, language: str) -> list[str]:
+    return _normalized_token_stream(tokens(source, language), language)
+
+
+def _normalized_token_stream(toks: Sequence[str], language: str) -> list[str]:
     keywords = PY_KEYWORDS if language == "python" else JS_KEYWORDS
     normalized: list[str] = []
-    for token in tokens(source, language):
+    for token in toks:
         if IDENTIFIER_RE.match(token) and token not in keywords:
             normalized.append("<ID>")
         elif NUMBER_RE.match(token):
@@ -132,7 +140,10 @@ def _syntactic_profile(source: str, language: str) -> Counter:
 
 
 def _control_profile(source: str, language: str) -> Counter:
-    toks = tokens(source, language)
+    return _control_from_tokens(tokens(source, language))
+
+
+def _control_from_tokens(toks: Sequence[str]) -> Counter:
     controls = (
         ("if", "if"), ("elif", "elif"), ("else", "else"), ("for", "for"),
         ("while", "while"), ("return", "return"), ("try", "try"),
@@ -184,22 +195,22 @@ def _style_similarity(left_ids: list[str], right_ids: list[str]) -> float:
 def source_metrics(reference: str, candidate: str, language: str) -> dict[str, float]:
     reference_tokens = tokens(reference, language)
     candidate_tokens = tokens(candidate, language)
-    reference_ids = identifiers(reference, language)
-    candidate_ids = identifiers(candidate, language)
+    reference_ids = _identifiers_from_tokens(reference_tokens, language)
+    candidate_ids = _identifiers_from_tokens(candidate_tokens, language)
     return {
         "character_similarity": _sequence_similarity(reference, candidate),
         "token_similarity": _sequence_similarity(reference_tokens, candidate_tokens),
         "identifier_normalized_similarity": _sequence_similarity(
-            _normalized_tokens(reference, language),
-            _normalized_tokens(candidate, language),
+            _normalized_token_stream(reference_tokens, language),
+            _normalized_token_stream(candidate_tokens, language),
         ),
         "ast_type_similarity": _weighted_jaccard(
             _syntactic_profile(reference, language),
             _syntactic_profile(candidate, language),
         ),
         "control_profile_similarity": _weighted_jaccard(
-            _control_profile(reference, language),
-            _control_profile(candidate, language),
+            _control_from_tokens(reference_tokens),
+            _control_from_tokens(candidate_tokens),
         ),
         "identifier_multiset_similarity": _weighted_jaccard(
             Counter(reference_ids), Counter(candidate_ids)
