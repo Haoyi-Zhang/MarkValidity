@@ -716,6 +716,10 @@ def generate_ambiguity_analysis(
 def generate_decision_functional_sensitivity(
     robustness_rows: Sequence[dict[str, Any]], output: Path
 ) -> dict[str, Any]:
+    """Report scores and deterministic display positions (legacy `rank` field).
+
+    Equal scores are ordered alphabetically, not interpreted as strict ranks.
+    """
     family = _family_means_from_rows(robustness_rows)
     rows: list[dict[str, Any]] = []
     values: dict[str, dict[str, float]] = defaultdict(dict)
@@ -741,6 +745,7 @@ def generate_decision_functional_sensitivity(
     ):
         ranked = sorted(SCHEMES, key=lambda scheme: (-values[functional][scheme], scheme))
         winners[functional] = ranked[0]
+        # Legacy `rank` is display order; an alphabetical tie is no preference.
         ranks = {scheme: index + 1 for index, scheme in enumerate(ranked)}
         for scheme in SCHEMES:
             rows.append(

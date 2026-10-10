@@ -520,6 +520,8 @@ def recheck_extended(results: Path, findings: list[dict[str, Any]], require: Cal
     lookup = {(row["functional"],row["scheme"]):row for row in functional_rows}
     winners=set()
     for functional, scores in expected.items():
+        # Reconstruct legacy `rank` display positions, with alphabetical ties.
+        # Distinct positions do not imply distinct functional scores.
         ranked=sorted(SCHEMES,key=lambda scheme:(-scores[scheme],scheme)); winners.add(ranked[0])
         for rank,scheme in enumerate(ranked,1):
             row=lookup[(functional,scheme)]

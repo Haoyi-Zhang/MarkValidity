@@ -4,7 +4,8 @@
       "aggregation": "full response curves plus explicitly declared mixture functionals",
       "falsifier": "ranking or conclusion changes under a substantively plausible declared mixture",
       "indicator": "detector success by scheme, attack family, severity, task, language, and payload",
-      "unit": "one attacked watermarked program"
+      "unit": "one indexed carrier-state configuration",
+      "scope": "dense rows evaluate indexed states directly; they do not assert per-row source extraction, parsing, or execution"
     },
     "bounded_executable_semantics": {
       "falsifier": "any parse failure or unequal normalized observation",
@@ -48,7 +49,7 @@
   "external_protocol_replay": {
     "common_outcomes": 76032,
     "edge_policies": {
-      "CodeIP": "empty available prefix compares equal and is also reported under a nonempty-prefix sensitivity",
+      "CodeIP": "CodeIP-inspired indexed-survivor agreement accepts iff every surviving site matches its original indexed target; zero survivors are accepted vacuously. Interior erasures select a subsequence, not the original contiguous prefix. A nonempty-survivor sensitivity is also reported; historical available_prefix output keys are retained.",
       "STONE": "not computed because the required perplexity-based naturalness component is absent",
       "SWEET": "zero-survivor rows have undefined z score and are omitted with counts reported",
       "SrcMarker": "deleted payload sites count as incorrect"
@@ -58,7 +59,7 @@
       "native exact-tail detection",
       "SrcMarker per-bit agreement",
       "SrcMarker exact message recovery",
-      "CodeIP available-prefix exact recovery",
+      "CodeIP-inspired indexed-survivor agreement",
       "SWEET exact-null AUROC",
       "SWEET TPR at FPR <= 0.01",
       "SWEET TPR at FPR <= 0.05"
