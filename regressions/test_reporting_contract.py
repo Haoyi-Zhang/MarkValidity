@@ -47,8 +47,11 @@ class ReportingContractTests(unittest.TestCase):
         manuscript = (PAPER / 'main.tex').read_text(encoding='utf-8')
         self.assertIn('separate weightings rather than a common cross-carrier comparison',
                       manuscript)
+        # A replication path belongs in artifact documentation, not necessarily
+        # in scientific prose. Check its real consumer without forcing leakage.
+        readme = (ROOT / 'README.md').read_text(encoding='utf-8')
         self.assertIn('results/current/results/derived/duplication_sensitivity.csv',
-                      manuscript)
+                      readme)
 
     def test_legacy_rank_is_display_position_and_threshold_scores_tie(self):
         values = rows('decision_functional_sensitivity.csv')

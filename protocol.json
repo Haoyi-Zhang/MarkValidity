@@ -15,7 +15,7 @@
     },
     "evaluation_protocol_transfer": {
       "falsifier": "all admissible functionals preserve one ordering and every required component maps without changing construct",
-      "indicator": "independent replay of frozen public evaluation functionals on one common 76,032-row attack outcome matrix",
+      "indicator": "local reimplementations or adaptations of pinned public evaluation definitions on one common 76,032-row indexed-state matrix",
       "scope": "scoring-contract sensitivity; not external-system performance",
       "unit": "one carrier-specific score under one named evaluation functional"
     },
@@ -149,5 +149,15 @@
     "payloads_and_attacks": "SHA-256-derived deterministic values"
   },
   "resource_profile": "CPU_ONLY_NO_GPU_NO_MODEL_API_NO_LLM",
-  "uncertainty": "two-sided 95% Clopper-Pearson intervals for response curves; one-sided 95% exact zero-failure upper bounds"
+  "uncertainty": "response-curve Clopper-Pearson fields are two-sided 95% homogeneous independent-Bernoulli reference-model intervals, not confidence intervals for deterministic state enumeration; empirical null intervals and one-sided 95% exact zero-failure bounds require their separately stated independent null-trial model",
+  "subsequent_joint_evidence_diagnostic": {
+    "runner": "check_joint_evidence.py",
+    "output": "results/joint_diagnostic/",
+    "status": "data-only subsequent analysis; no new watermark/attack/detection trials",
+    "mapping": "432 of 504 semantic-audit rows link to dense payload-zero/full-severity keys under the reviewed producer; 72 carrier-only rows are outside the dense grid; dense rows lack source hashes and extraction observations",
+    "unit": "one dense configuration with observed state-model decision and known or unknown bounded semantic label",
+    "bound": "sharp finite joint-count interval over unrestricted missing binary-label completions",
+    "comparator": "separately implemented feasible-table enumeration receiving identical observations and optional same-universe marginal",
+    "non_claims": "no upstream reproduction, external-system defect, source-level robustness result, accuracy gain, or general probability-bound novelty"
+  }
 }

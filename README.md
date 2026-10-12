@@ -19,6 +19,41 @@ The frozen pipeline builds:
 
 This is not an external-system performance comparison. Pinned definitions and local mappings are recorded under `external-baselines/` and in `external_resources.csv`. The CodeIP-inspired rule requires all surviving original indexed bits to match, accepting zero survivors vacuously, not equality with the original contiguous prefix; its historical `available_prefix` keys are unchanged. SWEET uses the declared analytic fair-bit null. The normalized source metric replaces both nonkeyword identifiers and numeric literals; its historical `identifier_normalized_similarity` key is retained. The intervention law and complete scheme-conditioned multipliers are defined in the supplement. External source code is not redistributed.
 
+## Joint-evidence diagnostic
+
+`check_joint_evidence.py` is a separate data-only analysis of the retained
+`results/current/results/` tables. It does not import or run carrier generation,
+attacks, source extraction, or upstream code. Run it with the selected Python
+environment using `python -B -S check_joint_evidence.py`. It writes only
+`results/joint_diagnostic/{stratum_bounds.csv,mixture_bounds.csv,summary.json}`;
+the historical observations and manifests remain unchanged.
+
+The 504 semantic checks contain 72 carrier-only rows and 432 rows that link to
+dense configurations under the reviewed producer's payload-zero/full-severity
+mapping. Coverage is 432/76,032 = 1/176, leaving 75,600 unknown labels. The mapping
+is conditional: dense rows contain no source hash or source-extraction result.
+All 432 linked labels pass and 122 also have a positive state-model decision.
+Sharp bounds over missing binary-label completions identify no strict
+validity-conditioned winner under any of the three mixtures. Actual source-valid
+detection is not identified by those model bounds; the recorded evidence alone
+leaves it in [0,1]. Unknown labels are neither failed nor successful trials.
+
+`src/covewm/joint_bounds.py` supplies the one-pass closed-form bound, including
+an optional same-universe validity-count marginal and analytical endpoint
+completion counts. The separate feasible-table enumeration in the diagnostic
+uses the same information and agrees on all 198 strata; no accuracy or timing
+gain is claimed. `tests/test_joint_bounds.py` checks all 1,554 nonempty partial
+binary tables through four rows and all 21,834 table/marginal combinations
+against full missing-label enumeration. This is a bounded method diagnostic,
+not new evidence of external system defects or upstream reproduction.
+
+Response-curve Clopper--Pearson fields retain their historical values, but are
+now explicitly interpreted as homogeneous independent-Bernoulli reference-model
+intervals. They do not provide exact coverage for the deterministic, heterogeneous
+indexed-state enumeration. The empirical null experiments have a separate trial
+model. Current local discovery contains 23 unit tests plus three reporting
+regressions; historical Ubuntu test counts remain historical.
+
 The retained `results/current/results/derived/duplication_sensitivity.csv` contains three separate carrier-specific weighting witnesses, not one common reweighted comparison. Lexical repeats `normalize`, structural repeats `rename`, and hybrid repeats `strip`; each favored family occurs 20 times and the other four destructive families once. The duplicated micro-mean is `(5 * macro + 19 * favored_rate) / 24`; every family mean and the equal-family macro-mean remain unchanged.
 
 In `decision_functional_sensitivity.csv`, the legacy `rank` column is deterministic display order: descending score, then alphabetical carrier name for equal values. It does not imply a strict preference between tied scores. The threshold-share functional ties lexical and structural at `2/5`, in display positions 2 and 3, below the unique hybrid score `3/5`.
