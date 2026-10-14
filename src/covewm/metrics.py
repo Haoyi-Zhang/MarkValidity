@@ -220,6 +220,11 @@ def source_metrics(reference: str, candidate: str, language: str) -> dict[str, f
 
 
 def roc_auc(labels: Sequence[int], scores: Sequence[float]) -> float:
+    """Paired-observation AUC; absent or undefined scores are not negatives."""
+    if len(labels) != len(scores) or any(label not in (0, 1) for label in labels):
+        raise ValueError("complete pairs with binary labels are required")
+    if any(not isinstance(score, (int, float)) or not math.isfinite(score) for score in scores):
+        raise ValueError("finite numeric scores are required")
     positives = [score for label, score in zip(labels, scores) if label == 1]
     negatives = [score for label, score in zip(labels, scores) if label == 0]
     if not positives or not negatives:

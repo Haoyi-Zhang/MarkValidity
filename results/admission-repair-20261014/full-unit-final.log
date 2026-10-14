@@ -1,0 +1,37 @@
+test_carrier_round_trip (test_artifact.ArtifactTests.test_carrier_round_trip) ... ok
+test_decision_functional_rank_change (test_artifact.ArtifactTests.test_decision_functional_rank_change) ... ok
+test_detector_one_shot_accounting (test_artifact.ArtifactTests.test_detector_one_shot_accounting) ... ok
+test_detector_threshold_probability (test_artifact.ArtifactTests.test_detector_threshold_probability) ... ok
+test_domain_contract (test_artifact.ArtifactTests.test_domain_contract) ... ok
+test_external_protocol_provenance_contract (test_artifact.ArtifactTests.test_external_protocol_provenance_contract) ... ok
+test_external_protocol_replay_rank_change (test_artifact.ArtifactTests.test_external_protocol_replay_rank_change) ... ok
+test_frozen_summary_when_present (test_artifact.ArtifactTests.test_frozen_summary_when_present) ... ok
+test_scope_aware_local_rename (test_artifact.ArtifactTests.test_scope_aware_local_rename) ... ok
+test_semantic_evidence_gates (test_artifact.ArtifactTests.test_semantic_evidence_gates) ... ok
+test_total_variation_extremes_and_tie (test_artifact.ArtifactTests.test_total_variation_extremes_and_tie) ... ok
+test_transfer_corpus_contract (test_artifact.ArtifactTests.test_transfer_corpus_contract) ... ok
+test_unicode_rename_offsets (test_artifact.ArtifactTests.test_unicode_rename_offsets) ... ok
+test_auc_rejects_nonfinite_or_nonbinary_observations (test_evidence_admission.EvidenceAdmissionTests.test_auc_rejects_nonfinite_or_nonbinary_observations) ... ok
+test_auc_requires_complete_pairs (test_evidence_admission.EvidenceAdmissionTests.test_auc_requires_complete_pairs) ... ok
+test_audit_refuses_existing_or_overlapping_output_before_reading_inputs (test_evidence_admission.EvidenceAdmissionTests.test_audit_refuses_existing_or_overlapping_output_before_reading_inputs) ... ok
+test_average_rank_baseline_has_same_admission_and_tie_obligations (test_evidence_admission.EvidenceAdmissionTests.test_average_rank_baseline_has_same_admission_and_tie_obligations) ... ok
+test_comparator_rejects_unadmitted_labels_and_marginals (test_evidence_admission.EvidenceAdmissionTests.test_comparator_rejects_unadmitted_labels_and_marginals) ... ok
+test_comparator_uses_one_shot_observations (test_evidence_admission.EvidenceAdmissionTests.test_comparator_uses_one_shot_observations) ... ok
+test_default_workflow_includes_reporting_and_joint_audit (test_evidence_admission.EvidenceAdmissionTests.test_default_workflow_includes_reporting_and_joint_audit) ... ok
+test_semantic_gate_checks_domains_and_typed_flags (test_evidence_admission.EvidenceAdmissionTests.test_semantic_gate_checks_domains_and_typed_flags) ... ok
+test_semantic_gate_rejects_duplicate_in_place_of_missing_key (test_evidence_admission.EvidenceAdmissionTests.test_semantic_gate_rejects_duplicate_in_place_of_missing_key) ... ok
+test_all_partial_binary_tables_through_four_rows (test_joint_bounds.JointBoundsTests.test_all_partial_binary_tables_through_four_rows) ... ok
+test_linked_evidence_tightens_and_full_evidence_collapses (test_joint_bounds.JointBoundsTests.test_linked_evidence_tightens_and_full_evidence_collapses) ... ok
+test_rejects_ambiguous_flags_counts_and_duplicate_coverage (test_joint_bounds.JointBoundsTests.test_rejects_ambiguous_flags_counts_and_duplicate_coverage) ... ok
+test_same_marginals_do_not_identify_joint_success (test_joint_bounds.JointBoundsTests.test_same_marginals_do_not_identify_joint_success) ... ok
+test_all_seven_fields_against_fixture_reference (test_metric_streams.MetricStreamTests.test_all_seven_fields_against_fixture_reference) ... ok
+test_hand_specified_tokens_and_source_helpers (test_metric_streams.MetricStreamTests.test_hand_specified_tokens_and_source_helpers) ... ok
+test_normalized_and_raw_definitions_remain_distinct (test_metric_streams.MetricStreamTests.test_normalized_and_raw_definitions_remain_distinct) ... ok
+test_other_language_still_uses_javascript_fallback (test_metric_streams.MetricStreamTests.test_other_language_still_uses_javascript_fallback) ... ok
+test_stream_helpers_do_not_mutate_tokens (test_metric_streams.MetricStreamTests.test_stream_helpers_do_not_mutate_tokens) ... ok
+test_token_reuse_counts_without_timing (test_metric_streams.MetricStreamTests.test_token_reuse_counts_without_timing) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.255s
+
+OK

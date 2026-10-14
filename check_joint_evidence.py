@@ -5,13 +5,16 @@ Output is a separate analysis instance; the historical result tree is read-only.
 """
 from __future__ import annotations
 
+import argparse
 import csv
+from datetime import datetime, timezone
 import hashlib
 import itertools
 import json
 import math
 import platform
 import sys
+import time
 from collections import Counter, defaultdict
 from fractions import Fraction
 from pathlib import Path
@@ -73,11 +76,25 @@ def feasible_table_comparator(observations, valid_total=None):
     iff a nonempty interval of y values satisfies the marginal. O(u1+1).
     This is implementation independence, not independent authorship/review.
     """
-    known = sum(v is True for _, v in observations)
-    unknown = sum(v is None for _, v in observations)
-    a = sum(decision and v is True for decision, v in observations)
-    u1 = sum(decision and v is None for decision, v in observations)
-    u0 = sum(not decision and v is None for decision, v in observations)
+    # Consume once. The comparator admits exactly the same information as the
+    # closed form, but neither imports its counts nor calls its formula.
+    n = known = unknown = a = u1 = u0 = 0
+    for decision, v in observations:
+        if type(decision) is not bool or (v is not None and type(v) is not bool):
+            raise ValueError("boolean decision and boolean/unknown validity required")
+        n += 1
+        known += v is True
+        unknown += v is None
+        a += decision and v is True
+        u1 += decision and v is None
+        u0 += not decision and v is None
+    if not n:
+        raise ValueError("nonempty observations required")
+    if valid_total is not None:
+        if (not isinstance(valid_total, tuple) or len(valid_total) != 2
+                or any(type(value) is not int for value in valid_total)
+                or not 0 <= valid_total[0] <= valid_total[1] <= n):
+            raise ValueError("integer marginal interval within the row count required")
     lower, upper = (known, known + unknown) if valid_total is None else valid_total
     possible = []
     for x in range(u1 + 1):
@@ -137,8 +154,13 @@ def write_csv(path, rows):
         writer.writerows(rows)
 
 
-def run():
-    results = HERE / "results/current/results"
+def run(results=None, output=None):
+    start, cpu_start = time.perf_counter(), time.process_time()
+    results = (Path(results) if results is not None else HERE / "results/current/results").resolve()
+    output = (Path(output) if output is not None else HERE / "results" /
+              ("joint-current-" + datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ"))).resolve()
+    if output.exists() or output.is_relative_to(results) or results.is_relative_to(output):
+        raise ValueError("fresh output disjoint from retained input directory required")
     # Check the retained manifest, without changing its verification status.
     manifest = indexed(read_csv(results / "results_manifest.csv"),
                        lambda r: r["relative_path"],
@@ -215,13 +237,25 @@ def run():
         "environment": {"python": sys.version, "executable": sys.executable, "platform": platform.platform(),
                         "dependencies": "standard library only; -B -S"},
     }
-    output = HERE / "results/joint_diagnostic"
-    output.mkdir(parents=True, exist_ok=True)
+    summary["execution"] = {
+        "mode": "data-only reconstruction of retained observations; no state/program intervention generation",
+        "input_directory": str(results), "output_directory": str(output),
+        "executed_at_utc": datetime.now(timezone.utc).isoformat(),
+        "wall_seconds_before_output": time.perf_counter() - start,
+        "cpu_seconds_before_output": time.process_time() - cpu_start,
+        "source_sha256": {p.relative_to(HERE).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+                          for p in (Path(__file__).resolve(), HERE / "src/covewm/joint_bounds.py")},
+    }
+    output.mkdir(parents=True, exist_ok=False)
     write_csv(output / "stratum_bounds.csv", stratum_rows)
     write_csv(output / "mixture_bounds.csv", mixture_rows)
     (output / "summary.json").write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    print(json.dumps(summary, indent=2, sort_keys=True))
+    return summary
 
 
 if __name__ == "__main__":
-    run()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--results", type=Path, default=HERE / "results/current/results")
+    parser.add_argument("--out", type=Path)
+    args = parser.parse_args()
+    print(json.dumps(run(args.results, args.out), indent=2, sort_keys=True))

@@ -1,0 +1,210 @@
+{
+  "closed_loop_complete": false,
+  "command": [
+    "validate_evidence.py",
+    "--out",
+    "D:/CodexProjects/2026-07-13/new-chat-4/completion_workspace/library_review/private/substantive_library_completion/P033/evidence-repeat"
+  ],
+  "cost_scope": "Includes input integrity, schema/coverage, same-info baselines, native specification setup, both runtimes, serialization and archive comparison. No speedup or upstream cost comparison.",
+  "environment": {
+    "dependencies": "Python/Node standard libraries only",
+    "executable": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "platform": "Windows-11-10.0.28000-SP0",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "error": null,
+  "executed_at_utc": "2026-10-13T23:32:06.386294+00:00",
+  "input_directory": "D:\\CodexProjects\\wg-check\\substantive-library\\P033\\artifact\\results\\current\\results",
+  "owned_native": {
+    "carrier_only_noop_programs": 72,
+    "cases_per_language": 33013,
+    "effective_mutants": 72,
+    "node": "v24.19.0",
+    "node_executable": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.EXE",
+    "nominal_surviving_mutants": 6,
+    "programs": 168,
+    "references": 24,
+    "scope": "Owned fixtures only; no new targeted interventions, removal campaign, or transfer-project execution."
+  },
+  "retained_analysis": {
+    "auc_comparisons": 296,
+    "diagnostic_pairs": 576,
+    "input_sha256": {
+      "derived/contextual_semantic_proxy_auc.csv": "5fd501674902a74fbc0be481d4a25e5851247cf072f30feda71c52ad1f941ce0",
+      "derived/semantic_proxy_auc.csv": "687c58fe24cadc0ef124c31585e2d1ce116c148036d99f561088d7e5a792dc6e",
+      "raw/cross_language_parity.csv": "c0c23251c5960a190882579641a39826fcd10d0f8d6dd8a8a228656b1febb4bf",
+      "raw/diagnostic_pairs.csv": "765aec9442c3758ec1f9f294994282eb342ec68cfdf5ae8acccbf3db5c318c60",
+      "raw/mutants.csv": "88eb06945b2ca598df3d15e5f687189c073fd1c72f8339c96edf1b37210e8fcd",
+      "raw/robustness.csv": "f42970e2dd73f1fb790a5697be032e835ba1686df97bf80843fbe46427ca368c",
+      "raw/semantic_audit.csv": "941ee8f5aec0832103b9fd91c5c5ba7bd97a6c2f85d88695e7cb1bbb1e19e80e"
+    },
+    "joint": {
+      "analysis": "finite joint-label identification under declared audit-to-state key mapping",
+      "cases_per_language": 33013,
+      "comparator": {
+        "performance_gain_claimed": false,
+        "strata_different": 0,
+        "strata_equal": 198,
+        "type": "independent feasible-table enumeration, same data and marginals"
+      },
+      "dense_source_extraction_trials_recorded": 0,
+      "dense_state_rows": 76032,
+      "effective_mutants": 72,
+      "environment": {
+        "dependencies": "standard library only; -B -S",
+        "executable": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "platform": "Windows-11-10.0.28000-SP0",
+        "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+      },
+      "execution": {
+        "cpu_seconds_before_output": 0.46875,
+        "executed_at_utc": "2026-10-13T23:32:05.099721+00:00",
+        "input_directory": "D:\\CodexProjects\\wg-check\\substantive-library\\P033\\artifact\\results\\current\\results",
+        "mode": "data-only reconstruction of retained observations; no state/program intervention generation",
+        "output_directory": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\evidence-repeat\\joint",
+        "source_sha256": {
+          "check_joint_evidence.py": "630d82a69a012a7ec38a37e888fcd4a217c8313275ebc73b032d98d46421c580",
+          "src/covewm/joint_bounds.py": "13b23fcc76a3bf2da3d2e3d6539168ebdc6c0bfb744dc1f928f9696236f05835"
+        },
+        "wall_seconds_before_output": 0.48787569999694824
+      },
+      "input_sha256": {
+        "raw/cross_language_parity.csv": "c0c23251c5960a190882579641a39826fcd10d0f8d6dd8a8a228656b1febb4bf",
+        "raw/mutants.csv": "88eb06945b2ca598df3d15e5f687189c073fd1c72f8339c96edf1b37210e8fcd",
+        "raw/robustness.csv": "f42970e2dd73f1fb790a5697be032e835ba1686df97bf80843fbe46427ca368c",
+        "raw/semantic_audit.csv": "941ee8f5aec0832103b9fd91c5c5ba7bd97a6c2f85d88695e7cb1bbb1e19e80e"
+      },
+      "limitations": [
+        "Unknown labels are not experimental failures or successes.",
+        "Sharpness is over unrestricted missing-label completions, not executable programs.",
+        "The key mapping is conditional on the reviewed producer; dense rows lack source hashes.",
+        "No upstream reproduction, external defect, or real extraction-based detection result is supplied."
+      ],
+      "matched_semantic_passes": 432,
+      "mixtures": [
+        {
+          "certified_strict_winner": false,
+          "joint_lower": "0.001136363636",
+          "joint_lower_exact": "1/880",
+          "joint_upper": "0.395738636364",
+          "joint_upper_exact": "1393/3520",
+          "mixture": "balanced",
+          "scheme": "lexical"
+        },
+        {
+          "certified_strict_winner": false,
+          "joint_lower": "0.001136363636",
+          "joint_lower_exact": "1/880",
+          "joint_upper": "0.395075757576",
+          "joint_upper_exact": "1043/2640",
+          "mixture": "balanced",
+          "scheme": "structural"
+        },
+        {
+          "certified_strict_winner": false,
+          "joint_lower": "0.000094696970",
+          "joint_lower_exact": "1/10560",
+          "joint_upper": "0.302746212121",
+          "joint_upper_exact": "3197/10560",
+          "mixture": "balanced",
+          "scheme": "hybrid"
+        },
+        {
+          "certified_strict_winner": false,
+          "joint_lower": "0.000000000000",
+          "joint_lower_exact": "0",
+          "joint_upper": "0.255606060606",
+          "joint_upper_exact": "1687/6600",
+          "mixture": "rename-heavy",
+          "scheme": "lexical"
+        },
+        {
+          "certified_strict_winner": false,
+          "joint_lower": "0.003068181818",
+          "joint_lower_exact": "27/8800",
+          "joint_upper": "0.665539772727",
+          "joint_upper_exact": "23427/35200",
+          "mixture": "rename-heavy",
+          "scheme": "structural"
+        },
+        {
+          "certified_strict_winner": false,
+          "joint_lower": "0.000127840909",
+          "joint_lower_exact": "9/70400",
+          "joint_upper": "0.333669507576",
+          "joint_upper_exact": "70471/211200",
+          "mixture": "rename-heavy",
+          "scheme": "hybrid"
+        },
+        {
+          "certified_strict_winner": false,
+          "joint_lower": "0.003068181818",
+          "joint_lower_exact": "27/8800",
+          "joint_upper": "0.665080492424",
+          "joint_upper_exact": "28093/42240",
+          "mixture": "structure-heavy",
+          "scheme": "lexical"
+        },
+        {
+          "certified_strict_winner": false,
+          "joint_lower": "0.000000000000",
+          "joint_lower_exact": "0",
+          "joint_upper": "0.253636363636",
+          "joint_upper_exact": "279/1100",
+          "mixture": "structure-heavy",
+          "scheme": "structural"
+        },
+        {
+          "certified_strict_winner": false,
+          "joint_lower": "0.000127840909",
+          "joint_lower_exact": "9/70400",
+          "joint_upper": "0.339422348485",
+          "joint_upper_exact": "35843/105600",
+          "mixture": "structure-heavy",
+          "scheme": "hybrid"
+        }
+      ],
+      "model_decision_positive_linked_semantic_passes": 122,
+      "mutants": 72,
+      "nominal_survivors": 6,
+      "response_strata": 198,
+      "semantic_audit_rows": 504,
+      "semantic_coverage_fraction": "1/176",
+      "semantic_labels_linked_to_dense": 432,
+      "source_valid_detection_rate_identified_interval": [
+        0,
+        1
+      ],
+      "unobserved_dense_semantic_labels": 75600
+    },
+    "semantic_gate": "PASS"
+  },
+  "scientific_acceptance": false,
+  "skips": [
+    "No regeneration of the historical 76032-row indexed-state response matrix or targeted source interventions.",
+    "No full upstream model/checkpoint/generation runs; STONE naturalness remains undefined.",
+    "No transfer-corpus transformations or execution, new null-simulation campaign, or CI runner execution."
+  ],
+  "source_sha256": {
+    "check_joint_evidence.py": "630d82a69a012a7ec38a37e888fcd4a217c8313275ebc73b032d98d46421c580",
+    "js/batch_runner.js": "a70a4c47720351408ae438379711527593cd02f7f0e39e110a7ba3a7eb9a11fd",
+    "recheck_extended.py": "cbe37dfa09adfb58c78c27ec8548f47153d81f0102aedcb3b2cbd200c8139ebd",
+    "run_all.py": "6f6e3afe4ed4b5c8e21e9698f00cb165c67c80d462d94e60b7b9494d1e3faff1",
+    "src/covewm/__init__.py": "ea37add1635f11413e732b782e03ba2651a774985a56dd2b921bebb5fb3d6382",
+    "src/covewm/benchmark.py": "5fc5664b48970f9929bc397a5d2bcaf162c46467ef38e2269b379d80a869b750",
+    "src/covewm/extended.py": "3d6d66e7974fceadb2ad72f0e0985e300618bfcfee3ce964ffc5f370373a288f",
+    "src/covewm/external_replay.py": "8338742cb8864e7b13cefbafd613263e9b62df7ca8c57fee39b9b853ef072eaf",
+    "src/covewm/joint_bounds.py": "13b23fcc76a3bf2da3d2e3d6539168ebdc6c0bfb744dc1f928f9696236f05835",
+    "src/covewm/metrics.py": "531425f27b59af951082d7be8943ac15265e5736a18c9c5df72b7d547b04a81a",
+    "src/covewm/tasks.py": "718f39e105291be8a6c08c246175b04bce56d01e57819bf14fdd991952bf45a4",
+    "validate_evidence.py": "9e679b79dc3e62f7ad7bbccff60a7155f4e02632fbddf5c237a0781b8a232509"
+  },
+  "status": "PASS",
+  "timings": {
+    "child_node_cpu_seconds": "NOT_MEASURED",
+    "full_workflow_wall_seconds_before_receipt": 1.8077248000190593,
+    "owned_native_setup_execution_and_archive_comparison_wall_seconds": 1.2709877000015695,
+    "parent_python_cpu_seconds": 1.578125,
+    "retained_data_analysis_wall_seconds": 0.5365282999991905
+  }
+}

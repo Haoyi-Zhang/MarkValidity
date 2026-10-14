@@ -1,0 +1,20 @@
+{
+  "key": "arif2026",
+  "doi": "10.4230/LIPIcs.ESEM.2026.10",
+  "title": "Assessing the Construct Validity of Object-Oriented, Class-Level Code Quality Metrics",
+  "authors": ["Hera Arif", "Miikka Kuutila", "Paul Ralph"],
+  "publisher": "Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik",
+  "venue": "ESEM 2026 / LIPIcs volume 394",
+  "pages": "10:1-10:20",
+  "publication_date": "2026-10-05",
+  "checked_date": "2026-10-14",
+  "primary_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.10",
+  "primary_pdf_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol394-esem2026/LIPIcs.ESEM.2026.10/LIPIcs.ESEM.2026.10.pdf",
+  "primary_pdf_sha256": "a713a8feaf9ba0229ab9f6c49338a59bdac7a14009c98dd64156d727ab5d9824",
+  "literal_read_scope": "Complete extracted text of all 20 pages including tables, discussion, limitations and references; no author artifact code or dataset executed.",
+  "claim_locations": ["Section 3.1.1, pages 10:6-10:7: Maven/tool selection", "Section 3.2.3, page 10:10: 22-project confirmatory sample", "Sections 3.2.4 and 4, pages 10:11-10:12: measurement-model results", "Section 5.3, page 10:16: limited constructs/languages/tools and content validity"],
+  "paper_mapping": "Related Work distinguishes latent-attribute factor modeling from finite executable counterexamples and identification conditions.",
+  "not_claimed": ["Reproduction of factor-analysis results", "Validation of all source indicators or human constructs", "New general construct-validity principle", "Exhaustive nearest-literature coverage", "Full-text certification of the 82 historical references"],
+  "license": "CC BY 4.0 per publisher/primary PDF",
+  "status": "PRIMARY_FULL_EXTRACTED_TEXT_READ_WITH_BOUNDED_CLAIM_MAPPING"
+}

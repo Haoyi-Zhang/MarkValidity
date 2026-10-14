@@ -1,0 +1,11 @@
+test_auc_rejects_nonfinite_or_nonbinary_observations (test_evidence_admission.EvidenceAdmissionTests.test_auc_rejects_nonfinite_or_nonbinary_observations) ... ok
+test_auc_requires_complete_pairs (test_evidence_admission.EvidenceAdmissionTests.test_auc_requires_complete_pairs) ... ok
+test_comparator_rejects_unadmitted_labels_and_marginals (test_evidence_admission.EvidenceAdmissionTests.test_comparator_rejects_unadmitted_labels_and_marginals) ... ok
+test_comparator_uses_one_shot_observations (test_evidence_admission.EvidenceAdmissionTests.test_comparator_uses_one_shot_observations) ... ok
+test_semantic_gate_checks_domains_and_typed_flags (test_evidence_admission.EvidenceAdmissionTests.test_semantic_gate_checks_domains_and_typed_flags) ... ok
+test_semantic_gate_rejects_duplicate_in_place_of_missing_key (test_evidence_admission.EvidenceAdmissionTests.test_semantic_gate_rejects_duplicate_in_place_of_missing_key) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.026s
+
+OK

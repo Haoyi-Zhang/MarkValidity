@@ -1,0 +1,8 @@
+test_legacy_rank_is_display_position_and_threshold_scores_tie (test_reporting_contract.ReportingContractTests.test_legacy_rank_is_display_position_and_threshold_scores_tie) ... ok
+test_protocol_names_state_unit_and_survivor_rule (test_reporting_contract.ReportingContractTests.test_protocol_names_state_unit_and_survivor_rule) ... ok
+test_retained_duplication_rows_are_separate_weightings (test_reporting_contract.ReportingContractTests.test_retained_duplication_rows_are_separate_weightings) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK

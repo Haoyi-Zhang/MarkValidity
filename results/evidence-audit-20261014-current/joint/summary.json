@@ -1,0 +1,139 @@
+{
+  "analysis": "finite joint-label identification under declared audit-to-state key mapping",
+  "cases_per_language": 33013,
+  "comparator": {
+    "performance_gain_claimed": false,
+    "strata_different": 0,
+    "strata_equal": 198,
+    "type": "independent feasible-table enumeration, same data and marginals"
+  },
+  "dense_source_extraction_trials_recorded": 0,
+  "dense_state_rows": 76032,
+  "effective_mutants": 72,
+  "environment": {
+    "dependencies": "standard library only; -B -S",
+    "executable": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "platform": "Windows-11-10.0.28000-SP0",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "execution": {
+    "cpu_seconds_before_output": 0.5,
+    "executed_at_utc": "2026-10-13T23:21:22.558659+00:00",
+    "input_directory": "D:\\CodexProjects\\wg-check\\substantive-library\\P033\\artifact\\results\\current\\results",
+    "mode": "data-only reconstruction of retained observations; no state/program intervention generation",
+    "output_directory": "D:\\CodexProjects\\wg-check\\substantive-library\\P033\\artifact\\results\\evidence-audit-20261014-current\\joint",
+    "source_sha256": {
+      "check_joint_evidence.py": "630d82a69a012a7ec38a37e888fcd4a217c8313275ebc73b032d98d46421c580",
+      "src/covewm/joint_bounds.py": "13b23fcc76a3bf2da3d2e3d6539168ebdc6c0bfb744dc1f928f9696236f05835"
+    },
+    "wall_seconds_before_output": 0.5407580000173766
+  },
+  "input_sha256": {
+    "raw/cross_language_parity.csv": "c0c23251c5960a190882579641a39826fcd10d0f8d6dd8a8a228656b1febb4bf",
+    "raw/mutants.csv": "88eb06945b2ca598df3d15e5f687189c073fd1c72f8339c96edf1b37210e8fcd",
+    "raw/robustness.csv": "f42970e2dd73f1fb790a5697be032e835ba1686df97bf80843fbe46427ca368c",
+    "raw/semantic_audit.csv": "941ee8f5aec0832103b9fd91c5c5ba7bd97a6c2f85d88695e7cb1bbb1e19e80e"
+  },
+  "limitations": [
+    "Unknown labels are not experimental failures or successes.",
+    "Sharpness is over unrestricted missing-label completions, not executable programs.",
+    "The key mapping is conditional on the reviewed producer; dense rows lack source hashes.",
+    "No upstream reproduction, external defect, or real extraction-based detection result is supplied."
+  ],
+  "matched_semantic_passes": 432,
+  "mixtures": [
+    {
+      "certified_strict_winner": false,
+      "joint_lower": "0.001136363636",
+      "joint_lower_exact": "1/880",
+      "joint_upper": "0.395738636364",
+      "joint_upper_exact": "1393/3520",
+      "mixture": "balanced",
+      "scheme": "lexical"
+    },
+    {
+      "certified_strict_winner": false,
+      "joint_lower": "0.001136363636",
+      "joint_lower_exact": "1/880",
+      "joint_upper": "0.395075757576",
+      "joint_upper_exact": "1043/2640",
+      "mixture": "balanced",
+      "scheme": "structural"
+    },
+    {
+      "certified_strict_winner": false,
+      "joint_lower": "0.000094696970",
+      "joint_lower_exact": "1/10560",
+      "joint_upper": "0.302746212121",
+      "joint_upper_exact": "3197/10560",
+      "mixture": "balanced",
+      "scheme": "hybrid"
+    },
+    {
+      "certified_strict_winner": false,
+      "joint_lower": "0.000000000000",
+      "joint_lower_exact": "0",
+      "joint_upper": "0.255606060606",
+      "joint_upper_exact": "1687/6600",
+      "mixture": "rename-heavy",
+      "scheme": "lexical"
+    },
+    {
+      "certified_strict_winner": false,
+      "joint_lower": "0.003068181818",
+      "joint_lower_exact": "27/8800",
+      "joint_upper": "0.665539772727",
+      "joint_upper_exact": "23427/35200",
+      "mixture": "rename-heavy",
+      "scheme": "structural"
+    },
+    {
+      "certified_strict_winner": false,
+      "joint_lower": "0.000127840909",
+      "joint_lower_exact": "9/70400",
+      "joint_upper": "0.333669507576",
+      "joint_upper_exact": "70471/211200",
+      "mixture": "rename-heavy",
+      "scheme": "hybrid"
+    },
+    {
+      "certified_strict_winner": false,
+      "joint_lower": "0.003068181818",
+      "joint_lower_exact": "27/8800",
+      "joint_upper": "0.665080492424",
+      "joint_upper_exact": "28093/42240",
+      "mixture": "structure-heavy",
+      "scheme": "lexical"
+    },
+    {
+      "certified_strict_winner": false,
+      "joint_lower": "0.000000000000",
+      "joint_lower_exact": "0",
+      "joint_upper": "0.253636363636",
+      "joint_upper_exact": "279/1100",
+      "mixture": "structure-heavy",
+      "scheme": "structural"
+    },
+    {
+      "certified_strict_winner": false,
+      "joint_lower": "0.000127840909",
+      "joint_lower_exact": "9/70400",
+      "joint_upper": "0.339422348485",
+      "joint_upper_exact": "35843/105600",
+      "mixture": "structure-heavy",
+      "scheme": "hybrid"
+    }
+  ],
+  "model_decision_positive_linked_semantic_passes": 122,
+  "mutants": 72,
+  "nominal_survivors": 6,
+  "response_strata": 198,
+  "semantic_audit_rows": 504,
+  "semantic_coverage_fraction": "1/176",
+  "semantic_labels_linked_to_dense": 432,
+  "source_valid_detection_rate_identified_interval": [
+    0,
+    1
+  ],
+  "unobserved_dense_semantic_labels": 75600
+}

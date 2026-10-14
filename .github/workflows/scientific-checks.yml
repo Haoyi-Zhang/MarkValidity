@@ -33,6 +33,8 @@ jobs:
             export COVEWM_RESULTS="$PWD/.scientific-output/results"
             python -B -m unittest discover -s tests -p "test*.py" -v 2>&1 | tee .scientific-output/tests.log
             python -B recheck.py --results .scientific-output/results 2>&1 | tee .scientific-output/reconstruction.log
+            python -B -S -m unittest discover -s regressions -p "test*.py" -v 2>&1 | tee .scientific-output/reporting-controls.log
+            python -B -S validate_evidence.py --results .scientific-output/results --out .scientific-output/evidence-audit 2>&1 | tee .scientific-output/evidence-audit.log
           ' 2>&1 | tee .scientific-output/whole-run.log
       - name: Retain raw output even when a scientific gate fails
         if: always()

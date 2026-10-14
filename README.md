@@ -24,8 +24,10 @@ This is not an external-system performance comparison. Pinned definitions and lo
 `check_joint_evidence.py` is a separate data-only analysis of the retained
 `results/current/results/` tables. It does not import or run carrier generation,
 attacks, source extraction, or upstream code. Run it with the selected Python
-environment using `python -B -S check_joint_evidence.py`. It writes only
-`results/joint_diagnostic/{stratum_bounds.csv,mixture_bounds.csv,summary.json}`;
+environment using `python -B -S check_joint_evidence.py --out .joint-audit-fresh`.
+The output must be a new directory disjoint from the inputs. Omitting `--out`
+selects a fresh UTC-named directory; it no longer overwrites the historical
+`results/joint_diagnostic/`. It writes stratum/mixture CSVs and a source-bound receipt;
 the historical observations and manifests remain unchanged.
 
 The 504 semantic checks contain 72 carrier-only rows and 432 rows that link to
@@ -51,7 +53,7 @@ Response-curve Clopper--Pearson fields retain their historical values, but are
 now explicitly interpreted as homogeneous independent-Bernoulli reference-model
 intervals. They do not provide exact coverage for the deterministic, heterogeneous
 indexed-state enumeration. The empirical null experiments have a separate trial
-model. Current local discovery contains 23 unit tests plus three reporting
+model. Current local discovery contains 32 unit tests plus three reporting
 regressions; historical Ubuntu test counts remain historical.
 
 The retained `results/current/results/derived/duplication_sensitivity.csv` contains three separate carrier-specific weighting witnesses, not one common reweighted comparison. Lexical repeats `normalize`, structural repeats `rename`, and hybrid repeats `strip`; each favored family occurs 20 times and the other four destructive families once. The duplicated micro-mean is `(5 * macro + 19 * favored_rate) / 24`; every family mean and the equal-family macro-mean remain unchanged.
@@ -75,7 +77,7 @@ Retained original run results (not measurements of the current Windows repair ca
 - 149 nonvolatile result files identical under Python hash seeds 1 and 987;
 - scientific-results SHA-256 `034812f8c869f902291b20a812761aeb97bf56f7e307dffe3ab59a885fd6fe48`.
 
-The current Ubuntu run is retained in `results/current/`: thirteen unit tests,
+The earlier retained Ubuntu run is in `results/current/`: thirteen unit tests,
 900 reconstruction checks, and 504 semantic-audit pairs complete without
 failures, ineffective mutants, or cross-language disagreement. This directory
 contains regenerated observations and the accompanying command output. The
@@ -100,6 +102,54 @@ Run `python -B -S -m unittest discover -s tests -p test_metric_streams.py -v`
 from the artifact root. `source_metrics` reuses its two regex token streams for
 identifier, normalized-token, and control features; source-taking helpers and
 the separate JavaScript syntax-profile path remain. Current discovery contains
-19 tests; the historical results and source/result manifests are not new
+19 tests at that earlier repair stage; the historical results and source/result manifests are not new
 measurements of this private change. No speedup or broader metric validity is
 claimed.
+
+## Current non-destructive evidence audit
+
+Run from the artifact root with Python >=3.11 and Node >=18 already available:
+
+```sh
+export COVEWM_RESULTS="$PWD/results/current/results"
+python -B -S -m unittest discover -s tests -p 'test*.py' -v
+python -B -S -m unittest discover -s regressions -p 'test*.py' -v
+python -B -S validate_evidence.py --results "$COVEWM_RESULTS" --out .evidence-audit-fresh
+```
+
+All outputs must be fresh and disjoint from the retained input directory.
+`make audit-evidence` selects `.evidence-audit`; it refuses to replace that
+directory on a repeated invocation. The default scientific workflow now includes
+the three reporting checks and this audit, against the freshly selected
+`COVEWM_RESULTS`, rather than silently reading an older result set.
+
+The 2026-10-14 Windows candidate audit is retained separately in
+`results/evidence-audit-20261014-current/`. Its raw input specifications and
+Python/Node responses accompany `receipt.json`, exact AUC/stratum comparisons,
+and an output inventory. The full workflow includes input integrity, exact
+semantic/diagnostic coverage, baseline calculations, native specification setup,
+both runtime paths, serialization, and archive comparison. Parent Python CPU and
+full wall time are reported; child Node CPU was not measured. No speedup is claimed.
+
+The repaired semantic gate rejects duplicate-for-missing contexts, wrong domain
+sizes, untyped truth flags, and inconsistent identities. Digests establish byte
+identity/consistency, not that an execution happened. Both AUC paths reject an
+unpaired, nonbinary, nonfinite, or single-class contrast. The same-information
+pooled average-rank baseline agrees on all 296 AUCs; the corrected one-pass
+feasible-table comparator agrees with the closed form on all 198 strata.
+New tests are admission/oracle controls, not additional research observations.
+
+Actual fresh native execution covers 24 owned reference programs, 72 existing
+effective mutants, and 72 carrier-only no-ops on the unchanged finite domains.
+All agree with the corresponding retained evidence and six mutants still pass
+nominal tests. The other 432 semantic checks, 76,032 state rows, project-transfer
+interventions, and original null campaigns were **not regenerated** by this audit.
+No upstream code, model, checkpoint, downloaded test, target, or removal campaign
+was executed. The full historical generator/rechecker and Linux CI remain
+separate workflows; this candidate audit is not installation or scientific acceptance.
+
+The current audit implementation and manuscript amendments used generative-AI
+assistance beyond copy-editing. See `AI_ASSISTANCE_NOTICE.md`; human-author review
+and applicable ACM-policy eligibility remain outstanding. Historical policy and
+author-metadata records are historical, not the authority for the currently
+confirmed five-author manuscript.

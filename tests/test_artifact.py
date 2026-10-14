@@ -52,11 +52,8 @@ class ArtifactTests(unittest.TestCase):
             self.assertEqual(namespace["f"](2), 3)
 
     def test_semantic_evidence_gates(self) -> None:
-        parity = [{"equal": True} for _ in TASKS]
-        mutants = [{"parse_ok": True, "full_domain_equal": False}
-                   for _ in range(len(TASKS) * 2 * 3)]
-        audits = [{"parse_ok": True, "bounded_equivalent": True}
-                  for _ in range(len(TASKS) * 2 * 3 * 7)]
+        from test_evidence_admission import evidence_fixture
+        parity, mutants, audits = evidence_fixture()
         validate_semantic_evidence(parity, mutants, audits)
         for rows, key, bad in ((parity, "equal", False),
                                (mutants, "parse_ok", False),

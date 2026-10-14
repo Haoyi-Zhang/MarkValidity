@@ -58,8 +58,16 @@ def percentile(values: Sequence[float], q: float) -> float:
 
 
 def roc_auc(labels: Sequence[int], scores: Sequence[float]) -> float:
+    # Independent reconstruction has the same admission obligations as the
+    # producer. Do not share its implementation or silently change denominators.
+    if len(labels) != len(scores) or any(label not in (0, 1) for label in labels):
+        raise ValueError("complete pairs with binary labels are required")
+    if any(not isinstance(score, (int, float)) or not math.isfinite(score) for score in scores):
+        raise ValueError("finite numeric scores are required")
     positives = [score for label, score in zip(labels, scores) if label == 1]
     negatives = [score for label, score in zip(labels, scores) if label == 0]
+    if not positives or not negatives:
+        raise ValueError("both classes are required")
     total = 0.0
     for positive in positives:
         for negative in negatives:

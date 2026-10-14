@@ -274,16 +274,38 @@ def validate_semantic_evidence(parity_rows, mutant_rows, audit_rows) -> None:
     Raw observation tables are written first, so rejected runs retain their
     counterevidence. This gate is not a test of natural defect prevalence.
     """
+    # Counts alone do not establish coverage: a repeated row can hide a missing
+    # context. Digests here check identity syntax/consistency, not execution.
+    sizes = {task.name: task.domain_size for task in TASKS}
+    languages = ("python", "javascript")
+    def index(rows, fields, expected):
+        keys = [tuple(row[field] for field in fields) for row in rows]
+        if len(keys) != len(set(keys)) or set(keys) != expected:
+            raise ValueError("semantic evidence coverage/uniqueness failure")
+        for row in rows:
+            if type(row["domain_cases"]) is not int or row["domain_cases"] != sizes[row["task"]]:
+                raise ValueError("semantic evidence domain mismatch")
+        return rows
+    def digest(value):
+        return isinstance(value, str) and len(value) == 64 and all(c in "0123456789abcdef" for c in value)
+    try:
+        parity = index(parity_rows, ("task",), {(task,) for task in sizes})
+        mutants = index(mutant_rows, ("task", "language", "mutant_id"),
+                        {(task, lang, i) for task in sizes for lang in languages for i in range(1, 4)})
+        audits = index(audit_rows, ("task", "language", "scheme", "condition"),
+                       {(task, lang, scheme, condition) for task in sizes for lang in languages
+                        for scheme in SCHEMES for condition in ("carrier_only",) + ATTACKS})
+    except (KeyError, TypeError) as exc:
+        raise ValueError("incomplete semantic evidence schema") from exc
     failures = []
-    if len(parity_rows) != len(TASKS) or not all(row["equal"] for row in parity_rows):
+    if not all(row.get("equal") is True and digest(row.get("python_hash"))
+               and row["python_hash"] == row.get("javascript_hash") for row in parity):
         failures.append("cross-language reference parity")
-    if len(mutant_rows) != len(TASKS) * 2 * 3 or not all(
-        row["parse_ok"] and not row["full_domain_equal"] for row in mutant_rows
-    ):
+    if not all(type(row["mutant_id"]) is int and row.get("parse_ok") is True
+               and row.get("full_domain_equal") is False and digest(row.get("source_sha256")) for row in mutants):
         failures.append("mutant parsing/effectiveness")
-    if len(audit_rows) != len(TASKS) * 2 * len(SCHEMES) * (1 + len(ATTACKS)) or not all(
-        row["parse_ok"] and row["bounded_equivalent"] for row in audit_rows
-    ):
+    if not all(row.get("parse_ok") is True and row.get("bounded_equivalent") is True
+               and digest(row.get("source_sha256")) for row in audits):
         failures.append("no-op parsing/bounded equivalence")
     if failures:
         raise ValueError("semantic evidence gate failed: " + "; ".join(failures))

@@ -52,16 +52,6 @@
       "context": ": true,\n    \"ordered_authors\": [\n      \"Haoyi Zhang\",\n      \"Qihan Jin\",\n      \"Md Maruf Hasan\",\n      \"Huaijin Ran\"\n    ],\n    \"corresponding_author\": \"Huaijin Ran\",\n    \"na"
     },
     {
-      "path": "paper/AUTHOR_MODE.md",
-      "pattern": "Qihan Jin",
-      "context": "niversity, Suzhou, China — ORCID 0009-0009-3693-786X — hyeliozhang@gmail.com\n2. Qihan Jin — Xi'an Jiaotong-Liverpool University, Suzhou, China — ORCID 0009-0005-2106-479"
-    },
-    {
-      "path": "paper/AUTHOR_MODE.md",
-      "pattern": "Md Maruf Hasan",
-      "context": "niversity, Suzhou, China — ORCID 0009-0005-2106-4796 — jinqihan498@gmail.com\n3. Md Maruf Hasan — Xi'an Jiaotong-Liverpool University, Suzhou, China — ORCID 0000-0001-9809-937"
-    },
-    {
       "path": "artifact/verify_release.py",
       "pattern": "Qihan Jin",
       "context": "']:\n  if src.count(email)!=1:fail(name+' email mismatch: '+email)\n for old in ['Qihan Jin','Md Maruf Hasan','seventeen17510@gmail.com']:\n  if old in src:fail(name+' cont"

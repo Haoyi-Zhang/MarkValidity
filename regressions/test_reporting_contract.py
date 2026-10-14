@@ -2,12 +2,13 @@
 import csv
 from decimal import Decimal
 import json
+import os
 from pathlib import Path
 import unittest
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DERIVED = ROOT / 'results/current/results/derived'
+DERIVED = Path(os.environ.get('COVEWM_RESULTS', ROOT / 'results/current/results')) / 'derived'
 PAPER = ROOT.parent / 'paper'
 
 

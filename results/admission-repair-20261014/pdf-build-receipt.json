@@ -1,0 +1,111 @@
+{
+  "engine": "Original bundled acmart 2.19, TeX Live 2024; no shell escape",
+  "records": [
+    {
+      "command": [
+        "D:\\LaTeXTools\\texlive\\2024\\bin\\windows\\pdflatex.exe",
+        "-no-shell-escape",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-recorder",
+        "main.tex"
+      ],
+      "cwd": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
+      "returncode": 0,
+      "wall_seconds": 1.3893108000047505
+    },
+    {
+      "command": [
+        "D:\\LaTeXTools\\texlive\\2024\\bin\\windows\\bibtex.exe",
+        "main"
+      ],
+      "cwd": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
+      "returncode": 0,
+      "wall_seconds": 0.04562760001863353
+    },
+    {
+      "command": [
+        "D:\\LaTeXTools\\texlive\\2024\\bin\\windows\\pdflatex.exe",
+        "-no-shell-escape",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-recorder",
+        "main.tex"
+      ],
+      "cwd": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
+      "returncode": 0,
+      "wall_seconds": 1.4280845999892335
+    },
+    {
+      "command": [
+        "D:\\LaTeXTools\\texlive\\2024\\bin\\windows\\pdflatex.exe",
+        "-no-shell-escape",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-recorder",
+        "main.tex"
+      ],
+      "cwd": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
+      "returncode": 0,
+      "wall_seconds": 1.402422299986938
+    },
+    {
+      "command": [
+        "D:\\LaTeXTools\\texlive\\2024\\bin\\windows\\pdflatex.exe",
+        "-no-shell-escape",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-recorder",
+        "online-supplement.tex"
+      ],
+      "cwd": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
+      "returncode": 0,
+      "wall_seconds": 0.8400472000066657
+    },
+    {
+      "command": [
+        "D:\\LaTeXTools\\texlive\\2024\\bin\\windows\\pdflatex.exe",
+        "-no-shell-escape",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-recorder",
+        "online-supplement.tex"
+      ],
+      "cwd": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
+      "returncode": 0,
+      "wall_seconds": 0.8243069000018295
+    },
+    {
+      "command": [
+        "D:\\LaTeXTools\\texlive\\2024\\bin\\windows\\pdflatex.exe",
+        "-no-shell-escape",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-recorder",
+        "online-supplement.tex"
+      ],
+      "cwd": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
+      "returncode": 0,
+      "wall_seconds": 0.837411400018027
+    }
+  ],
+  "source_sha256": {
+    "main.tex": "089f60105b4b99b077be5d028037b5040bbb2baebfb647ce325869239331074b",
+    "online-supplement.tex": "8e4e7c9a312c6975035f459620e3612c90b2ff780f8b2a9d2dc4942ea952fd46",
+    "current-authors.tex": "2397fbf049bf5504e5c4139f571a84f8cd7b25651a3c582213746026297f3123",
+    "project-repository.tex": "37d1747cd928d06cdf212f67dc157ffa150d76dfb91fac468e20f0a66f409ccd",
+    "references.bib": "4c5de61a674d241f4c7628986c17750d7242caabaa4be0dad9388132ac78dca3",
+    "acmart.cls": "2f949e6e3f2a79f2cdc218b9dcdbaa7dd451adb4ee0be1af6dc7ebe00b318ea7",
+    "ACM-Reference-Format.bst": "8ec002c927068bfc5b3cfe71b66aa4767b9e485530ac3c67ba5c064df4c2e6ac"
+  },
+  "pdf_sha256": {
+    "main": "1b37e0143e907d46a859a7387e4ffefd7a7fdd2c6ac2b749b3bbcee445134d43",
+    "online-supplement": "54eca47657e49fc8462f253c68a77def185a79e207b08fbc54cb2ad82477d4da"
+  },
+  "environment": {
+    "SOURCE_DATE_EPOCH": "1784332800",
+    "FORCE_SOURCE_DATE": "1",
+    "TZ": "UTC",
+    "LC_ALL": "C.UTF-8"
+  }
+}

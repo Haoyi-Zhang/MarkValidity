@@ -1,0 +1,105 @@
+{
+  "stage": "BOUNDED_CANDIDATE_REPAIR_COMPLETE_MAIN_REVIEW_REQUIRED",
+  "closed_loop_complete": false,
+  "iteration_loop_complete": false,
+  "unit_tests": 32,
+  "reporting_tests": 3,
+  "test_failures": 0,
+  "test_skips": 0,
+  "red_control": {
+    "test_methods": 6,
+    "subtest_failures": 26,
+    "errors": 1,
+    "interpretation": "Controlled expected failures under the before implementations, not scientific observations"
+  },
+  "owned_native_programs": 168,
+  "auc_comparisons": 296,
+  "joint_strata": 198,
+  "repeated_nonvolatile_files": {
+    "auc-comparisons.csv": {
+      "first_sha256": "4b6ef5cb682a8683b575de3bb5c10b9f5a436b8408f389f451e4a7b9eafa6536",
+      "repeat_sha256": "4b6ef5cb682a8683b575de3bb5c10b9f5a436b8408f389f451e4a7b9eafa6536",
+      "equal": true
+    },
+    "owned-inputs.json": {
+      "first_sha256": "66dc9952a2618a77c5975be95376b6bd16a3c4583a6ac8fd581ed7ba5c44994f",
+      "repeat_sha256": "66dc9952a2618a77c5975be95376b6bd16a3c4583a6ac8fd581ed7ba5c44994f",
+      "equal": true
+    },
+    "node-inputs.json": {
+      "first_sha256": "673bce43387f9bc0a66c7773bea6c3fe063fc67eda66641220aae138ea9d1604",
+      "repeat_sha256": "673bce43387f9bc0a66c7773bea6c3fe063fc67eda66641220aae138ea9d1604",
+      "equal": true
+    },
+    "node-stdout.json": {
+      "first_sha256": "cfbe5e852b5c91a42e721169c14b1c83457429fcef26fc512c949460fc6f70df",
+      "repeat_sha256": "cfbe5e852b5c91a42e721169c14b1c83457429fcef26fc512c949460fc6f70df",
+      "equal": true
+    },
+    "node-stderr.txt": {
+      "first_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "repeat_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "equal": true
+    },
+    "python-observations.json": {
+      "first_sha256": "9f4c85257969b1674ad4548d0efa6675dee6940f2b52c5d27af92799a89b3a4d",
+      "repeat_sha256": "9f4c85257969b1674ad4548d0efa6675dee6940f2b52c5d27af92799a89b3a4d",
+      "equal": true
+    },
+    "owned-native-observations.csv": {
+      "first_sha256": "bdf6430dc319ed128d2bba3199b7419dd49c32249c30aedcf5a81662d8b453c6",
+      "repeat_sha256": "bdf6430dc319ed128d2bba3199b7419dd49c32249c30aedcf5a81662d8b453c6",
+      "equal": true
+    },
+    "joint/mixture_bounds.csv": {
+      "first_sha256": "1e9b2f8fa83a984827b615d7e3eaa104b0db17e03e8729df58abbe786f12c067",
+      "repeat_sha256": "1e9b2f8fa83a984827b615d7e3eaa104b0db17e03e8729df58abbe786f12c067",
+      "equal": true
+    },
+    "joint/stratum_bounds.csv": {
+      "first_sha256": "e31278711edb02b9b800bb94d2068dc7e11950ff01ff6cee526b34c491d57cda",
+      "repeat_sha256": "e31278711edb02b9b800bb94d2068dc7e11950ff01ff6cee526b34c491d57cda",
+      "equal": true
+    }
+  },
+  "scientific_acceptance": false,
+  "source_and_pdf_sha256": {
+    "paper/main.tex": "089f60105b4b99b077be5d028037b5040bbb2baebfb647ce325869239331074b",
+    "paper/online-supplement.tex": "8e4e7c9a312c6975035f459620e3612c90b2ff780f8b2a9d2dc4942ea952fd46",
+    "paper/references.bib": "4c5de61a674d241f4c7628986c17750d7242caabaa4be0dad9388132ac78dca3",
+    "paper/main.bbl": "740596fd067c656ad7e72244b715d04210682090be76e3049768e1521ddf2327",
+    "paper/main.pdf": "1b37e0143e907d46a859a7387e4ffefd7a7fdd2c6ac2b749b3bbcee445134d43",
+    "paper/online-supplement.pdf": "54eca47657e49fc8462f253c68a77def185a79e207b08fbc54cb2ad82477d4da",
+    "paper/current-authors.tex": "2397fbf049bf5504e5c4139f571a84f8cd7b25651a3c582213746026297f3123",
+    "paper/project-repository.tex": "37d1747cd928d06cdf212f67dc157ffa150d76dfb91fac468e20f0a66f409ccd",
+    "paper/acmart.cls": "2f949e6e3f2a79f2cdc218b9dcdbaa7dd451adb4ee0be1af6dc7ebe00b318ea7",
+    "paper/ACM-Reference-Format.bst": "8ec002c927068bfc5b3cfe71b66aa4767b9e485530ac3c67ba5c064df4c2e6ac",
+    "artifact/validate_evidence.py": "9e679b79dc3e62f7ad7bbccff60a7155f4e02632fbddf5c237a0781b8a232509",
+    "artifact/check_joint_evidence.py": "630d82a69a012a7ec38a37e888fcd4a217c8313275ebc73b032d98d46421c580",
+    "artifact/run_all.py": "6f6e3afe4ed4b5c8e21e9698f00cb165c67c80d462d94e60b7b9494d1e3faff1",
+    "artifact/recheck_extended.py": "cbe37dfa09adfb58c78c27ec8548f47153d81f0102aedcb3b2cbd200c8139ebd",
+    "artifact/src/covewm/metrics.py": "531425f27b59af951082d7be8943ac15265e5736a18c9c5df72b7d547b04a81a",
+    "artifact/src/covewm/joint_bounds.py": "13b23fcc76a3bf2da3d2e3d6539168ebdc6c0bfb744dc1f928f9696236f05835",
+    "artifact/tests/test_evidence_admission.py": "95f8c4af5f8c79ee5138b26619e8e8151ea93d23dad9b392a66975176b9c8ba1",
+    "artifact/tests/test_artifact.py": "666f84d5f82c70d7887a5d254f027e070bc83c04787ce10ceb1c3c609df25d12",
+    "artifact/regressions/test_reporting_contract.py": "abafc62be12f7e339ba9ec8056d891a4a48d042bd7d26acf0b8464ff22c9107c",
+    "artifact/.github/workflows/scientific-checks.yml": "2bdf502d04eaf58e5dbd9fc39a5eaf8cbfcc06e531c8ff4f36e1843cb2d82ca1",
+    "artifact/AI_ASSISTANCE_NOTICE.md": "1e60186a617ba64d454160e71e0e6d8055156dcdce8699d0f50fd53d82939d9a",
+    "artifact/citation-evidence/arif2026-current.json": "30f0dfb971dab0230c72bc3e7c690e7f266705c2997999332c4db0a53ea9b678"
+  },
+  "current_workflow_receipt_sha256": "d24d7e502030ecc9c078ca2f2747b722a2696503799588322de27a975703bab5",
+  "pdf_pages": {
+    "main": 40,
+    "supplement": 16
+  },
+  "main_numbered_h1": 8,
+  "primary_scope": "One complete 20-page ESEM 2026 primary text plus its Figure 1; five pinned scoring-source files/critical fragments; not all bibliography fulltexts",
+  "unavailable_or_unexecuted": [
+    "Main installation, public/Linux CI and delivery",
+    "Upstream full system runs",
+    "Direct TOSEM/ACM policy full retrieval",
+    "Remaining primary fulltext/independence and research-value gates",
+    "Historical state/targeted-source/project-transfer/null regeneration"
+  ],
+  "cost_scope": "Full workflow wall time, parent Python CPU and phase wall times in the workflow receipts. Child Node CPU unmeasured; no cost win claimed."
+}
