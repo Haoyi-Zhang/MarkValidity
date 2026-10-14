@@ -12,6 +12,24 @@ DERIVED = Path(os.environ.get('COVEWM_RESULTS', ROOT / 'results/current/results'
 PAPER = ROOT.parent / 'paper'
 
 
+def manuscript_text(name, artifact=ROOT, paper=PAPER):
+    """Read the shipped reporting passage and, in a bundle, check its source.
+
+    A flat artifact repository carries the passages consumed by these checks.
+    It does not require an unshipped sibling manuscript or skip the checks.
+    """
+    passage = (artifact / 'manuscript-reporting' / name).read_text(encoding='utf-8')
+    source = paper / name
+    if source.is_file():
+        manuscript = source.read_text(encoding='utf-8')
+        for line in passage.splitlines():
+            if line.strip() and not line.lstrip().startswith('%'):
+                if line not in manuscript:
+                    raise ValueError(f'Reporting passage differs from current {name}')
+        return manuscript
+    return passage
+
+
 def rows(name):
     with (DERIVED / name).open(encoding='utf-8', newline='') as handle:
         return list(csv.DictReader(handle))
@@ -45,7 +63,7 @@ class ReportingContractTests(unittest.TestCase):
             self.assertLess(abs(expected - Decimal(row['duplicated_row_micro'])),
                             Decimal('0.000000000002'))
             self.assertEqual(macro, Decimal(row['macro_after_duplication']))
-        manuscript = (PAPER / 'main.tex').read_text(encoding='utf-8')
+        manuscript = manuscript_text('main.tex')
         self.assertIn('separate weightings rather than a common cross-carrier comparison',
                       manuscript)
         # A replication path belongs in artifact documentation, not necessarily
@@ -66,7 +84,7 @@ class ReportingContractTests(unittest.TestCase):
         self.assertEqual(Decimal(threshold['lexical']['score']), Decimal('0.4'))
         self.assertEqual(Decimal(threshold['structural']['score']), Decimal('0.4'))
         self.assertEqual(Decimal(threshold['hybrid']['score']), Decimal('0.6'))
-        supplement = (PAPER / 'online-supplement.tex').read_text(encoding='utf-8')
+        supplement = manuscript_text('online-supplement.tex')
         self.assertIn('Score & Display order & Winner', supplement)
         self.assertIn('not a strict preference rank', supplement)
 

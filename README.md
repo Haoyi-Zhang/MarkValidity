@@ -53,8 +53,15 @@ Response-curve Clopper--Pearson fields retain their historical values, but are
 now explicitly interpreted as homogeneous independent-Bernoulli reference-model
 intervals. They do not provide exact coverage for the deterministic, heterogeneous
 indexed-state enumeration. The empirical null experiments have a separate trial
-model. Current local discovery contains 32 unit tests plus three reporting
+model. Current local discovery contains 32 unit tests plus six reporting
 regressions; historical Ubuntu test counts remain historical.
+
+`manuscript-reporting/` contains the two current reporting passages consumed
+by the regression checks. A flat artifact checkout runs the same numerical
+and reporting obligations using these passages. In a package with a sibling
+`paper/` directory, the checks additionally verify that every shipped passage
+occurs in the current manuscript. Missing passages and mismatched integrated
+sources are errors, not reasons to skip a test.
 
 The retained `results/current/results/derived/duplication_sensitivity.csv` contains three separate carrier-specific weighting witnesses, not one common reweighted comparison. Lexical repeats `normalize`, structural repeats `rename`, and hybrid repeats `strip`; each favored family occurs 20 times and the other four destructive families once. The duplicated micro-mean is `(5 * macro + 19 * favored_rate) / 24`; every family mean and the equal-family macro-mean remain unchanged.
 
