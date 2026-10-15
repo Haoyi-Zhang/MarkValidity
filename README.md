@@ -176,9 +176,3 @@ interventions, and original null campaigns were **not regenerated** by this audi
 No upstream code, model, checkpoint, downloaded test, target, or removal campaign
 was executed. The full historical generator/rechecker and Linux CI remain
 separate workflows; this candidate audit is not installation or scientific acceptance.
-
-The current audit implementation and manuscript amendments used generative-AI
-assistance beyond copy-editing. See `AI_ASSISTANCE_NOTICE.md`; human-author review
-and applicable ACM-policy eligibility remain outstanding. Historical policy and
-author-metadata records are historical, not the authority for the currently
-confirmed five-author manuscript.
