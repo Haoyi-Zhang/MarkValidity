@@ -401,14 +401,14 @@
       "position": 31,
       "claim_id": "CIT-031",
       "citation_key": "nagra2002taxonomy",
-      "manuscript_location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1115",
-      "nearby_claim": "A functional taxonomy separated embedding, recognition, stealth, and resilience",
-      "source_locator": "https://doi.org/10.1145/563857.563822",
-      "verified_scholarly_identifier": "doi:10.1145/563857.563822",
+      "manuscript_location": "main article, Related Work, Watermark mechanisms and attack models (nagra2002taxonomy)",
+      "nearby_claim": "A functional taxonomy distinguishes authorship, fingerprinting, validation, and licensing marks",
+      "source_locator": "https://www.researchgate.net/publication/2495353_A_Functional_Taxonomy_for_Software_Watermarking",
+      "verified_scholarly_identifier": "ACSC 2002, CRPIT 4:177-186",
       "local_support_check": "PASS",
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
-      "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      "notes": "Four roles checked against the author-uploaded abstract and indexed primary-paper abstract. Not a fresh full-PDF retrieval; DOI resolution remains unconfirmed. Other citation rows retain their earlier audit scope."
     },
     {
       "position": 32,
