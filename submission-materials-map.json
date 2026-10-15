@@ -1,8 +1,8 @@
 {
   "schema_version": "10.0",
-  "updated_at_utc": "2026-07-27T02:55:00Z",
+  "updated_at_utc": "2026-10-15T07:46:20Z",
   "status": "SUBMISSION_POLICY_HOLD",
-  "rule_basis": "The sole retained PDF follows the official generic ACM single-column manuscript review mode, including class-generated line numbers and class-controlled US Letter geometry. Direct TOSEM portal fields remain authoritative because the public author-guide page returned access denied.",
+  "rule_basis": "The current sources retain generic ACM single-column manuscript review mode. The earlier author-guide access-denied observation is historical, not a new policy check. Direct TOSEM portal fields remain authoritative at submission time.",
   "authors": [
     {
       "order": 1,
@@ -16,32 +16,42 @@
     },
     {
       "order": 2,
-      "name": "Qihan Jin",
-      "email": "jinqihan498@gmail.com",
-      "orcid": "0009-0005-2106-4796",
-      "affiliation": "Xi'an Jiaotong-Liverpool University",
-      "city": "Suzhou",
-      "country": "China",
-      "corresponding": false
-    },
-    {
-      "order": 3,
-      "name": "Md Maruf Hasan",
-      "email": "mdmaruf.hasan@xjtlu.edu.cn",
-      "orcid": "0000-0001-9809-9376",
-      "affiliation": "Xi'an Jiaotong-Liverpool University",
-      "city": "Suzhou",
-      "country": "China",
-      "corresponding": false
-    },
-    {
-      "order": 4,
       "name": "Huaijin Ran",
       "email": "huaijin003@e.ntu.edu.sg",
       "orcid": "0009-0009-2482-2344",
       "affiliation": "Nanyang Technological University",
       "city": "Singapore",
       "country": "Singapore",
+      "corresponding": false
+    },
+    {
+      "order": 3,
+      "name": "Xunzhu Tang",
+      "email": "realdanieltang@gmail.com",
+      "orcid": "0000-0002-6377-0884",
+      "affiliation": "University of Luxembourg",
+      "city": "Luxembourg",
+      "country": "Luxembourg",
+      "corresponding": false
+    },
+    {
+      "order": 4,
+      "name": "Kisub Kim",
+      "email": "kisub.kim@dgist.ac.kr",
+      "orcid": "0000-0002-4462-6916",
+      "affiliation": "Daegu Gyeongbuk Institute of Science and Technology (DGIST)",
+      "city": "Daegu",
+      "country": "Republic of Korea",
+      "corresponding": false
+    },
+    {
+      "order": 5,
+      "name": "Tegawendé F. Bissyandé",
+      "email": "tegawende.bissyande@uni.lu",
+      "orcid": "0000-0001-7270-9869",
+      "affiliation": "University of Luxembourg",
+      "city": "Luxembourg",
+      "country": "Luxembourg",
       "corresponding": true
     }
   ],
@@ -51,18 +61,18 @@
       "required": "yes, subject to live TOSEM confirmation",
       "destination": "journal submission system",
       "format": "PDF; paper/main.pdf in manuscript,screen,review mode with class-generated continuous left-margin line numbers",
-      "page_treatment": "37 pages total on class-controlled US Letter geometry; complete conclusion followed immediately by References on page 34",
+      "page_treatment": "40 pages total; References begin on page 37 and continue through page 40",
       "reviewer_duty": "primary",
-      "anonymity": "four authors visible; subject to direct portal confirmation",
+      "anonymity": "five authors visible; subject to direct portal confirmation",
       "channel": "main manuscript upload",
-      "freeze": "hash-bound; template-compliance audit passed; live portal and human declarations still required",
+      "freeze": "current file mapping only; historical template-compliance audit is not a new audit of this PDF; live portal and human declarations still required",
       "publication_route": "future user decision only"
     },
     {
       "material": "submission metadata",
       "required": "yes, subject to live system fields",
       "destination": "journal submission system",
-      "format": "title, abstract, keywords, four authors, two unique institutions, corresponding author, ORCIDs, conflicts, funding, and declarations as requested",
+      "format": "title, abstract, keywords, five authors, four unique institutions, corresponding author, ORCIDs, conflicts, funding, and declarations as requested",
       "page_treatment": "not applicable",
       "reviewer_duty": "administrative and conflict handling",
       "anonymity": "must match the live review model",
@@ -75,7 +85,7 @@
       "required": "yes",
       "destination": "inside main PDF",
       "format": "ACM bibliography",
-      "page_treatment": "begin on page 34 and continue through page 37",
+      "page_treatment": "begin on page 37 and continue through page 40",
       "reviewer_duty": "primary",
       "anonymity": "not applicable",
       "channel": "main PDF",
@@ -98,7 +108,7 @@
       "material": "separate online supplement",
       "required": "optional supporting material, subject to live TOSEM confirmation",
       "destination": "separate supplement channel",
-      "format": "14-page PDF; paper/online-supplement.pdf",
+      "format": "16-page PDF; paper/online-supplement.pdf",
       "page_treatment": "separate from article and bibliography",
       "reviewer_duty": "noncritical support only",
       "anonymity": "author-visible and consistent with main manuscript",
@@ -130,5 +140,7 @@
       "freeze": "not a current submission action",
       "publication_route": "accepted-paper production"
     }
-  ]
+  ],
+  "scope": "Current file and supplied author mapping only; not author consent, a new experiment, a fresh layout audit or live portal verification. Historical audits retain their dated export identities; historical_trace_audit.json is an unchanged scan of superseded metadata, not this current map.",
+  "author_source": "../paper/current-authors.tex"
 }
