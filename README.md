@@ -53,7 +53,7 @@ Response-curve Clopper--Pearson fields retain their historical values, but are
 now explicitly interpreted as homogeneous independent-Bernoulli reference-model
 intervals. They do not provide exact coverage for the deterministic, heterogeneous
 indexed-state enumeration. The empirical null experiments have a separate trial
-model. Current local discovery contains 37 unit tests plus six reporting
+model. Current local discovery contains 43 unit tests plus six reporting
 regressions; historical Ubuntu test counts remain historical.
 
 `manuscript-reporting/` contains the two current reporting passages consumed
@@ -84,6 +84,8 @@ python3 -B -S -m unittest discover -s regressions -p 'test*.py' -v
 ```
 
 The generator requires `--out` and refuses any existing file or directory.
+New environment and result-manifest records share the invocation's structured
+arguments and working directory, with a host-appropriate readable command.
 It reads the task definitions, JavaScript runner and licensed transfer corpus
 beside the source, and writes programs, task cards, raw/derived tables, summary,
 environment and a result manifest under the selected output. `recheck.py`

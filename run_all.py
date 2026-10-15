@@ -10,6 +10,7 @@ import math
 import os
 import platform
 import random
+import shlex
 import shutil
 import subprocess
 import sys
@@ -311,7 +312,66 @@ def validate_semantic_evidence(parity_rows, mutant_rows, audit_rows) -> None:
         raise ValueError("semantic evidence gate failed: " + "; ".join(failures))
 
 
-def run(output: Path) -> dict[str, Any]:
+def readable_command(argv: list[str], *, platform_name: str | None = None) -> str:
+    """Render native Windows or POSIX quoting; structured argv is canonical."""
+    if (os.name if platform_name is None else platform_name) == "nt":
+        return subprocess.list2cmdline(argv)
+    return shlex.join(argv)
+
+
+def producer_invocation(output: Path, argv: list[str] | None = None) -> dict[str, Any]:
+    if argv is None:
+        # A Python caller has no generator CLI argv. Record an explicit replay
+        # command instead of incorrectly attributing the caller's own command.
+        argv = [sys.executable]
+        if sys.flags.optimize:
+            argv.append("-" + "O" * sys.flags.optimize)
+        if sys.dont_write_bytecode:
+            argv.append("-B")
+        argv += [str(Path(__file__).resolve()), "--out", str(output.resolve())]
+        kind = "python-api-reproduction"
+    else:
+        argv = list(argv)
+        kind = "actual-cli"
+    return {"command": readable_command(argv), "command_argv": argv,
+            "command_cwd": str(Path.cwd()), "command_kind": kind,
+            "command_format": "windows-native-command-line" if os.name == "nt" else "posix-shell"}
+
+
+def write_run_metadata(output: Path, node_version: str,
+                       invocation_argv: list[str] | None = None) -> None:
+    invocation = producer_invocation(output, invocation_argv)
+    environment = {
+        "executed_at_utc": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        "python": platform.python_version(),
+        "python_implementation": platform.python_implementation(),
+        "node": node_version,
+        "platform": platform.platform(),
+        "machine": platform.machine(),
+        "dependencies": "Python standard library and Node.js standard library only.",
+        **invocation,
+    }
+    write_json(output / "environment.json", environment)
+
+    manifest_rows: list[dict[str, Any]] = []
+    for path in sorted(output.rglob("*")):
+        if path.is_file() and path.name != "results_manifest.csv":
+            manifest_rows.append(
+                {
+                    "relative_path": path.relative_to(output).as_posix(),
+                    "sha256": sha256_file(path),
+                    "bytes": path.stat().st_size,
+                    "producer_command": invocation["command"],
+                    "producer_argv": json.dumps(invocation["command_argv"], ensure_ascii=False),
+                    "producer_cwd": invocation["command_cwd"],
+                    "producer_command_format": invocation["command_format"],
+                    "recheck_status": "PENDING_RECHECK",
+                }
+            )
+    write_csv(output / "results_manifest.csv", manifest_rows)
+
+
+def run(output: Path, *, invocation_argv: list[str] | None = None) -> dict[str, Any]:
     output = output.resolve()
     if output.exists():
         raise FileExistsError(f"Refusing to overwrite existing output: {output}")
@@ -938,32 +998,7 @@ def run(output: Path) -> dict[str, Any]:
     }
     write_json(output / "summary.json", summary)
 
-    environment = {
-        "executed_at_utc": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
-        "python": platform.python_version(),
-        "python_implementation": platform.python_implementation(),
-        "node": node_results["node_version"],
-        "platform": platform.platform(),
-        "machine": platform.machine(),
-        "dependencies": "Python standard library and Node.js standard library only.",
-        "command": "python run_all.py --out results",
-    }
-    write_json(output / "environment.json", environment)
-
-    # File-level evidence manifest. Exclude the manifest from its own coverage.
-    manifest_rows: list[dict[str, Any]] = []
-    for path in sorted(output.rglob("*")):
-        if path.is_file() and path.name != "results_manifest.csv":
-            manifest_rows.append(
-                {
-                    "relative_path": path.relative_to(output).as_posix(),
-                    "sha256": sha256_file(path),
-                    "bytes": path.stat().st_size,
-                    "producer_command": "python run_all.py --out results",
-                    "recheck_status": "PENDING_RECHECK",
-                }
-            )
-    write_csv(output / "results_manifest.csv", manifest_rows)
+    write_run_metadata(output, node_results["node_version"], invocation_argv)
     return summary
 
 
@@ -972,7 +1007,8 @@ def main() -> None:
     parser.add_argument("--out", type=Path, required=True,
                         help="New output directory; existing paths are refused")
     args = parser.parse_args()
-    summary = run(args.out.resolve())
+    invocation_argv = [sys.executable, *sys.orig_argv[1:]]
+    summary = run(args.out.resolve(), invocation_argv=invocation_argv)
     print(json.dumps(summary, indent=2, sort_keys=True))
 
 
