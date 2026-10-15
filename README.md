@@ -53,7 +53,7 @@ Response-curve Clopper--Pearson fields retain their historical values, but are
 now explicitly interpreted as homogeneous independent-Bernoulli reference-model
 intervals. They do not provide exact coverage for the deterministic, heterogeneous
 indexed-state enumeration. The empirical null experiments have a separate trial
-model. Current local discovery contains 32 unit tests plus six reporting
+model. Current local discovery contains 37 unit tests plus six reporting
 regressions; historical Ubuntu test counts remain historical.
 
 `manuscript-reporting/` contains the two current reporting passages consumed
@@ -69,13 +69,30 @@ In `decision_functional_sensitivity.csv`, the legacy `rank` column is determinis
 
 ## Reproduce
 
-From this directory:
+Requirements: Python >=3.11 and Node.js >=18 on PATH; the core workflow uses
+only their standard libraries, so no Python package installation is needed.
+From this artifact directory (also the root of the standalone code repository),
+choose a new output path outside the checkout:
 
 ```sh
-PYTHONHASHSEED=1 PYTHONPATH=src python3 run_all.py --out results
-python3 -m unittest discover -s tests -p 'test*.py' -v
-python3 recheck.py --results results
+export PYTHONDONTWRITEBYTECODE=1
+export COVEWM_RESULTS=/absolute/fresh/reproduction/results
+PYTHONHASHSEED=1 PYTHONPATH=src python3 -B run_all.py --out "$COVEWM_RESULTS"
+python3 -B -m unittest discover -s tests -p 'test*.py' -v
+python3 -B recheck.py --results "$COVEWM_RESULTS"
+python3 -B -S -m unittest discover -s regressions -p 'test*.py' -v
 ```
+
+The generator requires `--out` and refuses any existing file or directory.
+It reads the task definitions, JavaScript runner and licensed transfer corpus
+beside the source, and writes programs, task cards, raw/derived tables, summary,
+environment and a result manifest under the selected output. `recheck.py`
+updates that output's manifest status and writes `recheck_report.json`; it is
+not a read-only command. Use it only on a newly generated run or a disposable
+copy. `make all OUT=/absolute/fresh/reproduction/results
+AUDIT_OUT=/absolute/fresh/reproduction/audit` selects the same pipeline plus
+the evidence audit. `make recheck OUT_RECHECK=/absolute/disposable/results`
+checks a copy; `make clean-results` deliberately refuses to delete evidence.
 
 Retained original run results (not measurements of the current Windows repair campaign):
 
@@ -89,7 +106,10 @@ The earlier retained Ubuntu run is in `results/current/`: thirteen unit tests,
 failures, ineffective mutants, or cross-language disagreement. This directory
 contains regenerated observations and the accompanying command output. The
 earlier ten-test run above is a separate historical record. To reconstruct the
-current rows, run `python3 recheck.py --results results/current/results`.
+current rows, copy `results/current/results` to a disposable directory and run
+`python3 -B recheck.py --results /absolute/disposable/results` there. Keep the
+licensed corpus beside the original checker source; do not modify the retained
+input tree.
 
 The retained Ubuntu unit suite contains 13 tests. It additionally checks detector accounting
 for one-shot iterators, Unicode byte/character offset alignment in the token-based

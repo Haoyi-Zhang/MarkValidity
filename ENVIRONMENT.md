@@ -5,10 +5,17 @@ The benchmark is designed for a public CPU environment. It uses the Python stand
 Canonical execution:
 
 ```sh
-PYTHONHASHSEED=1 PYTHONPATH=src python3 run_all.py --out results
-python3 -m unittest discover -s tests -p 'test*.py' -v
-python3 recheck.py --results results
+export PYTHONDONTWRITEBYTECODE=1
+export COVEWM_RESULTS=/absolute/fresh/reproduction/results
+PYTHONHASHSEED=1 PYTHONPATH=src python3 -B run_all.py --out "$COVEWM_RESULTS"
+python3 -B -m unittest discover -s tests -p 'test*.py' -v
+python3 -B recheck.py --results "$COVEWM_RESULTS"
 ```
+
+Python >=3.11 and Node.js >=18 must already be on PATH. No third-party Python
+packages are required. The output must not exist; retained `results/` is an
+input archive, not a cleanup target. The rechecker updates its selected result
+manifest and writes a report, so use a new run or disposable copy for it.
 
 The frozen environment record is `results/environment.json`, SHA-256 `97516740745c00a6eba6068cdeff2976f39a1fe93046ffc74d8603eb6ba1a644`.
 

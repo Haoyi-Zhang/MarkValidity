@@ -312,10 +312,11 @@ def validate_semantic_evidence(parity_rows, mutant_rows, audit_rows) -> None:
 
 
 def run(output: Path) -> dict[str, Any]:
-    validate_domains()
+    output = output.resolve()
     if output.exists():
-        shutil.rmtree(output)
-    output.mkdir(parents=True)
+        raise FileExistsError(f"Refusing to overwrite existing output: {output}")
+    validate_domains()
+    output.mkdir(parents=True, exist_ok=False)
 
     programs_root = output / "programs"
     task_cards_root = output / "task_cards"
@@ -968,7 +969,8 @@ def run(output: Path) -> dict[str, Any]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Regenerate the complete Cove-WM benchmark.")
-    parser.add_argument("--out", type=Path, default=HERE / "results")
+    parser.add_argument("--out", type=Path, required=True,
+                        help="New output directory; existing paths are refused")
     args = parser.parse_args()
     summary = run(args.out.resolve())
     print(json.dumps(summary, indent=2, sort_keys=True))
