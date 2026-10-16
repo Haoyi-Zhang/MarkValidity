@@ -37,27 +37,30 @@
       "position": 3,
       "claim_id": "CIT-003",
       "citation_key": "guan2024",
-      "manuscript_location": "main article, Section Introduction, source line 146",
+      "manuscript_location": "Current main.tex:122",
       "nearby_claim": "CodeIP uses grammar-aware multi-bit encoding during generation",
       "source_locator": "https://doi.org/10.18653/v1/2024.findings-emnlp.541",
       "verified_scholarly_identifier": "doi:10.18653/v1/2024.findings-emnlp.541",
       "local_support_check": "PASS",
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
-      "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used.",
+      "prior_manuscript_location": "main article, Section Introduction, source line 146"
     },
     {
       "position": 4,
       "claim_id": "CIT-004",
       "citation_key": "kim2025",
-      "manuscript_location": "main article, Section Introduction, source line 146",
-      "nearby_claim": "STONE restricts embedding to non-syntax tokens and combines correctness, detectability, and naturalness",
+      "manuscript_location": "Current main.tex:122",
+      "nearby_claim": "STONE restricts embedding to non-syntax tokens and combines correctness, detectability, and perplexity-based imperceptibility",
       "source_locator": "https://doi.org/10.18653/v1/2026.findings-eacl.207",
       "verified_scholarly_identifier": "doi:10.18653/v1/2026.findings-eacl.207",
       "local_support_check": "PASS",
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
-      "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      "notes": "Final EACL2026 §3.2 Eqs.(2)–(9): perplexity-based imperceptibility. Human naturalness is P033 interpretation, not a measured STONE outcome.",
+      "prior_nearby_claim": "STONE restricts embedding to non-syntax tokens and combines correctness, detectability, and naturalness",
+      "prior_manuscript_location": "main article, Section Introduction, source line 146"
     },
     {
       "position": 5,
@@ -258,14 +261,16 @@
       "position": 20,
       "claim_id": "CIT-020",
       "citation_key": "kim2025",
-      "manuscript_location": "main article, Section A Claim Calculus for Watermark Evaluation, subsection Why human claims remain separate, source line 286",
-      "nearby_claim": "Naturalness is a legitimate watermark concern in prior system work",
+      "manuscript_location": "Current main.tex:260",
+      "nearby_claim": "STONE operationalizes imperceptibility through relative perplexity shifts",
       "source_locator": "https://doi.org/10.18653/v1/2026.findings-eacl.207",
       "verified_scholarly_identifier": "doi:10.18653/v1/2026.findings-eacl.207",
       "local_support_check": "PASS",
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
-      "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      "notes": "Final EACL2026 §3.2 Eqs.(2)–(9): perplexity-based imperceptibility. Human naturalness is P033 interpretation, not a measured STONE outcome.",
+      "prior_nearby_claim": "Naturalness is a legitimate watermark concern in prior system work",
+      "prior_manuscript_location": "main article, Section A Claim Calculus for Watermark Evaluation, subsection Why human claims remain separate, source line 286"
     },
     {
       "position": 21,
@@ -284,14 +289,16 @@
       "position": 22,
       "claim_id": "CIT-022",
       "citation_key": "guan2024",
-      "manuscript_location": "main article, Section Evaluation Architecture, subsection Measurement procedures and estimands, source line 471",
-      "nearby_claim": "CodeIP tests exact equality over the message prefix available at the generated length",
+      "manuscript_location": "Current main.tex:420",
+      "nearby_claim": "CodeIP's paper selects the candidate message with maximal token evidence",
       "source_locator": "https://doi.org/10.18653/v1/2024.findings-emnlp.541",
       "verified_scholarly_identifier": "doi:10.18653/v1/2024.findings-emnlp.541",
       "local_support_check": "PASS",
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
-      "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      "notes": "Final paper §3.4 Eq.(6) is the cited method; pinned repository prefix check is separately identified. Selected body read, not full-paper certification.",
+      "prior_nearby_claim": "CodeIP tests exact equality over the message prefix available at the generated length",
+      "prior_manuscript_location": "main article, Section Evaluation Architecture, subsection Measurement procedures and estimands, source line 471"
     },
     {
       "position": 23,
@@ -310,14 +317,16 @@
       "position": 24,
       "claim_id": "CIT-024",
       "citation_key": "kim2025",
-      "manuscript_location": "main article, Section Evaluation Architecture, subsection Measurement procedures and estimands, source line 471",
-      "nearby_claim": "STONE averages correctness, detectability, and perplexity-based naturalness",
+      "manuscript_location": "Current main.tex:420",
+      "nearby_claim": "STONE combines correctness, detectability, and perplexity-based imperceptibility",
       "source_locator": "https://doi.org/10.18653/v1/2026.findings-eacl.207",
       "verified_scholarly_identifier": "doi:10.18653/v1/2026.findings-eacl.207",
       "local_support_check": "PASS",
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
-      "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      "notes": "Final EACL2026 §3.2 Eqs.(2)–(9): perplexity-based imperceptibility. Human naturalness is P033 interpretation, not a measured STONE outcome.",
+      "prior_nearby_claim": "STONE averages correctness, detectability, and perplexity-based naturalness",
+      "prior_manuscript_location": "main article, Section Evaluation Architecture, subsection Measurement procedures and estimands, source line 471"
     },
     {
       "position": 25,

@@ -1,12 +1,12 @@
 {
   "commit": "bb5d809c0c494a219411e861f2313cca2b9fd7b4",
   "definition_record": {
-    "definition": "Average correctness, detectability, and perplexity-based naturalness after the public implementation's component transformations.",
-    "replay_mapping": "No numeric score is produced because the diagnostic benchmark has no admissible perplexity-based naturalness component. Automatic source similarity is not substituted.",
+    "definition": "The pinned STEM helper averages transformed correctness, detectability, and a relative-perplexity component named naturalness in that code. The final 2026 paper calls its third criterion imperceptibility.",
+    "replay_mapping": "No numeric STEM score is produced because the required model-based perplexity inputs are absent. Human naturalness is a separate interpretation dimension of this study; source similarity or human ratings do not substitute for the missing component.",
     "source_locator": "stone_implementation/evaluation/stem.py:11-17"
   },
   "full_system_execution": "NO",
-  "imported_definition": "Equal-weight STEM formula over correctness detectability and perplexity-based naturalness",
+  "imported_definition": "Pinned STEM helper equal-weight average with a relative-perplexity component (legacy variable naturalness)",
   "official_repository": "https://github.com/inistory/STONE-watermarking",
   "paper_doi": "10.18653/v1/2026.findings-eacl.207",
   "reason_full_system_not_executed": "Requires model generation and a perplexity component absent from the declared automatic construct boundary",
@@ -15,5 +15,6 @@
   "retrieved_utc_date": "2026-07-25",
   "source_blob_sha": "06a68d4ea0a25bc098ec68ee64222c7dff63846d",
   "source_path": "stone_implementation/evaluation/stem.py",
-  "system": "STONE"
+  "system": "STONE",
+  "final_paper_metric_note": "Final EACL2026 §3.2 uses correctness, detectability and perplexity-based imperceptibility with configurable weights. The helper and paper version are identified separately."
 }

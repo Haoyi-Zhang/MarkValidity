@@ -1,12 +1,13 @@
 {
   "CodeIP": {
-    "definition": "Compare the decoded and target message prefixes up to the number of message units available at the generated length; the result is exact prefix equality.",
-    "replay_mapping": "CodeIP-inspired indexed-survivor agreement: accept iff all surviving sites match their original indexed targets, with zero survivors accepted vacuously. Interior erasure changes the target to a subsequence, not the original contiguous prefix. Existing available_prefix output keys retain their historical names; they do not report literal public-prefix scores.",
-    "source_locator": "examples/codeip/src/watermarking/wm.py:127-133"
+    "definition": "Pinned repository check: compare decoded and target message prefixes using an available-message count derived from the configured generation length.",
+    "replay_mapping": "Local indexed-survivor agreement accepts iff every surviving site matches its original indexed target; zero survivors are accepted vacuously. Interior erasures select indexed targets rather than the pinned repository check's contiguous prefix. Historical available_prefix output keys retain their names for compatibility and do not denote literal repository-prefix scores.",
+    "source_locator": "examples/codeip/src/watermarking/wm.py:127-133",
+    "paper_method": "Final paper §3.4 Eq.(6) selects the full candidate message with maximal token-evidence score; §4.3 reports successful message extraction. This is distinct from the pinned repository prefix check."
   },
   "STONE": {
-    "definition": "Average correctness, detectability, and perplexity-based naturalness after the public implementation's component transformations.",
-    "replay_mapping": "No numeric score is produced because the diagnostic benchmark has no admissible perplexity-based naturalness component. Automatic source similarity is not substituted.",
+    "definition": "The pinned STEM helper averages transformed correctness, detectability, and a relative-perplexity component named naturalness in that code. The final 2026 paper calls its third criterion imperceptibility.",
+    "replay_mapping": "No numeric STEM score is produced because the required model-based perplexity inputs are absent. Human naturalness is a separate interpretation dimension of this study; source similarity or human ratings do not substitute for the missing component.",
     "source_locator": "stone_implementation/evaluation/stem.py:11-17"
   },
   "SWEET": {

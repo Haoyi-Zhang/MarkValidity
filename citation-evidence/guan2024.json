@@ -13,6 +13,17 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
+      "line": 122,
+      "claim": "CodeIP uses grammar-aware multi-bit encoding during generation"
+    },
+    {
+      "line": 420,
+      "claim": "CodeIP's paper selects the candidate message with maximal token evidence"
+    }
+  ],
+  "evidence_sha256": "ae11a8c7ef2e3e0b63184c364af4ce2b44b4266adad00366d444c1492a9acdcf",
+  "prior_manuscript_occurrences": [
+    {
       "line": 146,
       "claim": "CodeIP uses grammar-aware multi-bit encoding during generation"
     },
@@ -21,5 +32,10 @@
       "claim": "CodeIP tests exact equality over the message prefix available at the generated length"
     }
   ],
-  "evidence_sha256": "04685c27d6b8e8b527530e75fa0db62b6252ee76dd956c0b2a02d9472345e382"
+  "claim_support_read_scope": {
+    "date": "2026-10-16",
+    "version": "Final EMNLP2024 pp.9243–9258",
+    "location": "§3.4 Eq.(6), §4.3, Appendix C; physical5,6,12",
+    "scope": "Selected primary passages only; repository-prefix predicate separately pinned in external-baselines/evidence/codeip-protocol.json."
+  }
 }

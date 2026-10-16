@@ -103,7 +103,7 @@ def _exact_null_discrimination(rows: list[dict[str, Any]]) -> dict[str, Any]:
 def generate_external_protocol_replay(
     robustness_rows: list[dict[str, Any]], output_dir
 ) -> dict[str, Any]:
-    """Apply frozen public evaluation functionals to one common response matrix.
+    """Apply declared local reimplementations and adaptations to one response matrix.
 
     This is a protocol comparison, not a performance reproduction of the public
     watermark systems.  No external model, checkpoint, generated code, or hidden
@@ -138,7 +138,7 @@ def generate_external_protocol_replay(
             denominator,
         )
         # Indexed-survivor agreement inspired by CodeIP, not literal equality
-        # with the original contiguous message prefix after interior erasure.
+        # with the pinned repository check's contiguous prefix after interior erasure.
         # Zero-site agreement is vacuously true. Historical output keys remain.
         available_prefix = Fraction(
             sum(
@@ -226,14 +226,15 @@ def generate_external_protocol_replay(
         "stone_stem": {
             "status": "NOT_COMPUTED_COMPONENT_MISMATCH",
             "reason": (
-                "The public STEM formula requires human- and watermarked-code "
-                "perplexities. This CPU-only diagnostic benchmark has neither an "
-                "admissible language-model naturalness measure nor human ratings; "
-                "substituting source similarity would change the construct."
+                "The pinned STEM helper requires human-code and watermarked-code "
+                "perplexities. These model-based inputs are absent. The final "
+                "paper calls the third criterion imperceptibility; human "
+                "naturalness ratings are a different construct and cannot "
+                "substitute for that component."
             ),
         },
         "scope": (
-            "Independent replay of public evaluation functionals on common frozen "
+            "Local reimplementations and adaptations of pinned evaluation rules on frozen "
             "outcomes; not an execution or performance comparison of the external "
             "watermark systems."
         ),

@@ -13,6 +13,21 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
+      "line": 122,
+      "claim": "STONE restricts embedding to non-syntax tokens and combines correctness, detectability, and perplexity-based imperceptibility"
+    },
+    {
+      "line": 260,
+      "claim": "STONE operationalizes imperceptibility through relative perplexity shifts"
+    },
+    {
+      "line": 420,
+      "claim": "STONE combines correctness, detectability, and perplexity-based imperceptibility"
+    }
+  ],
+  "evidence_sha256": "0f140194afd63e275485b4e1b225f7d68fb6ea4caa6d512a1cbdb3b65bfed7d4",
+  "prior_manuscript_occurrences": [
+    {
       "line": 146,
       "claim": "STONE restricts embedding to non-syntax tokens and combines correctness, detectability, and naturalness"
     },
@@ -25,5 +40,10 @@
       "claim": "STONE averages correctness, detectability, and perplexity-based naturalness"
     }
   ],
-  "evidence_sha256": "6ffd1709478e3eeed4470623f6aae4ef3407a6fdc149074798f62b651c315f84"
+  "claim_support_read_scope": {
+    "date": "2026-10-16",
+    "version": "Final EACL2026 pp.3990–4002",
+    "location": "§3.2 Eqs.(2)–(9), physical3–4; rendered metric pages inspected",
+    "scope": "Perplexity-based imperceptibility, not human naturalness ratings. Legacy citation key kim2025 is unchanged."
+  }
 }

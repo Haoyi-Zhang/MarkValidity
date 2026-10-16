@@ -260,7 +260,7 @@ def run(results, output):
                  "child_node_cpu_seconds":"NOT_MEASURED"},
         source_sha256={p.resolve().relative_to(HERE).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in code},
         skips=["No regeneration of the historical 76032-row indexed-state response matrix or targeted source interventions.",
-               "No full upstream model/checkpoint/generation runs; STONE naturalness remains undefined.",
+               "No full upstream model/checkpoint/generation runs; the required STONE perplexity component is unavailable.",
                "No transfer-corpus transformations or execution, new null-simulation campaign, or CI runner execution."],
         closed_loop_complete=False, scientific_acceptance=False)
     write_json(output / "receipt.json", receipt)

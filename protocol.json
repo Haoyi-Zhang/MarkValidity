@@ -41,7 +41,7 @@
   },
   "detector": {
     "accepted_matches": 22,
-    "exact_null_probability": 1.7940998077392578e-05,
+    "exact_null_probability": 0.000017940998077392578,
     "nominal_alpha": 0.0001,
     "payload_bits": 24
   },
@@ -49,8 +49,8 @@
   "external_protocol_replay": {
     "common_outcomes": 76032,
     "edge_policies": {
-      "CodeIP": "CodeIP-inspired indexed-survivor agreement accepts iff every surviving site matches its original indexed target; zero survivors are accepted vacuously. Interior erasures select a subsequence, not the original contiguous prefix. A nonempty-survivor sensitivity is also reported; historical available_prefix output keys are retained.",
-      "STONE": "not computed because the required perplexity-based naturalness component is absent",
+      "CodeIP": "Local indexed-survivor agreement accepts iff every surviving site matches its original indexed target; zero survivors are accepted vacuously. Interior erasures select indexed targets rather than the pinned repository check's contiguous prefix. Historical available_prefix output keys retain their names for compatibility and do not denote literal repository-prefix scores.",
+      "STONE": "not computed because the required model-based perplexity component is absent; the published construct is imperceptibility, distinct from this study's human-naturalness interpretation",
       "SWEET": "zero-survivor rows have undefined z score and are omitted with counts reported",
       "SrcMarker": "deleted payload sites count as incorrect"
     },
@@ -95,7 +95,7 @@
       "hybrid"
     ],
     "severity_levels": [
-      0.0,
+      0,
       0.1,
       0.2,
       0.3,
@@ -105,7 +105,7 @@
       0.7,
       0.8,
       0.9,
-      1.0
+      1
     ],
     "task_families": [
       "leap_year",
