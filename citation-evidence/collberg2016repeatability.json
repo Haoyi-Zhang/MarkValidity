@@ -13,9 +13,21 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
+      "line": 941,
+      "claim": "Collberg and Proebsting recommend supporting repeatability engineering and artifact sharing"
+    }
+  ],
+  "evidence_sha256": "44b7f2d2cb2c573d92ce2f91edfbaedf5a6523be7273185bf81210abe53e2254",
+  "prior_manuscript_occurrences": [
+    {
       "line": 1133,
       "claim": "Systems results are difficult to repeat when replication materials and environments are underspecified"
     }
   ],
-  "evidence_sha256": "5162f4a16d465dea589932b2ed882dc3778104f38455f37e243e1e89b95510d1"
+  "primary_reading": {
+    "source": "https://experts.azregents.edu/en/publications/repeatability-in-computer-systems-research/",
+    "scope": "Original institutional abstract only, not the final article body",
+    "supported_role": "Financial support for repeatability engineering and incentives for artifact sharing",
+    "version_boundary": "The distinct three-author 2015 technical report is separately cited for study details."
+  }
 }

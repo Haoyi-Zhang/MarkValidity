@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.1",
+  "citation_key": "collberg2015benefaction",
+  "entry_type": "techreport",
+  "title": "Repeatability and Benefaction in Computer Systems Research: A Study and a Modest Proposal",
+  "authors": "Christian Collberg and Todd Proebsting and Alex M. Warren",
+  "venue": "Department of Computer Science, University of Arizona, TR 14-04",
+  "year": "2015",
+  "pages_or_article": "",
+  "verified_scholarly_identifier": "technical-report:https://reproducibility.cs.arizona.edu/v2/RepeatabilityTR.pdf",
+  "source_locator": "https://reproducibility.cs.arizona.edu/v2/RepeatabilityTR.pdf",
+  "verification_status": "VERIFIED_PRIMARY_REPORT",
+  "verification_basis": "Actual original report title/authors/TR number/date and selected body, distinct from the 2016 two-author CACM article.",
+  "manuscript_occurrences": [
+    {
+      "line": 941,
+      "claim": "Library and compiler dependencies obstruct systems-code builds"
+    }
+  ],
+  "primary_reading": {
+    "source": "https://reproducibility.cs.arizona.edu/v2/RepeatabilityTR.pdf",
+    "scope": "Physical pages 1-2: title, abstract, study description and library/compiler/environment dependency context; not all 68 pages",
+    "supported_role": "Source availability and buildability obstacles, not reproduction of published scientific results or this project's experimental validity"
+  },
+  "evidence_sha256": "a6a8c0259be3708513a802f97060f222964c75210e0b9836e69866945a571382"
+}

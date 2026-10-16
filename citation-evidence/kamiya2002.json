@@ -13,9 +13,21 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
+      "line": 932,
+      "claim": "CCFinder transforms source text and compares normalized token sequences"
+    }
+  ],
+  "evidence_sha256": "827d324347c73dbad2ec3655edda35278ebf543b2647dab4c8d5313593690e8e",
+  "prior_manuscript_occurrences": [
+    {
       "line": 1126,
       "claim": "Token clone detection abstracts from distinctions retained by syntax trees"
     }
   ],
-  "evidence_sha256": "8fd9f21456721d9b34a285bace84b4ac6a2d25b2dd97ded00bac9d86180d9196"
+  "primary_reading": {
+    "source": "https://sel.ist.osaka-u.ac.jp/lab-db/betuzuri/archive/408/408.pdf",
+    "scope": "Actual reproduced TSE first-page abstract, printed654, plus the author tool description; not all printed654–670",
+    "related_author_description": "https://sel.ist.osaka-u.ac.jp/cdtools/ccfinder-e.html",
+    "supported_role": "Transformation of input text and token comparison with syntax-based normalization, not a universal information ordering between tokens and syntax trees."
+  }
 }

@@ -13,9 +13,20 @@
   "verification_basis": "Official ICLR 2024 proceedings record; title, complete author list, venue, and year cross-checked against the formal conference record.",
   "manuscript_occurrences": [
     {
+      "line": 925,
+      "claim": "Reliability studies examine paraphrasing, text mixing, and length-dependent detection at specified false-positive rates"
+    }
+  ],
+  "evidence_sha256": "c74477445a99f5ef25652556d4ab63b93c3b890cfb32d6b1982a2613664e4b10",
+  "prior_manuscript_occurrences": [
+    {
       "line": 1119,
       "claim": "Reliability studies separate removal, spoofing, quality, and calibration"
     }
   ],
-  "evidence_sha256": "314c202062a2bbf0788d25c5bbaa5b09f226635582be99f91c0e032983eb9532"
+  "primary_reading": {
+    "source": "https://proceedings.iclr.cc/paper_files/paper/2024/file/d78e9e4316e1714fbb0f20be66f8044c-Paper-Conference.pdf",
+    "scope": "Actual original abstract, introduction/contributions and detection overview, physical1–3; conclusions physical9. Not all45 pages.",
+    "supported_role": "Human/machine paraphrasing, text mixing and sequence-length-dependent detection at controlled false-positive rates, not a four-way spoofing/quality taxonomy."
+  }
 }

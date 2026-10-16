@@ -2,24 +2,27 @@
   "schema_version": "1.2",
   "audited_at_utc": "2026-07-27T08:40:10Z",
   "verdict": "PASS",
-  "bibliography_source_sha256": "c0609f2e64ef3083ca0d1364316eff6b136c1d817411f49531b9bde8b36bc530",
-  "bibliography_entries": 82,
-  "citation_positions": 88,
-  "citation_evidence_objects": 82,
+  "bibliography_source_sha256": "20c13424d17f732742964d5f6a3316e8e3ff8107e0deee9aea00582c389d7ff0",
+  "bibliography_entries": 83,
+  "citation_positions": 89,
+  "citation_evidence_objects": 83,
   "entry_types": {
     "article": 48,
-    "inproceedings": 34
+    "inproceedings": 34,
+    "techreport": 1
   },
   "verification_statuses": {
     "VERIFIED_DOI_RECORD": 72,
-    "VERIFIED_FORMAL_SCHOLARLY_RECORD": 10
+    "VERIFIED_FORMAL_SCHOLARLY_RECORD": 10,
+    "VERIFIED_PRIMARY_REPORT": 1
   },
   "locator_domains": {
     "doi.org": 72,
     "proceedings.iclr.cc": 3,
     "proceedings.mlr.press": 4,
     "proceedings.mlsys.org": 1,
-    "www.jmlr.org": 2
+    "www.jmlr.org": 2,
+    "reproducibility.cs.arizona.edu": 1
   },
   "preprint_records": [
     "choi2026",
@@ -44,7 +47,9 @@
   ],
   "claim_scope_corrections_applied": [
     "Three unpublished code-watermark works are explicitly identified as preprints in reader-facing prose",
-    "The production-scale watermark citation is limited to the models, temperatures, and text lengths actually varied by the cited study"
+    "The production-scale watermark citation is limited to the models, temperatures, and text lengths actually varied by the cited study",
+    "Separate the 2015 three-author availability/buildability study from the 2016 two-author artifact-sharing recommendation.",
+    "Attribute JavaWiz selected-transformation measurements, CCFinder normalized-token comparison and length-dependent watermark detection to their actual reported source roles."
   ],
   "pagination_note": "Kitchenham et al. (1995) is recorded as 929--943, following the curated DBLP IEEE TSE volume record; some secondary records include page 944.",
   "records_without_pages_or_article_number": [
@@ -53,10 +58,11 @@
     "kirchenbauer2024",
     "suresh2024",
     "zhang2025",
-    "zhao2024"
+    "zhao2024",
+    "collberg2015benefaction"
   ],
   "issues": [],
-  "policy": "Every bibliography item is a scholarly journal article, conference paper, proceedings paper, or explicitly labeled scholarly preprint. Metadata is matched to a DOI record or formal scholarly record, and every citation occurrence is bound to one nearby claim sentence.",
+  "policy": "Keep each scholarly source in its actual publication category. Metadata identity checks and current citation bindings are distinct from passage-level primary support.",
   "records": [
     {
       "citation_key": "andrews2005",
@@ -1288,12 +1294,31 @@
       "metadata_consistent": true,
       "manuscript_occurrences": 1,
       "preprint_record": false
+    },
+    {
+      "citation_key": "collberg2015benefaction",
+      "entry_type": "techreport",
+      "title": "Repeatability and Benefaction in Computer Systems Research: A Study and a Modest Proposal",
+      "authors": "Christian Collberg and Todd Proebsting and Alex M. Warren",
+      "year": "2015",
+      "venue": "Department of Computer Science, University of Arizona, TR 14-04",
+      "pages_or_article": "",
+      "verification_status": "VERIFIED_PRIMARY_REPORT",
+      "verified_scholarly_identifier": "technical-report:https://reproducibility.cs.arizona.edu/v2/RepeatabilityTR.pdf",
+      "source_locator": "https://reproducibility.cs.arizona.edu/v2/RepeatabilityTR.pdf",
+      "metadata_consistent": true,
+      "manuscript_occurrences": 1,
+      "preprint_record": false
     }
   ],
-  "manuscript_source_sha256": "4c65dea5cb5cc946b989154c4abdd20df97f8ad0a0d8d765d2cf657b82b29004",
-  "citation_support_sha256": "50233d2887a490b620a2dc84d946f03e22a9f3f1024dbf49936705dc72e4a612",
-  "citation_claim_audit_sha256": "165aff7c8b8dbb45032f6bf7f70d663ff435b74c51a89c7408c8d53a6ff3aa0e",
-  "local_claim_support_positions": 88,
+  "manuscript_source_sha256": "521c10fe5a4847088e04877cab4f9fc0812c8cf5af8d15c37f41885fae3e1bca",
+  "citation_support_sha256": "7fdcaafbbf32c37ffcb8500af98fc640358fcaa9a625fa74039b05d09c222761",
+  "citation_claim_audit_sha256": "87edabd710e9d4ff323110482cb88ba850ec120bb9e0efe7be5bc21461aaee8b",
+  "local_claim_support_positions": 89,
   "local_claim_support_failures": 0,
-  "claim_scope_repairs": 4
+  "claim_scope_repairs": 4,
+  "verification_scope": "Retained metadata-audit sample and current byte bindings, not whole-paper or whole-bibliography primary-text certification. The selected reading scope is stated in the changed evidence records.",
+  "sample_not_full_current_census": true,
+  "current_bibliography_entries": 84,
+  "current_citation_positions": 91
 }

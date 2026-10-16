@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "positions": 88,
-  "single_key_positions": 88,
+  "positions": 89,
+  "single_key_positions": 89,
   "multi_key_positions": 0,
   "unsupported_positions": 0,
   "irrelevant_positions": 0,
@@ -358,14 +358,19 @@
       "position": 27,
       "claim_id": "CIT-027",
       "citation_key": "palsberg2000",
-      "manuscript_location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1115",
-      "nearby_claim": "Representation choices were shown to change cost and resilience",
+      "manuscript_location": "main article, Section Related Work, source line 921",
+      "nearby_claim": "A dynamic-graph watermark implementation measured embedding and retrieval costs and tested resilience against selected program transformations",
       "source_locator": "https://doi.org/10.1109/ACSAC.2000.898885",
       "verified_scholarly_identifier": "doi:10.1109/ACSAC.2000.898885",
       "local_support_check": "PASS",
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
-      "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      "notes": "Actual original abstract, §§1.3–1.5, §§2.1/2.3 and §2.4, physical 1–3 and 5–6; not the whole nine-page paper; this source-specific judgment gives no support credit to other citations or local study results.",
+      "prior_claim_and_locator": {
+        "nearby_claim": "Representation choices were shown to change cost and resilience",
+        "manuscript_location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1115",
+        "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      }
     },
     {
       "position": 28,
@@ -527,14 +532,19 @@
       "position": 40,
       "claim_id": "CIT-040",
       "citation_key": "kirchenbauer2024",
-      "manuscript_location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1119",
-      "nearby_claim": "Reliability studies separate removal, spoofing, quality, and calibration",
+      "manuscript_location": "main article, Section Related Work, source line 925",
+      "nearby_claim": "Reliability studies examine paraphrasing, text mixing, and length-dependent detection at specified false-positive rates",
       "source_locator": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/d78e9e4316e1714fbb0f20be66f8044c-Abstract-Conference.html",
       "verified_scholarly_identifier": "formal-record:https://proceedings.iclr.cc/paper_files/paper/2024/hash/d78e9e4316e1714fbb0f20be66f8044c-Abstract-Conference.html",
       "local_support_check": "PASS",
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
-      "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      "notes": "Actual original abstract, introduction/contributions and detection overview, physical1–3; conclusions physical9. Not all45 pages.; this source-specific judgment gives no support credit to other citations or local study results.",
+      "prior_claim_and_locator": {
+        "nearby_claim": "Reliability studies separate removal, spoofing, quality, and calibration",
+        "manuscript_location": "main article, Section Related Work, subsection Watermark mechanisms and attack models, source line 1119",
+        "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      }
     },
     {
       "position": 41,
@@ -751,14 +761,19 @@
       "position": 57,
       "claim_id": "CIT-057",
       "citation_key": "kamiya2002",
-      "manuscript_location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1126",
-      "nearby_claim": "Token clone detection abstracts from distinctions retained by syntax trees",
+      "manuscript_location": "main article, Section Related Work, source line 932",
+      "nearby_claim": "CCFinder transforms source text and compares normalized token sequences",
       "source_locator": "https://doi.org/10.1109/TSE.2002.1019480",
       "verified_scholarly_identifier": "doi:10.1109/TSE.2002.1019480",
       "local_support_check": "PASS",
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
-      "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      "notes": "Actual reproduced TSE first-page abstract, printed654, plus the author tool description; not all printed654–670; this source-specific judgment gives no support credit to other citations or local study results.",
+      "prior_claim_and_locator": {
+        "nearby_claim": "Token clone detection abstracts from distinctions retained by syntax trees",
+        "manuscript_location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1126",
+        "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      }
     },
     {
       "position": 58,
@@ -1050,14 +1065,19 @@
       "position": 80,
       "claim_id": "CIT-080",
       "citation_key": "collberg2016repeatability",
-      "manuscript_location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1133",
-      "nearby_claim": "Systems results are difficult to repeat when replication materials and environments are underspecified",
+      "manuscript_location": "main article, Section Related Work, source line 941",
+      "nearby_claim": "Collberg and Proebsting recommend supporting repeatability engineering and artifact sharing",
       "source_locator": "https://doi.org/10.1145/2812803",
       "verified_scholarly_identifier": "doi:10.1145/2812803",
       "local_support_check": "PASS",
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
-      "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      "notes": "Original institutional abstract only, not the final article body; this source-specific judgment gives no support credit to other citations or local study results.",
+      "prior_claim_and_locator": {
+        "nearby_claim": "Systems results are difficult to repeat when replication materials and environments are underspecified",
+        "manuscript_location": "main article, Section Related Work, subsection Measurement validity, benchmark composition, and overfitting, source line 1133",
+        "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      }
     },
     {
       "position": 81,
@@ -1162,7 +1182,23 @@
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
       "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+    },
+    {
+      "position": 89,
+      "claim_id": "CIT-089",
+      "citation_key": "collberg2015benefaction",
+      "manuscript_location": "main article, Section Related Work, source line 941",
+      "nearby_claim": "Library and compiler dependencies obstruct systems-code builds",
+      "source_locator": "https://reproducibility.cs.arizona.edu/v2/RepeatabilityTR.pdf",
+      "verified_scholarly_identifier": "technical-report:https://reproducibility.cs.arizona.edu/v2/RepeatabilityTR.pdf",
+      "local_support_check": "PASS",
+      "project_relevance_check": "PASS",
+      "scope_check": "PASS",
+      "notes": "Physical pages 1-2: title, abstract, study description and library/compiler/environment dependency context; not all 68 pages; this source-specific judgment gives no support credit to other citations or local study results."
     }
   ],
-  "verdict": "PASS"
+  "verdict": "PASS",
+  "verification_scope": "Retained citation-audit sample with five updated primary-reading roles; not a full current citation census. Unchanged entries are not newly certified as full-text read.",
+  "current_citation_positions": 91,
+  "sample_not_full_current_census": true
 }
