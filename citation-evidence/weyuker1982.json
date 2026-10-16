@@ -13,9 +13,22 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
+      "line": 930,
+      "claim": "For programs without a practical oracle, partial oracles and pseudo-oracles provide testing alternatives"
+    }
+  ],
+  "evidence_sha256": "0c63b8bbb78c9fcbe7acef9aca97bae8742acdd9caf1fab7730411423363fd61",
+  "prior_manuscript_occurrences": [
+    {
       "line": 1124,
       "claim": "Oracle-free programs require relations or partial specifications"
     }
   ],
-  "evidence_sha256": "2fd4f6ecbf27ab7d65c08f94ec7146092f26aa7778954386cb73e7bece1e291e"
+  "claim_support_read_scope": {
+    "date": "2026-10-16",
+    "version": "Original Computer Journal 25(4), 1982, pp.465–470",
+    "primary_url": "https://homes.cs.washington.edu/~rjust/courses/CSE503/2021_02_12-reading1.pdf",
+    "read_scope": "Visually read physical pp.1–3 (printed465–467), abstract and §§1–3; only beginning of §4. Not whole paper.",
+    "source_support": "§2 discusses partial oracles; §3 discusses pseudo-oracles, simplified data and plausibility checks as testing alternatives, not a universal necessity of relations or partial specifications."
+  }
 }

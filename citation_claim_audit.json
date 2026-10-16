@@ -670,14 +670,17 @@
       "position": 51,
       "claim_id": "CIT-051",
       "citation_key": "weyuker1982",
-      "manuscript_location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1124",
-      "nearby_claim": "Oracle-free programs require relations or partial specifications",
+      "manuscript_location": "Current main.tex:930",
+      "nearby_claim": "For programs without a practical oracle, partial oracles and pseudo-oracles provide testing alternatives",
       "source_locator": "https://doi.org/10.1093/comjnl/25.4.465",
       "verified_scholarly_identifier": "doi:10.1093/comjnl/25.4.465",
       "local_support_check": "PASS",
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
-      "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      "notes": "Selected original body visually read: printed465 §2 partial oracle; printed466–467 §3 pseudo-oracles and other testing alternatives. This sentence describes alternatives and asserts no universal necessity.",
+      "prior_nearby_claim": "Oracle-free programs require relations or partial specifications",
+      "prior_manuscript_location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1124",
+      "prior_notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
     },
     {
       "position": 52,
