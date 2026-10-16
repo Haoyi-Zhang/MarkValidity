@@ -100,8 +100,7 @@ Retained original run results (not measurements of the current Windows repair ca
 
 - 10 unit tests, zero failures;
 - 900 independent reconstruction checks, zero failures;
-- 149 nonvolatile result files identical under Python hash seeds 1 and 987;
-- scientific-results SHA-256 `034812f8c869f902291b20a812761aeb97bf56f7e307dffe3ab59a885fd6fe48`.
+- 149 nonvolatile result files identical under Python hash seeds 1 and 987.
 
 The earlier retained Ubuntu run is in `results/current/`: thirteen unit tests,
 900 reconstruction checks, and 504 semantic-audit pairs complete without
