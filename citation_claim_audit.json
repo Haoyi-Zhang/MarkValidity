@@ -818,14 +818,14 @@
       "position": 61,
       "claim_id": "CIT-061",
       "citation_key": "svajlenko2014",
-      "manuscript_location": "main article, Section Related Work, subsection Executable and structural evidence, source line 1126",
-      "nearby_claim": "BigCloneBench shows that inter-project composition changes measured recall",
+      "manuscript_location": "main article, Section Related Work, subsection Executable and structural evidence, source line 932",
+      "nearby_claim": "BigCloneBench provides a curated inter-project corpus for measuring recall by clone type, functionality, and similarity",
       "source_locator": "https://doi.org/10.1109/ICSME.2014.77",
       "verified_scholarly_identifier": "doi:10.1109/ICSME.2014.77",
       "local_support_check": "PASS",
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
-      "notes": "The citation is attached to one explicit nearby claim; no multi-key citation command is used."
+      "notes": "Actual selected original passages support curated subset-based recall measurement, not a measured causal effect of inter-project composition. Other sources and local results are separate duties."
     },
     {
       "position": 62,

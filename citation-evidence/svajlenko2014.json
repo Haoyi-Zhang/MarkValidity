@@ -13,9 +13,14 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1126,
-      "claim": "BigCloneBench shows that inter-project composition changes measured recall"
+      "line": 932,
+      "claim": "BigCloneBench provides a curated inter-project corpus for measuring recall by clone type, functionality, and similarity"
     }
   ],
-  "evidence_sha256": "6a4cd78bdb13c66f7c405af9984cc33d824095a5bdd2ef74a3f4bac05900f3b1"
+  "evidence_sha256": "2bd6d3d10e014c864aee8889b3fbf90ec7817e60ea2af46575890a4af04ef8c8",
+  "primary_reading": {
+    "source": "https://doi.org/10.1109/ICSME.2014.77",
+    "scope": "Actual original abstract/introduction and sections III-B-C, IV-VII, especially evaluation and applications; not an experimental manipulation of inter-project composition.",
+    "supported_role": "Curated inter-project clone pairs and recall analysis by clone type, functionality and similarity."
+  }
 }
