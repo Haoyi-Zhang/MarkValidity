@@ -1,5 +1,16 @@
 # Figure reproduction
 
+The architecture schematic is generated directly from its five declared stages:
+
+```sh
+python -m pip install matplotlib==3.11.2
+python -B figures/build_figures.py
+```
+
+Use `--outdir ../paper/figures` in the complete project to update the
+manuscript input; the paper build updates both copies. This diagram adds no
+observations or numerical results.
+
 From the artifact directory, run:
 
 ```sh
