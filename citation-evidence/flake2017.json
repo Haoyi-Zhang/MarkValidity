@@ -14,8 +14,14 @@
   "manuscript_occurrences": [
     {
       "line": 1129,
-      "claim": "document recurring construct underspecification and weak discriminant evidence"
+      "claim": "find incomplete reporting of structural-validity evidence and frequent reliance on coefficient alpha alone"
     }
   ],
-  "evidence_sha256": "3bfa2b895a9ca56cf126438cfa9834c66beb00e0576c928ad144d6cb05ec321e"
+  "evidence_sha256": "3bfa2b895a9ca56cf126438cfa9834c66beb00e0576c928ad144d6cb05ec321e",
+  "primary_support_scope": {
+    "source": "https://www2.psych.ubc.ca/~schaller/528Readings/FlakePekHeyman2017.pdf",
+    "passages": "Printed pages 372 and 374: Method/Coding of Articles; Discussion/On the Fly Measurement",
+    "support": "The review codes structural-validity evidence in Method sections, excludes substantive and external validity evidence elsewhere, and reports incomplete psychometric information and frequent alpha-only reporting. The manuscript attribution now describes that actual review scope rather than a finding about discriminant validity.",
+    "identity_record_boundary": "The unchanged evidence_sha256 field belongs to the prior DOI metadata record; it is not a digest or execution proof of this primary-passage judgment."
+  }
 }
