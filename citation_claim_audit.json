@@ -58,7 +58,7 @@
       "local_support_check": "PASS",
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
-      "notes": "Final EACL2026 §3.2 Eqs.(2)–(9): perplexity-based imperceptibility. Human naturalness is P033 interpretation, not a measured STONE outcome.",
+      "notes": "Final EACL2026 §3.2 Eqs.(2)–(9): perplexity-based imperceptibility. Human naturalness is MarkValidity interpretation, not a measured STONE outcome.",
       "prior_nearby_claim": "STONE restricts embedding to non-syntax tokens and combines correctness, detectability, and naturalness",
       "prior_manuscript_location": "main article, Section Introduction, source line 146"
     },
@@ -268,7 +268,7 @@
       "local_support_check": "PASS",
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
-      "notes": "Final EACL2026 §3.2 Eqs.(2)–(9): perplexity-based imperceptibility. Human naturalness is P033 interpretation, not a measured STONE outcome.",
+      "notes": "Final EACL2026 §3.2 Eqs.(2)–(9): perplexity-based imperceptibility. Human naturalness is MarkValidity interpretation, not a measured STONE outcome.",
       "prior_nearby_claim": "Naturalness is a legitimate watermark concern in prior system work",
       "prior_manuscript_location": "main article, Section A Claim Calculus for Watermark Evaluation, subsection Why human claims remain separate, source line 286"
     },
@@ -324,7 +324,7 @@
       "local_support_check": "PASS",
       "project_relevance_check": "PASS",
       "scope_check": "PASS",
-      "notes": "Final EACL2026 §3.2 Eqs.(2)–(9): perplexity-based imperceptibility. Human naturalness is P033 interpretation, not a measured STONE outcome.",
+      "notes": "Final EACL2026 §3.2 Eqs.(2)–(9): perplexity-based imperceptibility. Human naturalness is MarkValidity interpretation, not a measured STONE outcome.",
       "prior_nearby_claim": "STONE averages correctness, detectability, and perplexity-based naturalness",
       "prior_manuscript_location": "main article, Section Evaluation Architecture, subsection Measurement procedures and estimands, source line 471"
     },
