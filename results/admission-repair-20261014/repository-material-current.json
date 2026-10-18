@@ -1,11 +1,11 @@
 {
   "command": [
-    "C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "<PYTHON_ROOT>/python.exe",
     "-B",
     "-S",
     ".github/scripts/check_repository.py"
   ],
-  "cwd": "D:\\CodexProjects\\wg-check\\substantive-library\\P033\\artifact",
+  "cwd": "<PROJECTS_ROOT>\\wg-check\\substantive-library\\P033\\artifact",
   "started_utc": "2026-10-13T23:32:06.644704+00:00",
   "wall_seconds": 0.19461589999264106,
   "exit_code": 0,
@@ -13,9 +13,9 @@
     "PYTHONDONTWRITEBYTECODE": "1",
     "PYTHONUTF8": "1",
     "PYTHONHASHSEED": "1",
-    "COVEWM_RESULTS": "D:\\CodexProjects\\wg-check\\substantive-library\\P033\\artifact\\results\\current\\results"
+    "COVEWM_RESULTS": "<PROJECTS_ROOT>\\wg-check\\substantive-library\\P033\\artifact\\results\\current\\results"
   },
   "logger_python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
   "platform": "Windows-11-10.0.28000-SP0",
-  "log": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\commands\\repository-material-current.log"
+  "log": "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\commands\\repository-material-current.log"
 }

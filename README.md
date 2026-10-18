@@ -175,3 +175,7 @@ interventions, and original null campaigns were **not regenerated** by this audi
 No upstream code, model, checkpoint, downloaded test, target, or removal campaign
 was executed. The full historical generator/rechecker and Linux CI remain
 separate workflows; this candidate audit is not installation or scientific acceptance.
+
+## Portable path notation
+
+Published execution records use `<PYTHON_ROOT>`, `<NODE_ROOT>`, `<RUNTIME_ROOT>` and `<PROJECTS_ROOT>` for machine-local installation and workspace prefixes. These are path aliases, not literal directories; substitute the corresponding local roots when replaying a command. Recorded interpreter and dependency versions, inputs, measurements and outcomes are unchanged. File inventories bind the published portable serializations; any `recorded_` identity denotes the pre-normalization bytes.
