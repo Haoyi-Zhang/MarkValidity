@@ -10,7 +10,7 @@
         "-recorder",
         "main.tex"
       ],
-      "cwd": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
+      "cwd": "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
       "returncode": 0,
       "wall_seconds": 1.3893108000047505
     },
@@ -19,7 +19,7 @@
         "D:\\LaTeXTools\\texlive\\2024\\bin\\windows\\bibtex.exe",
         "main"
       ],
-      "cwd": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
+      "cwd": "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
       "returncode": 0,
       "wall_seconds": 0.04562760001863353
     },
@@ -32,7 +32,7 @@
         "-recorder",
         "main.tex"
       ],
-      "cwd": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
+      "cwd": "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
       "returncode": 0,
       "wall_seconds": 1.4280845999892335
     },
@@ -45,7 +45,7 @@
         "-recorder",
         "main.tex"
       ],
-      "cwd": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
+      "cwd": "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
       "returncode": 0,
       "wall_seconds": 1.402422299986938
     },
@@ -58,7 +58,7 @@
         "-recorder",
         "online-supplement.tex"
       ],
-      "cwd": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
+      "cwd": "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
       "returncode": 0,
       "wall_seconds": 0.8400472000066657
     },
@@ -71,7 +71,7 @@
         "-recorder",
         "online-supplement.tex"
       ],
-      "cwd": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
+      "cwd": "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
       "returncode": 0,
       "wall_seconds": 0.8243069000018295
     },
@@ -84,7 +84,7 @@
         "-recorder",
         "online-supplement.tex"
       ],
-      "cwd": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
+      "cwd": "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\pdf-build-source-final",
       "returncode": 0,
       "wall_seconds": 0.837411400018027
     }

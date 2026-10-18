@@ -35,9 +35,9 @@ test_semantic_gate_rejects_duplicate_in_place_of_missing_key (test_evidence_admi
 ERROR: test_auc_rejects_nonfinite_or_nonbinary_observations (test_evidence_admission.EvidenceAdmissionTests.test_auc_rejects_nonfinite_or_nonbinary_observations) (implementation='recheck_extended', labels=[1, 1], scores=[0.8, 0.2])
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 55, in test_auc_rejects_nonfinite_or_nonbinary_observations
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 55, in test_auc_rejects_nonfinite_or_nonbinary_observations
     implementation(labels, scores)
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\recheck_extended.py", line 67, in roc_auc
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\recheck_extended.py", line 67, in roc_auc
     return total / (len(positives) * len(negatives))
            ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ZeroDivisionError: float division by zero
@@ -46,7 +46,7 @@ ZeroDivisionError: float division by zero
 FAIL: test_auc_rejects_nonfinite_or_nonbinary_observations (test_evidence_admission.EvidenceAdmissionTests.test_auc_rejects_nonfinite_or_nonbinary_observations) (implementation='covewm.metrics', labels=[1, 0], scores=[nan, 0.5])
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
     with self.assertRaises(ValueError):
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -55,7 +55,7 @@ AssertionError: ValueError not raised
 FAIL: test_auc_rejects_nonfinite_or_nonbinary_observations (test_evidence_admission.EvidenceAdmissionTests.test_auc_rejects_nonfinite_or_nonbinary_observations) (implementation='covewm.metrics', labels=[1, 0], scores=[inf, 0.5])
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
     with self.assertRaises(ValueError):
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -64,7 +64,7 @@ AssertionError: ValueError not raised
 FAIL: test_auc_rejects_nonfinite_or_nonbinary_observations (test_evidence_admission.EvidenceAdmissionTests.test_auc_rejects_nonfinite_or_nonbinary_observations) (implementation='covewm.metrics', labels=[1, 0, 2], scores=[0.8, 0.2, 0.4])
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
     with self.assertRaises(ValueError):
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -73,7 +73,7 @@ AssertionError: ValueError not raised
 FAIL: test_auc_rejects_nonfinite_or_nonbinary_observations (test_evidence_admission.EvidenceAdmissionTests.test_auc_rejects_nonfinite_or_nonbinary_observations) (implementation='covewm.metrics', labels=[1, 0, '1'], scores=[0.8, 0.2, 0.4])
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
     with self.assertRaises(ValueError):
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -82,7 +82,7 @@ AssertionError: ValueError not raised
 FAIL: test_auc_rejects_nonfinite_or_nonbinary_observations (test_evidence_admission.EvidenceAdmissionTests.test_auc_rejects_nonfinite_or_nonbinary_observations) (implementation='recheck_extended', labels=[1, 0], scores=[nan, 0.5])
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
     with self.assertRaises(ValueError):
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -91,7 +91,7 @@ AssertionError: ValueError not raised
 FAIL: test_auc_rejects_nonfinite_or_nonbinary_observations (test_evidence_admission.EvidenceAdmissionTests.test_auc_rejects_nonfinite_or_nonbinary_observations) (implementation='recheck_extended', labels=[1, 0], scores=[inf, 0.5])
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
     with self.assertRaises(ValueError):
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -100,7 +100,7 @@ AssertionError: ValueError not raised
 FAIL: test_auc_rejects_nonfinite_or_nonbinary_observations (test_evidence_admission.EvidenceAdmissionTests.test_auc_rejects_nonfinite_or_nonbinary_observations) (implementation='recheck_extended', labels=[1, 0, 2], scores=[0.8, 0.2, 0.4])
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
     with self.assertRaises(ValueError):
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -109,7 +109,7 @@ AssertionError: ValueError not raised
 FAIL: test_auc_rejects_nonfinite_or_nonbinary_observations (test_evidence_admission.EvidenceAdmissionTests.test_auc_rejects_nonfinite_or_nonbinary_observations) (implementation='recheck_extended', labels=[1, 0, '1'], scores=[0.8, 0.2, 0.4])
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 54, in test_auc_rejects_nonfinite_or_nonbinary_observations
     with self.assertRaises(ValueError):
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -118,7 +118,7 @@ AssertionError: ValueError not raised
 FAIL: test_auc_requires_complete_pairs (test_evidence_admission.EvidenceAdmissionTests.test_auc_requires_complete_pairs) (implementation='covewm.metrics')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 43, in test_auc_requires_complete_pairs
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 43, in test_auc_requires_complete_pairs
     with self.subTest(implementation=implementation.__module__), self.assertRaises(ValueError):
                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -127,7 +127,7 @@ AssertionError: ValueError not raised
 FAIL: test_auc_requires_complete_pairs (test_evidence_admission.EvidenceAdmissionTests.test_auc_requires_complete_pairs) (implementation='recheck_extended')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 43, in test_auc_requires_complete_pairs
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 43, in test_auc_requires_complete_pairs
     with self.subTest(implementation=implementation.__module__), self.assertRaises(ValueError):
                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -136,7 +136,7 @@ AssertionError: ValueError not raised
 FAIL: test_comparator_rejects_unadmitted_labels_and_marginals (test_evidence_admission.EvidenceAdmissionTests.test_comparator_rejects_unadmitted_labels_and_marginals) (rows=[], marginal=None)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 68, in test_comparator_rejects_unadmitted_labels_and_marginals
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 68, in test_comparator_rejects_unadmitted_labels_and_marginals
     with self.subTest(rows=rows, marginal=marginal), self.assertRaises(ValueError):
                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -145,7 +145,7 @@ AssertionError: ValueError not raised
 FAIL: test_comparator_rejects_unadmitted_labels_and_marginals (test_evidence_admission.EvidenceAdmissionTests.test_comparator_rejects_unadmitted_labels_and_marginals) (rows=[(1, None)], marginal=None)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 68, in test_comparator_rejects_unadmitted_labels_and_marginals
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 68, in test_comparator_rejects_unadmitted_labels_and_marginals
     with self.subTest(rows=rows, marginal=marginal), self.assertRaises(ValueError):
                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -154,7 +154,7 @@ AssertionError: ValueError not raised
 FAIL: test_comparator_rejects_unadmitted_labels_and_marginals (test_evidence_admission.EvidenceAdmissionTests.test_comparator_rejects_unadmitted_labels_and_marginals) (rows=[(True, 1)], marginal=None)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 68, in test_comparator_rejects_unadmitted_labels_and_marginals
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 68, in test_comparator_rejects_unadmitted_labels_and_marginals
     with self.subTest(rows=rows, marginal=marginal), self.assertRaises(ValueError):
                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -163,7 +163,7 @@ AssertionError: ValueError not raised
 FAIL: test_comparator_rejects_unadmitted_labels_and_marginals (test_evidence_admission.EvidenceAdmissionTests.test_comparator_rejects_unadmitted_labels_and_marginals) (rows=[(True, None)], marginal=(0, 2))
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 68, in test_comparator_rejects_unadmitted_labels_and_marginals
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 68, in test_comparator_rejects_unadmitted_labels_and_marginals
     with self.subTest(rows=rows, marginal=marginal), self.assertRaises(ValueError):
                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -172,7 +172,7 @@ AssertionError: ValueError not raised
 FAIL: test_comparator_uses_one_shot_observations (test_evidence_admission.EvidenceAdmissionTests.test_comparator_uses_one_shot_observations)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 59, in test_comparator_uses_one_shot_observations
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 59, in test_comparator_uses_one_shot_observations
     self.assertEqual(feasible_table_comparator(iter(rows)), (1, 2))
 AssertionError: Tuples differ: (0, 0) != (1, 2)
 
@@ -187,7 +187,7 @@ First differing element 0:
 FAIL: test_semantic_gate_checks_domains_and_typed_flags (test_evidence_admission.EvidenceAdmissionTests.test_semantic_gate_checks_domains_and_typed_flags) (table=0, field='domain_cases')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
     with self.subTest(table=table, field=field), self.assertRaises(ValueError):
                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -196,7 +196,7 @@ AssertionError: ValueError not raised
 FAIL: test_semantic_gate_checks_domains_and_typed_flags (test_evidence_admission.EvidenceAdmissionTests.test_semantic_gate_checks_domains_and_typed_flags) (table=1, field='domain_cases')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
     with self.subTest(table=table, field=field), self.assertRaises(ValueError):
                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -205,7 +205,7 @@ AssertionError: ValueError not raised
 FAIL: test_semantic_gate_checks_domains_and_typed_flags (test_evidence_admission.EvidenceAdmissionTests.test_semantic_gate_checks_domains_and_typed_flags) (table=2, field='domain_cases')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
     with self.subTest(table=table, field=field), self.assertRaises(ValueError):
                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -214,7 +214,7 @@ AssertionError: ValueError not raised
 FAIL: test_semantic_gate_checks_domains_and_typed_flags (test_evidence_admission.EvidenceAdmissionTests.test_semantic_gate_checks_domains_and_typed_flags) (table=0, field='equal')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
     with self.subTest(table=table, field=field), self.assertRaises(ValueError):
                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -223,7 +223,7 @@ AssertionError: ValueError not raised
 FAIL: test_semantic_gate_checks_domains_and_typed_flags (test_evidence_admission.EvidenceAdmissionTests.test_semantic_gate_checks_domains_and_typed_flags) (table=1, field='parse_ok')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
     with self.subTest(table=table, field=field), self.assertRaises(ValueError):
                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -232,7 +232,7 @@ AssertionError: ValueError not raised
 FAIL: test_semantic_gate_checks_domains_and_typed_flags (test_evidence_admission.EvidenceAdmissionTests.test_semantic_gate_checks_domains_and_typed_flags) (table=2, field='bounded_equivalent')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
     with self.subTest(table=table, field=field), self.assertRaises(ValueError):
                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -241,7 +241,7 @@ AssertionError: ValueError not raised
 FAIL: test_semantic_gate_checks_domains_and_typed_flags (test_evidence_admission.EvidenceAdmissionTests.test_semantic_gate_checks_domains_and_typed_flags) (table=0, field='javascript_hash')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
     with self.subTest(table=table, field=field), self.assertRaises(ValueError):
                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -250,7 +250,7 @@ AssertionError: ValueError not raised
 FAIL: test_semantic_gate_checks_domains_and_typed_flags (test_evidence_admission.EvidenceAdmissionTests.test_semantic_gate_checks_domains_and_typed_flags) (table=1, field='source_sha256')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 89, in test_semantic_gate_checks_domains_and_typed_flags
     with self.subTest(table=table, field=field), self.assertRaises(ValueError):
                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -259,7 +259,7 @@ AssertionError: ValueError not raised
 FAIL: test_semantic_gate_rejects_duplicate_in_place_of_missing_key (test_evidence_admission.EvidenceAdmissionTests.test_semantic_gate_rejects_duplicate_in_place_of_missing_key) (table=0)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 77, in test_semantic_gate_rejects_duplicate_in_place_of_missing_key
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 77, in test_semantic_gate_rejects_duplicate_in_place_of_missing_key
     with self.subTest(table=table), self.assertRaises(ValueError):
                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -268,7 +268,7 @@ AssertionError: ValueError not raised
 FAIL: test_semantic_gate_rejects_duplicate_in_place_of_missing_key (test_evidence_admission.EvidenceAdmissionTests.test_semantic_gate_rejects_duplicate_in_place_of_missing_key) (table=1)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 77, in test_semantic_gate_rejects_duplicate_in_place_of_missing_key
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 77, in test_semantic_gate_rejects_duplicate_in_place_of_missing_key
     with self.subTest(table=table), self.assertRaises(ValueError):
                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
@@ -277,7 +277,7 @@ AssertionError: ValueError not raised
 FAIL: test_semantic_gate_rejects_duplicate_in_place_of_missing_key (test_evidence_admission.EvidenceAdmissionTests.test_semantic_gate_rejects_duplicate_in_place_of_missing_key) (table=2)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "D:\CodexProjects\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 77, in test_semantic_gate_rejects_duplicate_in_place_of_missing_key
+  File "<PROJECTS_ROOT>\wg-check\substantive-library\P033\artifact\tests\test_evidence_admission.py", line 77, in test_semantic_gate_rejects_duplicate_in_place_of_missing_key
     with self.subTest(table=table), self.assertRaises(ValueError):
                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError: ValueError not raised
