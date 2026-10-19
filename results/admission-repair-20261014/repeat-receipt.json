@@ -3,7 +3,7 @@
   "command": [
     "validate_evidence.py",
     "--out",
-    "<PROJECTS_ROOT>/2026-07-13/new-chat-4/completion_workspace/library_review/private/substantive_library_completion/P033/evidence-repeat"
+    "<WORK_ROOT>/evidence-repeat"
   ],
   "cost_scope": "Includes input integrity, schema/coverage, same-info baselines, native specification setup, both runtimes, serialization and archive comparison. No speedup or upstream cost comparison.",
   "environment": {
@@ -61,7 +61,7 @@
         "executed_at_utc": "2026-10-13T23:32:05.099721+00:00",
         "input_directory": "<PROJECTS_ROOT>\\wg-check\\substantive-library\\P033\\artifact\\results\\current\\results",
         "mode": "data-only reconstruction of retained observations; no state/program intervention generation",
-        "output_directory": "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\evidence-repeat\\joint",
+        "output_directory": "<WORK_ROOT>/evidence-repeat/joint",
         "source_sha256": {
           "check_joint_evidence.py": "630d82a69a012a7ec38a37e888fcd4a217c8313275ebc73b032d98d46421c580",
           "src/covewm/joint_bounds.py": "13b23fcc76a3bf2da3d2e3d6539168ebdc6c0bfb744dc1f928f9696236f05835"

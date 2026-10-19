@@ -5,7 +5,7 @@
     "-S",
     "validate_evidence.py",
     "--out",
-    "<PROJECTS_ROOT>/2026-07-13/new-chat-4/completion_workspace/library_review/private/substantive_library_completion/P033/evidence-repeat"
+    "<WORK_ROOT>/evidence-repeat"
   ],
   "cwd": "<PROJECTS_ROOT>\\wg-check\\substantive-library\\P033\\artifact",
   "started_utc": "2026-10-13T23:32:04.486181+00:00",
@@ -19,5 +19,5 @@
   },
   "logger_python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
   "platform": "Windows-11-10.0.28000-SP0",
-  "log": "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P033\\commands\\evidence-workflow-repeat.log"
+  "log": "<WORK_ROOT>/commands/evidence-workflow-repeat.log"
 }
