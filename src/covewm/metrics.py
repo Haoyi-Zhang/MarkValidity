@@ -6,7 +6,6 @@ import difflib
 import math
 import re
 from collections import Counter
-from math import comb
 from typing import Iterable, Sequence
 
 PY_KEYWORDS = {
@@ -336,24 +335,70 @@ def standardized_linear_model(
     return result
 
 
-def binomial_cdf(n: int, k: int, probability: float) -> float:
+def _binomial_tails(n: int, k: int, probability: float) -> tuple[float, float]:
+    """P(X <= k), P(X > k) for validated binomial parameters.
+
+    Scale the mass at a mode to one, recur outwards in log space, and
+    normalize the two sums together. No unscaled combination is converted
+    to float, and neither tail is obtained by subtracting the other from one.
+    Terms decrease away from the mode; stop only at floating-point underflow.
+    """
     if k < 0:
-        return 0.0
+        return 0.0, 1.0
     if k >= n:
-        return 1.0
-    if probability <= 0:
-        return 1.0
-    if probability >= 1:
-        return 0.0 if k < n else 1.0
-    return sum(
-        comb(n, i) * probability**i * (1 - probability) ** (n - i)
-        for i in range(k + 1)
-    )
+        return 1.0, 0.0
+    if probability == 0:
+        return 1.0, 0.0
+    if probability == 1:
+        return 0.0, 1.0
+    mode = min(n, int((n + 1) * probability))
+    lower, upper = [], []
+    (lower if mode <= k else upper).append(1.0)
+    log_p, log_q = math.log(probability), math.log1p(-probability)
+    log_weight = 0.0
+    for i in range(mode, 0, -1):
+        log_weight = math.fsum((log_weight, math.log(i / (n - i + 1)), log_q, -log_p))
+        weight = math.exp(log_weight)
+        if weight == 0.0:
+            break
+        (lower if i - 1 <= k else upper).append(weight)
+    log_weight = 0.0
+    for i in range(mode, n):
+        log_weight = math.fsum((log_weight, math.log((n - i) / (i + 1)), log_p, -log_q))
+        weight = math.exp(log_weight)
+        if weight == 0.0:
+            break
+        (lower if i + 1 <= k else upper).append(weight)
+    below, above = math.fsum(lower), math.fsum(upper)
+    total = below + above
+    return below / total, above / total
+
+
+def binomial_cdf(n: int, k: int, probability: float) -> float:
+    """Binomial CDF; integer n >= 0, integer k, and finite 0 <= p <= 1."""
+    if (not isinstance(n, int) or isinstance(n, bool) or n < 0
+            or not isinstance(k, int) or isinstance(k, bool)):
+        raise ValueError("integer n >= 0 and integer k are required")
+    if (not isinstance(probability, (int, float)) or isinstance(probability, bool)
+            or not 0 <= probability <= 1 or not math.isfinite(probability)):
+        raise ValueError("a finite probability in [0, 1] is required")
+    return _binomial_tails(n, k, probability)[0]
 
 
 def clopper_pearson(successes: int, trials: int, confidence: float = 0.95) -> tuple[float, float]:
-    if not 0 <= successes <= trials or trials <= 0:
+    """Equal-tailed, two-sided exact binomial interval.
+
+    Counts must be non-boolean integers with 0 <= successes <= trials and
+    trials > 0. Confidence must be finite and in (0, 1); invalid parameters
+    raise ValueError.
+    """
+    if (not isinstance(successes, int) or isinstance(successes, bool)
+            or not isinstance(trials, int) or isinstance(trials, bool)
+            or not 0 <= successes <= trials or trials <= 0):
         raise ValueError((successes, trials))
+    if (not isinstance(confidence, (int, float)) or isinstance(confidence, bool)
+            or not 0 < confidence < 1 or not math.isfinite(confidence)):
+        raise ValueError("a finite confidence strictly between 0 and 1 is required")
     alpha = 1.0 - confidence
     if successes == 0:
         lower = 0.0
@@ -362,7 +407,7 @@ def clopper_pearson(successes: int, trials: int, confidence: float = 0.95) -> tu
         target = alpha / 2
         for _ in range(70):
             mid = (lo + hi) / 2
-            tail = 1.0 - binomial_cdf(trials, successes - 1, mid)
+            tail = _binomial_tails(trials, successes - 1, mid)[1]
             if tail < target:
                 lo = mid
             else:
