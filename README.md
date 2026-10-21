@@ -96,7 +96,7 @@ AUDIT_OUT=/absolute/fresh/reproduction/audit` selects the same pipeline plus
 the evidence audit. `make recheck OUT_RECHECK=/absolute/disposable/results`
 checks a copy; `make clean-results` deliberately refuses to delete evidence.
 
-Retained original run results (not measurements of the current Windows repair campaign):
+Retained original run results:
 
 - 10 unit tests, zero failures;
 - 900 independent reconstruction checks, zero failures;
@@ -129,10 +129,10 @@ reference, plus helper compatibility and token-call counts (not elapsed time).
 Run `python -B -S -m unittest discover -s tests -p test_metric_streams.py -v`
 from the artifact root. `source_metrics` reuses its two regex token streams for
 identifier, normalized-token, and control features; source-taking helpers and
-the separate JavaScript syntax-profile path remain. Current discovery contains
-19 tests at that earlier repair stage; the historical results and source/result manifests are not new
-measurements of this private change. No speedup or broader metric validity is
-claimed.
+the separate JavaScript syntax-profile path remain. The earlier local discovery
+contained 19 tests. The historical results and source/result manifests describe
+those recorded executions, not executions of the current source. No speedup
+or broader metric validity is claimed.
 
 ## Current non-destructive evidence audit
 
@@ -174,7 +174,7 @@ nominal tests. The other 432 semantic checks, 76,032 state rows, project-transfe
 interventions, and original null campaigns were **not regenerated** by this audit.
 No upstream code, model, checkpoint, downloaded test, target, or removal campaign
 was executed. The full historical generator/rechecker and Linux CI remain
-separate workflows; this candidate audit is not installation or scientific acceptance.
+separate workflows.
 
 ## Portable path notation
 

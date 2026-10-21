@@ -21,12 +21,12 @@ The frozen environment record is `results/environment.json`, SHA-256 `9751674074
 
 The external evaluation-protocol replay is formula-level. Complete SWEET, CodeIP, SrcMarker, and STONE system execution is intentionally outside the frozen resource contract because those pipelines require model generation, trained checkpoints, CUDA, or an unavailable perplexity-based imperceptibility component. This exclusion is part of the claim boundary, not an unexecuted promise.
 
-# Current candidate check (2026-10-14)
+# Recorded execution (2026-10-14)
 
-The separate current receipt is `results/evidence-audit-20261014-current/receipt.json`.
+The separate receipt for that execution is `results/evidence-audit-20261014-current/receipt.json`.
 Actual runtimes were CPython 3.12.14 and Node v24.19.0 on Windows 11
 (10.0.28000). No installation was performed; the audit imports only reviewed
-local modules and runtime standard libraries. The current 32-unit and three
-reporting tests are distinct from the older Ubuntu evidence. The current
+local modules and runtime standard libraries. The recorded 32-unit and three
+reporting tests are distinct from the older Ubuntu evidence. That execution's
 native scope is 24 owned references, 72 existing mutants, and 72 carrier-only
 no-ops, not a regeneration of all historical transformations or the state matrix.
