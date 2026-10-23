@@ -32,13 +32,30 @@ the historical observations and manifests remain unchanged.
 
 The 504 semantic checks contain 72 carrier-only rows and 432 rows that link to
 dense configurations under the reviewed producer's payload-zero/full-severity
-mapping. Coverage is 432/76,032 = 1/176, leaving 75,600 unknown labels. The mapping
-is conditional: dense rows contain no source hash or source-extraction result.
+mapping. Coverage is 432/76,032 = 1/176, leaving 75,600 unknown labels. This original
+table-only mapping is conditional; the separate source bridge below supplies
+source identity and extraction observations for this subset.
 All 432 linked labels pass and 122 also have a positive state-model decision.
 Sharp bounds over missing binary-label completions identify no strict
 validity-conditioned winner under any of the three mixtures. Actual source-valid
-detection is not identified by those model bounds; the recorded evidence alone
-leaves it in [0,1]. Unknown labels are neither failed nor successful trials.
+detection is not identified by those model bounds alone. Unknown labels are
+neither failed nor successful trials.
+
+`check_source_detection.py` reconstructs all 504 audited source texts, requires
+their identity to match the retained semantic audit, then runs the declared
+marker-assisted regex extractor and detector on the source. It does not execute
+the programs or upstream systems. There are 408 distinct texts overall and 384
+among the 432 dense-linked configurations; these are not 504 independent programs.
+The direct links have 122 positive decisions: 48 lexical, 48 structural, 26 hybrid.
+The other 75,600 configurations remain unmeasured at the source-valid detection
+level. Its unweighted whole-universe identification interval is
+[122/76032,75722/76032], not the state-model mixture interval.
+Reusing an old semantic label on changed source is an error, as is substituting
+state observations for extraction. Four regression methods cover these rules.
+Run `python -B -S check_source_detection.py --out /absolute/fresh/source-detection`;
+it refuses an existing output. `results/source_detection/` contains the current
+rows, exact reconstructed source texts, summary and paper table. Historical
+program executions, state rows and semantic labels are unchanged.
 
 `src/covewm/joint_bounds.py` supplies the one-pass closed-form bound, including
 an optional same-universe validity-count marginal and analytical endpoint
@@ -53,7 +70,7 @@ Response-curve Clopper--Pearson fields retain their historical values, but are
 now explicitly interpreted as homogeneous independent-Bernoulli reference-model
 intervals. They do not provide exact coverage for the deterministic, heterogeneous
 indexed-state enumeration. The empirical null experiments have a separate trial
-model. Current local discovery contains 43 unit tests plus six reporting
+model. Current local discovery contains 59 unit tests plus six reporting
 regressions; historical Ubuntu test counts remain historical.
 
 `manuscript-reporting/` contains the two current reporting passages consumed

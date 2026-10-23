@@ -1,0 +1,41 @@
+{
+  "dense_source_validity_detection_links": 432,
+  "distinct_source_identities_in_dense_links": 384,
+  "historical_semantic_evaluations_reused": 432,
+  "input_sha256": {
+    "raw/robustness.csv": "f42970e2dd73f1fb790a5697be032e835ba1686df97bf80843fbe46427ca368c",
+    "raw/semantic_audit.csv": "941ee8f5aec0832103b9fd91c5c5ba7bd97a6c2f85d88695e7cb1bbb1e19e80e"
+  },
+  "new_program_executions": 0,
+  "new_upstream_system_executions": 0,
+  "observed_detector": "declared marker-assisted regex extractor, not a general language parser",
+  "other_dense_rows_unmeasured": 75600,
+  "per_scheme": {
+    "hybrid": {
+      "dense_links": 144,
+      "positive_linked_decisions": 26,
+      "source_extraction_rows": 168
+    },
+    "lexical": {
+      "dense_links": 144,
+      "positive_linked_decisions": 48,
+      "source_extraction_rows": 168
+    },
+    "structural": {
+      "dense_links": 144,
+      "positive_linked_decisions": 48,
+      "source_extraction_rows": 168
+    }
+  },
+  "positive_linked_decisions": 122,
+  "producer_sha256": {
+    "check_source_detection.py": "d54cfb0db3fb10894595bcaaee6202f79ab36fb271e6160509a4823c2e718aa2",
+    "src/covewm/benchmark.py": "5fc5664b48970f9929bc397a5d2bcaf162c46467ef38e2269b379d80a869b750",
+    "src/covewm/tasks.py": "718f39e105291be8a6c08c246175b04bce56d01e57819bf14fdd991952bf45a4"
+  },
+  "scope": "source identity and extraction bridge for payload zero/full severity; not the full matrix or external systems",
+  "source_extraction_rows": 504,
+  "source_valid_joint_full_universe_lower": "61/38016",
+  "source_valid_joint_full_universe_upper": "37861/38016",
+  "unique_source_identities": 408
+}
