@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproduce the three quantitative PGFPlots replacements; no experiments run."""
+"""Render quantitative vector figures from retained data without experiments."""
 from __future__ import annotations
 
 import argparse
@@ -153,7 +153,7 @@ def mixture_frontier():
     ax.plot([0.500919, 0.500919], [0.20, 0.72], color=RED,
             linestyle=(0, (3, 1.5)), linewidth=0.85)
     # Libertine lacks U+22C6; only this symbol uses embedded STIX serif math.
-    ax.text(0.515, 0.46, r"$t^\star=0.500919$", ha="left", va="bottom",
+    ax.text(0.54, 0.69, r"$t^\star=0.500919$", ha="left", va="top",
             fontsize=8.47, color=RED,
             bbox={"facecolor": "white", "edgecolor": "none", "pad": 1.5})
     ax.set(xlim=(0, 1), ylim=(0.20, 0.72))
@@ -174,6 +174,7 @@ def mixture_frontier():
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--font-dir", type=Path)
+    parser.add_argument("--only", choices=("gate-geometry", "metric-fingerprint", "mixture-frontier"))
     args = parser.parse_args()
     configure_fonts(args.font_dir)
     output = ROOT / "figures"
@@ -186,6 +187,8 @@ def main() -> None:
         ("metric-fingerprint", metric_fingerprint),
         ("mixture-frontier", mixture_frontier),
     ]:
+        if args.only and name != args.only:
+            continue
         fig = producer()
         path = output / f"{name}.pdf"
         fig.savefig(path, metadata={"Creator": None, "Producer": None,
