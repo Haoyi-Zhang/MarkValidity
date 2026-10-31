@@ -13,6 +13,13 @@ When a sibling paper directory is present, its consumed figure is updated too.
 
 ## What is executed
 
+The post-study support sensitivity can be recomputed with `python -B
+check_protocol_support.py --out <fresh-directory>`. It matches configuration
+keys across all three carriers before taking common nonempty support, and then
+common equal-survivor support (identical analytic negative mixtures). It reads
+manifest-bound retained states, performs no program/model execution, and does
+not replace the original replay or treat excluded deletions as successes.
+
 The frozen pipeline builds:
 
 - 12 independently implemented Python and JavaScript task families;

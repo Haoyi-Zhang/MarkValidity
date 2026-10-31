@@ -243,3 +243,52 @@ def generate_external_protocol_replay(
         json.dumps(status, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
     return status
+
+
+def support_matched_discrimination(rows: list[dict[str, Any]]) -> dict[str, Any]:
+    """Separate score choice from carrier-dependent deletion/conditioning.
+
+    The original replay remains unchanged. Match task/language/attack/severity/
+    payload keys before exclusion. Equal positive survivor counts at each key
+    additionally force identical analytic negative mixtures across carriers.
+    This is a post-study sensitivity calculation, not new watermark trials.
+    """
+    schemes = ("lexical", "structural", "hybrid")
+    fields = ("task", "language", "attack", "severity", "payload_index")
+    indexed = {scheme: {} for scheme in schemes}
+    for row in rows:
+        scheme = row["scheme"]
+        if scheme not in indexed:
+            raise ValueError("unexpected carrier")
+        key = tuple(str(row[field]) for field in fields)
+        if key in indexed[scheme]:
+            raise ValueError("duplicate carrier configuration")
+        # Reject fractional counts instead of silently truncating them.
+        n, m = int(str(row["surviving_sites"])), int(str(row["match_count"]))
+        if not 0 <= m <= n <= 24:
+            raise ValueError("invalid survivor/match counts")
+        indexed[scheme][key] = row
+    keys = set(indexed[schemes[0]])
+    if not keys or any(set(indexed[s]) != keys for s in schemes):
+        raise ValueError("complete paired configuration support required")
+    nonempty = {k for k in keys if all(int(indexed[s][k]["surviving_sites"]) > 0 for s in schemes)}
+    equal = {k for k in nonempty if len({int(indexed[s][k]["surviving_sites"]) for s in schemes}) == 1}
+    supports = {}
+    for name, admitted in (("paired_nonempty", nonempty), ("paired_equal_survivors", equal)):
+        result = {"configurations_per_carrier": len(admitted),
+                  "excluded_configurations_per_carrier": len(keys - admitted),
+                  "identical_negative_mixtures": name == "paired_equal_survivors"}
+        if not admitted:
+            result["status"] = "UNDEFINED_EMPTY_COMMON_SUPPORT"
+        else:
+            result["status"] = "COMPUTED"
+            result["scores"] = {}
+            for scheme in schemes:
+                score = _exact_null_discrimination([indexed[scheme][k] for k in sorted(admitted)])
+                result["scores"][scheme] = {field: _format_fraction(score[field]) for field in
+                    ("auc", "tpr_at_fpr_0_01", "tpr_at_fpr_0_05")}
+        supports[name] = result
+    return {"paired_input_configurations_per_carrier": len(keys), "supports": supports,
+            "scope": "retained indexed states only; no program execution or external-system reproduction",
+            "new_watermark_trials": 0,
+            "selection_warning": "Common-support conditioning changes the target; excluded deletion cases remain outcomes in the original replay."}
