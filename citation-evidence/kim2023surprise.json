@@ -8,14 +8,14 @@
   "year": "2023",
   "pages_or_article": "42",
   "verified_scholarly_identifier": "doi:10.1145/3546947",
-  "source_locator": "https://doi.org/10.1145/3546947",
+  "source_locator": "https://jinhan.me/assets/files/papers/Kim2023ab.pdf",
   "verification_status": "VERIFIED_DOI_RECORD",
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 983,
-      "claim": "A study of surprise adequacy finds that it captures input novelty but does not reliably guide retraining on its own",
+      "line": 994,
+      "claim": "A study of surprise adequacy finds that it captures input novelty but does not reliably guide retraining on its own \\cite{kim2023surprise}.",
       "paragraph_sha256": "cd2f4e487c9192f3e0e38970a0e0c9c8b7ac730ce73a2d52255198ccc5661fae",
       "consumed_by": [
         "paper/main.pdf"
@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
-    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
+    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
+    "scope": "These exact current attributions only; no independent replication or whole-paper reread",
     "original_source": "https://jinhan.me/assets/files/papers/Kim2023ab.pdf",
     "version": "Author-hosted29-page extended journal manuscript, exact title/three-author byline and first-author publication-page link under TOSEM2023. It retains111/J.ACM/August2021 template placeholders, so not claimed final publisher bytes or final article42 layout. Expanded RQ8 body read; not substituted2018/2019 Guiding paper.",
     "inspected_section": "Manuscript p8, section3.1 RQ1/RQ8 and declared evaluation goals, online lines364–378; Manuscript pp20–23, section4.8 Retraining Guidance, Tables8–9/Figure8 and Answer to RQ8; original body pp22–23 reread locally; Manuscript p23, discussion contrasting novelty capture with inconsistent retraining guidance, online lines1433–1462",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "ee3b998f8f377e383de6c1877c067fc2be27f8cd9f7a93604a1dc76c7cc66a4c"
+  "evidence_sha256": "75e410918ea406ac522f915cb90d1ddb3d491ce8ed6c16e1dc7e7e80eddf55c0"
 }

@@ -14,8 +14,8 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 977,
-      "claim": "Kane's argument-based approach evaluates an interpretation by examining the inferences and assumptions in its interpretive argument",
+      "line": 988,
+      "claim": "Kane's argument-based approach evaluates an interpretation by examining the inferences and assumptions in its interpretive argument \\cite{kane1990argument}.",
       "paragraph_sha256": "6c0242194ad7f9040ed62adcca6edba9d84053ae50c27c4297a369c749de990e",
       "consumed_by": [
         "paper/main.pdf"
@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
-    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
+    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
+    "scope": "These exact current attributions only; no independent replication or whole-paper reread",
     "original_source": "https://files.eric.ed.gov/fulltext/ED336428.pdf",
-    "version": "December1990 ACT Research Report Series90-13, government-archived original,49PDFpages including preliminaries and44numbered report pages. Distinct from the1992 and2013journal articles.",
-    "inspected_section": "Original ACT report pp2,9-10 (Interpretations as Arguments) and18 (The Validity Argument); identity and reproduction permission on original preliminary pages.",
+    "version": "Original December1990ACT report90-13,49physical PDFpages including government cover/preliminaries and44numbered report pages. NOT the1992Psychological Bulletin paper and NOT the2013JEM article; no DOI assigned to this report.",
+    "inspected_section": "PDF1-4 identity/copyright/permission; printed1-7(PDF6-12), Interpretations as Arguments pp9-10(PDF14-15), Interpretive Arguments pp13-14(PDF18-19), The Validity Argument p18(PDF23), A Six-Step Process pp34-36 and transition/advantages p37(PDF39-42). PDF1-2 and printed2,9,10 rendered and visually inspected. Visual government cover says ED336428 despite OCR misreading last digit; signed reproduction permission for ERIC visible on original cover.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "0dd6bc817767baf0a52e7571f580f4cc62451f8fcf0f131edacbc8815f116753"
+  "evidence_sha256": "a3e8115e9a4c939b2352d176a2165b5d17f8e9984302c5c5e64f5dc1470225cf"
 }

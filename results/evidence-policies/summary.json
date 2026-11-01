@@ -1,0 +1,31 @@
+{
+  "executed_javascript_detected": 62,
+  "execution_only": {
+    "denominator": 76032,
+    "detected": 122,
+    "known": 432,
+    "lower_numerator": 122,
+    "universe": 76032,
+    "unknown": 75600,
+    "upper_numerator": 75722
+  },
+  "historical_labels_changed": false,
+  "input_bindings": {
+    "results/raw/robustness.csv": "f42970e2dd73f1fb790a5697be032e835ba1686df97bf80843fbe46427ca368c",
+    "results/source_admission/rows.csv.gz": "c0c2bc71c4e84aae52370850b3eb2ca16b9efbc5e4e1d6ec0d134f3fd29bfc21",
+    "results/source_detection/rows.csv": "5d753d0d63e2411a133c76e984a777b0c510255c70264cc5e01dc62a0507fda4"
+  },
+  "premise": "Restricted Python AST-erasure soundness plus retained source-identity-bound execution labels; no generic equivalence or execution claim",
+  "proof_admitted_python_detected": 17893,
+  "proof_supported": {
+    "denominator": 76032,
+    "detected": 17955,
+    "known": 38232,
+    "lower_numerator": 17955,
+    "universe": 76032,
+    "unknown": 37800,
+    "upper_numerator": 55755
+  },
+  "status": "PASS",
+  "task_programs_executed": 0
+}

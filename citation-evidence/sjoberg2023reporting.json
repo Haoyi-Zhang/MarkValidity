@@ -8,14 +8,14 @@
   "year": "2023",
   "pages_or_article": "205--209",
   "verified_scholarly_identifier": "doi:10.1145/3593434.3593449",
-  "source_locator": "https://doi.org/10.1145/3593434.3593449",
+  "source_locator": "https://arxiv.org/pdf/2306.05336",
   "verification_status": "VERIFIED_DOI_RECORD",
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
       "line": 128,
-      "claim": "Their reporting guidance recommends identifying the threatened interpretation rather than appending a generic checklist",
+      "claim": "Their reporting guidance recommends identifying the threatened interpretation rather than appending a generic checklist \\cite{sjoberg2023reporting}.",
       "paragraph_sha256": "c4572132bc476e0093ed57eb713b3da85a7ff06e1d0e5ba46ddfbbfb6049eea9",
       "consumed_by": [
         "paper/main.pdf"
@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
-    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
+    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
+    "scope": "These exact current attributions only; no independent replication or whole-paper reread",
     "original_source": "https://arxiv.org/pdf/2306.05336",
     "version": "Author-hosted final-form EASE2023 paper,5PDFpages, same2author work as citedDOI",
     "inspected_section": "Section3.2-3.4 PDF3-4: consistent operationalization, threat types, clarity of threats and associated constructs",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "0ce9a2dd3c58c9177a3461e137c322ab4d30f57f18f648373cce518743818459"
+  "evidence_sha256": "f72805417322b02cb4fefabb6e16960b367af454c9b452d7e7fa90804d6f8c34"
 }

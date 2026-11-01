@@ -8,14 +8,14 @@
   "year": "2016",
   "pages_or_article": "805--824",
   "verified_scholarly_identifier": "doi:10.1109/TSE.2016.2532875",
-  "source_locator": "https://doi.org/10.1109/TSE.2016.2532875",
+  "source_locator": "https://eprints.whiterose.ac.uk/110335/1/segura16-tse.pdf",
   "verification_status": "VERIFIED_DOI_RECORD",
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 970,
-      "claim": "Metamorphic testing derives relations among executions when pointwise outcomes are unavailable",
+      "line": 981,
+      "claim": "Metamorphic testing derives relations among executions when pointwise outcomes are unavailable \\cite{segura2016}.",
       "paragraph_sha256": "670946b1f1d349f7bcfcb92728bfe466e7f5c6ba303acd531927a44d14f61954",
       "consumed_by": [
         "paper/main.pdf"
@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
-    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
+    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
+    "scope": "These exact current attributions only; no independent replication or whole-paper reread",
     "original_source": "https://eprints.whiterose.ac.uk/110335/1/segura16-tse.pdf",
     "version": "WhiteRose accepted author manuscript,21PDFpages includingcover,DOI10.1109/TSE.2016.2532875; not final pagination",
     "inspected_section": "PDF3 printed2 Section2 metamorphic-relation definition/preconditions/source-followup testprocedure; PDF7 printed6 Section4.2 relation construction",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "d698eb4236f67772869dd995a90c6cb19b5b537ba028159c3769cedb4c294c35"
+  "evidence_sha256": "b75ef4488b079fb1e8af9b1cbde822500423712889b67346d9f6d7b3828b293e"
 }

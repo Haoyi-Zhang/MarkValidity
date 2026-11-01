@@ -8,14 +8,14 @@
   "year": "2024",
   "pages_or_article": "",
   "verified_scholarly_identifier": "formal-record:https://proceedings.iclr.cc/paper_files/paper/2024/hash/beae9ed5316bcc48e616754c06c11875-Abstract-Conference.html",
-  "source_locator": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/beae9ed5316bcc48e616754c06c11875-Abstract-Conference.html",
+  "source_locator": "https://arxiv.org/pdf/2306.17439",
   "verification_status": "VERIFIED_FORMAL_SCHOLARLY_RECORD",
   "verification_basis": "Official ICLR 2024 proceedings record; title, complete author list, venue, and year cross-checked against the formal conference record.",
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 965,
-      "claim": "Provable robustness makes the admissible edit model explicit",
+      "line": 976,
+      "claim": "Provable robustness makes the admissible edit model explicit \\cite{zhao2024}.",
       "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
       "consumed_by": [
         "paper/main.pdf"
@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
-    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
+    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
+    "scope": "These exact current attributions only; no independent replication or whole-paper reread",
     "original_source": "https://arxiv.org/pdf/2306.17439",
     "version": "Author preprint arXiv2306.17439v2,13October2023,36PDFpages; same four-author/title work cited as ICLR2024, final proceedings body not read",
     "inspected_section": "Section2.1 pp4-5 Definitions2.1-2.2/Remark2.3; Section2.2 threat model p5 and Section2.3 Algorithms1-2 p6",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "9ff384fc76107c79591fa37b90c6fbcf58d1c8ae26f3baaac0f89131927aa999"
+  "evidence_sha256": "e5f5b82b14c861b95aa62c971d3335f699c0848d8824657c27b6fdbff1fd69cd"
 }

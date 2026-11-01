@@ -8,14 +8,14 @@
   "year": "2001",
   "pages_or_article": "157--168",
   "verified_scholarly_identifier": "doi:10.1007/3-540-45496-9_12",
-  "source_locator": "https://doi.org/10.1007/3-540-45496-9_12",
+  "source_locator": "https://profs.sci.univr.it/~giaco/download/Watermarking-Obfuscation/graph-theoretic%20watermarks.pdf",
   "verification_status": "VERIFIED_DOI_RECORD",
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 961,
-      "claim": "Graph encodings exposed watermarks to graph-level attacks",
+      "line": 972,
+      "claim": "Graph encodings exposed watermarks to graph-level attacks \\cite{venkatesan2001}.",
       "paragraph_sha256": "5fa7327a9f08a900099a761ef70a92f8535b19c5a80d63fd6c3e27edc1df2ab8",
       "consumed_by": [
         "paper/main.pdf"
@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
-    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
+    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
+    "scope": "These exact current attributions only; no independent replication or whole-paper reread",
     "original_source": "https://profs.sci.univr.it/~giaco/download/Watermarking-Obfuscation/graph-theoretic%20watermarks.pdf",
     "version": "Original publisher-formatted twelve-page2001 article, read online through academic CiteSeerX original copy; no local whole-PDF hash",
     "inspected_section": "Printed158-160 Section1/1.1 graph-cut attacks and graph-hashing problem; printed162 Section4 flow-graph framework; printed165-166 Section5.3 Recovery of Watermark, node identification, keyed sampling, adjacency powers and invariants",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "12c31070e74b89874af0b546cedfd65db27a6a6e55ab26ba0ff75c20f7bd3360"
+  "evidence_sha256": "6e6fef92b9d65abd32d49877ba4ed50ff0a54c9544f5175ed20605e3ae0e999c"
 }

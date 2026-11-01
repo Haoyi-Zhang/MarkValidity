@@ -41,8 +41,8 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 975,
-      "claim": "Arif et al. assess class-level code-quality metrics through exploratory factor analysis on Apache Maven and confirmatory analysis on 22 Java projects",
+      "line": 986,
+      "claim": "\\subsection{Measurement validity, benchmark composition, and overfitting}\nArif et al. assess class-level code-quality metrics through exploratory factor analysis on Apache Maven and confirmatory analysis on 22 Java projects \\cite{arif2026}.",
       "paragraph_sha256": "be93bb42acab439f20b9a1b103a28fac7ea906f5b606468a5bb1d08b605e7c75",
       "consumed_by": [
         "paper/main.pdf"
@@ -52,17 +52,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
-    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
+    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
+    "scope": "These exact current attributions only; no independent replication or whole-paper reread",
     "original_source": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.10",
     "version": "Final ESEM2026/LIPIcs394 pp10:1-10:20; exact original PDF binding in citation-evidence/arif2026-current.json",
     "inspected_section": "Retained citation-evidence/arif2026-current.json: pp.10:6-10:7,10:10-10:12,10:16",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "2706ae3161fc68cb2d8f345ecd66b84d0292aad8d6d5aae9b9d4bb0ed2092085"
+  "evidence_sha256": "b8920bbf9f9ab71a0cf014e613366cc1cd367a5969ed036e04c20c5d1f54895f"
 }

@@ -14,8 +14,8 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 972,
-      "claim": "BigCloneBench provides a curated inter-project corpus for measuring recall by clone type, functionality, and similarity",
+      "line": 983,
+      "claim": "BigCloneBench provides a curated inter-project corpus for measuring recall by clone type, functionality, and similarity \\cite{svajlenko2014}.",
       "paragraph_sha256": "a3ea2899f9953e36cacce2d252e3a815aab9cbd71ba96d633eb4ec362528716b",
       "consumed_by": [
         "paper/main.pdf"
@@ -30,17 +30,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
-    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
+    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
+    "scope": "These exact current attributions only; no independent replication or whole-paper reread",
     "original_source": "https://doi.org/10.1109/ICSME.2014.77",
     "version": "Original IEEEICSME2014 pp476-480; selected original sections explicitly retained",
     "inspected_section": "Retained citation-evidence/svajlenko2014.json: III-B-C, IV-VII",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "9fc9569c78ca0eb96cc2bedbc77c8b55a4c0dbaa290f29e656bd960fdace3c3c"
+  "evidence_sha256": "bf93a1344ca600b7e4ecc006f8a8d51df064d76c8cf191cbc9db6d91f77757a5"
 }

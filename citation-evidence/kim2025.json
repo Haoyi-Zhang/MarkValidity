@@ -8,14 +8,14 @@
   "year": "2026",
   "pages_or_article": "3990--4002",
   "verified_scholarly_identifier": "doi:10.18653/v1/2026.findings-eacl.207",
-  "source_locator": "https://doi.org/10.18653/v1/2026.findings-eacl.207",
+  "source_locator": "https://aclanthology.org/2026.findings-eacl.207.pdf",
   "verification_status": "VERIFIED_DOI_RECORD",
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
       "line": 117,
-      "claim": "STONE restricts embedding to non-syntax tokens and combines correctness, detectability, and perplexity-based imperceptibility",
+      "claim": "STONE restricts embedding to non-syntax tokens and combines correctness, detectability, and perplexity-based imperceptibility \\cite{kim2025}.",
       "paragraph_sha256": "11ac76cfb070b012d036c647db6d96b503d999b459843f33c2db67dfa16ae3e8",
       "consumed_by": [
         "paper/main.pdf"
@@ -23,8 +23,8 @@
     },
     {
       "file": "paper/main.tex",
-      "line": 255,
-      "claim": "STONE operationalizes imperceptibility through relative perplexity shifts",
+      "line": 257,
+      "claim": "STONE operationalizes imperceptibility through relative perplexity shifts \\cite{kim2025}.",
       "paragraph_sha256": "fa5b19dcf342d7a1c47df567bf61e52135b734c5f0df40dbe5c3aed22119749d",
       "consumed_by": [
         "paper/main.pdf"
@@ -32,8 +32,8 @@
     },
     {
       "file": "paper/main.tex",
-      "line": 417,
-      "claim": "STONE combines correctness, detectability, and perplexity-based imperceptibility",
+      "line": 419,
+      "claim": "STONE combines correctness, detectability, and perplexity-based imperceptibility \\cite{kim2025}.",
       "paragraph_sha256": "60e2bd67091b0abfb4e63a9e4f0c18ad69790da72fe3867bd4203e8719012018",
       "consumed_by": [
         "paper/main.pdf"
@@ -63,17 +63,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
-    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
+    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
+    "scope": "These exact current attributions only; no independent replication or whole-paper reread",
     "original_source": "https://aclanthology.org/2026.findings-eacl.207.pdf",
     "version": "Final FindingsEACL2026 pp3990-4002 plus pinned STONE helper; legacy stable key does not change publication year",
     "inspected_section": "Section 3.2 Eqs.(2)-(9), pp.3992-3994; helper calculate_STEM",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "c54ce45c6e59b03e04c5051b74a7431270abbca80de402860f3b4445f5783854"
+  "evidence_sha256": "818823bf4da72de2e7d144cd45f0b6651c88f7a4f1db52d41328427510f0ef38"
 }

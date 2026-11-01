@@ -8,14 +8,14 @@
   "year": "2004",
   "pages_or_article": "274--293",
   "verified_scholarly_identifier": "doi:10.1007/978-3-540-24691-6_21",
-  "source_locator": "https://doi.org/10.1007/978-3-540-24691-6_21",
+  "source_locator": "https://page-one.springer.com/pdf/preview/10.1007/978-3-540-24691-6_21",
   "verification_status": "VERIFIED_DOI_RECORD",
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 963,
-      "claim": "Register-allocation watermarks depend on compiler allocation decisions",
+      "line": 974,
+      "claim": "Register-allocation watermarks depend on compiler allocation decisions \\cite{myles2004register}.",
       "paragraph_sha256": "e5e2f7716dd358e9ad8580baf1e314c4186ccf0bf30c32721949a0b16f68a98b",
       "consumed_by": [
         "paper/main.pdf"
@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
-    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
+    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
+    "scope": "These exact current attributions only; no independent replication or whole-paper reread",
     "original_source": "https://page-one.springer.com/pdf/preview/10.1007/978-3-540-24691-6_21",
-    "version": "Publisher-authorized two-page excerpt of the revised ICISC2003 chapter, LNCS2971(2004),274-293; only original pp274-275 accessed. No complete20-page reading or detailed performance/attack result asserted.",
-    "inspected_section": "Exact published chapter p275, Section1 Introduction, paragraphs1-3: watermark constraints, graph coloring and application to a graph-coloring register allocator; p274 title/byline/publication identity.",
+    "version": "Publisher-authorized2-page excerpt of the exact revised chapter: Ginger Myles and Christian Collberg, ICISC2003/LNCS2971, printed274-293,2004. First-page byline and Springer footer read. NOT the28-slide author handout and NOT complete20-page access.",
+    "inspected_section": "Printed274: exact title/byline/book/volume/pages/year/copyright identity; printed275: Section1 Introduction full non-abstract body, paragraphs1-3 including embed/recognize functions, adding watermark constraints to a graph-coloring problem, and applying QP to a graph-coloring register allocator. Both original pages rendered and visually read.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "44b6969f0860de85b73cb411e21d2c7e3eaa1b3c7a4b894aabbd53ae0606543d"
+  "evidence_sha256": "9d3552426e0de1447627cb5e6b2f945c4510be36d0a9ce1931668c58fb450b2e"
 }

@@ -8,14 +8,14 @@
   "year": "2018",
   "pages_or_article": "4",
   "verified_scholarly_identifier": "doi:10.1145/3143561",
-  "source_locator": "https://doi.org/10.1145/3143561",
+  "source_locator": "https://www.researchgate.net/publication/322261865_Metamorphic_Testing_A_Review_of_Challenges_and_Opportunities",
   "verification_status": "VERIFIED_DOI_RECORD",
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 673,
-      "claim": "Metamorphic testing similarly relies on executable relations when direct expected outputs are difficult to obtain; the benchmark uses exhaustive differential execution where finite domains make it possible",
+      "line": 675,
+      "claim": "Metamorphic testing similarly relies on executable relations when direct expected outputs are difficult to obtain \\cite{chen2018}; the benchmark uses exhaustive differential execution where finite domains make it possible.",
       "paragraph_sha256": "d58b0589bd280087f2966176cd35de25241f6746a0d179a8705ddd7712f03951",
       "consumed_by": [
         "paper/main.pdf"
@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
-    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
+    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
+    "scope": "These exact current attributions only; no independent replication or whole-paper reread",
     "original_source": "https://www.researchgate.net/publication/322261865_Metamorphic_Testing_A_Review_of_Challenges_and_Opportunities",
     "version": "Coauthor Zhi Quan Zhou's public2018-01-10 manuscript, Manuscript submitted to ACM footer; final51(1)Article4 identity separately retained",
-    "inspected_section": "Original manuscript Section2.2, pp4-5, Definitions1-4 and shortest-path example.",
+    "inspected_section": "Manuscript Section2.2 pp4-5 Definitions1-4 and shortest-path example, original online lines683-1040 retained in A followup/final-body-5.json part0; worker-b actually reinspected these body passages.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "ccd58240646202d5535f062d14dc33257bffa91e4ce47f882cdd13078d5c37aa"
+  "evidence_sha256": "93b6b3e848cdf02ec6b133e3adf4d5ddf651d41183b8d6e128720b02bf88baba"
 }

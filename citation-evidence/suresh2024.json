@@ -8,14 +8,14 @@
   "year": "2024",
   "pages_or_article": "",
   "verified_scholarly_identifier": "doi:10.48550/arXiv.2403.17983",
-  "source_locator": "https://doi.org/10.48550/arXiv.2403.17983",
+  "source_locator": "https://arxiv.org/pdf/2403.17983",
   "verification_status": "VERIFIED_DOI_RECORD",
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 965,
-      "claim": "A recent preprint reports that code transformations described there as semantics-preserving can sharply reduce the detectability of existing generated-code watermarks",
+      "line": 976,
+      "claim": "A recent preprint reports that code transformations described there as semantics-preserving can sharply reduce the detectability of existing generated-code watermarks \\cite{suresh2024}.",
       "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
       "consumed_by": [
         "paper/main.pdf"
@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
-    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
+    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
+    "scope": "These exact current attributions only; no independent replication or whole-paper reread",
     "original_source": "https://arxiv.org/pdf/2403.17983",
     "version": "Original arXiv2403.17983 manuscript,8PDFpages, ICLR2024 header; current citation is a preprint",
     "inspected_section": "Section2.2/Algorithm1 and Section3.2 PDF2-3; Section4.1/Table2 PDF3",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "410a817dfcbb3a0cccd2775df945230708cc6d6c4e4e060b558fab889edf6528"
+  "evidence_sha256": "a309d116ab9319bad4497c5877f87efa3f99142154c6ca300a72e3e5c0943113"
 }

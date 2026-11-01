@@ -1,0 +1,36 @@
+{
+  "citation_key": "liang2025waterpark",
+  "entry_type": "inproceedings",
+  "title": "Watermark under Fire: A Robustness Evaluation of {LLM} Watermarking",
+  "authors": "Jiacheng Liang and Zian Wang and Spencer Hong and Shouling Ji and Ting Wang",
+  "year": "2025",
+  "verified_scholarly_identifier": "doi:10.18653/v1/2025.findings-emnlp.1148",
+  "source_locator": "https://aclanthology.org/2025.findings-emnlp.1148.pdf",
+  "manuscript_occurrences": [
+    {
+      "file": "paper/main.tex",
+      "line": 186,
+      "claim": "WaterPark studies attack-specific behavior and fixed-false-positive operating points~\\cite{liang2025waterpark}.",
+      "paragraph_sha256": "cb3c3ceed59d9a2a81663615290d5c7a3adb336af99fe7fe12637fb1f40a38ba",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
+    }
+  ],
+  "current_source_bindings": {
+    "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
+    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "These exact current attributions only; no independent replication or whole-paper reread",
+    "original_source": "https://aclanthology.org/2025.findings-emnlp.1148.pdf",
+    "version": "Findings of EMNLP2025, pp.21050–21074, DOI10.18653/v1/2025.findings-emnlp.1148",
+    "inspected_section": "Section3.2, author-PDF p.3, fixed-FPR detection evaluation; AppendicesE–I, intensity and task effects",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "3cee72429f13c1e54ed53627a30b899b9d70b32a00aa767639c130cbeb0fb7b5"
+}
