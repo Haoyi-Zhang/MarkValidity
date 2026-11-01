@@ -416,7 +416,7 @@
       "verified_scholarly_identifier": "doi:10.1145/3143561",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "5bd53c9dce0e2c587ac304d81b40777dcc601797ba0c6f85d61589f1069587b3",
+      "evidence_sha256": "91844e6552bbf2538ab3ec2a5ea08dc08b62925fd8a92a635ba2226dd59be48d",
       "position": 25,
       "claim_id": "CIT-025"
     },
@@ -672,7 +672,7 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.mlr.press/v202/kirchenbauer23a.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "05240e45acfd28274046fcc21024aa1c534e76af21e9de6efc11d4409eb6a416",
+      "evidence_sha256": "cb207a9431ed5b76e5441b08d62b703a096990779b173cfb41b0c440548f435a",
       "position": 41,
       "claim_id": "CIT-041"
     },
@@ -752,7 +752,7 @@
       "verified_scholarly_identifier": "doi:10.1145/1062455.1062530",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "60a335006650e52a27e81ba6e73ba1f1111dc1df3dd19bfbdb78e466502282e2",
+      "evidence_sha256": "fa8e88af0b960cc2943d30d951c83fe0190f7083d04b594674b78c96e722c011",
       "position": 46,
       "claim_id": "CIT-046"
     },
@@ -768,7 +768,7 @@
       "verified_scholarly_identifier": "doi:10.1109/C-M.1978.218136",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "d606df44044fbf27633a8642b309a28c75254ef23c62eb6e43a90e90867df1e6",
+      "evidence_sha256": "99c60b6bb07b186c682093371d1662c4803c05e55e6bad2d030cf1e5e1536803",
       "position": 47,
       "claim_id": "CIT-047"
     },

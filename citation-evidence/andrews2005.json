@@ -34,8 +34,8 @@
     "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
     "original_source": "https://www.researchgate.net/publication/4200521_Is_mutation_an_appropriate_tool_for_testing_experiments",
     "version": "Coauthor-uploaded original ICSE2005 pp402-411; not a later journal paper or claimed publisher-byte equality",
-    "inspected_section": "Original Section3/3.1 Experiment Material and Procedure, printed403-404; Section3.5 printed405; Section4.5/5 printed408-409. Worker-b reread retained original-body passages in A followup/final-body-4.json part1 and final-body-6.json parts3-4, not citing-paper summaries.",
+    "inspected_section": "Original Sections3/3.1 Experiment Material and Procedure, printed403-404; Section3.5 printed405; Sections4.5/5 printed408-409.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "60a335006650e52a27e81ba6e73ba1f1111dc1df3dd19bfbdb78e466502282e2"
+  "evidence_sha256": "fa8e88af0b960cc2943d30d951c83fe0190f7083d04b594674b78c96e722c011"
 }

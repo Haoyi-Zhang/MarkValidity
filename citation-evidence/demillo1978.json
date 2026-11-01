@@ -34,8 +34,8 @@
     "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
     "original_source": "https://gse.ufsc.br/bezerra/disciplinas/Confiabilidade/docs/demillo-mutants.pdf",
     "version": "UFSC institutional course-hosted original Computer11(4)34-41 scan, not a modern mutation-testing survey",
-    "inspected_section": "Complete physicalPDFpp1-4 / printed34-37: competent programmers/close-to-correct premise, coupling as empirical principle, mutant/dead/live/equivalent definitions and MAX example. Worker-b reread those original pages from A's retained PDF.",
+    "inspected_section": "Original physical PDFpp1-4 / printed34-37: competent-programmer and close-to-correct premises, coupling as an empirical principle, mutant/dead/live/equivalent definitions and MAX example.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "d606df44044fbf27633a8642b309a28c75254ef23c62eb6e43a90e90867df1e6"
+  "evidence_sha256": "99c60b6bb07b186c682093371d1662c4803c05e55e6bad2d030cf1e5e1536803"
 }

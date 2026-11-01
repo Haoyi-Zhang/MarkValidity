@@ -34,8 +34,8 @@
     "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
     "original_source": "https://www.researchgate.net/publication/322261865_Metamorphic_Testing_A_Review_of_Challenges_and_Opportunities",
     "version": "Coauthor Zhi Quan Zhou's public2018-01-10 manuscript, Manuscript submitted to ACM footer; final51(1)Article4 identity separately retained",
-    "inspected_section": "Manuscript Section2.2 pp4-5 Definitions1-4 and shortest-path example, original online lines683-1040 retained in A followup/final-body-5.json part0; worker-b actually reinspected these body passages.",
+    "inspected_section": "Original manuscript Section2.2, pp4-5, Definitions1-4 and shortest-path example.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "5bd53c9dce0e2c587ac304d81b40777dcc601797ba0c6f85d61589f1069587b3"
+  "evidence_sha256": "91844e6552bbf2538ab3ec2a5ea08dc08b62925fd8a92a635ba2226dd59be48d"
 }
