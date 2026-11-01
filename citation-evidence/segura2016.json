@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "segura2016",
   "entry_type": "article",
   "title": "A Survey on Metamorphic Testing",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1124,
-      "claim": "Metamorphic testing derives relations among executions when pointwise outcomes are unavailable"
+      "file": "paper/main.tex",
+      "line": 920,
+      "claim": "Metamorphic testing derives relations among executions when pointwise outcomes are unavailable",
+      "paragraph_sha256": "670946b1f1d349f7bcfcb92728bfe466e7f5c6ba303acd531927a44d14f61954",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "0024ff60d9ae29889f963066cec20a323732c6db6069ee9dc8ce753f84d4b0c1"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://eprints.whiterose.ac.uk/110335/1/segura16-tse.pdf",
+    "version": "WhiteRose accepted author manuscript,21PDFpages includingcover,DOI10.1109/TSE.2016.2532875; not final pagination",
+    "inspected_section": "PDF3 printed2 Section2 metamorphic-relation definition/preconditions/source-followup testprocedure; PDF7 printed6 Section4.2 relation construction",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "1b7f135a13c07103d3acaf50798b4b7eb8754745e7c037cd8285a52e1f46bda6"
 }

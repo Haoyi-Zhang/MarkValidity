@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "borsboom2004",
   "entry_type": "article",
   "title": "The Concept of Validity",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1129,
-      "claim": "connect an attributed property to variation in the measure"
+      "file": "paper/main.tex",
+      "line": 927,
+      "claim": "Borsboom et al. offer a causal alternative, grounding validity in an existing attribute's effect on measurement outcomes",
+      "paragraph_sha256": "1cd0eec2eead29ba9bd42c474b46be01dff7a79bdc3e627e969dc612b1cd6325",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "9834b0a06821c703eeca5b28ecfc8d8c91a7e16dbcfa0b43d4b90918f8c41110"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://www.researchgate.net/publication/8234397_The_Concept_of_Validity",
+    "version": "Public original article full text uploaded by author Denny Borsboom; selected printed-body passages, not a claim to retain publisher PDF bytes",
+    "inspected_section": "Printed pp1061-1062 introduction body: proposed existence/causal-variation definition and response-process discussion; pp1066-1067 Where to Look for Validity body",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "d6f6c3d3bc0c910bccc008aed386ad8c2d914fe146ebb94144bbebcae31d3320"
 }

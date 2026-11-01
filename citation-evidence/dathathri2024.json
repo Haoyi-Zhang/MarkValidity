@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "dathathri2024",
   "entry_type": "article",
   "title": "Scalable Watermarking for Identifying Large Language Model Outputs",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1119,
-      "claim": "Production-scale evaluations report detectability across several models, temperatures, and text lengths rather than as a single context-free operating point"
+      "file": "paper/main.tex",
+      "line": 915,
+      "claim": "Production-scale evaluations report detectability across several models, temperatures, and text lengths rather than as a single context-free operating point",
+      "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "9a5e825a6cc06ec8016c1166aaecb979adc30613bf7ccd52b90e2e0db9b4328a"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://www.nature.com/articles/s41586-024-08025-4.pdf",
+    "version": "Final Nature634818-823 article plusMethods/ExtendedData,14PDFpages",
+    "inspected_section": "PDF2 printed819 method/production context; PDF3 printed820 length,entropy,model/temperature conditions; PDF5 printed822 Evaluation andFigure3 caption; publisher HTML Evaluation body also inspected",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "89a5f769c1588786e74516a627352339300c6f7e4b8d5b18155c6898e3939312"
 }

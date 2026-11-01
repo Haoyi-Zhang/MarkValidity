@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "lee2024",
   "entry_type": "inproceedings",
   "title": "Who Wrote this Code? Watermarking for Code Generation",
@@ -13,13 +13,38 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 146,
-      "claim": "SWEET adapts entropy-thresholded watermarking to generated code"
+      "file": "paper/main.tex",
+      "line": 98,
+      "claim": "SWEET adapts entropy-thresholded watermarking to generated code",
+      "paragraph_sha256": "11ac76cfb070b012d036c647db6d96b503d999b459843f33c2db67dfa16ae3e8",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     },
     {
-      "line": 471,
-      "claim": "SWEET summarizes discrimination by AUROC and TPR at declared false-positive bounds"
+      "file": "paper/main.tex",
+      "line": 398,
+      "claim": "SWEET reports AUROC and TPR at declared false-positive bounds",
+      "paragraph_sha256": "60e2bd67091b0abfb4e63a9e4f0c18ad69790da72fe3867bd4203e8719012018",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "b86b598d4121ac8d49ae4f1b401e140eae3a083f8b22284f685c63e467313e8b"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://aclanthology.org/2024.acl-long.268.pdf",
+    "version": "Final ACL2024 pp4890-4911; selected method/evaluation and pinned official code, distinct supports retained below",
+    "inspected_section": "pp.4892-4894, Sections 3.1-3.2 Eq.(1), 4.1",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "a3a8310a8af02e0f31ea105723fd532aa171dfc6fd49adedaccb2b9b07805608"
 }

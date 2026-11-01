@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "buse2010",
   "entry_type": "article",
   "title": "Learning a Metric for Code Readability",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1126,
-      "claim": "Readability models instead rely on human labels"
+      "file": "paper/main.tex",
+      "line": 922,
+      "claim": "Readability models instead rely on human labels",
+      "paragraph_sha256": "a3ea2899f9953e36cacce2d252e3a815aab9cbd71ba96d633eb4ec362528716b",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "1ef0f8910baf8711cdc47b8edcab1d18bc7e4e2c067eae55f6034545c72ac8ea"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://web.eecs.umich.edu/~weimerw/p/weimer-tse2010-readability-preprint.pdf",
+    "version": "Author-hosted14-page journalpreprint,sameBuse/Weimer title asTSE2010work,not shorter2008conferencepaper orfinaljournalpagination",
+    "inspected_section": "PDF3-4 Sections2.1-2.3 snippet selection,readability scoring andstudy participation",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "3c1a07e4e13a2b55bde25478f5da7324874e9a9968e5538ee8ff6ec5434c2b36"
 }

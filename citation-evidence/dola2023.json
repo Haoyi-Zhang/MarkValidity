@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "dola2023",
   "entry_type": "article",
   "title": "Input Distribution Coverage: Measuring Feature Interaction Adequacy in Neural Network Testing",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1135,
-      "claim": "Input-distribution coverage measures feature-interaction adequacy"
+      "file": "paper/main.tex",
+      "line": 933,
+      "claim": "Input-distribution coverage measures feature-interaction adequacy",
+      "paragraph_sha256": "cd2f4e487c9192f3e0e38970a0e0c9c8b7ac730ce73a2d52255198ccc5661fae",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "14caf00ea3cf5c33dc64c7088c62b24d404c1e93ed9f10f20c74b984b52fe565"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://doi.org/10.1145%2F3576040",
+    "version": "Publisher-indexed original article method-body passages for the cited2023 work; direct full-HTML endpoint403; no complete final-PDF bytes claimed",
+    "inspected_section": "Section3 Overview and Figure4 workflow; Sections3.1 Input Filtration and3.2 Feature Abstraction; Section4.4 Feasible Partition Combinations and Definition9 surrounding prose",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "9ffee09b6f60fc2828128b0d05718bd91f6bdddc2d12a4dfca043a3d31b53bfc"
 }

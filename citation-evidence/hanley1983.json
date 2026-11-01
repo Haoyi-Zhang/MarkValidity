@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "hanley1983",
   "entry_type": "article",
   "title": "If Nothing Goes Wrong, Is Everything All Right? Interpreting Zero Numerators",
@@ -13,9 +13,32 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1138,
-      "claim": "Zero events still imply a positive upper confidence limit"
+      "file": "paper/main.tex",
+      "line": 936,
+      "claim": "Zero events still imply a positive upper confidence limit",
+      "paragraph_sha256": "f938e83a62c303a62d10499c232bbf773100a3d66ac75beaaa4b5bfaed299945",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "bc8e04a52bece8c77fb44b8af240c0e3af2791d3cf64e87fcc7b855ba2261bd1"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://jhanley.biostat.mcgill.ca/c607/ch08/zero_numerator.pdf#page=1",
+    "version": "Author-hosted four-page retypeset copy of the two-author JAMA1983 article, repeated title/byline/date and final citation1743–1745 identify the work. Not a local whole-PDF identity or claim of original three-page publisher layout.",
+    "inspected_section": [
+      "Retypeset p2, Making Inferences: The Rule of Three; exact-binomial equation and expansion, online lines30–58",
+      "Retypeset pp2–3, Tables1–2, online lines64–103"
+    ],
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "b8a82afe89ac3eb8869033180dc386e0f300545cdfdc99c4db4cb97eb6cb5ea6"
 }

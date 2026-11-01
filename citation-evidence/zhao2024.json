@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "zhao2024",
   "entry_type": "inproceedings",
   "title": "Provable Robust Watermarking for AI-Generated Text",
@@ -13,9 +13,29 @@
   "verification_basis": "Official ICLR 2024 proceedings record; title, complete author list, venue, and year cross-checked against the formal conference record.",
   "manuscript_occurrences": [
     {
-      "line": 1119,
-      "claim": "Provable robustness makes the admissible edit model explicit"
+      "file": "paper/main.tex",
+      "line": 915,
+      "claim": "Provable robustness makes the admissible edit model explicit",
+      "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "8d0aa221f2a9094e6a64ecebbcc3bf6924af8780576a552a63e17ee92b035791"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://arxiv.org/pdf/2306.17439",
+    "version": "Author preprint arXiv2306.17439v2,13October2023,36PDFpages; same four-author/title work cited as ICLR2024, final proceedings body not read",
+    "inspected_section": "Section2.1 pp4-5 Definitions2.1-2.2/Remark2.3; Section2.2 threat model p5 and Section2.3 Algorithms1-2 p6",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "09d0f6e432a955d75a1292f1353903163666c407e99faa700f03daebb8a72848"
 }

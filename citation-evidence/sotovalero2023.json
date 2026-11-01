@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "sotovalero2023",
   "entry_type": "article",
   "title": "Coverage-Based Debloating for Java Bytecode",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1135,
-      "claim": "Coverage-based debloating shows that coverage choice changes the retained program"
+      "file": "paper/main.tex",
+      "line": 933,
+      "claim": "Coverage-based debloating shows that coverage choice changes the retained program",
+      "paragraph_sha256": "cd2f4e487c9192f3e0e38970a0e0c9c8b7ac730ce73a2d52255198ccc5661fae",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "34b8faa015ac2a987b374175ad21e09eb8cf09e16f7a10aa3f7e3a69eac38548"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://arxiv.org/pdf/2008.08401",
+    "version": "arXiv2008.08401v4,19May2022,35pages; placeholder DOI/issue not used as final journal metadata",
+    "inspected_section": "Complete PDFp4 Section3 Definition1 coverage-based debloating and Section3.1 coverage-report limitations; PDFpp5-6 JaCoCo implicit-exception example with missed methods/removal failures",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "860caea835fedd86c6aa91e2139164e2dedd74dda399f165cd1249a212fe7e72"
 }

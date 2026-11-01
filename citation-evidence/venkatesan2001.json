@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "venkatesan2001",
   "entry_type": "inproceedings",
   "title": "A Graph Theoretic Approach to Software Watermarking",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1115,
-      "claim": "Graph encodings exposed watermarks to graph-level attacks"
+      "file": "paper/main.tex",
+      "line": 911,
+      "claim": "Graph encodings exposed watermarks to graph-level attacks",
+      "paragraph_sha256": "5fa7327a9f08a900099a761ef70a92f8535b19c5a80d63fd6c3e27edc1df2ab8",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "b88c8349e95e8122a523216d3c18f2e12c0c004178b9e705ebc8d835af24689b"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://profs.sci.univr.it/~giaco/download/Watermarking-Obfuscation/graph-theoretic%20watermarks.pdf",
+    "version": "Original publisher-formatted twelve-page2001 article, read online through academic CiteSeerX original copy; no local whole-PDF hash",
+    "inspected_section": "Printed158-160 Section1/1.1 graph-cut attacks and graph-hashing problem; printed162 Section4 flow-graph framework; printed165-166 Section5.3 Recovery of Watermark, node identification, keyed sampling, adjacency powers and invariants",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "06c4245b446951f132802db23c689076630bad830d31378e12ebf64f8934a536"
 }

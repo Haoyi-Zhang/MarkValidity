@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "collberg2015benefaction",
   "entry_type": "techreport",
   "title": "Repeatability and Benefaction in Computer Systems Research: A Study and a Modest Proposal",
@@ -13,8 +13,13 @@
   "verification_basis": "Actual original report title/authors/TR number/date and selected body, distinct from the 2016 two-author CACM article.",
   "manuscript_occurrences": [
     {
-      "line": 941,
-      "claim": "Library and compiler dependencies obstruct systems-code builds"
+      "file": "paper/main.tex",
+      "line": 931,
+      "claim": "Library and compiler dependencies obstruct systems-code builds",
+      "paragraph_sha256": "1214703853df27b6a6f69eb075c901608a08cc0242a20470ab6c0849f37d9cdb",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
   "primary_reading": {
@@ -22,5 +27,20 @@
     "scope": "Physical pages 1-2: title, abstract, study description and library/compiler/environment dependency context; not all 68 pages",
     "supported_role": "Source availability and buildability obstacles, not reproduction of published scientific results or this project's experimental validity"
   },
-  "evidence_sha256": "a6a8c0259be3708513a802f97060f222964c75210e0b9836e69866945a571382"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://reproducibility.cs.arizona.edu/v2/RepeatabilityTR.pdf",
+    "version": "Version stated in retained original-reading record",
+    "inspected_section": "Physical pages 1-2: title, abstract, study description and library/compiler/environment dependency context; not all 68 pages",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "23b020b1e10342d3d489a5a2365b832c0556496ae3eda319adb91bf1df71c646"
 }

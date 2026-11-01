@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "necula2000",
   "entry_type": "inproceedings",
   "title": "Translation Validation for an Optimizing Compiler",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1124,
-      "claim": "Translation validation checks each produced program against a semantic relation"
+      "file": "paper/main.tex",
+      "line": 920,
+      "claim": "Translation validation checks each produced program against a semantic relation",
+      "paragraph_sha256": "670946b1f1d349f7bcfcb92728bfe466e7f5c6ba303acd531927a44d14f61954",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "a937371a510cb604b382303f2a980796d0c5edaa41721e4d5c2b7fd70affcfd9"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://people.eecs.berkeley.edu/~necula/Papers/tv_pldi00.pdf",
+    "version": "Author-hosted12page PLDI2000 manuscript, same author/title as cited paper; incomplete proceedings DOI field not used as identity evidence",
+    "inspected_section": "Introduction continuation and Section2 simulation-relation/equivalence criterion PDF2",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "57e0ab8dd2856c764e800e3d22b15f9abb6bf3a5ae548ad15d9f037609357a1f"
 }

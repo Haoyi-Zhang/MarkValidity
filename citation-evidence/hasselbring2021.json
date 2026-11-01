@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "hasselbring2021",
   "entry_type": "inproceedings",
   "title": "Benchmarking as Empirical Standard in Software Engineering Research",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 260,
-      "claim": "Benchmarking as an empirical standard likewise depends on explicit workload and comparison contracts"
+      "file": "paper/main.tex",
+      "line": 210,
+      "claim": "Benchmarking as an empirical standard likewise depends on explicit workload and comparison contracts",
+      "paragraph_sha256": "43eade8fde8c9c663bf1cd94fba201b2176b0ea30472080f788f09f632974ec0",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "331a8d791a9b7fca469d65dd1a8373ae446795d6048608bdf78ea6ae2f00f564"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://arxiv.org/pdf/2105.00272",
+    "version": "arXiv2105.00272v1,1May2021,8pages; not asserted byte-identical to EASE publisher final",
+    "inspected_section": "Complete PDFpp6-7: Section3.2 benchmark/case-study workloads; Section4 comparison/fairness/relevance/verifiability requirements; Section5 proposed essential/desirable checklist",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "eb90ef30e74468bab6539e6aa7819cbf17879ea2037ff3c50017d63a14443188"
 }

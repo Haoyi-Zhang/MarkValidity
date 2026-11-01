@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "suresh2024",
   "entry_type": "article",
   "title": "Is the Watermarking of LLM-Generated Code Robust?",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
+      "file": "paper/main.tex",
       "line": 915,
-      "claim": "A recent preprint reports that code transformations described there as semantics-preserving can sharply reduce the detectability of existing generated-code watermarks"
+      "claim": "A recent preprint reports that code transformations described there as semantics-preserving can sharply reduce the detectability of existing generated-code watermarks",
+      "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "f6621cca05066b4b6b8970e1a0847d4ae82ba62fecd49e1e030c017d9c1fc0d4"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://arxiv.org/pdf/2403.17983",
+    "version": "Original arXiv2403.17983 manuscript,8PDFpages, ICLR2024 header; current citation is a preprint",
+    "inspected_section": "Section2.2/Algorithm1 and Section3.2 PDF2-3; Section4.1/Table2 PDF3",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "27128eae890d1a2ecb31caaa44ba070332c877b14a499398442930eca238e9b2"
 }

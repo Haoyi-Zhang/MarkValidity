@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "myrtveit2005",
   "entry_type": "article",
   "title": "Reliability and Validity in Comparative Studies of Software Prediction Models",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1131,
-      "claim": "distinguish reliability from validity in comparative prediction"
+      "file": "paper/main.tex",
+      "line": 929,
+      "claim": "Myrtveit et al. distinguish reliability from validity in comparative prediction",
+      "paragraph_sha256": "8c1cc5f556b2df33fe924d58b7cc9bbb5f69b9e8c0aa3bd58f0c1f304480268d",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "3424279ecd25997ebea6ee99e68929fc5ab3efefde41ba131fdb5448198e85c1"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://bura.brunel.ac.uk/bitstream/2438/1853/1/01438374.pdf",
+    "version": "Institutional author repository original publisher-formatted12-page article; selected relevant body, no local final-PDF hash",
+    "inspected_section": "PDFp2/printed381 introduction reliability/validity distinction; PDFp3/printed382 complete Section5.1 Reliability and Validity; PDFp6 Section6 model-choice consistency versus correctness",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "171cd3fc9d774f40776c78f4fe4d21b921cd9c16220df1741dc5f8ebd9b28372"
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "kirchenbauer2024",
   "entry_type": "inproceedings",
   "title": "On the Reliability of Watermarks for Large Language Models",
@@ -13,11 +13,15 @@
   "verification_basis": "Official ICLR 2024 proceedings record; title, complete author list, venue, and year cross-checked against the formal conference record.",
   "manuscript_occurrences": [
     {
-      "line": 925,
-      "claim": "Reliability studies examine paraphrasing, text mixing, and length-dependent detection at specified false-positive rates"
+      "file": "paper/main.tex",
+      "line": 915,
+      "claim": "Reliability studies examine paraphrasing, text mixing, and length-dependent detection at specified false-positive rates",
+      "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "c74477445a99f5ef25652556d4ab63b93c3b890cfb32d6b1982a2613664e4b10",
   "prior_manuscript_occurrences": [
     {
       "line": 1119,
@@ -28,5 +32,21 @@
     "source": "https://proceedings.iclr.cc/paper_files/paper/2024/file/d78e9e4316e1714fbb0f20be66f8044c-Paper-Conference.pdf",
     "scope": "Actual original abstract, introduction/contributions and detection overview, physical1–3; conclusions physical9. Not all45 pages.",
     "supported_role": "Human/machine paraphrasing, text mixing and sequence-length-dependent detection at controlled false-positive rates, not a four-way spoofing/quality taxonomy."
-  }
+  },
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://proceedings.iclr.cc/paper_files/paper/2024/file/d78e9e4316e1714fbb0f20be66f8044c-Paper-Conference.pdf",
+    "version": "Version stated in retained original-reading record",
+    "inspected_section": "Actual original abstract, introduction/contributions and detection overview, physical1–3; conclusions physical9. Not all45 pages.",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "51c3ba48fb4d24aedd5b5aea6d45b8c249b5ea40ae6254d0854499d1227225aa"
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "cronbach1955",
   "entry_type": "article",
   "title": "Construct Validity in Psychological Tests",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 148,
-      "claim": "Construct validity asks whether an operationalization supports the interpretation attached to it"
+      "file": "paper/main.tex",
+      "line": 100,
+      "claim": "Construct validity asks whether an operationalization supports the interpretation attached to it",
+      "paragraph_sha256": "27dbfe53663aae2f65392088e1413603be93961d0fc770ff92c6dc2913039d65",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "4af8b0241cb89756d7949d305d8cbd09f477b8c7fa9ac7ae64df183677d76d78"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://www.yorku.ca/pclassic/Cronbach/construct.htm",
+    "version": "York University Classics transcription of original Psychological Bulletin52,281-302,1955,not a secondary summary",
+    "inspected_section": "Original sections Kinds of Constructs,Reporting of Construct Validation and summary points4-6,including original printed284 context",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "5e0ad967497c6eb9099e7004fb74b618d5ae01946738b9e554dbcc4e7359c1f5"
 }

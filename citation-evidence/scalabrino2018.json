@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "scalabrino2018",
   "entry_type": "article",
   "title": "A Comprehensive Model for Code Readability",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1126,
-      "claim": "Broader models also retain ratings as the outcome"
+      "file": "paper/main.tex",
+      "line": 922,
+      "claim": "Broader models also retain ratings as the outcome",
+      "paragraph_sha256": "a3ea2899f9953e36cacce2d252e3a815aab9cbd71ba96d633eb4ec362528716b",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "d1191314aa2d5898037a076337e2ed8d2dadf7a0c0552c350feb9c2cb3463857"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://sscalabrino.github.io/files/2018/JSEP2018AComprehensiveModel.pdf",
+    "version": "Author-hosted29-page acceptedjournalmanuscript,same4authors/title asJSEP30(6)e1958(2018); placeholder2017footer andincompleteDOI not used to changefinalidentity",
+    "inspected_section": "PDF11 Sections3.8,4 and4.1 data collection",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "db4afc1201234c84a9038fa9127f24f386474dc7a896d0e62e270a59cd55c101"
 }

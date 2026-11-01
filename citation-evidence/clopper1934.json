@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "clopper1934",
   "entry_type": "article",
   "title": "The Use of Confidence or Fiducial Limits Illustrated in the Case of the Binomial",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 274,
-      "claim": "We use exact Clopper--Pearson intervals under the binomial model"
+      "file": "paper/main.tex",
+      "line": 224,
+      "claim": "We use exact Clopper--Pearson intervals under the binomial model; Section~\\ref{sec:formal} gives the zero-failure form",
+      "paragraph_sha256": "9bac01c734c840a48fe769acc99feac78d767b9c7123c035ffadb063727f8f72",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "d713fe8c68e5272e2d994036bf5a8066ddc6f937f399a175f61e951e94b4fa49"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://www.barestatistics.nl/uploads/1/1/7/9/11797954/clopper__pearson_1934.pdf",
+    "version": "Original1934 Biometrika26(4)404-413 facsimile on academic statistics mirror,11PDFpages including archive cover; original byline/printedpagination verified visually",
+    "inspected_section": "Complete scan pages PDF3-5, printed405-407: confidence belts,binomial tails,equations4-5,discreteness and coverage interpretation",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "3def9f2fd208bb5748f800c9f77f253e068b90985b0ad4217246567f549c2a9f"
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "kamiya2002",
   "entry_type": "article",
   "title": "{CCFinder}: A Multilinguistic Token-Based Code Clone Detection System for Large Scale Source Code",
@@ -13,11 +13,15 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 932,
-      "claim": "CCFinder transforms source text and compares normalized token sequences"
+      "file": "paper/main.tex",
+      "line": 922,
+      "claim": "CCFinder transforms source text and compares normalized token sequences",
+      "paragraph_sha256": "a3ea2899f9953e36cacce2d252e3a815aab9cbd71ba96d633eb4ec362528716b",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "827d324347c73dbad2ec3655edda35278ebf543b2647dab4c8d5313593690e8e",
   "prior_manuscript_occurrences": [
     {
       "line": 1126,
@@ -29,5 +33,24 @@
     "scope": "Actual reproduced TSE first-page abstract, printed654, plus the author tool description; not all printed654–670",
     "related_author_description": "https://sel.ist.osaka-u.ac.jp/cdtools/ccfinder-e.html",
     "supported_role": "Transformation of input text and token comparison with syntax-based normalization, not a universal information ordering between tokens and syntax trees."
-  }
+  },
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://www.researchgate.net/publication/3188248_CCFinder_a_multilinguistic_token-based_code_clone_detection_system_for_large_scale_source_code",
+    "version": "Public Full-text2 original TSE paper, uploaded by first author Toshihiro Kamiya17/18Dec2013; exact three-author title/byline and printed IEEE28(7),July2002 headers. Not the annual-report first-page selection and not the related technical report345. No local whole-PDF byte identity.",
+    "inspected_section": [
+      "Printed655, section2.2.2 on identifier regularization, online lines510–544",
+      "Printed656–657, section2.3/Figure1: lexical analysis, transformation rules, parameter replacement and match detection, online lines586–779"
+    ],
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "8ab51f4ff10e50e7c59a32fcb42458ccd0e98bf01949c89e46706d00e332d876"
 }

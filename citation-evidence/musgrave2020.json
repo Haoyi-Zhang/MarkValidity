@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "musgrave2020",
   "entry_type": "inproceedings",
   "title": "A Metric Learning Reality Check",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1133,
-      "claim": "Standardized protocols can overturn conclusions obtained under heterogeneous evaluation"
+      "file": "paper/main.tex",
+      "line": 931,
+      "claim": "Standardized protocols can overturn conclusions obtained under heterogeneous evaluation",
+      "paragraph_sha256": "1214703853df27b6a6f69eb075c901608a08cc0242a20470ab6c0849f37d9cdb",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "0bfc82a3110e8ff434ad94304388a26d61623e29a68cb0dd3f87e8532949b629"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://arxiv.org/pdf/2003.08505",
+    "version": "Author ECCV2020 manuscript arXiv2003.08505v3,16September2020,19PDFpages; final Springer pagination not independently read",
+    "inspected_section": "Sections2.1-2.3 pp5-8, Section3.1 p8 standardized protocol, Section4.2 pp12-13 reported versus controlled progress",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "e2a2331d1f398b1f3712d45ff76e98c9dbc494f88d97acb82e0bb0f7c4074836"
 }

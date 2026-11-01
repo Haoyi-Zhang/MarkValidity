@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "collberg2016repeatability",
   "entry_type": "article",
   "title": "Repeatability in Computer Systems Research",
@@ -13,11 +13,15 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 941,
-      "claim": "Collberg and Proebsting recommend supporting repeatability engineering and artifact sharing"
+      "file": "paper/main.tex",
+      "line": 931,
+      "claim": "Collberg and Proebsting recommend supporting repeatability engineering and artifact sharing",
+      "paragraph_sha256": "1214703853df27b6a6f69eb075c901608a08cc0242a20470ab6c0849f37d9cdb",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "44b7f2d2cb2c573d92ce2f91edfbaedf5a6523be7273185bf81210abe53e2254",
   "prior_manuscript_occurrences": [
     {
       "line": 1133,
@@ -29,5 +33,21 @@
     "scope": "Original institutional abstract only, not the final article body",
     "supported_role": "Financial support for repeatability engineering and incentives for artifact sharing",
     "version_boundary": "The distinct three-author 2015 technical report is separately cited for study details."
-  }
+  },
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_OPEN",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://doi.org/10.1145/2812803",
+    "version": "Current cited version; body/version identity not established by metadata alone",
+    "inspected_section": "",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "09287748602256a47c2870b4c5f12495e18b23a13baed52088690280188bce98"
 }

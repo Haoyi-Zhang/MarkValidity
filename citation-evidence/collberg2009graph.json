@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "collberg2009graph",
   "entry_type": "article",
   "title": "More on Graph Theoretic Software Watermarks: Implementation, Analysis, and Attacks",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1117,
-      "claim": "Graph-watermark experiments show that encoding choice changes both cost and resilience"
+      "file": "paper/main.tex",
+      "line": 913,
+      "claim": "Graph-watermark experiments show that encoding choice changes both cost and resilience",
+      "paragraph_sha256": "e5e2f7716dd358e9ad8580baf1e314c4186ccf0bf30c32721949a0b16f68a98b",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "b847fccce594dbdc84c21a321fa88204cb9bc5d08372997586e0125355e10796"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_OPEN",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://doi.org/10.1016/j.infsof.2008.09.016",
+    "version": "Current cited version; body/version identity not established by metadata alone",
+    "inspected_section": "",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "7cd7ebd9f9ef38248fe6d1aa7d492f78b88c9e04325d6d3887bc065ff41d1df8"
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "guan2024",
   "entry_type": "inproceedings",
   "title": "{CodeIP}: A Grammar-Guided Multi-Bit Watermark for Large Language Models of Code",
@@ -13,15 +13,24 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 122,
-      "claim": "CodeIP uses grammar-aware multi-bit encoding during generation"
+      "file": "paper/main.tex",
+      "line": 98,
+      "claim": "CodeIP uses grammar-aware multi-bit encoding during generation",
+      "paragraph_sha256": "11ac76cfb070b012d036c647db6d96b503d999b459843f33c2db67dfa16ae3e8",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     },
     {
-      "line": 420,
-      "claim": "CodeIP's paper selects the candidate message with maximal token evidence"
+      "file": "paper/main.tex",
+      "line": 398,
+      "claim": "CodeIP's paper selects the highest-scoring candidate message",
+      "paragraph_sha256": "60e2bd67091b0abfb4e63a9e4f0c18ad69790da72fe3867bd4203e8719012018",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "ae11a8c7ef2e3e0b63184c364af4ce2b44b4266adad00366d444c1492a9acdcf",
   "prior_manuscript_occurrences": [
     {
       "line": 146,
@@ -37,5 +46,21 @@
     "version": "Final EMNLP2024 pp.9243–9258",
     "location": "§3.4 Eq.(6), §4.3, Appendix C; physical5,6,12",
     "scope": "Selected primary passages only; repository-prefix predicate separately pinned in external-baselines/evidence/codeip-protocol.json."
-  }
+  },
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://aclanthology.org/2024.findings-emnlp.541.pdf",
+    "version": "Final FindingsEMNLP2024 pp9243-9258 plus pinned CodeIP implementation; extraction argmax and prefix check distinguished",
+    "inspected_section": "Sections 3.2-3.4, Eq.(6), p.9247; wm.py available_message_num and prefix acc",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "8af41fc1934e87f4713798d5650d265250bf5ea49c2f67a50721a1bedfd3b632"
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "jiang2007",
   "entry_type": "inproceedings",
   "title": "{DECKARD}: Scalable and Accurate Tree-Based Detection of Code Clones",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1126,
-      "claim": "Vectorized syntax trades order for scalable matching"
+      "file": "paper/main.tex",
+      "line": 922,
+      "claim": "Vectorized syntax trades order for scalable matching",
+      "paragraph_sha256": "a3ea2899f9953e36cacce2d252e3a815aab9cbd71ba96d633eb4ec362528716b",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "e5dacb8e1cc0baa7cf017375442198699fbe4d89478ec2eaba8a6d0530830a84"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://people.inf.ethz.ch/suz/publications/icse07.pdf",
+    "version": "Author-hosted10-page ICSE2007 original, same4author/title work as citedDOI",
+    "inspected_section": "PDF3 Section3.1 Definitions3.1-3.4; PDF4 Section3.2 Definitions3.5-3.6,Theorem3.7/Corollary3.8,Algorithm1",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "9e80b3e22399e9bd1fbac03d979f5c9868540a6b728bca7d33a7f913392cb7bf"
 }

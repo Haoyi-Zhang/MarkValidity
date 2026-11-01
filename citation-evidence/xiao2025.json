@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "xiao2025",
   "entry_type": "article",
   "title": "{DeCoMa}: Detecting and Purifying Code Dataset Watermarks through Dual Channel Code Abstraction",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 146,
-      "claim": "DeCoMa studies watermark removal from code datasets"
+      "file": "paper/main.tex",
+      "line": 98,
+      "claim": "DeCoMa studies watermark removal from code datasets",
+      "paragraph_sha256": "11ac76cfb070b012d036c647db6d96b503d999b459843f33c2db67dfa16ae3e8",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "0388a137c7253c95928a3ab1dc620523f757b433cc21aa1f9dbf3af8af17597d"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://wssun.github.io/papers/2025-ISSTA-DeCoMa.pdf",
+    "version": "Author-hosted publisher-formatted ISSTA2025 DeCoMa original, not a repository synopsis",
+    "inspected_section": "Complete PDFp5/printedISSTA075:5 Figure5, Our Solution and Section4.1 three phases; PDFpp6-7 Section4.2 context",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "7eb4c6b553e1a6f1f4aa7c4a28e050e83dd28aaa6f56d6ce0d24a1f67bacc055"
 }

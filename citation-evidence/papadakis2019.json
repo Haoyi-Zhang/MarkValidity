@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "papadakis2019",
   "entry_type": "article",
   "title": "Mutation Testing Advances: An Analysis and Survey",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1122,
-      "claim": "Mutation surveys document the effects of operator choice, selection, and equivalent mutants"
+      "file": "paper/main.tex",
+      "line": 918,
+      "claim": "Mutation surveys document the effects of operator choice, selection, and equivalent mutants",
+      "paragraph_sha256": "39c8602bac9d3812ac9bafb642e5fc35f9993bc5dfe97703f329443c329420e4",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "9f18739d5a101b000c7cab5430654120b8e15cc0008b972390ddb461fbb17f7f"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://mutationtesting.uni.lu/survey.pdf",
+    "version": "Six-author December14,2017 manuscript,153PDFpages; UCL repository identifies accepted survey of the2019Advances in Computers112 chapter DOI10.1016/bs.adcom.2018.03.015. Not final chapter pagination or byte identity.",
+    "inspected_section": "Manuscript PDFpp17-19 process and Section5.1 Mutant Selection/5.1.1 Operators; p23 Section5.1.2 Reduction; p29 equivalent-mutant elimination discussion including TCE; Section9.1 use in empirical studies opening",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "0aa114d00df0ed0ae92d95c0dca28918037ab83c7d400b9fe8d9e092a3fb0319"
 }

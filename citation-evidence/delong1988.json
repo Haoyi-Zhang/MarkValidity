@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "delong1988",
   "entry_type": "article",
   "title": "Comparing the Areas under Two or More Correlated Receiver Operating Characteristic Curves: A Nonparametric Approach",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1138,
-      "claim": "Correlated-AUC inference presumes cases sampled from a defined population"
+      "file": "paper/main.tex",
+      "line": 936,
+      "claim": "Correlated-AUC inference presumes cases sampled from a defined population; the complete declared contrast is analyzed as a fixed finite set rather than a sample from such a population",
+      "paragraph_sha256": "f938e83a62c303a62d10499c232bbf773100a3d66ac75beaaa4b5bfaed299945",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "c6aa51a51abcbd8f3fce3a260c50386bbe0438743ad7fa35b662eb8ed9376645"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_OPEN",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://www.jstor.org/stable/2531595",
+    "version": "Exact1988 Biometrics44(3),837–845 identity confirmed from primary index/repository metadata only. No original method body authenticated/read in this assistance batch.",
+    "inspected_section": "",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "64f6c1fa9ff810fc38f4e50540a6028ba1d372e0f1e280a361ba2ab89aef317a"
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "zhang2025",
   "entry_type": "article",
   "title": "Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 146,
-      "claim": "A recent preprint examines obfuscation attacks on n-gram watermarks"
+      "file": "paper/main.tex",
+      "line": 98,
+      "claim": "A recent preprint examines obfuscation attacks on n-gram watermarks",
+      "paragraph_sha256": "11ac76cfb070b012d036c647db6d96b503d999b459843f33c2db67dfa16ae3e8",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "3e997b41be6739d125372b7c96aa581aebaeda3f88f5a291134adba36ac9b50a"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://arxiv.org/pdf/2507.05512v1",
+    "version": "Original arXiv2507.05512v1,7July2025,4authors ordered Zhang/Bagdasarian/Zhai/Ma; distinct from5-author2026v2",
+    "inspected_section": "Introduction PDF1-2; Section3.1 threat model and3.2 equivalent transformations PDF4-5",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "55d2b20f051f06d30b3b40f860ce869b08766794d949d9617571c5ff7f8f7157"
 }

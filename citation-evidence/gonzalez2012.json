@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "gonzalez2012",
   "entry_type": "article",
   "title": "On the Reproducibility of Empirical Software Engineering Studies Based on Data Retrieved from Development Repositories",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1133,
-      "claim": "Repository-mining studies likewise require retained provenance and extraction procedures"
+      "file": "paper/main.tex",
+      "line": 931,
+      "claim": "Repository-mining studies likewise require retained provenance and extraction procedures",
+      "paragraph_sha256": "1214703853df27b6a6f69eb075c901608a08cc0242a20470ab6c0849f37d9cdb",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "70362a67009848b62b60594e09b268f9d720951f83f90372e2afe4563c0f8015"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://link.springer.com/article/10.1007/s10664-011-9181-9",
+    "version": "Publisher original open-access full HTML for the cited2012 article",
+    "inspected_section": "Section1 scope; Section2 Elements of Studies with an Impact on Reproducibility, numbered data source, retrieval methodology, raw dataset, extraction methodology and parameters; Sections3-4 procedure/assessment",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "0b6c59469d00fa9858d87fd98117f931f0239c2073a4b08af3f65f9e66b839dc"
 }

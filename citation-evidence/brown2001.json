@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "brown2001",
   "entry_type": "article",
   "title": "Interval Estimation for a Binomial Proportion",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1138,
-      "claim": "Binomial intervals differ materially in coverage"
+      "file": "paper/main.tex",
+      "line": 936,
+      "claim": "Binomial intervals differ materially in coverage",
+      "paragraph_sha256": "f938e83a62c303a62d10499c232bbf773100a3d66ac75beaaa4b5bfaed299945",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "78e05c0cc70231f2dbbc8249208e3e236722f58184ab8109bb9d476d8a6e007f"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://www.stat.purdue.edu/~dasgupta/publications/tr99-19.pdf",
+    "version": "Author-hosted August1999 TechnicalReport99-19,23image-onlyPDFpages, same3author/title precursor to cited2001 StatisticalScience paper; final journal body not separately read",
+    "inspected_section": "Visually read original scan PDF1 identity; PDF3 printed2 Introduction; PDF8 printed7 Figures3-4 and accompanying coverage/discreteness/skewness discussion",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "fd130075581f778b728d80dac3e83dbf1f4d5f1f4c4cc3070dd62c58965d9e83"
 }

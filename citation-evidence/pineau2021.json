@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "pineau2021",
   "entry_type": "article",
   "title": "Improving Reproducibility in Machine Learning Research (A Report from the {NeurIPS} 2019 Reproducibility Program)",
@@ -13,9 +13,29 @@
   "verification_basis": "Official JMLR record; exact title, complete author list, volume, article number, pages, and year cross-checked against the journal record.",
   "manuscript_occurrences": [
     {
-      "line": 1133,
-      "claim": "Reproducibility guidance binds claims to code, data, and reporting choices"
+      "file": "paper/main.tex",
+      "line": 931,
+      "claim": "Reproducibility guidance binds claims to code, data, and reporting choices",
+      "paragraph_sha256": "1214703853df27b6a6f69eb075c901608a08cc0242a20470ab6c0849f37d9cdb",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "053ea86a906aa434abe3d1f645e6388db21e27ad15c42998ed0cbb7bb56681ba"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://www.jmlr.org/papers/volume22/20-303/20-303.pdf",
+    "version": "Final JMLR22(164),May2021,20PDFpages",
+    "inspected_section": "Introduction pp2-3; Section2.1 p4 reproducibility/replicability/robustness distinctions; Section5 pp10-11 checklist requirements on procedures/metrics/statistics/code",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "08cbee4d690ebe1e218c2bfb1d8d75aafffb066ef233a7c14f5ecd2141688b27"
 }

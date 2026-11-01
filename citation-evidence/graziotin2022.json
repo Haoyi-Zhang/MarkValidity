@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "graziotin2022",
   "entry_type": "article",
   "title": "Psychometrics in Behavioral Software Engineering: A Methodological Introduction with Guidelines",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 157,
-      "claim": "organize reliability, convergence, discrimination, and fairness as distinct properties of an instrument"
+      "file": "paper/main.tex",
+      "line": 109,
+      "claim": "Graziotin et al. organize reliability, convergence, discrimination, and fairness as distinct properties of an instrument",
+      "paragraph_sha256": "b6e556465ec8598af9267d6d41261d9e8f4512ae14dfe82f62f0c1b4d6e9acd8",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "7a0599ba6a4999440826a9b533cc7ef382c1971ff2284e71762bfacc42ffb0fa"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://arxiv.org/pdf/2005.09959v4",
+    "version": "Author arXiv2005.09959v4,8June2021,56PDFpages, same4author TOSEM work cited by2022 issue; placeholder2020 footer not used to correct issue year",
+    "inspected_section": "Section9 reliability p21; Sections10.2-10.6 validity/differential validity p24; Section11/Figure6 fairness and Sections11.1-11.3 pp25-26",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "d75518ed474e3d991ff8f9686a7562c7e960bb0edfd855a561cfedf24bfc573d"
 }

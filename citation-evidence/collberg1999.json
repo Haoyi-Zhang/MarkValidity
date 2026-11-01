@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "citation_key": "collberg1999",
   "entry_type": "inproceedings",
   "title": "Software Watermarking: Models and Dynamic Embeddings",
@@ -13,9 +13,29 @@
   "verification_basis": "Publisher DOI record or formal scholarly proceedings/journal record; metadata cross-checked against the manuscript bibliography during the staged reference audit.",
   "manuscript_occurrences": [
     {
-      "line": 1115,
-      "claim": "Dynamic execution entered this relation in early program-watermark models"
+      "file": "paper/main.tex",
+      "line": 911,
+      "claim": "Dynamic execution entered this relation in early program-watermark models",
+      "paragraph_sha256": "5fa7327a9f08a900099a761ef70a92f8535b19c5a80d63fd6c3e27edc1df2ab8",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
     }
   ],
-  "evidence_sha256": "e201dc98e7d56561988c3e212980183596329e7d01bd53b57d2aab4ad28be90d"
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://collberg.cs.arizona.edu/content/research/papers/collberg99software.pdf",
+    "version": "Author-hosted original1999 publisher facsimile as indexed online; direct404 does not invalidate the indexed original body or DOI; no local full-PDF hash",
+    "inspected_section": "Printed312 Section1.1 quality/attack discussion from retained prior reading; printed313 Sections1.3,2,2.1 static versus runtime carriers; printed316 Section3.3 and Section4/4.1 Definitions1-4 programs, transformations, recognition, static/pure-dynamic recognizers; printed318 Figure3 and Section5.2 heap-graph embedding/recognition",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "7a19e77d1e194878471f78cf6927ac65abc51494c4a817ccfa8895e1dd649b3a"
 }
