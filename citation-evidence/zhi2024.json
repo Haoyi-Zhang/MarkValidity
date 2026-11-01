@@ -30,12 +30,12 @@
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
-    "status": "BODY_SUPPORT_OPEN",
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
     "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
-    "original_source": "https://doi.org/10.1145/3607190",
-    "version": "Current cited version; body/version identity not established by metadata alone",
-    "inspected_section": "",
+    "original_source": "https://ink.library.smu.edu.sg/sis_research/8120/",
+    "version": "SMU repository explicitly labels acceptedVersion (July2023). The supplied PDF contains2InK cover pages followed by33manuscript pages, an Author's Manuscript watermark, the six-author byline and DOI10.1145/3607190. It is not claimed identical to the final2024TOSEM33(1)Article23 typesetting.",
+    "inspected_section": "PDF physical1-3 identity/cover/byline/DOI; manuscript5-7 (physical7-9) Sections3.1.1/3.1.2/3.2.1-3.2.3; manuscript10-12 (physical12-14) Sections4.1 and4.2 setup/coverage; manuscript13 (physical15) Table1 visually read; manuscript14 (physical16) coverage and failure comparisons; manuscript20-21 (physical22-23) cross-goal comparison/RQ1 answer/RQ2; manuscript26-27 (physical28-29) seed-size discussion and Section5.2 validity limits.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "020c046d773eada218e6f37933668d3567bc787053b37d958ae67b0e47247f65"
+  "evidence_sha256": "3e0a8d5d250b595cdc4865bfc860b2327ebd929ed963d13fa9c7019469c4575b"
 }

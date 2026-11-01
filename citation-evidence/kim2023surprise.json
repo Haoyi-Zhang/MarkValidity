@@ -34,12 +34,8 @@
     "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
     "original_source": "https://jinhan.me/assets/files/papers/Kim2023ab.pdf",
     "version": "Author-hosted29-page extended journal manuscript, exact title/three-author byline and first-author publication-page link under TOSEM2023. It retains111/J.ACM/August2021 template placeholders, so not claimed final publisher bytes or final article42 layout. Expanded RQ8 body read; not substituted2018/2019 Guiding paper.",
-    "inspected_section": [
-      "Manuscript p8, section3.1 RQ1/RQ8 and declared evaluation goals, online lines364–378",
-      "Manuscript pp20–23, section4.8 Retraining Guidance, Tables8–9/Figure8 and Answer to RQ8; original body pp22–23 reread locally",
-      "Manuscript p23, discussion contrasting novelty capture with inconsistent retraining guidance, online lines1433–1462"
-    ],
+    "inspected_section": "Manuscript p8, section3.1 RQ1/RQ8 and declared evaluation goals, online lines364–378; Manuscript pp20–23, section4.8 Retraining Guidance, Tables8–9/Figure8 and Answer to RQ8; original body pp22–23 reread locally; Manuscript p23, discussion contrasting novelty capture with inconsistent retraining guidance, online lines1433–1462",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "6944b271606aaef1c2764df42ed83945e161c8c0e4d0f87c8c9b7a57e29e5934"
+  "evidence_sha256": "ee2a75b80ee42f645d15cf76f4cf72397afdb12ee2f139e200f15a37fd633178"
 }

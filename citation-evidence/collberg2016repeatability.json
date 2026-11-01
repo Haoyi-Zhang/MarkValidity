@@ -42,12 +42,12 @@
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
-    "status": "BODY_SUPPORT_OPEN",
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
     "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
-    "original_source": "https://doi.org/10.1145/2812803",
-    "version": "Current cited version; body/version identity not established by metadata alone",
-    "inspected_section": "",
+    "original_source": "https://cacm.acm.org/research/repeatability-in-computer-systems-research/",
+    "version": "Formal CACM March2016 article,59(3),62-69; two-author byline and DOI visible on the official full HTML, not the earlier three-author report",
+    "inspected_section": "Official full HTML: Recommendations, the two proposals and Sharing contracts paragraphs; Discussion closing paragraph. Header/byline, DOI and formal issue details read in same page.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "09287748602256a47c2870b4c5f12495e18b23a13baed52088690280188bce98"
+  "evidence_sha256": "1eff29eb19c6ad7901ce0fa17460f56083556b95060fd11544f28343f7d63d7d"
 }

@@ -30,12 +30,12 @@
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
-    "status": "BODY_SUPPORT_OPEN",
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
     "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
-    "original_source": "https://doi.org/10.1016/j.infsof.2008.09.016",
-    "version": "Current cited version; body/version identity not established by metadata alone",
-    "inspected_section": "",
+    "original_source": "https://tigress.wtf/website.github.io/content/research/papers/collberg09more.pdf",
+    "version": "Author-site migrated original publisher-formatted12-page journal article, Information and Software Technology51(2009)56-67, five-author byline/DOI10.1016/j.infsof.2008.09.016 read; not2004conference predecessor",
+    "inspected_section": "Printed56 identity;58 Section3 pipeline;59-61 Sections4/4.1.1/4.1.2 splitting and graph-encoding construction;64-65 Section6/6.1 size-growth contrasts and Tables1-2 splitter execution overhead;66 Section6.3 partial-sum versus GCRT survival and Sections7-8 limitations",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "7cd7ebd9f9ef38248fe6d1aa7d492f78b88c9e04325d6d3887bc065ff41d1df8"
+  "evidence_sha256": "e7e9eeeb841b3accbff0e8a18df2add887296d94287cf74be2d22c6ff6abd031"
 }

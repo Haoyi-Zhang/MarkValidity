@@ -34,11 +34,8 @@
     "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
     "original_source": "https://citeseerx.ist.psu.edu/document?doi=dd5d162208892a6afcecb6984d72cd7b165b93dd&repid=rep1&type=pdf#page=1",
     "version": "Exact two-author original LNCS3200 IH2004 text with printed208–223 and Springer2004 notice visible. Online original body via institutional index; no local whole-PDF identity. The separate coauthor-hosted15-page copy was discovered but not used to infer exact final pagination.",
-    "inspected_section": [
-      "Printed210–211, section3 Thread Based Watermarks and Figure1, online lines111–245",
-      "Printed213, section4.1 tracing/secret-input role, online lines339–353"
-    ],
+    "inspected_section": "Printed210–211, section3 Thread Based Watermarks and Figure1, online lines111–245; Printed213, section4.1 tracing/secret-input role, online lines339–353",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "827e13fe5d4f5d2ad7cf27e38dc969fd7fa417d714368147f48eeae0c27dbf21"
+  "evidence_sha256": "439e01ea65ba405318b5fc06f37abbe6f8c0a6ec2361bb8a9faefae2f88b03ec"
 }

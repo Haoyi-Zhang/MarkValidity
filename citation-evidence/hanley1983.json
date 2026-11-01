@@ -34,11 +34,8 @@
     "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
     "original_source": "https://jhanley.biostat.mcgill.ca/c607/ch08/zero_numerator.pdf#page=1",
     "version": "Author-hosted four-page retypeset copy of the two-author JAMA1983 article, repeated title/byline/date and final citation1743–1745 identify the work. Not a local whole-PDF identity or claim of original three-page publisher layout.",
-    "inspected_section": [
-      "Retypeset p2, Making Inferences: The Rule of Three; exact-binomial equation and expansion, online lines30–58",
-      "Retypeset pp2–3, Tables1–2, online lines64–103"
-    ],
+    "inspected_section": "Retypeset p2, Making Inferences: The Rule of Three; exact-binomial equation and expansion, online lines30–58; Retypeset pp2–3, Tables1–2, online lines64–103",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "b8a82afe89ac3eb8869033180dc386e0f300545cdfdc99c4db4cb97eb6cb5ea6"
+  "evidence_sha256": "e4f3beea746f9d2566c30928a4a96f31a732ebb63851674fed7f9644cc45663a"
 }

@@ -46,11 +46,8 @@
     "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
     "original_source": "https://www.researchgate.net/publication/3188248_CCFinder_a_multilinguistic_token-based_code_clone_detection_system_for_large_scale_source_code",
     "version": "Public Full-text2 original TSE paper, uploaded by first author Toshihiro Kamiya17/18Dec2013; exact three-author title/byline and printed IEEE28(7),July2002 headers. Not the annual-report first-page selection and not the related technical report345. No local whole-PDF byte identity.",
-    "inspected_section": [
-      "Printed655, section2.2.2 on identifier regularization, online lines510–544",
-      "Printed656–657, section2.3/Figure1: lexical analysis, transformation rules, parameter replacement and match detection, online lines586–779"
-    ],
+    "inspected_section": "Printed655, section2.2.2 on identifier regularization, online lines510–544; Printed656–657, section2.3/Figure1: lexical analysis, transformation rules, parameter replacement and match detection, online lines586–779",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "8ab51f4ff10e50e7c59a32fcb42458ccd0e98bf01949c89e46706d00e332d876"
+  "evidence_sha256": "ceba15526e150cc11988fd16fbe789c68ea8161cb5d2e0d44bba66428fa363e6"
 }

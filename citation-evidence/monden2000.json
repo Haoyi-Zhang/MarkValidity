@@ -34,11 +34,8 @@
     "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
     "original_source": "https://naist.repo.nii.ac.jp/record/5162/files/10061_12769.pdf#page=1",
     "version": "NAIST deposited author manuscript with institutional cover specifying resource version author, exact COMPSAC2000 DOI and five-author byline. Inoue precedes Torii in the original, matching current bib; no change based on contrary secondary author ordering. Not publisher-byte identity.",
-    "inspected_section": [
-      "Section4.1/4.2 encoding and decoding, online lines95–114 and185–211",
-      "Sections5.1/5.2 experimental procedure/results, online lines225–253; institutional version/rights cover lines0–11"
-    ],
+    "inspected_section": "Section4.1/4.2 encoding and decoding, online lines95–114 and185–211; Sections5.1/5.2 experimental procedure/results, online lines225–253; institutional version/rights cover lines0–11",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "cfb35dc508b3e232e639143d5088a456a1d13fb3b8ae64b653ec36e86b9b1b2f"
+  "evidence_sha256": "0ba27155566832cdb30e83541724c652610c1953c306a75c9ddab3b09ba338ab"
 }

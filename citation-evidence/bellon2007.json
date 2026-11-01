@@ -30,12 +30,12 @@
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
-    "status": "BODY_SUPPORT_OPEN",
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
     "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
-    "original_source": "https://doi.org/10.1109/TSE.2007.70725",
-    "version": "Current cited version; body/version identity not established by metadata alone",
-    "inspected_section": "",
+    "original_source": "https://www.researchgate.net/profile/Rainer-Koschke/publication/232635867_Comparison_and_Evaluation_of_Clone_Detection_Tools/links/570cb60208aee0660351cf68/Comparison-and-Evaluation-of-Clone-Detection-Tools.pdf",
+    "version": "Coauthor Rainer Koschke's public15-page same-work manuscript; title/five-author byline read, but template1970 dates and manuscript pagination mean this is not asserted publisher-final bytes/pages577-591",
+    "inspected_section": "Manuscript physicalpp2-3 SectionIII/type1-3/Definition1; pp3-4 SectionIV.A main-run subjects/normalization and IV.B reference-corpus construction; pp10-12 SectionV.B.3/V.C program-specific scope and configuration/corpus comparisons",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "e5d604211f0b19ba072c1e04a18cc3df57afd847fa1be3c94fe5d2b03b522f2c"
+  "evidence_sha256": "b0caf624e79e380e70fa5073bd290136acd86a484b7493b1324d69fee4bfcb52"
 }

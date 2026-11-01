@@ -30,12 +30,12 @@
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
-    "status": "BODY_SUPPORT_OPEN",
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
     "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
-    "original_source": "https://doi.org/10.1109/MSECP.2003.1219058",
-    "version": "Current cited version; body/version identity not established by metadata alone",
-    "inspected_section": "",
+    "original_source": "https://tigress.wtf/website.github.io/content/research/papers/collberg03sandmark.pdf",
+    "version": "Author-hosted original IEEE Security&Privacy1(4)July/Aug2003 pp40-49, exact Collberg/Myles/Huntwork byline and original footer; not later SandMark overview",
+    "inspected_section": "Printed40 authored introduction;41-42 Threat models/System overview/plugin integration;44 implemented watermark algorithms;47-48 Sandmark evaluation techniques and manual comparison tools",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "9260f3fddb68048e94ccb660c7e8c81e62b9af84b07238ba9e5c76178fe04036"
+  "evidence_sha256": "b3c8aebf798c96db3a83175ff3a48f084f900c78dee578d0e1eb9829ca70b5c1"
 }
