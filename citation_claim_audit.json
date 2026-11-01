@@ -1,21 +1,21 @@
 {
   "schema_version": "3.0",
-  "positions": 90,
-  "keys": 84,
-  "single_key_positions": 90,
+  "positions": 88,
+  "keys": 82,
+  "single_key_positions": 88,
   "multi_key_positions": 0,
   "current_position_bindings_complete": true,
   "original_support_counts": {
-    "closed_keys": 80,
-    "remaining_keys": 4,
-    "closed_positions": 86,
-    "remaining_positions": 4
+    "closed_keys": 82,
+    "remaining_keys": 0,
+    "closed_positions": 88,
+    "remaining_positions": 0
   },
-  "original_body_support_complete": false,
+  "original_body_support_complete": true,
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -32,7 +32,8 @@
       "verified_scholarly_identifier": "doi:10.48550/arXiv.2607.06009",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "2de48b35e950eefc6b019bd179669f96ad4b95943a846b139cebcda396b27f4c",
+      "original_body_source": "https://arxiv.org/pdf/2607.06009",
+      "evidence_sha256": "aa3dd7bd217c8b9658d72df39a9e7d93ccc196ddc645699cb2f5509adfbb4f87",
       "position": 1,
       "claim_id": "CIT-001"
     },
@@ -48,7 +49,8 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2024.findings-emnlp.541",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "8af41fc1934e87f4713798d5650d265250bf5ea49c2f67a50721a1bedfd3b632",
+      "original_body_source": "https://aclanthology.org/2024.findings-emnlp.541.pdf",
+      "evidence_sha256": "541781852d6b434f0a6f36ef7ce54d9897e54dd0165b78d3040272243cdb397b",
       "position": 2,
       "claim_id": "CIT-002"
     },
@@ -64,7 +66,8 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2026.findings-eacl.207",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "81bcdae8fdb699ab17035059163e7201fc1dc67bf7e5827ab0f9f38bbe9bc5dc",
+      "original_body_source": "https://aclanthology.org/2026.findings-eacl.207.pdf",
+      "evidence_sha256": "5792efcec8a3c4b750d85272a4ff214cc5b47c0396337c1fd7a848c14f0c9a87",
       "position": 3,
       "claim_id": "CIT-003"
     },
@@ -80,7 +83,8 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2024.acl-long.268",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "a3a8310a8af02e0f31ea105723fd532aa171dfc6fd49adedaccb2b9b07805608",
+      "original_body_source": "https://aclanthology.org/2024.acl-long.268.pdf",
+      "evidence_sha256": "1fca63c7852282983aa33767403991e6116c0a133b35269102413987c93994fb",
       "position": 4,
       "claim_id": "CIT-004"
     },
@@ -96,7 +100,8 @@
       "verified_scholarly_identifier": "doi:10.1145/3728952",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "7eb4c6b553e1a6f1f4aa7c4a28e050e83dd28aaa6f56d6ce0d24a1f67bacc055",
+      "original_body_source": "https://wssun.github.io/papers/2025-ISSTA-DeCoMa.pdf",
+      "evidence_sha256": "bd760819ea3031386497ae6ab2168b46e38d62f3c9469ba361be67135aaf06b5",
       "position": 5,
       "claim_id": "CIT-005"
     },
@@ -112,7 +117,8 @@
       "verified_scholarly_identifier": "doi:10.1109/SP54263.2024.00097",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "496367446fc0cc05598ae31c45d15d676b4b2adce937f94a25e5e3895a64cfda",
+      "original_body_source": "https://arxiv.org/html/2309.00860v2",
+      "evidence_sha256": "0e5cb6e19c643d3e9257abf48c6c134e2356a4886d0dc580ba1c327b9ae67bf2",
       "position": 6,
       "claim_id": "CIT-006"
     },
@@ -128,7 +134,8 @@
       "verified_scholarly_identifier": "doi:10.48550/arXiv.2507.05512",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "55d2b20f051f06d30b3b40f860ce869b08766794d949d9617571c5ff7f8f7157",
+      "original_body_source": "https://arxiv.org/pdf/2507.05512v1",
+      "evidence_sha256": "9ad979951a172cb5dd3bc8ac78ad6e999b579927987a4a5a5993eed65ec034f5",
       "position": 7,
       "claim_id": "CIT-007"
     },
@@ -144,7 +151,8 @@
       "verified_scholarly_identifier": "doi:10.1037/h0046016",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "651b2a817443593780a31297347b884f9386c77181cce3063b2e744a91ba302b",
+      "original_body_source": "https://languagetesting.info/articles/store/C%26F1959.pdf",
+      "evidence_sha256": "7d693089c6886c9e752d810dea11077bd75325d6af015de89985b9d5239e46f9",
       "position": 8,
       "claim_id": "CIT-008"
     },
@@ -160,7 +168,8 @@
       "verified_scholarly_identifier": "doi:10.1037/h0040957",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "5e0ad967497c6eb9099e7004fb74b618d5ae01946738b9e554dbcc4e7359c1f5",
+      "original_body_source": "https://www.yorku.ca/pclassic/Cronbach/construct.htm",
+      "evidence_sha256": "eebdec374a781bc50fb0da5c400fb87aa95aede949fcde9d6e64a959b836b317",
       "position": 9,
       "claim_id": "CIT-009"
     },
@@ -176,7 +185,8 @@
       "verified_scholarly_identifier": "doi:10.1109/32.268921",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "9f53de97b7888deadcd1d5e5bfcb485f9c95c119f7c72eca9bfa8778c2493d4c",
+      "original_body_source": "https://www.researchgate.net/publication/3187630_Software_measurement_a_necessary_scientific_basis",
+      "evidence_sha256": "cb779748000334c219019e8c60e1ce702bbc839e062a10ff6396bf1306fe3cbe",
       "position": 10,
       "claim_id": "CIT-010"
     },
@@ -184,7 +194,7 @@
       "citation_key": "graziotin2022",
       "manuscript_location": "paper/main.tex:109",
       "nearby_claim": "Graziotin et al. organize reliability, convergence, discrimination, and fairness as distinct properties of an instrument",
-      "paragraph_sha256": "b6e556465ec8598af9267d6d41261d9e8f4512ae14dfe82f62f0c1b4d6e9acd8",
+      "paragraph_sha256": "729232115ceb9f5cbb867abf33dd364091b3d60b248ec737f6a28ec3f647d22d",
       "consumed_by": [
         "paper/main.pdf"
       ],
@@ -192,31 +202,16 @@
       "verified_scholarly_identifier": "doi:10.1145/3469888",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "d75518ed474e3d991ff8f9686a7562c7e960bb0edfd855a561cfedf24bfc573d",
+      "original_body_source": "https://arxiv.org/pdf/2005.09959v4",
+      "evidence_sha256": "569cd97511cd3723b32998909594311d87c6a274ad2fd5023575f4f2cc10e350",
       "position": 11,
       "claim_id": "CIT-011"
-    },
-    {
-      "citation_key": "ralph2018",
-      "manuscript_location": "paper/main.tex:109",
-      "nearby_claim": "Ralph and Tempero show how validity arguments weaken when the intended interpretation is left implicit",
-      "paragraph_sha256": "b6e556465ec8598af9267d6d41261d9e8f4512ae14dfe82f62f0c1b4d6e9acd8",
-      "consumed_by": [
-        "paper/main.pdf"
-      ],
-      "source_locator": "https://doi.org/10.1145/3210459.3210461",
-      "verified_scholarly_identifier": "doi:10.1145/3210459.3210461",
-      "current_position_binding": "PASS",
-      "original_body_support": "BODY_SUPPORT_OPEN",
-      "evidence_sha256": "31838a3b6454568e3e949646de21c5d974fed6b82cd4521ee3d3b0334705008b",
-      "position": 12,
-      "claim_id": "CIT-012"
     },
     {
       "citation_key": "sjoberg2023",
       "manuscript_location": "paper/main.tex:109",
       "nearby_claim": "Sjøberg and Bergersen connect a construct to an operationalization that can be challenged by evidence",
-      "paragraph_sha256": "b6e556465ec8598af9267d6d41261d9e8f4512ae14dfe82f62f0c1b4d6e9acd8",
+      "paragraph_sha256": "729232115ceb9f5cbb867abf33dd364091b3d60b248ec737f6a28ec3f647d22d",
       "consumed_by": [
         "paper/main.pdf"
       ],
@@ -224,15 +219,16 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2022.3176725",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "51952a124d2635fea4a6d1b09bd496e59042f39e221151f8601aa06e400c1bfe",
-      "position": 13,
-      "claim_id": "CIT-013"
+      "original_body_source": "https://www.researchgate.net/publication/360817259_Construct_Validity_in_Software_Engineering",
+      "evidence_sha256": "f0802f395b354648c3e50ead4950db46d2e5562651020e4fc923ec699b207247",
+      "position": 12,
+      "claim_id": "CIT-012"
     },
     {
       "citation_key": "sjoberg2023reporting",
       "manuscript_location": "paper/main.tex:109",
       "nearby_claim": "Their reporting guidance recommends identifying the threatened interpretation rather than appending a generic checklist",
-      "paragraph_sha256": "b6e556465ec8598af9267d6d41261d9e8f4512ae14dfe82f62f0c1b4d6e9acd8",
+      "paragraph_sha256": "729232115ceb9f5cbb867abf33dd364091b3d60b248ec737f6a28ec3f647d22d",
       "consumed_by": [
         "paper/main.pdf"
       ],
@@ -240,9 +236,10 @@
       "verified_scholarly_identifier": "doi:10.1145/3593434.3593449",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "4fa8cb16012753bf811f57bdb9a0ecc32120a9befeb9dfc6d22694da24d1d66c",
-      "position": 14,
-      "claim_id": "CIT-014"
+      "original_body_source": "https://arxiv.org/pdf/2306.05336",
+      "evidence_sha256": "2c9b4fad9703a8d0813eb8955cac8328dd61237c679d9be3af5fbb5224e00bae",
+      "position": 13,
+      "claim_id": "CIT-013"
     },
     {
       "citation_key": "jia2011",
@@ -256,9 +253,10 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2010.62",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "0280fb7a6ac73269fd89e53af445f355dadbb9d3d8e3dd2f16e89cb456b71330",
-      "position": 15,
-      "claim_id": "CIT-015"
+      "original_body_source": "https://kelloggm.github.io/martinjkellogg.com/teaching/cs684-sp24/assets/mutation-testing.pdf",
+      "evidence_sha256": "2263f009ba6ce2548901394d5b917263c4d1a13b62186aa5122bfdef18b04864",
+      "position": 14,
+      "claim_id": "CIT-014"
     },
     {
       "citation_key": "kitchenham1995",
@@ -272,9 +270,10 @@
       "verified_scholarly_identifier": "doi:10.1109/32.489070",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "30021ba711eabb4abe14a35ba49c3b55d14c8e8523798939dccb2a872239e17f",
-      "position": 16,
-      "claim_id": "CIT-016"
+      "original_body_source": "https://citeseerx.ist.psu.edu/document?doi=c0cb2b8e826a19567b9e1c356a1d0063fb913e9f&repid=rep1&type=pdf",
+      "evidence_sha256": "fb134a77233878999f4370c28d27fd88da484481f37579b27666f9fee4ede2cd",
+      "position": 15,
+      "claim_id": "CIT-015"
     },
     {
       "citation_key": "hasselbring2021",
@@ -288,9 +287,10 @@
       "verified_scholarly_identifier": "doi:10.1145/3463274.3463361",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "eb90ef30e74468bab6539e6aa7819cbf17879ea2037ff3c50017d63a14443188",
-      "position": 17,
-      "claim_id": "CIT-017"
+      "original_body_source": "https://arxiv.org/pdf/2105.00272",
+      "evidence_sha256": "4d0f1449067e912d39ef81f5af777a208e0cf4f775791d025a806d635dad3056",
+      "position": 16,
+      "claim_id": "CIT-016"
     },
     {
       "citation_key": "vonkistowski2015",
@@ -304,9 +304,10 @@
       "verified_scholarly_identifier": "doi:10.1145/2668930.2688819",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "e0664ff8e83272cde4613b796c77eb6b76d2864c2cf0592f2b3d1cd0810de049",
-      "position": 18,
-      "claim_id": "CIT-018"
+      "original_body_source": "https://research.spec.org/icpe_proceedings/2015/proceedings/p333.pdf",
+      "evidence_sha256": "65426bc2dddf28e578a638269a407b3b924b1ee5874cd0161ab81b4f6cfd8548",
+      "position": 17,
+      "claim_id": "CIT-017"
     },
     {
       "citation_key": "clopper1934",
@@ -320,9 +321,10 @@
       "verified_scholarly_identifier": "doi:10.1093/biomet/26.4.404",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "3def9f2fd208bb5748f800c9f77f253e068b90985b0ad4217246567f549c2a9f",
-      "position": 19,
-      "claim_id": "CIT-019"
+      "original_body_source": "https://www.barestatistics.nl/uploads/1/1/7/9/11797954/clopper__pearson_1934.pdf",
+      "evidence_sha256": "204918b6caccfe9e83d8e63ac7e5ae5c7dffc15f653e3f08ab90bccf9d1c59e6",
+      "position": 18,
+      "claim_id": "CIT-018"
     },
     {
       "citation_key": "kim2025",
@@ -336,9 +338,10 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2026.findings-eacl.207",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "81bcdae8fdb699ab17035059163e7201fc1dc67bf7e5827ab0f9f38bbe9bc5dc",
-      "position": 20,
-      "claim_id": "CIT-020"
+      "original_body_source": "https://aclanthology.org/2026.findings-eacl.207.pdf",
+      "evidence_sha256": "5792efcec8a3c4b750d85272a4ff214cc5b47c0396337c1fd7a848c14f0c9a87",
+      "position": 19,
+      "claim_id": "CIT-019"
     },
     {
       "citation_key": "guan2024",
@@ -352,9 +355,10 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2024.findings-emnlp.541",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "8af41fc1934e87f4713798d5650d265250bf5ea49c2f67a50721a1bedfd3b632",
-      "position": 21,
-      "claim_id": "CIT-021"
+      "original_body_source": "https://aclanthology.org/2024.findings-emnlp.541.pdf",
+      "evidence_sha256": "541781852d6b434f0a6f36ef7ce54d9897e54dd0165b78d3040272243cdb397b",
+      "position": 20,
+      "claim_id": "CIT-020"
     },
     {
       "citation_key": "kim2025",
@@ -368,9 +372,10 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2026.findings-eacl.207",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "81bcdae8fdb699ab17035059163e7201fc1dc67bf7e5827ab0f9f38bbe9bc5dc",
-      "position": 22,
-      "claim_id": "CIT-022"
+      "original_body_source": "https://aclanthology.org/2026.findings-eacl.207.pdf",
+      "evidence_sha256": "5792efcec8a3c4b750d85272a4ff214cc5b47c0396337c1fd7a848c14f0c9a87",
+      "position": 21,
+      "claim_id": "CIT-021"
     },
     {
       "citation_key": "lee2024",
@@ -384,9 +389,10 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2024.acl-long.268",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "a3a8310a8af02e0f31ea105723fd532aa171dfc6fd49adedaccb2b9b07805608",
-      "position": 23,
-      "claim_id": "CIT-023"
+      "original_body_source": "https://aclanthology.org/2024.acl-long.268.pdf",
+      "evidence_sha256": "1fca63c7852282983aa33767403991e6116c0a133b35269102413987c93994fb",
+      "position": 22,
+      "claim_id": "CIT-022"
     },
     {
       "citation_key": "yang2023",
@@ -400,9 +406,10 @@
       "verified_scholarly_identifier": "doi:10.1109/SP54263.2024.00097",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "496367446fc0cc05598ae31c45d15d676b4b2adce937f94a25e5e3895a64cfda",
-      "position": 24,
-      "claim_id": "CIT-024"
+      "original_body_source": "https://arxiv.org/html/2309.00860v2",
+      "evidence_sha256": "0e5cb6e19c643d3e9257abf48c6c134e2356a4886d0dc580ba1c327b9ae67bf2",
+      "position": 23,
+      "claim_id": "CIT-023"
     },
     {
       "citation_key": "chen2018",
@@ -416,9 +423,10 @@
       "verified_scholarly_identifier": "doi:10.1145/3143561",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "91844e6552bbf2538ab3ec2a5ea08dc08b62925fd8a92a635ba2226dd59be48d",
-      "position": 25,
-      "claim_id": "CIT-025"
+      "original_body_source": "https://www.researchgate.net/publication/322261865_Metamorphic_Testing_A_Review_of_Challenges_and_Opportunities",
+      "evidence_sha256": "2f59342f54116fcb99e62b54df1e3bb64b0a9b9b4ec2b47b80c8e8719e79ee18",
+      "position": 24,
+      "claim_id": "CIT-024"
     },
     {
       "citation_key": "collberg1999",
@@ -432,9 +440,10 @@
       "verified_scholarly_identifier": "doi:10.1145/292540.292569",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "7a19e77d1e194878471f78cf6927ac65abc51494c4a817ccfa8895e1dd649b3a",
-      "position": 26,
-      "claim_id": "CIT-026"
+      "original_body_source": "https://collberg.cs.arizona.edu/content/research/papers/collberg99software.pdf",
+      "evidence_sha256": "891c7114ad8ab1b17730465c7aac1bbc2b1e787c8f0b52d064114886e3ad4d2a",
+      "position": 25,
+      "claim_id": "CIT-025"
     },
     {
       "citation_key": "collberg2002tools",
@@ -448,9 +457,10 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2002.1027797",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "e616025a5f5def3fd1f9d5d3153c33727c53d0d8406daf3fccc76da6bca91491",
-      "position": 27,
-      "claim_id": "CIT-027"
+      "original_body_source": "https://www.cs.cornell.edu/courses/cs513/2005fa/paper.collberg02watermarking.pdf",
+      "evidence_sha256": "11b7df82e46c68654f81947a42be71fed214b26b4eba05b4013dbffe776aed83",
+      "position": 26,
+      "claim_id": "CIT-026"
     },
     {
       "citation_key": "collberg2003sandmark",
@@ -464,9 +474,10 @@
       "verified_scholarly_identifier": "doi:10.1109/MSECP.2003.1219058",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "b3c8aebf798c96db3a83175ff3a48f084f900c78dee578d0e1eb9829ca70b5c1",
-      "position": 28,
-      "claim_id": "CIT-028"
+      "original_body_source": "https://tigress.wtf/website.github.io/content/research/papers/collberg03sandmark.pdf",
+      "evidence_sha256": "6f1e4daedb3107ebb655985ac24de468917cda2ab9f1a6b9ddeb05945ff2d7dc",
+      "position": 27,
+      "claim_id": "CIT-027"
     },
     {
       "citation_key": "cousot2004",
@@ -480,9 +491,10 @@
       "verified_scholarly_identifier": "doi:10.1145/964001.964016",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "effb8edbb7901df2bb2fd53f734f6aa6067d7c39e99b968add4765999fcba398",
-      "position": 29,
-      "claim_id": "CIT-029"
+      "original_body_source": "https://cs.nyu.edu/~pmc309/publications.www/CousotCousot-POPL04-ACM-p173-185-2004.pdf",
+      "evidence_sha256": "7d2ee456e3549c335ff6828e5239aee71a60bd5e09bd57285aac23bb10e6f68a",
+      "position": 28,
+      "claim_id": "CIT-028"
     },
     {
       "citation_key": "monden2000",
@@ -496,9 +508,10 @@
       "verified_scholarly_identifier": "doi:10.1109/CMPSAC.2000.884716",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "0ba27155566832cdb30e83541724c652610c1953c306a75c9ddab3b09ba338ab",
-      "position": 30,
-      "claim_id": "CIT-030"
+      "original_body_source": "https://naist.repo.nii.ac.jp/record/5162/files/10061_12769.pdf#page=1",
+      "evidence_sha256": "3e6fcc98eae7b9c61afd0b1ce2497bec8fbdab98b3e8854a0007bf1dec791c46",
+      "position": 29,
+      "claim_id": "CIT-029"
     },
     {
       "citation_key": "nagra2002taxonomy",
@@ -512,9 +525,10 @@
       "verified_scholarly_identifier": "ACSC 2002, CRPIT 4:177-186",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "37ac896144160827fcb075526b8bb46ab3a7ee85e63723cb843ec6ffec10c3df",
-      "position": 31,
-      "claim_id": "CIT-031"
+      "original_body_source": "https://www2.cs.arizona.edu/~collberg/content/research/papers/nagra02functional.pdf",
+      "evidence_sha256": "7cf4c1237c89885116fd4635e4a5bbf8d6f527238a8eac2c0e5de8b62510fc54",
+      "position": 30,
+      "claim_id": "CIT-030"
     },
     {
       "citation_key": "palsberg2000",
@@ -528,9 +542,10 @@
       "verified_scholarly_identifier": "doi:10.1109/ACSAC.2000.898885",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "c2de315ad3a8fce1448b87b1789afb34db1bb98ab1e76b4f2ca3d0d7de0aacc8",
-      "position": 32,
-      "claim_id": "CIT-032"
+      "original_body_source": "https://www.acsac.org/2000/papers/84.pdf",
+      "evidence_sha256": "a33d6488ec7a1d0ca6db524584b59841bd51dc39f55393191577a651883b784e",
+      "position": 31,
+      "claim_id": "CIT-031"
     },
     {
       "citation_key": "venkatesan2001",
@@ -544,9 +559,10 @@
       "verified_scholarly_identifier": "doi:10.1007/3-540-45496-9_12",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "06c4245b446951f132802db23c689076630bad830d31378e12ebf64f8934a536",
-      "position": 33,
-      "claim_id": "CIT-033"
+      "original_body_source": "https://profs.sci.univr.it/~giaco/download/Watermarking-Obfuscation/graph-theoretic%20watermarks.pdf",
+      "evidence_sha256": "6d65ccae856dcdacbe305dbd3c712c82ad503a185d85ab5835f17c7b09d85e2f",
+      "position": 32,
+      "claim_id": "CIT-032"
     },
     {
       "citation_key": "collberg2004dynamicpath",
@@ -560,9 +576,10 @@
       "verified_scholarly_identifier": "doi:10.1145/996841.996856",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "3177bb2a4053ee3bac59f83e4455f6a2d7af9b76ed46709f6c286ce8597df3fd",
-      "position": 34,
-      "claim_id": "CIT-034"
+      "original_body_source": "https://www2.cs.arizona.edu/~debray/Publications/pbw.pdf",
+      "evidence_sha256": "a06cf9ab2e6763dccefcd063e4d3c2eae100306578f56542e46810c62148ad1f",
+      "position": 33,
+      "claim_id": "CIT-033"
     },
     {
       "citation_key": "collberg2009graph",
@@ -576,9 +593,10 @@
       "verified_scholarly_identifier": "doi:10.1016/j.infsof.2008.09.016",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "e7e9eeeb841b3accbff0e8a18df2add887296d94287cf74be2d22c6ff6abd031",
-      "position": 35,
-      "claim_id": "CIT-035"
+      "original_body_source": "https://tigress.wtf/website.github.io/content/research/papers/collberg09more.pdf",
+      "evidence_sha256": "c9a3b55b508414aa37653d4802f37fb1b7fa70432b941e7358e8ab28f11b3dca",
+      "position": 34,
+      "claim_id": "CIT-034"
     },
     {
       "citation_key": "myles2004register",
@@ -591,10 +609,11 @@
       "source_locator": "https://doi.org/10.1007/978-3-540-24691-6_21",
       "verified_scholarly_identifier": "doi:10.1007/978-3-540-24691-6_21",
       "current_position_binding": "PASS",
-      "original_body_support": "BODY_SUPPORT_OPEN",
-      "evidence_sha256": "1050d0213508ced2004ce7e121baf20edc62ff50f1292a6fff630dcd6e934c18",
-      "position": 36,
-      "claim_id": "CIT-036"
+      "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
+      "original_body_source": "https://page-one.springer.com/pdf/preview/10.1007/978-3-540-24691-6_21",
+      "evidence_sha256": "2fa8fac44b3b20b24627d55ed8784c4e3843a37a78695784f9c0fca298104fa7",
+      "position": 35,
+      "claim_id": "CIT-035"
     },
     {
       "citation_key": "nagra2004threading",
@@ -608,9 +627,10 @@
       "verified_scholarly_identifier": "doi:10.1007/978-3-540-30114-1_15",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "439e01ea65ba405318b5fc06f37abbe6f8c0a6ec2361bb8a9faefae2f88b03ec",
-      "position": 37,
-      "claim_id": "CIT-037"
+      "original_body_source": "https://citeseerx.ist.psu.edu/document?doi=dd5d162208892a6afcecb6984d72cd7b165b93dd&repid=rep1&type=pdf#page=1",
+      "evidence_sha256": "926a4acf705a5ce87430555805924a7d861afa8d34b59f4c671d75d2ad257c9d",
+      "position": 36,
+      "claim_id": "CIT-036"
     },
     {
       "citation_key": "christ2024",
@@ -624,9 +644,10 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.mlr.press/v247/christ24a.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "3aac365122e2166cc3a1c58747178fac6b153a695f41a98985eac19abd24082e",
-      "position": 38,
-      "claim_id": "CIT-038"
+      "original_body_source": "https://proceedings.mlr.press/v247/christ24a/christ24a.pdf",
+      "evidence_sha256": "5c00395437dedca9bb077796c3b6286ad9b06e205be35f9d4377a03e0bfb56d6",
+      "position": 37,
+      "claim_id": "CIT-037"
     },
     {
       "citation_key": "dathathri2024",
@@ -640,9 +661,10 @@
       "verified_scholarly_identifier": "doi:10.1038/s41586-024-08025-4",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "89a5f769c1588786e74516a627352339300c6f7e4b8d5b18155c6898e3939312",
-      "position": 39,
-      "claim_id": "CIT-039"
+      "original_body_source": "https://www.nature.com/articles/s41586-024-08025-4.pdf",
+      "evidence_sha256": "ef571d2f92b96c3dcc99c9c9079e51edd65ee5385444e961f3b29a9627340a5c",
+      "position": 38,
+      "claim_id": "CIT-038"
     },
     {
       "citation_key": "hu2024",
@@ -656,9 +678,10 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.iclr.cc/paper_files/paper/2024/hash/c5b00c5bdcc6fe35907dbcca03d27652-Abstract-Conference.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "1f5f65c315cd2f6f9f85066d565147b7fac7f810298dd04ae7b8600bbd636463",
-      "position": 40,
-      "claim_id": "CIT-040"
+      "original_body_source": "https://arxiv.org/pdf/2310.10669",
+      "evidence_sha256": "f02920b7343dcba6b6c6c420a58c9564b77390a57b8dc5dde9affa364d2547d4",
+      "position": 39,
+      "claim_id": "CIT-039"
     },
     {
       "citation_key": "kirchenbauer2023",
@@ -672,9 +695,10 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.mlr.press/v202/kirchenbauer23a.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "cb207a9431ed5b76e5441b08d62b703a096990779b173cfb41b0c440548f435a",
-      "position": 41,
-      "claim_id": "CIT-041"
+      "original_body_source": "https://proceedings.mlr.press/v202/kirchenbauer23a/kirchenbauer23a.pdf",
+      "evidence_sha256": "b6f9905f0851727c16d1cd909455711877a005af72478ea86c0232cc22abe674",
+      "position": 40,
+      "claim_id": "CIT-040"
     },
     {
       "citation_key": "kirchenbauer2024",
@@ -688,9 +712,10 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.iclr.cc/paper_files/paper/2024/hash/d78e9e4316e1714fbb0f20be66f8044c-Abstract-Conference.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "51c3ba48fb4d24aedd5b5aea6d45b8c249b5ea40ae6254d0854499d1227225aa",
-      "position": 42,
-      "claim_id": "CIT-042"
+      "original_body_source": "https://proceedings.iclr.cc/paper_files/paper/2024/file/d78e9e4316e1714fbb0f20be66f8044c-Paper-Conference.pdf",
+      "evidence_sha256": "756da595f4b75d9505e208f11938c6a966b32750d97b4570fe01ad4b281b824c",
+      "position": 41,
+      "claim_id": "CIT-041"
     },
     {
       "citation_key": "suresh2024",
@@ -704,9 +729,10 @@
       "verified_scholarly_identifier": "doi:10.48550/arXiv.2403.17983",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "27128eae890d1a2ecb31caaa44ba070332c877b14a499398442930eca238e9b2",
-      "position": 43,
-      "claim_id": "CIT-043"
+      "original_body_source": "https://arxiv.org/pdf/2403.17983",
+      "evidence_sha256": "480ef766399f8e1c5b027e51c97e5569156920b4bb011cbe4cc9e33fa493207b",
+      "position": 42,
+      "claim_id": "CIT-042"
     },
     {
       "citation_key": "wu2024dipmark",
@@ -720,9 +746,10 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.mlr.press/v235/wu24h.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "c7346809a40ef810f6912204824b844621f022b29c4e68daad562a4dfb2ec716",
-      "position": 44,
-      "claim_id": "CIT-044"
+      "original_body_source": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/wu24h/wu24h.pdf",
+      "evidence_sha256": "f48250fd1bb61349740b58e398cc0cf35cc3a883d9bf46e83f247365ad9531da",
+      "position": 43,
+      "claim_id": "CIT-043"
     },
     {
       "citation_key": "zhao2024",
@@ -736,9 +763,10 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.iclr.cc/paper_files/paper/2024/hash/beae9ed5316bcc48e616754c06c11875-Abstract-Conference.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "09d0f6e432a955d75a1292f1353903163666c407e99faa700f03daebb8a72848",
-      "position": 45,
-      "claim_id": "CIT-045"
+      "original_body_source": "https://arxiv.org/pdf/2306.17439",
+      "evidence_sha256": "0147ab6c8fab081c0ada0e76a6b5b26941002a895fea827f8c12a2dfe4c61e13",
+      "position": 44,
+      "claim_id": "CIT-044"
     },
     {
       "citation_key": "andrews2005",
@@ -752,9 +780,10 @@
       "verified_scholarly_identifier": "doi:10.1145/1062455.1062530",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "fa8e88af0b960cc2943d30d951c83fe0190f7083d04b594674b78c96e722c011",
-      "position": 46,
-      "claim_id": "CIT-046"
+      "original_body_source": "https://www.researchgate.net/publication/4200521_Is_mutation_an_appropriate_tool_for_testing_experiments",
+      "evidence_sha256": "02ac9859fe1d4482ee71f2b75a9a47bba78e928b2f28bac61f371c621f0de761",
+      "position": 45,
+      "claim_id": "CIT-045"
     },
     {
       "citation_key": "demillo1978",
@@ -768,9 +797,10 @@
       "verified_scholarly_identifier": "doi:10.1109/C-M.1978.218136",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "99c60b6bb07b186c682093371d1662c4803c05e55e6bad2d030cf1e5e1536803",
-      "position": 47,
-      "claim_id": "CIT-047"
+      "original_body_source": "https://gse.ufsc.br/bezerra/disciplinas/Confiabilidade/docs/demillo-mutants.pdf",
+      "evidence_sha256": "52dbe3fb90aac1daa0c94cf7e33c35cd21ebcb005b85c28a557135109b9e56a6",
+      "position": 46,
+      "claim_id": "CIT-046"
     },
     {
       "citation_key": "just2014",
@@ -784,9 +814,10 @@
       "verified_scholarly_identifier": "doi:10.1145/2610384.2628055",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "3e904b74ec9d1d0fedc91b378ded4e5105fb2de1761e2fb6518051c8a09cc7ee",
-      "position": 48,
-      "claim_id": "CIT-048"
+      "original_body_source": "https://homes.cs.washington.edu/~rjust/publ/defects4j_issta_2014.pdf",
+      "evidence_sha256": "ecf2aca7d4279594feb1f2b45a09d2914375b15d1a06826b4fda7c91e2cf4dea",
+      "position": 47,
+      "claim_id": "CIT-047"
     },
     {
       "citation_key": "papadakis2019",
@@ -800,9 +831,10 @@
       "verified_scholarly_identifier": "doi:10.1016/bs.adcom.2018.03.015",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "0aa114d00df0ed0ae92d95c0dca28918037ab83c7d400b9fe8d9e092a3fb0319",
-      "position": 49,
-      "claim_id": "CIT-049"
+      "original_body_source": "https://mutationtesting.uni.lu/survey.pdf",
+      "evidence_sha256": "7675f40d6af81b38913f15cb669a0570a9d9cbda0240689195e58702af58e8e4",
+      "position": 48,
+      "claim_id": "CIT-048"
     },
     {
       "citation_key": "barr2015",
@@ -816,9 +848,10 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2014.2372785",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "6a9f64f9824f2d3a97a19e1c29ca07219bd1645e3ba42f7e5795062cc26f0903",
-      "position": 50,
-      "claim_id": "CIT-050"
+      "original_body_source": "https://philmcminn.com/publications/barr2015.pdf",
+      "evidence_sha256": "168cc6b6a4340c582f2b97d9e054fe369dbaaa3f22104d4389244a3020097fb9",
+      "position": 49,
+      "claim_id": "CIT-049"
     },
     {
       "citation_key": "le2014emi",
@@ -832,9 +865,10 @@
       "verified_scholarly_identifier": "doi:10.1145/2594291.2594334",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "70999f59e2a38385607d78917ea737c01bd947856bf3831e7f2abe31dc20f73a",
-      "position": 51,
-      "claim_id": "CIT-051"
+      "original_body_source": "https://people.inf.ethz.ch/suz/publications/emi.pdf",
+      "evidence_sha256": "b234f8d68bb5e59cde5ac6f3f0803b03a8068fde8d0c42fcafe4fb1f416cac61",
+      "position": 50,
+      "claim_id": "CIT-050"
     },
     {
       "citation_key": "necula2000",
@@ -848,9 +882,10 @@
       "verified_scholarly_identifier": "doi:10.1145/349299.349314",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "57e0ab8dd2856c764e800e3d22b15f9abb6bf3a5ae548ad15d9f037609357a1f",
-      "position": 52,
-      "claim_id": "CIT-052"
+      "original_body_source": "https://people.eecs.berkeley.edu/~necula/Papers/tv_pldi00.pdf",
+      "evidence_sha256": "0e7945125b3b86b7ff8814bfa00f9b535429688f9a4cfc99cf95285ea9ce9a3c",
+      "position": 51,
+      "claim_id": "CIT-051"
     },
     {
       "citation_key": "segura2016",
@@ -864,9 +899,10 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2016.2532875",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "1b7f135a13c07103d3acaf50798b4b7eb8754745e7c037cd8285a52e1f46bda6",
-      "position": 53,
-      "claim_id": "CIT-053"
+      "original_body_source": "https://eprints.whiterose.ac.uk/110335/1/segura16-tse.pdf",
+      "evidence_sha256": "8adec9444da49e5b5d55c9606ae746503d019f17815e1030ce6dca884a96bc56",
+      "position": 52,
+      "claim_id": "CIT-052"
     },
     {
       "citation_key": "weyuker1982",
@@ -880,9 +916,10 @@
       "verified_scholarly_identifier": "doi:10.1093/comjnl/25.4.465",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "f4ec2cd7079c8abd0f6fde83eed1c479c6d175bb36f4d38239e9679d295121a9",
-      "position": 54,
-      "claim_id": "CIT-054"
+      "original_body_source": "https://homes.cs.washington.edu/~rjust/courses/CSE503/2021_02_12-reading1.pdf",
+      "evidence_sha256": "2534ce3d0595b98db71ce316c41e18b0272790cf6d1fe4b40d56e0017815b18c",
+      "position": 53,
+      "claim_id": "CIT-053"
     },
     {
       "citation_key": "yang2011compiler",
@@ -896,9 +933,10 @@
       "verified_scholarly_identifier": "doi:10.1145/1993498.1993532",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "62c6301ed4a44fd0e6ae616ed357f837773b194634dd53c4b74e71cab2a42351",
-      "position": 55,
-      "claim_id": "CIT-055"
+      "original_body_source": "https://users.cs.utah.edu/~regehr/papers/pldi11-preprint.pdf",
+      "evidence_sha256": "9ff1165aa7b3e8600f1cc9691b46fd737cd90294e12a900876453ad7bceec1bf",
+      "position": 54,
+      "claim_id": "CIT-054"
     },
     {
       "citation_key": "bellon2007",
@@ -912,9 +950,10 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2007.70725",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "b0caf624e79e380e70fa5073bd290136acd86a484b7493b1324d69fee4bfcb52",
-      "position": 56,
-      "claim_id": "CIT-056"
+      "original_body_source": "https://www.researchgate.net/profile/Rainer-Koschke/publication/232635867_Comparison_and_Evaluation_of_Clone_Detection_Tools/links/570cb60208aee0660351cf68/Comparison-and-Evaluation-of-Clone-Detection-Tools.pdf",
+      "evidence_sha256": "212b8242349a844994be719a28727db260dcffc8ee2fe7a86db2a1b95e2043aa",
+      "position": 55,
+      "claim_id": "CIT-055"
     },
     {
       "citation_key": "buse2010",
@@ -928,9 +967,10 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2009.70",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "3c1a07e4e13a2b55bde25478f5da7324874e9a9968e5538ee8ff6ec5434c2b36",
-      "position": 57,
-      "claim_id": "CIT-057"
+      "original_body_source": "https://web.eecs.umich.edu/~weimerw/p/weimer-tse2010-readability-preprint.pdf",
+      "evidence_sha256": "2ca5f1a7f40c0262a3e650a79e51c7b8f5eeecf04a457706fb9fbd2c93d3c617",
+      "position": 56,
+      "claim_id": "CIT-056"
     },
     {
       "citation_key": "jiang2007",
@@ -944,9 +984,10 @@
       "verified_scholarly_identifier": "doi:10.1109/ICSE.2007.30",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "9e80b3e22399e9bd1fbac03d979f5c9868540a6b728bca7d33a7f913392cb7bf",
-      "position": 58,
-      "claim_id": "CIT-058"
+      "original_body_source": "https://people.inf.ethz.ch/suz/publications/icse07.pdf",
+      "evidence_sha256": "5f195c7d1bedfcad03ab9dcc40f71bec90f149a685948290f8cc73fe9d3b0c05",
+      "position": 57,
+      "claim_id": "CIT-057"
     },
     {
       "citation_key": "kamiya2002",
@@ -960,9 +1001,10 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2002.1019480",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "ceba15526e150cc11988fd16fbe789c68ea8161cb5d2e0d44bba66428fa363e6",
-      "position": 59,
-      "claim_id": "CIT-059"
+      "original_body_source": "https://www.researchgate.net/publication/3188248_CCFinder_a_multilinguistic_token-based_code_clone_detection_system_for_large_scale_source_code",
+      "evidence_sha256": "6a8c0250da038ed709341555983ca8fe81bcaf0fa1e2014cfe52b987b1a5ee1e",
+      "position": 58,
+      "claim_id": "CIT-058"
     },
     {
       "citation_key": "roy2009",
@@ -976,9 +1018,10 @@
       "verified_scholarly_identifier": "doi:10.1016/j.scico.2009.02.007",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "8ecad4406ae89fd635ceba3f538a06537ecbe363b5d0e4c8cb9af4a0904c4d74",
-      "position": 60,
-      "claim_id": "CIT-060"
+      "original_body_source": "https://research.cs.queensu.ca/home/cordy/Papers/RCK_SCP_Clones.pdf",
+      "evidence_sha256": "e58d4ac61adb6e81b5c19c78a63c7ca20456cd1aed60defc7619aa365908897f",
+      "position": 59,
+      "claim_id": "CIT-059"
     },
     {
       "citation_key": "sajnani2016",
@@ -992,9 +1035,10 @@
       "verified_scholarly_identifier": "doi:10.1145/2884781.2884877",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "11454579539fb82eef7df84a6765d4b20bae7268111003b80dcff3790070cbf5",
-      "position": 61,
-      "claim_id": "CIT-061"
+      "original_body_source": "https://arxiv.org/pdf/1512.06448",
+      "evidence_sha256": "e65b9c40ba12f1f6e597f85b7378048505c39359b31d75641afdea5552d0a54b",
+      "position": 60,
+      "claim_id": "CIT-060"
     },
     {
       "citation_key": "scalabrino2018",
@@ -1008,9 +1052,10 @@
       "verified_scholarly_identifier": "doi:10.1002/smr.1958",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "db4afc1201234c84a9038fa9127f24f386474dc7a896d0e62e270a59cd55c101",
-      "position": 62,
-      "claim_id": "CIT-062"
+      "original_body_source": "https://sscalabrino.github.io/files/2018/JSEP2018AComprehensiveModel.pdf",
+      "evidence_sha256": "ff87aaa236bbafef66bb5f4ab1b496dba99eed66faacbacd3b9cdeedd2bb7745",
+      "position": 61,
+      "claim_id": "CIT-061"
     },
     {
       "citation_key": "svajlenko2014",
@@ -1024,9 +1069,10 @@
       "verified_scholarly_identifier": "doi:10.1109/ICSME.2014.77",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "506acdc754012956344200c3cb2ad43a54958fd6e9f9db94552301c25af8a920",
-      "position": 63,
-      "claim_id": "CIT-063"
+      "original_body_source": "https://doi.org/10.1109/ICSME.2014.77",
+      "evidence_sha256": "3d64221df0d1eb1a8464d2e00737825aad61c37f683ef7e797f1f42c68e02eec",
+      "position": 62,
+      "claim_id": "CIT-062"
     },
     {
       "citation_key": "zhang1989",
@@ -1040,9 +1086,10 @@
       "verified_scholarly_identifier": "doi:10.1137/0218082",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "f2331dd247f812be1bcdb0dbea944d243268fce81f1f3e6f92d88c56c2352dc6",
-      "position": 64,
-      "claim_id": "CIT-064"
+      "original_body_source": "https://www.researchgate.net/profile/Dennis-Shasha/publication/220618233_Simple_Fast_Algorithms_for_the_Editing_Distance_Between_Trees_and_Related_Problems/links/59917c2fa6fdcc10d815cebd/Simple-Fast-Algorithms-for-the-Editing-Distance-Between-Trees-and-Related-Problems.pdf",
+      "evidence_sha256": "698524fccaf92ddbeac7b8e28482081cec70e86549798d0c9dc2a4e20d2b3991",
+      "position": 63,
+      "claim_id": "CIT-063"
     },
     {
       "citation_key": "arif2026",
@@ -1056,15 +1103,16 @@
       "verified_scholarly_identifier": "doi:10.4230/LIPIcs.ESEM.2026.10",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "3912801ad2657eff1269c431c8cd21ca9db1437c5c9b98065cf379aca835d4c9",
-      "position": 65,
-      "claim_id": "CIT-065"
+      "original_body_source": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.10",
+      "evidence_sha256": "abda37190fccd6e0a1300d17ff3d134b1d6e2cc9f13e799427999fdcdf64889b",
+      "position": 64,
+      "claim_id": "CIT-064"
     },
     {
       "citation_key": "borsboom2004",
       "manuscript_location": "paper/main.tex:927",
       "nearby_claim": "Borsboom et al. offer a causal alternative, grounding validity in an existing attribute's effect on measurement outcomes",
-      "paragraph_sha256": "1cd0eec2eead29ba9bd42c474b46be01dff7a79bdc3e627e969dc612b1cd6325",
+      "paragraph_sha256": "6c0242194ad7f9040ed62adcca6edba9d84053ae50c27c4297a369c749de990e",
       "consumed_by": [
         "paper/main.pdf"
       ],
@@ -1072,15 +1120,16 @@
       "verified_scholarly_identifier": "doi:10.1037/0033-295X.111.4.1061",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "d6f6c3d3bc0c910bccc008aed386ad8c2d914fe146ebb94144bbebcae31d3320",
-      "position": 66,
-      "claim_id": "CIT-066"
+      "original_body_source": "https://www.researchgate.net/publication/8234397_The_Concept_of_Validity",
+      "evidence_sha256": "425c4bf6edb268b47bedd61ced0029f414afcc36eb360f10e1f26015609c9e31",
+      "position": 65,
+      "claim_id": "CIT-065"
     },
     {
       "citation_key": "flake2017",
       "manuscript_location": "paper/main.tex:927",
       "nearby_claim": "Flake et al. find incomplete reporting of structural-validity evidence and frequent reliance on coefficient $\\alpha$ alone",
-      "paragraph_sha256": "1cd0eec2eead29ba9bd42c474b46be01dff7a79bdc3e627e969dc612b1cd6325",
+      "paragraph_sha256": "6c0242194ad7f9040ed62adcca6edba9d84053ae50c27c4297a369c749de990e",
       "consumed_by": [
         "paper/main.pdf"
       ],
@@ -1088,31 +1137,33 @@
       "verified_scholarly_identifier": "doi:10.1177/1948550617693063",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "7ec0bf45d2dfaed126e95980e410a4255451a025e304699fb9fc4b55d91614ba",
-      "position": 67,
-      "claim_id": "CIT-067"
+      "original_body_source": "https://www2.psych.ubc.ca/~schaller/528Readings/FlakePekHeyman2017.pdf",
+      "evidence_sha256": "e56e0dcb543bbba9c84fe201b9aa7d6eb08339a8ebbefea0c90c58aabce1d5a9",
+      "position": 66,
+      "claim_id": "CIT-066"
     },
     {
-      "citation_key": "kane2013",
+      "citation_key": "kane1990argument",
       "manuscript_location": "paper/main.tex:927",
-      "nearby_claim": "Kane frames validation as an interpretive argument",
-      "paragraph_sha256": "1cd0eec2eead29ba9bd42c474b46be01dff7a79bdc3e627e969dc612b1cd6325",
+      "nearby_claim": "Kane's argument-based approach evaluates an interpretation by examining the inferences and assumptions in its interpretive argument",
+      "paragraph_sha256": "6c0242194ad7f9040ed62adcca6edba9d84053ae50c27c4297a369c749de990e",
       "consumed_by": [
         "paper/main.pdf"
       ],
-      "source_locator": "https://doi.org/10.1111/jedm.12000",
-      "verified_scholarly_identifier": "doi:10.1111/jedm.12000",
+      "source_locator": "https://files.eric.ed.gov/fulltext/ED336428.pdf",
+      "verified_scholarly_identifier": "report:ACT-RR-90-13",
       "current_position_binding": "PASS",
-      "original_body_support": "BODY_SUPPORT_OPEN",
-      "evidence_sha256": "ed34662fc901dce0c5338858547a873b5260f5b896425a7a778ba08aa57ffd31",
-      "position": 68,
-      "claim_id": "CIT-068"
+      "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
+      "original_body_source": "https://files.eric.ed.gov/fulltext/ED336428.pdf",
+      "evidence_sha256": "bfaa18edd767b83c1892a343a170b391fbcc81d9dc9b237eca55af783cfb4d82",
+      "position": 67,
+      "claim_id": "CIT-067"
     },
     {
       "citation_key": "messick1995",
       "manuscript_location": "paper/main.tex:927",
       "nearby_claim": "Messick integrates score meaning and consequences",
-      "paragraph_sha256": "1cd0eec2eead29ba9bd42c474b46be01dff7a79bdc3e627e969dc612b1cd6325",
+      "paragraph_sha256": "6c0242194ad7f9040ed62adcca6edba9d84053ae50c27c4297a369c749de990e",
       "consumed_by": [
         "paper/main.pdf"
       ],
@@ -1120,9 +1171,10 @@
       "verified_scholarly_identifier": "doi:10.1037/0003-066X.50.9.741",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "34df62f968d9a0b05615bd27d385f165b5d2c440739bf1e7f9fc0fc4a76c93ab",
-      "position": 69,
-      "claim_id": "CIT-069"
+      "original_body_source": "https://dosen.perbanas.id/wp-content/uploads/2016/12/Validity-Messick1995.pdf",
+      "evidence_sha256": "bc71d2ecf31ff0f9dce844f3cb8d7d7e63c5a4ea2458c1d6444856a5ee38d9df",
+      "position": 68,
+      "claim_id": "CIT-068"
     },
     {
       "citation_key": "briand1996",
@@ -1136,9 +1188,10 @@
       "verified_scholarly_identifier": "doi:10.1109/32.481535",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "e9ae86cc1fb76db763217f1a7097b96ae1452c790533629cdf1ebe337c58e2f5",
-      "position": 70,
-      "claim_id": "CIT-070"
+      "original_body_source": "https://www.cs.umd.edu/~basili/publications/journals/J58.pdf",
+      "evidence_sha256": "3754d84be6e8010b56e13cd3bdfde29aac14ea56e7b2abacc26b6c0a8dedbe26",
+      "position": 69,
+      "claim_id": "CIT-069"
     },
     {
       "citation_key": "fenton1994",
@@ -1152,9 +1205,10 @@
       "verified_scholarly_identifier": "doi:10.1109/32.268921",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "9f53de97b7888deadcd1d5e5bfcb485f9c95c119f7c72eca9bfa8778c2493d4c",
-      "position": 71,
-      "claim_id": "CIT-071"
+      "original_body_source": "https://www.researchgate.net/publication/3187630_Software_measurement_a_necessary_scientific_basis",
+      "evidence_sha256": "cb779748000334c219019e8c60e1ce702bbc839e062a10ff6396bf1306fe3cbe",
+      "position": 70,
+      "claim_id": "CIT-070"
     },
     {
       "citation_key": "mackenzie2011",
@@ -1168,9 +1222,10 @@
       "verified_scholarly_identifier": "doi:10.2307/23044045",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "1ac74f7a12f7e87b23ad1e659551db0a9e962043071574b85fe498f2073d40a8",
-      "position": 72,
-      "claim_id": "CIT-072"
+      "original_body_source": "https://temme.wiwi.uni-wuppertal.de/fileadmin/_migrated/content_uploads/mackenzie_et_al_2011_kapitel_3_02.pdf",
+      "evidence_sha256": "516121cd965b8f6b7a096945d6124885ec836219aa52a4465bd74340925c7a9f",
+      "position": 71,
+      "claim_id": "CIT-071"
     },
     {
       "citation_key": "meneely2013",
@@ -1184,9 +1239,10 @@
       "verified_scholarly_identifier": "doi:10.1145/2377656.2377661",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "586bde38ef2cd336b36081c2b504005496a22fadf14e240f2165e00fbaba13e7",
-      "position": 73,
-      "claim_id": "CIT-073"
+      "original_body_source": "https://bensmith.s3.amazonaws.com/website/papers/tosem_metrics.pdf",
+      "evidence_sha256": "b76af1ae81d655f409619254f3418f4993329438d529ed9d381922d42da51d45",
+      "position": 72,
+      "claim_id": "CIT-072"
     },
     {
       "citation_key": "myrtveit2005",
@@ -1200,9 +1256,10 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2005.58",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "171cd3fc9d774f40776c78f4fe4d21b921cd9c16220df1741dc5f8ebd9b28372",
-      "position": 74,
-      "claim_id": "CIT-074"
+      "original_body_source": "https://bura.brunel.ac.uk/bitstream/2438/1853/1/01438374.pdf",
+      "evidence_sha256": "9d09f57047bca6455b1cecfb8159ff206d7a4d6f8b16f8ac875aa0e86352bac5",
+      "position": 73,
+      "claim_id": "CIT-073"
     },
     {
       "citation_key": "schneidewind1992",
@@ -1216,9 +1273,10 @@
       "verified_scholarly_identifier": "doi:10.1109/32.135774",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "8ead264fe0fb0441140f9bd30b50666d16d2b780c23673dc528a0ffc64a64695",
-      "position": 75,
-      "claim_id": "CIT-075"
+      "original_body_source": "https://calhoun.nps.edu/server/api/core/bitstreams/b11c8f43-8439-4fd6-9def-8058806ee725/content",
+      "evidence_sha256": "2c4a95c260cb0cf4842d77e46e1761e2d93ea155d481b5f515e5cca85091718e",
+      "position": 74,
+      "claim_id": "CIT-074"
     },
     {
       "citation_key": "bouthillier2021",
@@ -1232,9 +1290,10 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.mlsys.org/paper_files/paper/2021/hash/0184b0cd3cfb185989f858a1d9f5c1eb-Abstract.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "bdb1490e2290be1cb9078e99b8df2cc4506356561d9027c677b50ef67fe62531",
-      "position": 76,
-      "claim_id": "CIT-076"
+      "original_body_source": "https://proceedings.mlsys.org/paper_files/paper/2021/file/0184b0cd3cfb185989f858a1d9f5c1eb-Paper.pdf",
+      "evidence_sha256": "39da489866a157265ff1b5ec094152df101740d527612f70d94ec3c937d57d31",
+      "position": 75,
+      "claim_id": "CIT-075"
     },
     {
       "citation_key": "collberg2015benefaction",
@@ -1248,9 +1307,10 @@
       "verified_scholarly_identifier": "technical-report:https://reproducibility.cs.arizona.edu/v2/RepeatabilityTR.pdf",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "23b020b1e10342d3d489a5a2365b832c0556496ae3eda319adb91bf1df71c646",
-      "position": 77,
-      "claim_id": "CIT-077"
+      "original_body_source": "https://reproducibility.cs.arizona.edu/v2/RepeatabilityTR.pdf",
+      "evidence_sha256": "03072d8465bd766f48bb822f501b95a99a95e55bc89c3cb12a8500ed06af10f2",
+      "position": 76,
+      "claim_id": "CIT-076"
     },
     {
       "citation_key": "collberg2016repeatability",
@@ -1264,9 +1324,10 @@
       "verified_scholarly_identifier": "doi:10.1145/2812803",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "1eff29eb19c6ad7901ce0fa17460f56083556b95060fd11544f28343f7d63d7d",
-      "position": 78,
-      "claim_id": "CIT-078"
+      "original_body_source": "https://cacm.acm.org/research/repeatability-in-computer-systems-research/",
+      "evidence_sha256": "6abc9094fd85d4521de3dca5836936293500138d307779df92ac1b318127044f",
+      "position": 77,
+      "claim_id": "CIT-077"
     },
     {
       "citation_key": "demsar2006",
@@ -1280,9 +1341,10 @@
       "verified_scholarly_identifier": "formal-record:https://www.jmlr.org/papers/v7/demsar06a.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "56d300f2304453650abe8e0e537c9037e46b656373f18cc7315184017ee0857e",
-      "position": 79,
-      "claim_id": "CIT-079"
+      "original_body_source": "https://jmlr.org/papers/volume7/demsar06a/demsar06a.pdf",
+      "evidence_sha256": "bcb7a713be9d917c5b05393a7aad270535c303a73a9e3cd58beeea7186b20803",
+      "position": 78,
+      "claim_id": "CIT-078"
     },
     {
       "citation_key": "gonzalez2012",
@@ -1296,9 +1358,10 @@
       "verified_scholarly_identifier": "doi:10.1007/s10664-011-9181-9",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "0b6c59469d00fa9858d87fd98117f931f0239c2073a4b08af3f65f9e66b839dc",
-      "position": 80,
-      "claim_id": "CIT-080"
+      "original_body_source": "https://link.springer.com/article/10.1007/s10664-011-9181-9",
+      "evidence_sha256": "3c2d60bddf77505726827d568495744686c36b0197a75f54c754a09df9a5813a",
+      "position": 79,
+      "claim_id": "CIT-079"
     },
     {
       "citation_key": "musgrave2020",
@@ -1312,9 +1375,10 @@
       "verified_scholarly_identifier": "doi:10.1007/978-3-030-58595-2_41",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "e2a2331d1f398b1f3712d45ff76e98c9dbc494f88d97acb82e0bb0f7c4074836",
-      "position": 81,
-      "claim_id": "CIT-081"
+      "original_body_source": "https://arxiv.org/pdf/2003.08505",
+      "evidence_sha256": "6ba27266bfeb355a15aa9f187d44076a1755f83f67239d85a638357ef8f50004",
+      "position": 80,
+      "claim_id": "CIT-080"
     },
     {
       "citation_key": "pineau2021",
@@ -1328,9 +1392,10 @@
       "verified_scholarly_identifier": "formal-record:https://www.jmlr.org/papers/v22/20-303.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "08cbee4d690ebe1e218c2bfb1d8d75aafffb066ef233a7c14f5ecd2141688b27",
-      "position": 82,
-      "claim_id": "CIT-082"
+      "original_body_source": "https://www.jmlr.org/papers/volume22/20-303/20-303.pdf",
+      "evidence_sha256": "6ae39103da3c6de1bdda8d9e2b80cebc885fe6f88ccff76a632de2f1d7ea9e2c",
+      "position": 81,
+      "claim_id": "CIT-081"
     },
     {
       "citation_key": "recht2019",
@@ -1344,9 +1409,10 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.mlr.press/v97/recht19a.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "38df5d36b3cff1c7696e1873ada8e7fa55f4ff578d47f3a35d384196dd4b4ca1",
-      "position": 83,
-      "claim_id": "CIT-083"
+      "original_body_source": "https://proceedings.mlr.press/v97/recht19a/recht19a.pdf",
+      "evidence_sha256": "366098fc45ba1177f1199db95c099c6dc1ac9a7728356e8f6393ca68e30af100",
+      "position": 82,
+      "claim_id": "CIT-082"
     },
     {
       "citation_key": "dola2023",
@@ -1360,9 +1426,10 @@
       "verified_scholarly_identifier": "doi:10.1145/3576040",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "9ffee09b6f60fc2828128b0d05718bd91f6bdddc2d12a4dfca043a3d31b53bfc",
-      "position": 84,
-      "claim_id": "CIT-084"
+      "original_body_source": "https://doi.org/10.1145%2F3576040",
+      "evidence_sha256": "585194d639719728ce26d989fb096b792f790d7a0dba5da2c751c86838cbc03e",
+      "position": 83,
+      "claim_id": "CIT-083"
     },
     {
       "citation_key": "kim2023surprise",
@@ -1376,9 +1443,10 @@
       "verified_scholarly_identifier": "doi:10.1145/3546947",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "ee2a75b80ee42f645d15cf76f4cf72397afdb12ee2f139e200f15a37fd633178",
-      "position": 85,
-      "claim_id": "CIT-085"
+      "original_body_source": "https://jinhan.me/assets/files/papers/Kim2023ab.pdf",
+      "evidence_sha256": "c1c05e617b6ff951a9b1c668ffafcc529ae389b5617e58e723ec496d61515331",
+      "position": 84,
+      "claim_id": "CIT-084"
     },
     {
       "citation_key": "sotovalero2023",
@@ -1392,9 +1460,10 @@
       "verified_scholarly_identifier": "doi:10.1145/3546948",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "860caea835fedd86c6aa91e2139164e2dedd74dda399f165cd1249a212fe7e72",
-      "position": 86,
-      "claim_id": "CIT-086"
+      "original_body_source": "https://arxiv.org/pdf/2008.08401",
+      "evidence_sha256": "7f38ad9ebd7b2189ec9415609aac440903c47cff7c9145f9cb6b00de87a06b17",
+      "position": 85,
+      "claim_id": "CIT-085"
     },
     {
       "citation_key": "zhi2024",
@@ -1408,15 +1477,16 @@
       "verified_scholarly_identifier": "doi:10.1145/3607190",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "3e0a8d5d250b595cdc4865bfc860b2327ebd929ed963d13fa9c7019469c4575b",
-      "position": 87,
-      "claim_id": "CIT-087"
+      "original_body_source": "https://ink.library.smu.edu.sg/sis_research/8120/",
+      "evidence_sha256": "574b5ee092feb8db4c7b63d283e2a6a8d95b74356339a73e97d943a8f18c47f4",
+      "position": 86,
+      "claim_id": "CIT-086"
     },
     {
       "citation_key": "brown2001",
       "manuscript_location": "paper/main.tex:936",
       "nearby_claim": "Binomial intervals differ materially in coverage",
-      "paragraph_sha256": "f938e83a62c303a62d10499c232bbf773100a3d66ac75beaaa4b5bfaed299945",
+      "paragraph_sha256": "95667086a16abdba94e77141be2bfd7f4455220efa7842dfa26ae135f0e3e957",
       "consumed_by": [
         "paper/main.pdf"
       ],
@@ -1424,31 +1494,16 @@
       "verified_scholarly_identifier": "doi:10.1214/ss/1009213286",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "fd130075581f778b728d80dac3e83dbf1f4d5f1f4c4cc3070dd62c58965d9e83",
-      "position": 88,
-      "claim_id": "CIT-088"
-    },
-    {
-      "citation_key": "delong1988",
-      "manuscript_location": "paper/main.tex:936",
-      "nearby_claim": "Correlated-AUC inference presumes cases sampled from a defined population; the complete declared contrast is analyzed as a fixed finite set rather than a sample from such a population",
-      "paragraph_sha256": "f938e83a62c303a62d10499c232bbf773100a3d66ac75beaaa4b5bfaed299945",
-      "consumed_by": [
-        "paper/main.pdf"
-      ],
-      "source_locator": "https://doi.org/10.2307/2531595",
-      "verified_scholarly_identifier": "doi:10.2307/2531595",
-      "current_position_binding": "PASS",
-      "original_body_support": "BODY_SUPPORT_OPEN",
-      "evidence_sha256": "64f6c1fa9ff810fc38f4e50540a6028ba1d372e0f1e280a361ba2ab89aef317a",
-      "position": 89,
-      "claim_id": "CIT-089"
+      "original_body_source": "https://www.stat.purdue.edu/~dasgupta/publications/tr99-19.pdf",
+      "evidence_sha256": "a7d0b8bbf767848dfa40440a762324c7a57d6bb1471a64ffbc8565b6e55dd0ec",
+      "position": 87,
+      "claim_id": "CIT-087"
     },
     {
       "citation_key": "hanley1983",
       "manuscript_location": "paper/main.tex:936",
       "nearby_claim": "Zero events still imply a positive upper confidence limit",
-      "paragraph_sha256": "f938e83a62c303a62d10499c232bbf773100a3d66ac75beaaa4b5bfaed299945",
+      "paragraph_sha256": "95667086a16abdba94e77141be2bfd7f4455220efa7842dfa26ae135f0e3e957",
       "consumed_by": [
         "paper/main.pdf"
       ],
@@ -1456,11 +1511,12 @@
       "verified_scholarly_identifier": "doi:10.1001/jama.1983.03330370053031",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "e4f3beea746f9d2566c30928a4a96f31a732ebb63851674fed7f9644cc45663a",
-      "position": 90,
-      "claim_id": "CIT-090"
+      "original_body_source": "https://jhanley.biostat.mcgill.ca/c607/ch08/zero_numerator.pdf#page=1",
+      "evidence_sha256": "b326c0146ff81ca0fd762d4fdd985802e5a1d984f7e7ce4544138146ec9c8f45",
+      "position": 88,
+      "claim_id": "CIT-088"
     }
   ],
-  "verdict": "PASS_CURRENT_BINDINGS_BODY_SUPPORT_PARTIAL",
-  "verification_scope": "Complete current compiler-consumed citation-position census, not the retained historical sample. Current source binding is not proof of original-body support; open original-body records remain explicit. No independent human review, whole-paper reading or experiment replication is asserted."
+  "verdict": "PASS_CURRENT_CLAIM_BODY_SUPPORT",
+  "verification_scope": "Complete current compiler-consumed citation-position census. Removed background/replaced sources are not newly read originals. Only admitted actual-body support closes current clauses; no whole-paper reading, independent human review or experiment replication is asserted."
 }

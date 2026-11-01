@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
     "original_source": "https://doi.org/10.1145%2F3576040",
     "version": "Publisher-indexed original article method-body passages for the cited2023 work; direct full-HTML endpoint403; no complete final-PDF bytes claimed",
     "inspected_section": "Section3 Overview and Figure4 workflow; Sections3.1 Input Filtration and3.2 Feature Abstraction; Section4.4 Feasible Partition Combinations and Definition9 surrounding prose",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "9ffee09b6f60fc2828128b0d05718bd91f6bdddc2d12a4dfca043a3d31b53bfc"
+  "evidence_sha256": "585194d639719728ce26d989fb096b792f790d7a0dba5da2c751c86838cbc03e"
 }

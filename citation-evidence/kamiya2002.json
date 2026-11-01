@@ -37,17 +37,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
     "original_source": "https://www.researchgate.net/publication/3188248_CCFinder_a_multilinguistic_token-based_code_clone_detection_system_for_large_scale_source_code",
     "version": "Public Full-text2 original TSE paper, uploaded by first author Toshihiro Kamiya17/18Dec2013; exact three-author title/byline and printed IEEE28(7),July2002 headers. Not the annual-report first-page selection and not the related technical report345. No local whole-PDF byte identity.",
     "inspected_section": "Printed655, section2.2.2 on identifier regularization, online lines510–544; Printed656–657, section2.3/Figure1: lexical analysis, transformation rules, parameter replacement and match detection, online lines586–779",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "ceba15526e150cc11988fd16fbe789c68ea8161cb5d2e0d44bba66428fa363e6"
+  "evidence_sha256": "6a8c0250da038ed709341555983ca8fe81bcaf0fa1e2014cfe52b987b1a5ee1e"
 }

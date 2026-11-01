@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
-    "status": "BODY_SUPPORT_OPEN",
-    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
-    "original_source": "https://link.springer.com/chapter/10.1007/978-3-540-24691-6_21",
-    "version": "Exact Myles/Collberg ICISC2003 chapter, LNCS2971,2004,274–293, confirmed by Springer and author-institution records. No original chapter body read. Other authors' register-allocation papers and same-authors opaque-predicate paper not substituted.",
-    "inspected_section": "",
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://page-one.springer.com/pdf/preview/10.1007/978-3-540-24691-6_21",
+    "version": "Publisher-authorized two-page excerpt of the revised ICISC2003 chapter, LNCS2971(2004),274-293; only original pp274-275 accessed. No complete20-page reading or detailed performance/attack result asserted.",
+    "inspected_section": "Exact published chapter p275, Section1 Introduction, paragraphs1-3: watermark constraints, graph coloring and application to a graph-coloring register allocator; p274 title/byline/publication identity.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "1050d0213508ced2004ce7e121baf20edc62ff50f1292a6fff630dcd6e934c18"
+  "evidence_sha256": "2fa8fac44b3b20b24627d55ed8784c4e3843a37a78695784f9c0fca298104fa7"
 }

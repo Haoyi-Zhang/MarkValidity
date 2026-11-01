@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
     "original_source": "https://bura.brunel.ac.uk/bitstream/2438/1853/1/01438374.pdf",
     "version": "Institutional author repository original publisher-formatted12-page article; selected relevant body, no local final-PDF hash",
     "inspected_section": "PDFp2/printed381 introduction reliability/validity distinction; PDFp3/printed382 complete Section5.1 Reliability and Validity; PDFp6 Section6 model-choice consistency versus correctness",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "171cd3fc9d774f40776c78f4fe4d21b921cd9c16220df1741dc5f8ebd9b28372"
+  "evidence_sha256": "9d09f57047bca6455b1cecfb8159ff206d7a4d6f8b16f8ac875aa0e86352bac5"
 }

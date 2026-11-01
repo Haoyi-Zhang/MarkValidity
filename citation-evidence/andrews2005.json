@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
     "original_source": "https://www.researchgate.net/publication/4200521_Is_mutation_an_appropriate_tool_for_testing_experiments",
     "version": "Coauthor-uploaded original ICSE2005 pp402-411; not a later journal paper or claimed publisher-byte equality",
     "inspected_section": "Original Sections3/3.1 Experiment Material and Procedure, printed403-404; Section3.5 printed405; Sections4.5/5 printed408-409.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "fa8e88af0b960cc2943d30d951c83fe0190f7083d04b594674b78c96e722c011"
+  "evidence_sha256": "02ac9859fe1d4482ee71f2b75a9a47bba78e928b2f28bac61f371c621f0de761"
 }

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.2",
+  "citation_key": "kane1990argument",
+  "entry_type": "techreport",
+  "title": "An Argument-Based Approach to Validation",
+  "authors": "Michael T. Kane",
+  "venue": "ACT Research Report Series90-13, American College Testing Program",
+  "year": "1990",
+  "pages_or_article": "Report90-13",
+  "verified_scholarly_identifier": "report:ACT-RR-90-13",
+  "source_locator": "https://files.eric.ed.gov/fulltext/ED336428.pdf",
+  "verification_status": "VERIFIED_PRIMARY_REPORT",
+  "verification_basis": "Original report title/byline, December1990date, report90-13identity and reproduction permission in government-archived original; not a DOI or2013article verification.",
+  "manuscript_occurrences": [
+    {
+      "file": "paper/main.tex",
+      "line": 927,
+      "claim": "Kane's argument-based approach evaluates an interpretation by examining the inferences and assumptions in its interpretive argument",
+      "paragraph_sha256": "6c0242194ad7f9040ed62adcca6edba9d84053ae50c27c4297a369c749de990e",
+      "consumed_by": [
+        "paper/main.pdf"
+      ]
+    }
+  ],
+  "current_source_bindings": {
+    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
+    "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
+    "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
+  },
+  "current_claim_support": {
+    "status": "BODY_SUPPORT_CURRENT_CLAIMS",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
+    "original_source": "https://files.eric.ed.gov/fulltext/ED336428.pdf",
+    "version": "December1990 ACT Research Report Series90-13, government-archived original,49PDFpages including preliminaries and44numbered report pages. Distinct from the1992 and2013journal articles.",
+    "inspected_section": "Original ACT report pp2,9-10 (Interpretations as Arguments) and18 (The Validity Argument); identity and reproduction permission on original preliminary pages.",
+    "complete_original_paper_read_claimed": false
+  },
+  "evidence_sha256": "bfaa18edd767b83c1892a343a170b391fbcc81d9dc9b237eca55af783cfb4d82"
+}

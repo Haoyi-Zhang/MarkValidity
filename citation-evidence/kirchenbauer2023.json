@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
     "original_source": "https://proceedings.mlr.press/v202/kirchenbauer23a/kirchenbauer23a.pdf",
     "version": "Final ICML2023 PMLR202, 24PDFpages",
     "inspected_section": "Original Sections1.1-3, Algorithms1-2, PDFpp2-4; Section3.1 Equation3, PDFp4; Section4 assumptions and Definition4.1; Section5 private watermarking, PDFp5.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "cb207a9431ed5b76e5441b08d62b703a096990779b173cfb41b0c440548f435a"
+  "evidence_sha256": "b6f9905f0851727c16d1cd909455711877a005af72478ea86c0232cc22abe674"
 }

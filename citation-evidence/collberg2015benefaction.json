@@ -30,17 +30,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
     "original_source": "https://reproducibility.cs.arizona.edu/v2/RepeatabilityTR.pdf",
     "version": "Version stated in retained original-reading record",
     "inspected_section": "Physical pages 1-2: title, abstract, study description and library/compiler/environment dependency context; not all 68 pages",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "23b020b1e10342d3d489a5a2365b832c0556496ae3eda319adb91bf1df71c646"
+  "evidence_sha256": "03072d8465bd766f48bb822f501b95a99a95e55bc89c3cb12a8500ed06af10f2"
 }

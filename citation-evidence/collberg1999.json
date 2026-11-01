@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
     "original_source": "https://collberg.cs.arizona.edu/content/research/papers/collberg99software.pdf",
     "version": "Author-hosted original1999 publisher facsimile as indexed online; direct404 does not invalidate the indexed original body or DOI; no local full-PDF hash",
     "inspected_section": "Printed312 Section1.1 quality/attack discussion from retained prior reading; printed313 Sections1.3,2,2.1 static versus runtime carriers; printed316 Section3.3 and Section4/4.1 Definitions1-4 programs, transformations, recognition, static/pure-dynamic recognizers; printed318 Figure3 and Section5.2 heap-graph embedding/recognition",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "7a19e77d1e194878471f78cf6927ac65abc51494c4a817ccfa8895e1dd649b3a"
+  "evidence_sha256": "891c7114ad8ab1b17730465c7aac1bbc2b1e787c8f0b52d064114886e3ad4d2a"
 }

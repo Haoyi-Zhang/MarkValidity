@@ -34,17 +34,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
     "original_source": "https://www.researchgate.net/publication/3187630_Software_measurement_a_necessary_scientific_basis",
     "version": "Author-uploaded original printed1994 article, uploaded by Norman Elliott Fenton June2013; not a new article dated by repository upload metadata",
     "inspected_section": "Printed pp199-200 SectionII.A What Is Measurement and II.B Representational Theory of Measurement: empirical relational systems and representation condition, with continuation into p201",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "9f53de97b7888deadcd1d5e5bfcb485f9c95c119f7c72eca9bfa8778c2493d4c"
+  "evidence_sha256": "cb779748000334c219019e8c60e1ce702bbc839e062a10ff6396bf1306fe3cbe"
 }

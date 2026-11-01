@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
     "original_source": "https://kelloggm.github.io/martinjkellogg.com/teaching/cs684-sp24/assets/mutation-testing.pdf",
     "version": "Original IEEE TSE37(5)649-678 facsimile,30PDFpages,sameDOI10.1109/TSE.2010.62; primaryarticle onacademic course mirror",
     "inspected_section": "PDF4 printed652 Section2.2 mutant-killing/equivalent-mutant/mutation-score description and2.3 limitations; PDF5 printed653 Section3 costtaxonomy",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "0280fb7a6ac73269fd89e53af445f355dadbb9d3d8e3dd2f16e89cb456b71330"
+  "evidence_sha256": "2263f009ba6ce2548901394d5b917263c4d1a13b62186aa5122bfdef18b04864"
 }

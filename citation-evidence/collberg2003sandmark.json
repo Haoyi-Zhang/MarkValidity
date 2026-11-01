@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
     "original_source": "https://tigress.wtf/website.github.io/content/research/papers/collberg03sandmark.pdf",
     "version": "Author-hosted original IEEE Security&Privacy1(4)July/Aug2003 pp40-49, exact Collberg/Myles/Huntwork byline and original footer; not later SandMark overview",
     "inspected_section": "Printed40 authored introduction;41-42 Threat models/System overview/plugin integration;44 implemented watermark algorithms;47-48 Sandmark evaluation techniques and manual comparison tools",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "b3c8aebf798c96db3a83175ff3a48f084f900c78dee578d0e1eb9829ca70b5c1"
+  "evidence_sha256": "6f1e4daedb3107ebb655985ac24de468917cda2ab9f1a6b9ddeb05945ff2d7dc"
 }

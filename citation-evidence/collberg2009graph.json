@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
     "original_source": "https://tigress.wtf/website.github.io/content/research/papers/collberg09more.pdf",
     "version": "Author-site migrated original publisher-formatted12-page journal article, Information and Software Technology51(2009)56-67, five-author byline/DOI10.1016/j.infsof.2008.09.016 read; not2004conference predecessor",
     "inspected_section": "Printed56 identity;58 Section3 pipeline;59-61 Sections4/4.1.1/4.1.2 splitting and graph-encoding construction;64-65 Section6/6.1 size-growth contrasts and Tables1-2 splitter execution overhead;66 Section6.3 partial-sum versus GCRT survival and Sections7-8 limitations",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "e7e9eeeb841b3accbff0e8a18df2add887296d94287cf74be2d22c6ff6abd031"
+  "evidence_sha256": "c9a3b55b508414aa37653d4802f37fb1b7fa70432b941e7358e8ab28f11b3dca"
 }

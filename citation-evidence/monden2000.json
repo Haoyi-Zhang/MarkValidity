@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
     "original_source": "https://naist.repo.nii.ac.jp/record/5162/files/10061_12769.pdf#page=1",
     "version": "NAIST deposited author manuscript with institutional cover specifying resource version author, exact COMPSAC2000 DOI and five-author byline. Inoue precedes Torii in the original, matching current bib; no change based on contrary secondary author ordering. Not publisher-byte identity.",
     "inspected_section": "Section4.1/4.2 encoding and decoding, online lines95–114 and185–211; Sections5.1/5.2 experimental procedure/results, online lines225–253; institutional version/rights cover lines0–11",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "0ba27155566832cdb30e83541724c652610c1953c306a75c9ddab3b09ba338ab"
+  "evidence_sha256": "3e6fcc98eae7b9c61afd0b1ce2497bec8fbdab98b3e8854a0007bf1dec791c46"
 }

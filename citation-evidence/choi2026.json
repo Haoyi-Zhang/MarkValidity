@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
     "original_source": "https://arxiv.org/pdf/2607.06009",
     "version": "arXiv2607.06009v1 [cs.CR],7July2026,15PDFpages; source's unfilled ACM2018 template footer is not a publication identity and is not imported",
     "inspected_section": "Complete first-page title/byline/date and Introduction; PDF2 Introduction/approach; PDF3 Sections2.2-2.3 coding/spreading; PDF4 Section3 threat model and4.1 overview; PDF5 Section4.2-4.3 and Table2 naming plus eight structural channels.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "2de48b35e950eefc6b019bd179669f96ad4b95943a846b139cebcda396b27f4c"
+  "evidence_sha256": "aa3dd7bd217c8b9658d72df39a9e7d93ccc196ddc645699cb2f5509adfbb4f87"
 }

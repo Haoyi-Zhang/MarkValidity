@@ -16,7 +16,7 @@
       "file": "paper/main.tex",
       "line": 109,
       "claim": "Sjøberg and Bergersen connect a construct to an operationalization that can be challenged by evidence",
-      "paragraph_sha256": "b6e556465ec8598af9267d6d41261d9e8f4512ae14dfe82f62f0c1b4d6e9acd8",
+      "paragraph_sha256": "729232115ceb9f5cbb867abf33dd364091b3d60b248ec737f6a28ec3f647d22d",
       "consumed_by": [
         "paper/main.pdf"
       ]
@@ -25,17 +25,17 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "64b2d5cb57f2e42bdc6071b20bf408ce7501b8c50b9eeda70e90009b06db6386",
+    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
     "status": "BODY_SUPPORT_CURRENT_CLAIMS",
-    "scope": "Only the present attributed clauses; metadata identity, current-position binding, and original-body support are separate judgments. Not independent replication.",
+    "scope": "Only present attributed clauses; metadata identity, current-position binding and actual original-body support are separate judgments. Not independent replication.",
     "original_source": "https://www.researchgate.net/publication/360817259_Construct_Validity_in_Software_Engineering",
     "version": "Public author-uploaded23-page accepted/early-access manuscript, uploaded by Dag I.K. Sjoberg June2022, CC BY4.0; not asserted final2023 pagination/bytes",
     "inspected_section": "Manuscriptp2 Sections2.1-2.2 operationalization/validation and convergent-divergent evidence; Section2.3 threats; Sections5.1.1-5.1.3 construct model, imported validated construct and newly defined construct",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "51952a124d2635fea4a6d1b09bd496e59042f39e221151f8601aa06e400c1bfe"
+  "evidence_sha256": "f0802f395b354648c3e50ead4950db46d2e5562651020e4fc923ec699b207247"
 }
