@@ -1,0 +1,49 @@
+{
+  "all_dense_program_semantics_executed": false,
+  "configurations": 38016,
+  "distinct_task_source_identities": 22054,
+  "historical_executed_dense_links": 432,
+  "historical_executed_unknown_labels": 75600,
+  "input_sha256": {
+    "raw/robustness.csv": "f42970e2dd73f1fb790a5697be032e835ba1686df97bf80843fbe46427ca368c"
+  },
+  "javascript_source_admission_added": false,
+  "new_program_executions": 0,
+  "per_scheme": {
+    "hybrid": {
+      "configurations": 12672,
+      "detected": 5292
+    },
+    "lexical": {
+      "configurations": 12672,
+      "detected": 6315
+    },
+    "structural": {
+      "configurations": 12672,
+      "detected": 6286
+    }
+  },
+  "registration": {
+    "candidate_program_executions": 0,
+    "configurations": 38016,
+    "historical_semantic_labels_overwritten": false,
+    "languages": [
+      "python"
+    ],
+    "maximum_unique_source_admissions": 38016,
+    "model_API_calls": 0,
+    "proof_contract": "Exact inert-prefix erasure against the receiver task; result-only builtin-domain semantics",
+    "selection": "All frozen task/scheme/attack/severity/payload keys, not outcome selection",
+    "upstream_executions": 0,
+    "wall_limit_seconds": 480
+  },
+  "source_detection_disagreements": 0,
+  "source_semantic_admission": "All Python rows satisfy the explicit erasure contract; not generic semantic verification",
+  "source_sha256": {
+    "check_source_admission.py": "7270002c16f23179122dc267a59b47e75944202c593dbd8b5b21f1db04ee05a4",
+    "src/covewm/benchmark.py": "5fc5664b48970f9929bc397a5d2bcaf162c46467ef38e2269b379d80a869b750",
+    "src/covewm/source_admission.py": "375c600e652a8bb83678b4f0aa9771f12a7c021deb4672410e3db4be6311b23b",
+    "src/covewm/tasks.py": "718f39e105291be8a6c08c246175b04bce56d01e57819bf14fdd991952bf45a4"
+  },
+  "status": "PASS"
+}

@@ -37,6 +37,33 @@ This is not an external-system performance comparison. Pinned definitions and lo
 
 ## Joint-evidence diagnostic
 
+### Source-bound Python admission
+
+The additional `src/covewm/source_admission.py` gate parses and compiles the
+actual candidate, checks true comment-token/site correspondence and erases only
+an explicitly inert prefix against the receiver's task AST. Its written
+result-only erasure argument is in `proofs/source-admission.md`. It rejects
+changed functional code, nonfresh locals, executable carrier effects and
+marker/name inconsistencies. This is not a general Python semantic verifier.
+
+```sh
+python -B -m unittest discover -s tests -p test_source_admission.py -v
+python -O -B -m unittest discover -s tests -p test_source_admission.py -v
+python -B check_source_admission.py --out /absolute/fresh/source-admission
+```
+
+The complete frozen Python submatrix contains 38,016 configurations and 22,054
+distinct task/source identities. All pass the explicit erasure contract and
+their actual extracted decisions agree with the retained model. The complete
+rows are losslessly retained as `results/source_admission/rows.csv.gz`; the
+fresh driver emits an ordinary CSV. These are proof-derived source admissions,
+not new semantic executions, independent tasks, an external-system evaluation
+or evidence for JavaScript. The original 432 executed dense links and 75,600
+missing execution labels are not overwritten. A division-by-zero initializer
+is a counterexample to treating unchanged extracted bits as semantic admission;
+the AST gate rejects it. No advantage over a same-information AST receiver is
+claimed.
+
 `check_joint_evidence.py` is a separate data-only analysis of the retained
 `results/current/results/` tables. It does not import or run carrier generation,
 attacks, source extraction, or upstream code. Run it with the selected Python

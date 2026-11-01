@@ -1,0 +1,14 @@
+{
+  "configurations": 38016,
+  "languages": [
+    "python"
+  ],
+  "selection": "All frozen task/scheme/attack/severity/payload keys, not outcome selection",
+  "maximum_unique_source_admissions": 38016,
+  "wall_limit_seconds": 480,
+  "candidate_program_executions": 0,
+  "upstream_executions": 0,
+  "model_API_calls": 0,
+  "historical_semantic_labels_overwritten": false,
+  "proof_contract": "Exact inert-prefix erasure against the receiver task; result-only builtin-domain semantics"
+}
