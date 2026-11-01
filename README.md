@@ -113,8 +113,15 @@ Response-curve Clopper--Pearson fields retain their historical values, but are
 now explicitly interpreted as homogeneous independent-Bernoulli reference-model
 intervals. They do not provide exact coverage for the deterministic, heterogeneous
 indexed-state enumeration. The empirical null experiments have a separate trial
-model. Current local discovery contains 59 unit tests plus six reporting
-regressions; historical Ubuntu test counts remain historical.
+model. Current local discovery reports its unit and reporting-regression counts;
+historical Ubuntu test counts remain historical.
+
+`summarize_evidence_policies.py` now reconstructs each frozen Python source and
+performs bounded AST-erasure admission before accepting its proof-supported
+label. Executed links are checked against the retained semantic/source audit,
+including exact configuration and source identity. The emitted
+`validation_scope` describes this current static check, not recovery of a
+historical output receipt or a new execution of the task programs.
 
 `manuscript-reporting/` contains the two current reporting passages consumed
 by the regression checks. A flat artifact checkout runs the same numerical

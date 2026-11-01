@@ -12,10 +12,11 @@
   "historical_labels_changed": false,
   "input_bindings": {
     "results/raw/robustness.csv": "f42970e2dd73f1fb790a5697be032e835ba1686df97bf80843fbe46427ca368c",
+    "results/raw/semantic_audit.csv": "941ee8f5aec0832103b9fd91c5c5ba7bd97a6c2f85d88695e7cb1bbb1e19e80e",
     "results/source_admission/rows.csv.gz": "c0c2bc71c4e84aae52370850b3eb2ca16b9efbc5e4e1d6ec0d134f3fd29bfc21",
     "results/source_detection/rows.csv": "5d753d0d63e2411a133c76e984a777b0c510255c70264cc5e01dc62a0507fda4"
   },
-  "premise": "Restricted Python AST-erasure soundness plus retained source-identity-bound execution labels; no generic equivalence or execution claim",
+  "premise": "Current restricted Python AST-erasure revalidation plus retained source-identity-bound execution labels; no generic equivalence or new execution claim",
   "proof_admitted_python_detected": 17893,
   "proof_supported": {
     "denominator": 76032,
@@ -27,5 +28,26 @@
     "upper_numerator": 55755
   },
   "status": "PASS",
-  "task_programs_executed": 0
+  "task_programs_executed": 0,
+  "validation_scope": {
+    "carrier_only_controls_checked": 72,
+    "distinct_task_source_admissions": 22054,
+    "executed_dense_links_source_bound": 432,
+    "historical_research_budgets_changed": false,
+    "historical_success_receipt_restored": false,
+    "kind": "current-deterministic-static-revalidation",
+    "maximum_source_admissions": 38016,
+    "model_API_calls": 0,
+    "proof_configurations_revalidated": 38016,
+    "upstream_programs_executed": 0,
+    "validated_at_utc": "2026-11-01T22:27:05.188990+00:00",
+    "wall_limit_seconds": 480
+  },
+  "validator_source_sha256": {
+    "check_source_detection.py": "d54cfb0db3fb10894595bcaaee6202f79ab36fb271e6160509a4823c2e718aa2",
+    "src/covewm/benchmark.py": "5fc5664b48970f9929bc397a5d2bcaf162c46467ef38e2269b379d80a869b750",
+    "src/covewm/source_admission.py": "375c600e652a8bb83678b4f0aa9771f12a7c021deb4672410e3db4be6311b23b",
+    "src/covewm/tasks.py": "718f39e105291be8a6c08c246175b04bce56d01e57819bf14fdd991952bf45a4",
+    "summarize_evidence_policies.py": "56cb5f322d6c4d024c55f7b0bce522eaced28fce337ac13593cbbb0788f73515"
+  }
 }

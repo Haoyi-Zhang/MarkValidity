@@ -36,6 +36,7 @@ jobs:
             python -B run_all.py --out .scientific-output/results 2>&1 | tee .scientific-output/regeneration.log
             export COVEWM_RESULTS="$PWD/.scientific-output/results"
             python -B -m unittest discover -s tests -p "test*.py" -v 2>&1 | tee .scientific-output/tests.log
+            python -O -B -m unittest discover -s tests -p test_evidence_policies.py -v 2>&1 | tee .scientific-output/policy-binding-optimized.log
             python -B recheck.py --results .scientific-output/results 2>&1 | tee .scientific-output/reconstruction.log
             python -B -S -m unittest discover -s regressions -p "test*.py" -v 2>&1 | tee .scientific-output/reporting-controls.log
             python -B -S check_source_detection.py --out .scientific-output/source-detection 2>&1 | tee .scientific-output/source-detection.log
