@@ -23,7 +23,7 @@
     }
   ],
   "current_source_bindings": {
-    "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
+    "paper/current-authors.tex": "5383c9a0fce77661c2d9d4ff5ca2011d481641ec03f86deb32980e298cdbcbea",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
     "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
     "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
@@ -37,5 +37,5 @@
     "inspected_section": "PDF1-4 identity/copyright/permission; printed1-7(PDF6-12), Interpretations as Arguments pp9-10(PDF14-15), Interpretive Arguments pp13-14(PDF18-19), The Validity Argument p18(PDF23), A Six-Step Process pp34-36 and transition/advantages p37(PDF39-42). PDF1-2 and printed2,9,10 rendered and visually inspected. Visual government cover says ED336428 despite OCR misreading last digit; signed reproduction permission for ERIC visible on original cover.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "a3e8115e9a4c939b2352d176a2165b5d17f8e9984302c5c5e64f5dc1470225cf"
+  "evidence_sha256": "01cd143b64ce144a876c0a45294b3040a50b3cdcfb363330f0b923a71b3e6e6b"
 }

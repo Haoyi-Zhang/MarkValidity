@@ -23,7 +23,7 @@
     }
   ],
   "current_source_bindings": {
-    "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
+    "paper/current-authors.tex": "5383c9a0fce77661c2d9d4ff5ca2011d481641ec03f86deb32980e298cdbcbea",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
     "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
     "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
@@ -37,5 +37,5 @@
     "inspected_section": "PDF3 printed2 Section2 metamorphic-relation definition/preconditions/source-followup testprocedure; PDF7 printed6 Section4.2 relation construction",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "b75ef4488b079fb1e8af9b1cbde822500423712889b67346d9f6d7b3828b293e"
+  "evidence_sha256": "f38be0141d2f8b7d9a89090fa5f1290d1add71c921893e79d2d0755d937e6428"
 }

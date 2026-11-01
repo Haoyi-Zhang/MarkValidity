@@ -18,7 +18,7 @@
     }
   ],
   "current_source_bindings": {
-    "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
+    "paper/current-authors.tex": "5383c9a0fce77661c2d9d4ff5ca2011d481641ec03f86deb32980e298cdbcbea",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
     "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
     "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
@@ -32,5 +32,5 @@
     "inspected_section": "Section3 evaluation pipeline and AppendixA, including pass@1 task-quality evaluation",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "0b37f6e64303768f70ac1923e566cab698c69efa60f4f5706fdb7c922f99028d"
+  "evidence_sha256": "d7290f0b2aa43bece57176f1ccf464570daf7bddd5312a9c01577745eeb81a98"
 }
