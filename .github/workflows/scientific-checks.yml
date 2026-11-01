@@ -70,7 +70,7 @@ jobs:
           python -B -m unittest discover -s tests -p test_source_admission.py -v
           python -O -B -m unittest discover -s tests -p test_source_admission.py -v
           timeout --signal=TERM --kill-after=10s 480s python -B check_source_admission.py --out "$RUNNER_TEMP/source-admission"
-          cmp results/source_admission/rows.csv "$RUNNER_TEMP/source-admission/rows.csv"
+          gzip -dc results/source_admission/rows.csv.gz | cmp - "$RUNNER_TEMP/source-admission/rows.csv"
           cmp results/source_admission/summary.json "$RUNNER_TEMP/source-admission/summary.json"
       - name: Retain source-admission outputs
         if: always()
