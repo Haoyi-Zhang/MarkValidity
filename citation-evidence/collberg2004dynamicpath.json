@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 913,
+      "line": 963,
       "claim": "Dynamic-path watermarks condition recognition on selected executions",
       "paragraph_sha256": "e5e2f7716dd358e9ad8580baf1e314c4186ccf0bf30c32721949a0b16f68a98b",
       "consumed_by": [
@@ -23,9 +23,9 @@
     }
   ],
   "current_source_bindings": {
-    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
+    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "PDF3 printed109 Sections3/3.1 input-dependent branch traces; PDF7-8 printed113-114 native extraction",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "a06cf9ab2e6763dccefcd063e4d3c2eae100306578f56542e46810c62148ad1f"
+  "evidence_sha256": "11de2a7fbd3a18aec6463165bfd59a1d99ebec68f7b803884ef67f17868a7fba"
 }

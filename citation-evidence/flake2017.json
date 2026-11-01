@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 927,
+      "line": 977,
       "claim": "Flake et al. find incomplete reporting of structural-validity evidence and frequent reliance on coefficient $\\alpha$ alone",
       "paragraph_sha256": "6c0242194ad7f9040ed62adcca6edba9d84053ae50c27c4297a369c749de990e",
       "consumed_by": [
@@ -29,9 +29,9 @@
     "identity_record_boundary": "The unchanged evidence_sha256 field belongs to the prior DOI metadata record; it is not a digest or execution proof of this primary-passage judgment."
   },
   "current_source_bindings": {
-    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
+    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -43,5 +43,5 @@
     "inspected_section": "Printed pages 372 and 374: Method/Coding of Articles; Discussion/On the Fly Measurement",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "e56e0dcb543bbba9c84fe201b9aa7d6eb08339a8ebbefea0c90c58aabce1d5a9"
+  "evidence_sha256": "8b0746c9c0cfc1413a5881ee2f3fd21f2d1d41583adb36bbabd1c6e3957b0ec4"
 }

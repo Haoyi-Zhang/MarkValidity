@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 920,
+      "line": 970,
       "claim": "Partial and derived oracles constrain supported claims",
       "paragraph_sha256": "670946b1f1d349f7bcfcb92728bfe466e7f5c6ba303acd531927a44d14f61954",
       "consumed_by": [
@@ -23,9 +23,9 @@
     }
   ],
   "current_source_bindings": {
-    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
+    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "PDF4-5 Sections2.2-2.3 Definitions2.4-2.9; PDF5 Section3 specified/derived/implicit oracle categorization",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "168cc6b6a4340c582f2b97d9e054fe369dbaaa3f22104d4389244a3020097fb9"
+  "evidence_sha256": "1e1b0c90a890a4b923cde399870b5ce9fbd8ae0ea018c2af7385730b76e8c498"
 }

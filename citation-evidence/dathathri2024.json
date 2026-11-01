@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 915,
+      "line": 965,
       "claim": "Production-scale evaluations report detectability across several models, temperatures, and text lengths rather than as a single context-free operating point",
       "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
       "consumed_by": [
@@ -23,9 +23,9 @@
     }
   ],
   "current_source_bindings": {
-    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
+    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "PDF2 printed819 method/production context; PDF3 printed820 length,entropy,model/temperature conditions; PDF5 printed822 Evaluation andFigure3 caption; publisher HTML Evaluation body also inspected",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "ef571d2f92b96c3dcc99c9c9079e51edd65ee5385444e961f3b29a9627340a5c"
+  "evidence_sha256": "89e6620af1fed89e4d4e083e6bb43f7366ebfa8fd79789c78847025d3fb3f12f"
 }

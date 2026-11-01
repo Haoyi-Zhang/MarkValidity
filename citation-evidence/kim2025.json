@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 98,
+      "line": 117,
       "claim": "STONE restricts embedding to non-syntax tokens and combines correctness, detectability, and perplexity-based imperceptibility",
       "paragraph_sha256": "11ac76cfb070b012d036c647db6d96b503d999b459843f33c2db67dfa16ae3e8",
       "consumed_by": [
@@ -23,7 +23,7 @@
     },
     {
       "file": "paper/main.tex",
-      "line": 236,
+      "line": 255,
       "claim": "STONE operationalizes imperceptibility through relative perplexity shifts",
       "paragraph_sha256": "fa5b19dcf342d7a1c47df567bf61e52135b734c5f0df40dbe5c3aed22119749d",
       "consumed_by": [
@@ -32,7 +32,7 @@
     },
     {
       "file": "paper/main.tex",
-      "line": 398,
+      "line": 417,
       "claim": "STONE combines correctness, detectability, and perplexity-based imperceptibility",
       "paragraph_sha256": "60e2bd67091b0abfb4e63a9e4f0c18ad69790da72fe3867bd4203e8719012018",
       "consumed_by": [
@@ -61,9 +61,9 @@
     "scope": "Perplexity-based imperceptibility, not human naturalness ratings. Legacy citation key kim2025 is unchanged."
   },
   "current_source_bindings": {
-    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
+    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -75,5 +75,5 @@
     "inspected_section": "Section 3.2 Eqs.(2)-(9), pp.3992-3994; helper calculate_STEM",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "5792efcec8a3c4b750d85272a4ff214cc5b47c0396337c1fd7a848c14f0c9a87"
+  "evidence_sha256": "c54ce45c6e59b03e04c5051b74a7431270abbca80de402860f3b4445f5783854"
 }

@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 911,
+      "line": 961,
       "claim": "Dynamic execution entered this relation in early program-watermark models",
       "paragraph_sha256": "5fa7327a9f08a900099a761ef70a92f8535b19c5a80d63fd6c3e27edc1df2ab8",
       "consumed_by": [
@@ -23,9 +23,9 @@
     }
   ],
   "current_source_bindings": {
-    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
+    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "Printed312 Section1.1 quality/attack discussion from retained prior reading; printed313 Sections1.3,2,2.1 static versus runtime carriers; printed316 Section3.3 and Section4/4.1 Definitions1-4 programs, transformations, recognition, static/pure-dynamic recognizers; printed318 Figure3 and Section5.2 heap-graph embedding/recognition",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "891c7114ad8ab1b17730465c7aac1bbc2b1e787c8f0b52d064114886e3ad4d2a"
+  "evidence_sha256": "e54f0e67a5847161b32a0be49df7481677abeb6a906a6d7aece317f3ad4bf719"
 }

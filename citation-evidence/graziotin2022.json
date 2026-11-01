@@ -14,18 +14,18 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 109,
+      "line": 128,
       "claim": "Graziotin et al. organize reliability, convergence, discrimination, and fairness as distinct properties of an instrument",
-      "paragraph_sha256": "729232115ceb9f5cbb867abf33dd364091b3d60b248ec737f6a28ec3f647d22d",
+      "paragraph_sha256": "c4572132bc476e0093ed57eb713b3da85a7ff06e1d0e5ba46ddfbbfb6049eea9",
       "consumed_by": [
         "paper/main.pdf"
       ]
     }
   ],
   "current_source_bindings": {
-    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
+    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "Section9 reliability p21; Sections10.2-10.6 validity/differential validity p24; Section11/Figure6 fairness and Sections11.1-11.3 pp25-26",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "569cd97511cd3723b32998909594311d87c6a274ad2fd5023575f4f2cc10e350"
+  "evidence_sha256": "86c53e0df38f5bb9f968ababb59bc58b470da235786f77dc5b77d4cb0e89794c"
 }

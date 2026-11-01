@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 98,
+      "line": 117,
       "claim": "SrcMarker embeds messages through lexical and syntactic transformations",
       "paragraph_sha256": "11ac76cfb070b012d036c647db6d96b503d999b459843f33c2db67dfa16ae3e8",
       "consumed_by": [
@@ -23,7 +23,7 @@
     },
     {
       "file": "paper/main.tex",
-      "line": 398,
+      "line": 417,
       "claim": "SrcMarker reports per-bit agreement and exact payload recovery",
       "paragraph_sha256": "60e2bd67091b0abfb4e63a9e4f0c18ad69790da72fe3867bd4203e8719012018",
       "consumed_by": [
@@ -32,9 +32,9 @@
     }
   ],
   "current_source_bindings": {
-    "paper/current-authors.tex": "b6b4fb268e2f55005f94ddce167e838980c46059d1eb84f97b69914457064b4b",
+    "paper/current-authors.tex": "27787325836322324277a04382b52bd5b1940001c7b3885262a7fae9e34d0348",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "73d1484aba7d73835b8a5c3f11349593022fefd8c543c202356f62cdd074e637",
+    "paper/main.tex": "07bda22153aa493b3692b460f9100185a3cf89983db26974895495c5a0254194",
     "paper/online-supplement.tex": "14aa29cdd6295d40302943b01743bb04f9b034252c99f3a22393370fbf5b34c3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -46,5 +46,5 @@
     "inspected_section": "Sections III, IV-B, IV-C, IV-E",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "0e5cb6e19c643d3e9257abf48c6c134e2356a4886d0dc580ba1c327b9ae67bf2"
+  "evidence_sha256": "19b0ed85ad68a775574b7e5d4197c83d9d41ccbc33738c0db4f1ea2a1392e418"
 }
