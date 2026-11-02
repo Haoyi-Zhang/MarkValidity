@@ -211,10 +211,18 @@ def recheck(results: Path) -> dict[str, Any]:
     external_rows = read_csv(results / "derived/external_protocol_replay.csv")
     external_rankings = read_csv(results / "derived/external_protocol_rankings.csv")
     external_lookup = {row["scheme"]: row for row in external_rows}
+    expected_schemes = {"lexical", "structural", "hybrid"}
+    require(
+        Counter(row["scheme"] for row in external_rows) == Counter({s: 1 for s in expected_schemes})
+        and all(set(scores) == expected_schemes for scores in external_scores.values()),
+        "external_protocols::carrier_coverage", findings,
+    )
     external_ok = len(external_rows) == 3 and len(external_rankings) == 21
+    external_winners: dict[str, str] = {}
     for protocol, scheme_scores in external_scores.items():
         ranked = sorted(scheme_scores, key=lambda scheme: (-scheme_scores[scheme], scheme))
         winner = ranked[0]
+        external_winners[protocol] = winner
         for rank, scheme in enumerate(ranked, start=1):
             expected = format_fraction(scheme_scores[scheme])
             external_ok &= external_lookup[scheme][protocol] == expected
@@ -227,9 +235,21 @@ def recheck(results: Path) -> dict[str, Any]:
                 external_ok &= matching[0]["score"] == expected
                 external_ok &= matching[0]["rank"] == str(rank)
                 external_ok &= matching[0]["winner"] == winner
+    external_zero_counts: dict[str, int] = {}
     for scheme in external_lookup:
         scheme_rows = [row for row in robustness if row["scheme"] == scheme]
         total = len(scheme_rows)
+        # Rebuild denominators from retained rows, not from replay outputs or
+        # a manifest. Agreement between two falsified outputs is insufficient.
+        zero_count = sum(int(row["surviving_sites"]) == 0 for row in scheme_rows)
+        defined_count = sum(int(row["surviving_sites"]) > 0 for row in scheme_rows)
+        external_zero_counts[scheme] = zero_count
+        for field, count in (
+            ("total_rows", total),
+            ("zero_surviving_site_rows", zero_count),
+            ("sweet_defined_rows", defined_count),
+        ):
+            external_ok &= external_lookup[scheme].get(field) == str(count)
         nonempty = Fraction(
             sum(
                 int(row["surviving_sites"]) > 0
@@ -238,17 +258,28 @@ def recheck(results: Path) -> dict[str, Any]:
             ),
             total,
         )
-        zero_sites = Fraction(
-            sum(int(row["surviving_sites"]) == 0 for row in scheme_rows), total
-        )
+        zero_sites = Fraction(zero_count, total)
         external_ok &= external_lookup[scheme]["codeip_nonempty_prefix_sensitivity"] == format_fraction(nonempty)
         external_ok &= external_lookup[scheme]["codeip_empty_prefix_contribution"] == format_fraction(zero_sites)
 
     external_summary = json.loads(
         (results / "derived/external_protocol_replay_summary.json").read_text(encoding="utf-8")
     )
+    external_ok &= (
+        type(external_summary.get("robustness_rows")) is int
+        and external_summary["robustness_rows"] == len(robustness)
+    )
+    summary_zero_counts = external_summary.get("zero_surviving_site_rows")
+    external_ok &= (
+        isinstance(summary_zero_counts, dict)
+        and summary_zero_counts == external_zero_counts
+        and all(type(count) is int for count in summary_zero_counts.values())
+    )
+    external_ok &= external_summary.get("schemes") == sorted(expected_schemes)
+    external_ok &= external_summary.get("protocols_with_numeric_replay") == list(external_scores)
+    external_ok &= external_summary.get("winners") == external_winners
     external_ok &= external_summary["stone_stem"]["status"] == "NOT_COMPUTED_COMPONENT_MISMATCH"
-    external_ok &= set(external_summary["distinct_numeric_winners"]) == {"hybrid", "lexical", "structural"}
+    external_ok &= external_summary.get("distinct_numeric_winners") == sorted(set(external_winners.values()))
     require(external_ok, "external_protocols::independent_reconstruction", findings)
 
     # Recompute all stratum rates from raw detection rows and compare with response curves.

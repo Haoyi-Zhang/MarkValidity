@@ -54,6 +54,7 @@ class ReportingContractTests(unittest.TestCase):
         favored = {'lexical': 'normalize', 'structural': 'rename', 'hybrid': 'strip'}
         witnesses = rows('duplication_sensitivity.csv')
         self.assertEqual(len(witnesses), 3)
+        self.assertCountEqual([row['scheme'] for row in witnesses], favored)
         for row in witnesses:
             scheme = row['scheme']
             self.assertEqual(row['favored_attack'], favored[scheme])
