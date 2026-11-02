@@ -280,6 +280,9 @@ def validate_semantic_evidence(parity_rows, mutant_rows, audit_rows) -> None:
     sizes = {task.name: task.domain_size for task in TASKS}
     languages = ("python", "javascript")
     def index(rows, fields, expected):
+        # Receiving APIs accept iterables, including one-shot generators. All
+        # coverage, domain and semantic checks must inspect the same rows.
+        rows = list(rows)
         keys = [tuple(row[field] for field in fields) for row in rows]
         if len(keys) != len(set(keys)) or set(keys) != expected:
             raise ValueError("semantic evidence coverage/uniqueness failure")

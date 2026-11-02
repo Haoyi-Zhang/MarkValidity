@@ -29,6 +29,20 @@ from covewm.tasks import TASKS, domain_cases, validate_domains
 from check_joint_evidence import boolean, indexed, run as joint_run
 from run_all import validate_semantic_evidence
 
+SIMILARITY_METRICS = (
+    "ast_type_similarity", "character_similarity", "control_profile_similarity",
+    "identifier_multiset_similarity", "identifier_normalized_similarity",
+    "identifier_style_similarity", "token_similarity",
+)
+DIAGNOSTIC_FIELDS = frozenset(("pair_id", "task", "language", "pair_class",
+    "bounded_equivalent", "nominal_test_pass") + SIMILARITY_METRICS)
+
+
+def require_fields(rows, fields, label):
+    if not rows or any(set(row) != set(fields) for row in rows):
+        raise ValueError(label + " exact field inventory required")
+    return rows
+
 
 def read_csv(path):
     with path.open(encoding="utf-8", newline="") as handle:
@@ -96,7 +110,7 @@ def retained_analysis(results, output):
             converted.append(item)
         typed.append(converted)
     validate_semantic_evidence(*typed)
-    diagnostics = read_csv(results / names[3])
+    diagnostics = require_fields(read_csv(results / names[3]), DIAGNOSTIC_FIELDS, "diagnostic")
     expected_ids = {f"mutant::{r['task']}::{r['language']}::{r['mutant_id']}" for r in mutants}
     expected_ids |= {f"audit::{r['task']}::{r['language']}::{r['scheme']}::{r['condition']}" for r in audits}
     index = indexed(diagnostics, lambda r:r["pair_id"], expected_ids)
@@ -112,10 +126,11 @@ def retained_analysis(results, output):
         parts = identifier.split("::")
         if (row["task"], row["language"]) != (parts[1], parts[2]):
             raise ValueError("diagnostic context mismatch")
-    metrics = sorted(k for k in diagnostics[0] if k.endswith("_similarity"))
-    indicators = ["nominal_test_pass_rate"] + metrics
-    pooled = indexed(read_csv(results / names[4]), lambda r:r["indicator"], set(indicators))
-    contextual = indexed(read_csv(results / names[5]),
+    indicators = ["nominal_test_pass_rate"] + list(SIMILARITY_METRICS)
+    pooled = indexed(require_fields(read_csv(results / names[4]),
+                     ("indicator", "roc_auc"), "pooled"), lambda r:r["indicator"], set(indicators))
+    contextual = indexed(require_fields(read_csv(results / names[5]),
+                         ("context_kind", "context", "indicator", "rows", "roc_auc"), "contextual"),
                          lambda r:(r["context_kind"], r["context"], r["indicator"]),
                          {("task", t.name, m) for t in TASKS for m in indicators} |
                          {("task-language", f"{t.name}:{lang}", m) for t in TASKS

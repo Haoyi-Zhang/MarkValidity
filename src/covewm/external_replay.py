@@ -4,7 +4,37 @@ import math
 from collections import Counter, defaultdict
 from decimal import Decimal, localcontext
 from fractions import Fraction
+import re
 from typing import Any
+
+from .benchmark import ALPHA, PAYLOAD_BITS, SCHEMES, binomial_tail
+
+
+def _count(value: Any) -> int:
+    """Admit producer integers or canonical CSV integers, never lossy casts."""
+    if type(value) is int:
+        return value
+    if isinstance(value, str) and re.fullmatch(r"0|[1-9][0-9]*", value):
+        return int(value)
+    raise ValueError("integer detector count required")
+
+
+def validate_detection_row(row: dict[str, Any], *, require_decision: bool = False) -> dict[str, Any]:
+    if not isinstance(row, dict):
+        raise ValueError("detector row must be an object")
+    try:
+        n, m = (_count(row[field]) for field in ("surviving_sites", "match_count"))
+        if not 0 <= m <= n <= PAYLOAD_BITS or row["scheme"] not in SCHEMES:
+            raise ValueError("invalid carrier or survivor/match counts")
+        normalized = dict(row, surviving_sites=n, match_count=m)
+        if require_decision or "detected" in row:
+            d = _count(row["detected"])
+            if d not in (0, 1) or d != int(binomial_tail(n, m) <= ALPHA):
+                raise ValueError("detector decision disagrees with counts")
+            normalized["detected"] = d
+        return normalized
+    except (KeyError, TypeError) as exc:
+        raise ValueError("incomplete detector row") from exc
 
 
 PROTOCOL_ORDER = (
@@ -114,6 +144,9 @@ def generate_external_protocol_replay(
     import csv
     import json
 
+    robustness_rows = [validate_detection_row(row, require_decision=True) for row in robustness_rows]
+    if not robustness_rows:
+        raise ValueError("nonempty detector rows required")
     output_dir = Path(output_dir)
     by_scheme: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for row in robustness_rows:
@@ -257,16 +290,13 @@ def support_matched_discrimination(rows: list[dict[str, Any]]) -> dict[str, Any]
     fields = ("task", "language", "attack", "severity", "payload_index")
     indexed = {scheme: {} for scheme in schemes}
     for row in rows:
+        row = validate_detection_row(row)
         scheme = row["scheme"]
         if scheme not in indexed:
             raise ValueError("unexpected carrier")
         key = tuple(str(row[field]) for field in fields)
         if key in indexed[scheme]:
             raise ValueError("duplicate carrier configuration")
-        # Reject fractional counts instead of silently truncating them.
-        n, m = int(str(row["surviving_sites"])), int(str(row["match_count"]))
-        if not 0 <= m <= n <= 24:
-            raise ValueError("invalid survivor/match counts")
         indexed[scheme][key] = row
     keys = set(indexed[schemes[0]])
     if not keys or any(set(indexed[s]) != keys for s in schemes):

@@ -10,6 +10,7 @@ import sys
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE / 'src'))
 from covewm.external_replay import support_matched_discrimination
+from summarize_evidence_policies import expected_keys, indexed, key
 
 
 def run(results, out):
@@ -25,7 +26,11 @@ def run(results, out):
     entry = manifest['raw/robustness.csv']
     if entry['sha256'] != digest or int(entry['bytes']) != len(data):
         raise ValueError('retained input differs from manifest')
-    report = support_matched_discrimination(list(csv.DictReader(io.StringIO(data.decode('utf-8')))))
+    rows = list(csv.DictReader(io.StringIO(data.decode('utf-8'))))
+    # This CLI reconstructs the registered full matrix, unlike the explicitly
+    # subset-capable library helper. A freshly edited manifest cannot shrink it.
+    indexed(rows, key, expected_keys(), 'frozen support matrix')
+    report = support_matched_discrimination(rows)
     report['input_sha256'] = digest
     report['producer_sha256'] = {str(p.relative_to(HERE)): hashlib.sha256(p.read_bytes()).hexdigest()
         for p in (Path(__file__).resolve(), HERE / 'src/covewm/external_replay.py')}
