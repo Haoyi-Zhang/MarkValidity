@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 972,
+      "line": 964,
       "claim": "A dynamic-graph watermark implementation measured embedding and retrieval costs and tested resilience against selected program transformations \\cite{palsberg2000}.",
       "paragraph_sha256": "5fa7327a9f08a900099a761ef70a92f8535b19c5a80d63fd6c3e27edc1df2ab8",
       "consumed_by": [
@@ -36,8 +36,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "5383c9a0fce77661c2d9d4ff5ca2011d481641ec03f86deb32980e298cdbcbea",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
-    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
+    "paper/main.tex": "815dd38b080a6cbf198d036b763cd9b65c40eab571c3140891aac843d660964c",
+    "paper/online-supplement.tex": "bd7333a5fd8a49242c6788b233c4e818718695093933d3ca939a7cdd872383d3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -48,5 +48,5 @@
     "inspected_section": "Actual original abstract, §§1.3–1.5, §§2.1/2.3 and §2.4, physical 1–3 and 5–6; not the whole nine-page paper",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "50097339f709e5a18ce4c469109ee0380a45c9e498a5497cee7601a6ad236a82"
+  "evidence_sha256": "2f0a70f15f3e9bcefcf6bdd70b69b888588e86753aabd73ea1cc8bbad42db8c1"
 }

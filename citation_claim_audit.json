@@ -15,8 +15,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "5383c9a0fce77661c2d9d4ff5ca2011d481641ec03f86deb32980e298cdbcbea",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
-    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
+    "paper/main.tex": "815dd38b080a6cbf198d036b763cd9b65c40eab571c3140891aac843d660964c",
+    "paper/online-supplement.tex": "bd7333a5fd8a49242c6788b233c4e818718695093933d3ca939a7cdd872383d3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "records": [
@@ -24,7 +24,7 @@
       "position": 1,
       "claim_id": "CIT-001",
       "citation_key": "arif2026",
-      "manuscript_location": "paper/main.tex:986",
+      "manuscript_location": "paper/main.tex:978",
       "nearby_claim": "\\subsection{Measurement validity, benchmark composition, and overfitting}\nArif et al. assess class-level code-quality metrics through exploratory factor analysis on Apache Maven and confirmatory analysis on 22 Java projects \\cite{arif2026}.",
       "paragraph_sha256": "be93bb42acab439f20b9a1b103a28fac7ea906f5b606468a5bb1d08b605e7c75",
       "consumed_by": [
@@ -34,13 +34,13 @@
       "verified_scholarly_identifier": "doi:10.4230/LIPIcs.ESEM.2026.10",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "497d47b3773cb4d75b9f2ade5fd64517bdf52c9bd2e0ae88fad41dc8ec953ba7"
+      "evidence_sha256": "820ae2273f0bd9cd03c572c5c5c134e9fb830fcd4f1e1605a00f193cbdb6d925"
     },
     {
       "position": 2,
       "claim_id": "CIT-002",
       "citation_key": "andrews2005",
-      "manuscript_location": "paper/main.tex:979",
+      "manuscript_location": "paper/main.tex:971",
       "nearby_claim": "Comparisons with hand-seeded faults make representativeness empirical \\cite{andrews2005}.",
       "paragraph_sha256": "39c8602bac9d3812ac9bafb642e5fc35f9993bc5dfe97703f329443c329420e4",
       "consumed_by": [
@@ -50,13 +50,13 @@
       "verified_scholarly_identifier": "doi:10.1145/1062455.1062530",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "e188810ce0fc8acc7f354d64e524f716df10a851879aa7f696c27b8fcbb93d62"
+      "evidence_sha256": "4519ec801b57769dd6806b8de03916cfb5c8568e2304223a8bfa2e9b87f9a660"
     },
     {
       "position": 3,
       "claim_id": "CIT-003",
       "citation_key": "barr2015",
-      "manuscript_location": "paper/main.tex:981",
+      "manuscript_location": "paper/main.tex:973",
       "nearby_claim": "Partial and derived oracles constrain supported claims \\cite{barr2015}.",
       "paragraph_sha256": "670946b1f1d349f7bcfcb92728bfe466e7f5c6ba303acd531927a44d14f61954",
       "consumed_by": [
@@ -66,13 +66,13 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2014.2372785",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "7ad44ecddc9522f107596da4f6f0d4d7e3c0ce854c82bf698423d125df45bd35"
+      "evidence_sha256": "71b1b49d7b18fb6c59009ef4ee351c99bbac5c25b2ddb328b96999144970a37d"
     },
     {
       "position": 4,
       "claim_id": "CIT-004",
       "citation_key": "bellon2007",
-      "manuscript_location": "paper/main.tex:983",
+      "manuscript_location": "paper/main.tex:975",
       "nearby_claim": "Clone-detector results depend on corpus and taxonomy \\cite{bellon2007}.",
       "paragraph_sha256": "a3ea2899f9953e36cacce2d252e3a815aab9cbd71ba96d633eb4ec362528716b",
       "consumed_by": [
@@ -82,13 +82,13 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2007.70725",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "9a0e53d277a3b8f08f04d1e5b83d6bf2c31ab1f1b0c7e37b6497cb979cf17be8"
+      "evidence_sha256": "7021c5613926a14a5f6fb12de2dc94d86e68551045905d0fbd790deabb53b6ba"
     },
     {
       "position": 5,
       "claim_id": "CIT-005",
       "citation_key": "borsboom2004",
-      "manuscript_location": "paper/main.tex:988",
+      "manuscript_location": "paper/main.tex:980",
       "nearby_claim": "Borsboom et al. offer a causal alternative, grounding validity in an existing attribute's effect on measurement outcomes \\cite{borsboom2004}.",
       "paragraph_sha256": "6c0242194ad7f9040ed62adcca6edba9d84053ae50c27c4297a369c749de990e",
       "consumed_by": [
@@ -98,13 +98,13 @@
       "verified_scholarly_identifier": "doi:10.1037/0033-295X.111.4.1061",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "ed57e53f463025b6d1c8cab683554af6cd03ec178badfaf416f17b50187bfc34"
+      "evidence_sha256": "82363d9c0d5c1b577ac8296640a0b4ed2140dff9b574ff66af3b6a4ed5d88783"
     },
     {
       "position": 6,
       "claim_id": "CIT-006",
       "citation_key": "bouthillier2021",
-      "manuscript_location": "paper/main.tex:992",
+      "manuscript_location": "paper/main.tex:984",
       "nearby_claim": "Benchmark variance can arise from data, implementation, and analysis choices \\cite{bouthillier2021}.",
       "paragraph_sha256": "1214703853df27b6a6f69eb075c901608a08cc0242a20470ab6c0849f37d9cdb",
       "consumed_by": [
@@ -114,13 +114,13 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.mlsys.org/paper_files/paper/2021/hash/0184b0cd3cfb185989f858a1d9f5c1eb-Abstract.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "e8311a6280cdb8a43fbc2c2832982492db4c4d405dc1250b60b94e241ab9b3ac"
+      "evidence_sha256": "485efc6b93a46ced45b07c08f6a7f209f75e92a73b6d391dcad5164d3e136e82"
     },
     {
       "position": 7,
       "claim_id": "CIT-007",
       "citation_key": "briand1996",
-      "manuscript_location": "paper/main.tex:990",
+      "manuscript_location": "paper/main.tex:982",
       "nearby_claim": "Briand et al. define property-based criteria for software measures \\cite{briand1996}.",
       "paragraph_sha256": "8c1cc5f556b2df33fe924d58b7cc9bbb5f69b9e8c0aa3bd58f0c1f304480268d",
       "consumed_by": [
@@ -130,13 +130,13 @@
       "verified_scholarly_identifier": "doi:10.1109/32.481535",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "d482e1807ddb2fe53f42501f0320e9769872998bb02a7ce2cbd850b4704a26c0"
+      "evidence_sha256": "dc60afe151dca6bd15ca30a516a09f7d50294f61ff3292614dbd4ef8d7310962"
     },
     {
       "position": 8,
       "claim_id": "CIT-008",
       "citation_key": "brown2001",
-      "manuscript_location": "paper/main.tex:997",
+      "manuscript_location": "paper/main.tex:989",
       "nearby_claim": "Binomial intervals differ materially in coverage \\cite{brown2001}.",
       "paragraph_sha256": "95667086a16abdba94e77141be2bfd7f4455220efa7842dfa26ae135f0e3e957",
       "consumed_by": [
@@ -146,13 +146,13 @@
       "verified_scholarly_identifier": "doi:10.1214/ss/1009213286",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "e929d84d52a159704467a35b089fdd00ded10959dd49959c5cb97bb9f0cab655"
+      "evidence_sha256": "6195e838192a87df752ecfd7bffc86ae8453b4fe6a5326bf1534201a775fd209"
     },
     {
       "position": 9,
       "claim_id": "CIT-009",
       "citation_key": "buse2010",
-      "manuscript_location": "paper/main.tex:983",
+      "manuscript_location": "paper/main.tex:975",
       "nearby_claim": "Readability models instead rely on human labels \\cite{buse2010}.",
       "paragraph_sha256": "a3ea2899f9953e36cacce2d252e3a815aab9cbd71ba96d633eb4ec362528716b",
       "consumed_by": [
@@ -162,7 +162,7 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2009.70",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "71b91f324a8adaf7ecd5945280cb1c3a0c50d1c09580812b9e61c52b3c8b82fc"
+      "evidence_sha256": "c203d323b1e935f930760064c5dde387fa0d9a576792f4ef182fe610d49e4134"
     },
     {
       "position": 10,
@@ -178,13 +178,13 @@
       "verified_scholarly_identifier": "doi:10.1037/h0046016",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "8518f8bebb6f976212917b0498c84ab9befbbbbfd49424690a267070484d4a57"
+      "evidence_sha256": "c7aa795403f3071be2d741891861c602d64b94616df73ce2aea18b074be0984c"
     },
     {
       "position": 11,
       "claim_id": "CIT-011",
       "citation_key": "chen2018",
-      "manuscript_location": "paper/main.tex:675",
+      "manuscript_location": "paper/main.tex:667",
       "nearby_claim": "Metamorphic testing similarly relies on executable relations when direct expected outputs are difficult to obtain \\cite{chen2018}; the benchmark uses exhaustive differential execution where finite domains make it possible.",
       "paragraph_sha256": "d58b0589bd280087f2966176cd35de25241f6746a0d179a8705ddd7712f03951",
       "consumed_by": [
@@ -194,7 +194,7 @@
       "verified_scholarly_identifier": "doi:10.1145/3143561",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "7dc9c47babfb740f07b204b9909122f8b4ccf560cd02960166fb508080689873"
+      "evidence_sha256": "dd2b79d38a268da4a17f5cad3957ad2258b88017fe7d337194644acccb7befdb"
     },
     {
       "position": 12,
@@ -210,13 +210,13 @@
       "verified_scholarly_identifier": "doi:10.48550/arXiv.2607.06009",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "6e17dec8f045526ceebb0a1504d022894b19d6ec1cbdde92cc2ef8bd3aa722ae"
+      "evidence_sha256": "710532c77a2df1b18862535e93e5d15f95bab68533b9eed90da4588dd1d6b8f0"
     },
     {
       "position": 13,
       "claim_id": "CIT-013",
       "citation_key": "christ2024",
-      "manuscript_location": "paper/main.tex:976",
+      "manuscript_location": "paper/main.tex:968",
       "nearby_claim": "Computationally undetectable constructions distinguish authorized detection from outside distinguishability \\cite{christ2024}.",
       "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
       "consumed_by": [
@@ -226,7 +226,7 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.mlr.press/v247/christ24a.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "2d8c5ef25e608a2a1aea2db4d8b4ac072b3edef3f9b6a88afa1b9a1bd7457445"
+      "evidence_sha256": "78445d8f86018546094f057d5bc93e6262380cea6e9fd1061d3f456f16d91e64"
     },
     {
       "position": 14,
@@ -242,13 +242,13 @@
       "verified_scholarly_identifier": "doi:10.1093/biomet/26.4.404",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "0cdceb3d06ab2337ee1966b2a446e857444f02a495038428e621870d481cf270"
+      "evidence_sha256": "670ad356249691d825c8afcd16770d1c5703f7aaf4cd6139673816b65a5bb1e5"
     },
     {
       "position": 15,
       "claim_id": "CIT-015",
       "citation_key": "collberg2004dynamicpath",
-      "manuscript_location": "paper/main.tex:974",
+      "manuscript_location": "paper/main.tex:966",
       "nearby_claim": "Dynamic-path watermarks condition recognition on selected executions \\cite{collberg2004dynamicpath}.",
       "paragraph_sha256": "e5e2f7716dd358e9ad8580baf1e314c4186ccf0bf30c32721949a0b16f68a98b",
       "consumed_by": [
@@ -258,13 +258,13 @@
       "verified_scholarly_identifier": "doi:10.1145/996841.996856",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "7785a76668735db71fec26b4a451050fc5d86bc536ea00ebc5f3b0f5aee52fa1"
+      "evidence_sha256": "e3da86d50d57c59103de59b71b9f89687dbfb8633cba572b36db6b1282a56bb8"
     },
     {
       "position": 16,
       "claim_id": "CIT-016",
       "citation_key": "collberg2009graph",
-      "manuscript_location": "paper/main.tex:974",
+      "manuscript_location": "paper/main.tex:966",
       "nearby_claim": "Graph-watermark experiments show that encoding choice changes both cost and resilience \\cite{collberg2009graph}.",
       "paragraph_sha256": "e5e2f7716dd358e9ad8580baf1e314c4186ccf0bf30c32721949a0b16f68a98b",
       "consumed_by": [
@@ -274,13 +274,13 @@
       "verified_scholarly_identifier": "doi:10.1016/j.infsof.2008.09.016",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "097dff0ee4f825e1bcd50bb924a29181290f17170358f88a6a07deac7f717dbb"
+      "evidence_sha256": "d3f009d17d507baad09727004debf4c912b238764e7c660c99532cf37779725c"
     },
     {
       "position": 17,
       "claim_id": "CIT-017",
       "citation_key": "collberg2003sandmark",
-      "manuscript_location": "paper/main.tex:972",
+      "manuscript_location": "paper/main.tex:964",
       "nearby_claim": "SandMark enabled multiple embedders and attacks to be compared in one framework \\cite{collberg2003sandmark}.",
       "paragraph_sha256": "5fa7327a9f08a900099a761ef70a92f8535b19c5a80d63fd6c3e27edc1df2ab8",
       "consumed_by": [
@@ -290,13 +290,13 @@
       "verified_scholarly_identifier": "doi:10.1109/MSECP.2003.1219058",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "ee6f6690c9e050a0f45de3b0978ecc880d670c8da65bf66388c10f59d2757eb5"
+      "evidence_sha256": "4fa40c41d1f23bce4937f1a37c13f33a4b8fe39d0e76a27ba563cb9c7364dabe"
     },
     {
       "position": 18,
       "claim_id": "CIT-018",
       "citation_key": "collberg2015benefaction",
-      "manuscript_location": "paper/main.tex:992",
+      "manuscript_location": "paper/main.tex:984",
       "nearby_claim": "Library and compiler dependencies obstruct systems-code builds \\cite{collberg2015benefaction}.",
       "paragraph_sha256": "1214703853df27b6a6f69eb075c901608a08cc0242a20470ab6c0849f37d9cdb",
       "consumed_by": [
@@ -306,13 +306,13 @@
       "verified_scholarly_identifier": "technical-report:https://reproducibility.cs.arizona.edu/v2/RepeatabilityTR.pdf",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "6f2c825e1488958ae106d0b226525acd124d77a134a85cfb54765a785ef7cb0e"
+      "evidence_sha256": "80172e4f4c98b628b8daa00c0bace50de719e59a246457712cd73693bc1715b5"
     },
     {
       "position": 19,
       "claim_id": "CIT-019",
       "citation_key": "collberg2016repeatability",
-      "manuscript_location": "paper/main.tex:992",
+      "manuscript_location": "paper/main.tex:984",
       "nearby_claim": "Collberg and Proebsting recommend supporting repeatability engineering and artifact sharing \\cite{collberg2016repeatability}.",
       "paragraph_sha256": "1214703853df27b6a6f69eb075c901608a08cc0242a20470ab6c0849f37d9cdb",
       "consumed_by": [
@@ -322,13 +322,13 @@
       "verified_scholarly_identifier": "doi:10.1145/2812803",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "446a80ade05c62cebf563ed43e0b05ac0767ccc4f12e943b6886e3536581011e"
+      "evidence_sha256": "8a750c78471f9bde4468b8e4970d3899661eaf1fccaafdc75707987a0bfc36bd"
     },
     {
       "position": 20,
       "claim_id": "CIT-020",
       "citation_key": "collberg1999",
-      "manuscript_location": "paper/main.tex:972",
+      "manuscript_location": "paper/main.tex:964",
       "nearby_claim": "Dynamic execution entered this relation in early program-watermark models \\cite{collberg1999}.",
       "paragraph_sha256": "5fa7327a9f08a900099a761ef70a92f8535b19c5a80d63fd6c3e27edc1df2ab8",
       "consumed_by": [
@@ -338,13 +338,13 @@
       "verified_scholarly_identifier": "doi:10.1145/292540.292569",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "5b59201852d901fbe1f7ba70f9407e693d8fb998d7435a99d787c41696a34204"
+      "evidence_sha256": "4c8ae708c1bd12ba3b4d1d85cf20b71a3bcb1ff3e5f1d8b4df0223e655a3437b"
     },
     {
       "position": 21,
       "claim_id": "CIT-021",
       "citation_key": "collberg2002tools",
-      "manuscript_location": "paper/main.tex:972",
+      "manuscript_location": "paper/main.tex:964",
       "nearby_claim": "Watermarking was later positioned beside obfuscation and tamper resistance \\cite{collberg2002tools}.",
       "paragraph_sha256": "5fa7327a9f08a900099a761ef70a92f8535b19c5a80d63fd6c3e27edc1df2ab8",
       "consumed_by": [
@@ -354,13 +354,13 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2002.1027797",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "41e4ff94092d0d9d3c82d4e23dea2b8fb2f3fd5e940b26f66e02336a747ef97a"
+      "evidence_sha256": "d100195f0c6c966bf4c710257306a622e70ce6889318e6f92ff990c56d76f934"
     },
     {
       "position": 22,
       "claim_id": "CIT-022",
       "citation_key": "cousot2004",
-      "manuscript_location": "paper/main.tex:972",
+      "manuscript_location": "paper/main.tex:964",
       "nearby_claim": "Abstract interpretation supplied semantic conditions for insertion and attack \\cite{cousot2004}.",
       "paragraph_sha256": "5fa7327a9f08a900099a761ef70a92f8535b19c5a80d63fd6c3e27edc1df2ab8",
       "consumed_by": [
@@ -370,7 +370,7 @@
       "verified_scholarly_identifier": "doi:10.1145/964001.964016",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "aa84c6540f89ac5d80887fdd66544e89641f98007c4389e89a5dc0fee4138123"
+      "evidence_sha256": "67cab4104626be69538f460d4099a850be6c508e441973dcd63f6505a03390cd"
     },
     {
       "position": 23,
@@ -386,13 +386,13 @@
       "verified_scholarly_identifier": "doi:10.1037/h0040957",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "7d9f547c4507a50bea6234bdf33d1a2eaa464775cb6ba14c1ae94df0240fe710"
+      "evidence_sha256": "5a28a8e610f07235e6a02470afdb3369ab264a79289029b19f15849fa1d2658a"
     },
     {
       "position": 24,
       "claim_id": "CIT-024",
       "citation_key": "dathathri2024",
-      "manuscript_location": "paper/main.tex:976",
+      "manuscript_location": "paper/main.tex:968",
       "nearby_claim": "Production-scale evaluations report detectability across several models, temperatures, and text lengths rather than as a single context-free operating point \\cite{dathathri2024}.",
       "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
       "consumed_by": [
@@ -402,13 +402,13 @@
       "verified_scholarly_identifier": "doi:10.1038/s41586-024-08025-4",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "a3eeb506a93c8358708dcdc94e8d402128a251c3aa877d58001072874bcd02e1"
+      "evidence_sha256": "64113c19305caa9e3e011eeb3734f6f2c9bf165071ca8e6162e29384b9949860"
     },
     {
       "position": 25,
       "claim_id": "CIT-025",
       "citation_key": "demsar2006",
-      "manuscript_location": "paper/main.tex:992",
+      "manuscript_location": "paper/main.tex:984",
       "nearby_claim": "Dataset-level comparison should preserve the dataset as an analysis unit \\cite{demsar2006}.",
       "paragraph_sha256": "1214703853df27b6a6f69eb075c901608a08cc0242a20470ab6c0849f37d9cdb",
       "consumed_by": [
@@ -418,13 +418,13 @@
       "verified_scholarly_identifier": "formal-record:https://www.jmlr.org/papers/v7/demsar06a.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "8644048578c5a0de1586ccfbb102e8394827d0330cd9fd4d232579055d466edc"
+      "evidence_sha256": "9e6394f8a5d59ebbe340f07e4b422371b3d2802d82deeac0e4c15380648eccd5"
     },
     {
       "position": 26,
       "claim_id": "CIT-026",
       "citation_key": "demillo1978",
-      "manuscript_location": "paper/main.tex:979",
+      "manuscript_location": "paper/main.tex:971",
       "nearby_claim": "The competent-programmer and coupling-effect hypotheses motivate mutants without making every mutant natural \\cite{demillo1978}.",
       "paragraph_sha256": "39c8602bac9d3812ac9bafb642e5fc35f9993bc5dfe97703f329443c329420e4",
       "consumed_by": [
@@ -434,13 +434,13 @@
       "verified_scholarly_identifier": "doi:10.1109/C-M.1978.218136",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "be237e79503af409a47f0ace6c8e322e21c08ffb0ff925d84645f11a2c0fe18d"
+      "evidence_sha256": "029454f5d455f1cf8a0f4187463bbc1feba7d50152ad6d44e9379ce2067dabbc"
     },
     {
       "position": 27,
       "claim_id": "CIT-027",
       "citation_key": "dola2023",
-      "manuscript_location": "paper/main.tex:994",
+      "manuscript_location": "paper/main.tex:986",
       "nearby_claim": "Input-distribution coverage measures feature-interaction adequacy \\cite{dola2023}.",
       "paragraph_sha256": "cd2f4e487c9192f3e0e38970a0e0c9c8b7ac730ce73a2d52255198ccc5661fae",
       "consumed_by": [
@@ -450,7 +450,7 @@
       "verified_scholarly_identifier": "doi:10.1145/3576040",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "3250a54ab577b09081497ab80ef2d3624e944cb7cc2b7949f0368bbc6b3ebbce"
+      "evidence_sha256": "dc85ba0b0af25343746c758fb69a8925fa096bd78a9469a65eeccba1351d132a"
     },
     {
       "position": 28,
@@ -466,13 +466,13 @@
       "verified_scholarly_identifier": "doi:10.1109/32.268921",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "c23d57c220e58650f571d640e30be4811651372dbd6eedc4f0d40626ba973b1e"
+      "evidence_sha256": "081992e0cdf6011f69291a1632421e87d2d839d4642e26717a9bb449de5fe5ff"
     },
     {
       "position": 29,
       "claim_id": "CIT-029",
       "citation_key": "fenton1994",
-      "manuscript_location": "paper/main.tex:990",
+      "manuscript_location": "paper/main.tex:982",
       "nearby_claim": "Fenton starts from an empirical relational system \\cite{fenton1994}.",
       "paragraph_sha256": "8c1cc5f556b2df33fe924d58b7cc9bbb5f69b9e8c0aa3bd58f0c1f304480268d",
       "consumed_by": [
@@ -482,13 +482,13 @@
       "verified_scholarly_identifier": "doi:10.1109/32.268921",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "c23d57c220e58650f571d640e30be4811651372dbd6eedc4f0d40626ba973b1e"
+      "evidence_sha256": "081992e0cdf6011f69291a1632421e87d2d839d4642e26717a9bb449de5fe5ff"
     },
     {
       "position": 30,
       "claim_id": "CIT-030",
       "citation_key": "flake2017",
-      "manuscript_location": "paper/main.tex:988",
+      "manuscript_location": "paper/main.tex:980",
       "nearby_claim": "Flake et al. find incomplete reporting of structural-validity evidence and frequent reliance on coefficient $\\alpha$ alone \\cite{flake2017}.",
       "paragraph_sha256": "6c0242194ad7f9040ed62adcca6edba9d84053ae50c27c4297a369c749de990e",
       "consumed_by": [
@@ -498,13 +498,13 @@
       "verified_scholarly_identifier": "doi:10.1177/1948550617693063",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "5079d5877d8fe1792c0eb922da29f082d5793feca0a629749f7c1c20fefc93b5"
+      "evidence_sha256": "55e6863256df286bda501ae4960cf2344a56c40d4fdbea78f38b8aeebeb25f4a"
     },
     {
       "position": 31,
       "claim_id": "CIT-031",
       "citation_key": "gonzalez2012",
-      "manuscript_location": "paper/main.tex:992",
+      "manuscript_location": "paper/main.tex:984",
       "nearby_claim": "Repository-mining studies likewise require retained provenance and extraction procedures \\cite{gonzalez2012}.",
       "paragraph_sha256": "1214703853df27b6a6f69eb075c901608a08cc0242a20470ab6c0849f37d9cdb",
       "consumed_by": [
@@ -514,7 +514,7 @@
       "verified_scholarly_identifier": "doi:10.1007/s10664-011-9181-9",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "1d45d7557748d0a5b495861c8033aab087f1c4072b0d5bc33ca17b4882a6b218"
+      "evidence_sha256": "87a0619aaae8a55f34692343ea159e62f7eedf82327cfda1fd54aa0cbcb09703"
     },
     {
       "position": 32,
@@ -530,7 +530,7 @@
       "verified_scholarly_identifier": "doi:10.1145/3469888",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "b08d914c67602c8107e4d14e627904c1bd17476e7cc0e4be2db70dc0ff338600"
+      "evidence_sha256": "48962f7f7445e6e42edc021a5a8241ff376c34e33cfd70d2641b8d4c95450f6d"
     },
     {
       "position": 33,
@@ -546,13 +546,13 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2024.findings-emnlp.541",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "44ec028a2acfcc3f55bc6f4456820550281ae70987a06f4185add79abbc19050"
+      "evidence_sha256": "4ee5a29c50eeb480dfe671444d211d6a7a7f03a7d653c3ba6bcf41e01465dc48"
     },
     {
       "position": 34,
       "claim_id": "CIT-034",
       "citation_key": "guan2024",
-      "manuscript_location": "paper/main.tex:419",
+      "manuscript_location": "paper/main.tex:411",
       "nearby_claim": "CodeIP's paper selects the highest-scoring candidate message \\cite{guan2024}.",
       "paragraph_sha256": "60e2bd67091b0abfb4e63a9e4f0c18ad69790da72fe3867bd4203e8719012018",
       "consumed_by": [
@@ -562,13 +562,13 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2024.findings-emnlp.541",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "44ec028a2acfcc3f55bc6f4456820550281ae70987a06f4185add79abbc19050"
+      "evidence_sha256": "4ee5a29c50eeb480dfe671444d211d6a7a7f03a7d653c3ba6bcf41e01465dc48"
     },
     {
       "position": 35,
       "claim_id": "CIT-035",
       "citation_key": "hanley1983",
-      "manuscript_location": "paper/main.tex:997",
+      "manuscript_location": "paper/main.tex:989",
       "nearby_claim": "Zero events still imply a positive upper confidence limit \\cite{hanley1983}.",
       "paragraph_sha256": "95667086a16abdba94e77141be2bfd7f4455220efa7842dfa26ae135f0e3e957",
       "consumed_by": [
@@ -578,7 +578,7 @@
       "verified_scholarly_identifier": "doi:10.1001/jama.1983.03330370053031",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "38d3999b1186e941f9cb7c44f30b3b5f4b8bef538597b4c05e4176ad8f7baf9e"
+      "evidence_sha256": "ee46f526c5fef00587d5414a337521c064fc1bc4323a951cdb3e65dcf0f7db37"
     },
     {
       "position": 36,
@@ -594,13 +594,13 @@
       "verified_scholarly_identifier": "doi:10.1145/3463274.3463361",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "90a2b4dafe20461cd96701c1918f456ea7991fd0ba6cf765618232274f1dbe6a"
+      "evidence_sha256": "714ad07db5288af4b1073182b7dac8e7e5c87abf7ccf7e5c6ad95adda130abeb"
     },
     {
       "position": 37,
       "claim_id": "CIT-037",
       "citation_key": "hu2024",
-      "manuscript_location": "paper/main.tex:976",
+      "manuscript_location": "paper/main.tex:968",
       "nearby_claim": "Unbiased reweighting also targets distribution preservation \\cite{hu2024}.",
       "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
       "consumed_by": [
@@ -610,7 +610,7 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.iclr.cc/paper_files/paper/2024/hash/c5b00c5bdcc6fe35907dbcca03d27652-Abstract-Conference.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "3d5bef215ce6a8f7119b5eaed6f06d40f7e3d54565599289d1adc82178a8773e"
+      "evidence_sha256": "3cdb24ca31303d832c55180031fe19b4175ee483f46e174ae4e8a963d9cfbbea"
     },
     {
       "position": 38,
@@ -626,13 +626,13 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2010.62",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "f64fbb429caa8798a2482912264134d4332ab8ac228806676abac82462e40544"
+      "evidence_sha256": "bdd9b2c19f489fc88cfb4dec77e83f4af06b33bb8c686f0de4e02ffa176930d3"
     },
     {
       "position": 39,
       "claim_id": "CIT-039",
       "citation_key": "jiang2007",
-      "manuscript_location": "paper/main.tex:983",
+      "manuscript_location": "paper/main.tex:975",
       "nearby_claim": "Vectorized syntax trades order for scalable matching \\cite{jiang2007}.",
       "paragraph_sha256": "a3ea2899f9953e36cacce2d252e3a815aab9cbd71ba96d633eb4ec362528716b",
       "consumed_by": [
@@ -642,13 +642,13 @@
       "verified_scholarly_identifier": "doi:10.1109/ICSE.2007.30",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "fbc00a7d9b84804b5bfe518051f3195cfb20010de4a18e791b08fb1644eddbde"
+      "evidence_sha256": "6a1677944349a6b6cc28c13a66c4daf3c91e696fc1361ce0fa7f9a7cf1daa9bf"
     },
     {
       "position": 40,
       "claim_id": "CIT-040",
       "citation_key": "just2014",
-      "manuscript_location": "paper/main.tex:979",
+      "manuscript_location": "paper/main.tex:971",
       "nearby_claim": "Defects4J supplies reproducible real faults when exhaustive domains are unavailable \\cite{just2014}.",
       "paragraph_sha256": "39c8602bac9d3812ac9bafb642e5fc35f9993bc5dfe97703f329443c329420e4",
       "consumed_by": [
@@ -658,13 +658,13 @@
       "verified_scholarly_identifier": "doi:10.1145/2610384.2628055",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "26055b58c3558e0a7e2ddf46b2d60984d38248686395eae39761d9ab92d57708"
+      "evidence_sha256": "44621e7680ac790c862040ae4931937f2f7a790318f25902c8476aa347608dfd"
     },
     {
       "position": 41,
       "claim_id": "CIT-041",
       "citation_key": "kamiya2002",
-      "manuscript_location": "paper/main.tex:983",
+      "manuscript_location": "paper/main.tex:975",
       "nearby_claim": "CCFinder transforms source text and compares normalized token sequences \\cite{kamiya2002}.",
       "paragraph_sha256": "a3ea2899f9953e36cacce2d252e3a815aab9cbd71ba96d633eb4ec362528716b",
       "consumed_by": [
@@ -674,13 +674,13 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2002.1019480",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "0d921b1f691ce8950f3d1a70e80adfcbe1e2978c360969958c7595366ffd9c78"
+      "evidence_sha256": "279ea9df7670d3cdc956e3dfc2de0fc7988eafb477870ed64f2bac50328d6bb2"
     },
     {
       "position": 42,
       "claim_id": "CIT-042",
       "citation_key": "kane1990argument",
-      "manuscript_location": "paper/main.tex:988",
+      "manuscript_location": "paper/main.tex:980",
       "nearby_claim": "Kane's argument-based approach evaluates an interpretation by examining the inferences and assumptions in its interpretive argument \\cite{kane1990argument}.",
       "paragraph_sha256": "6c0242194ad7f9040ed62adcca6edba9d84053ae50c27c4297a369c749de990e",
       "consumed_by": [
@@ -690,13 +690,13 @@
       "verified_scholarly_identifier": "report:ACT-RR-90-13",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "01cd143b64ce144a876c0a45294b3040a50b3cdcfb363330f0b923a71b3e6e6b"
+      "evidence_sha256": "af3d6e41b5e4d5734da63c7d29b7310b6f76942c29d73623228e264aaf162b21"
     },
     {
       "position": 43,
       "claim_id": "CIT-043",
       "citation_key": "kim2023surprise",
-      "manuscript_location": "paper/main.tex:994",
+      "manuscript_location": "paper/main.tex:986",
       "nearby_claim": "A study of surprise adequacy finds that it captures input novelty but does not reliably guide retraining on its own \\cite{kim2023surprise}.",
       "paragraph_sha256": "cd2f4e487c9192f3e0e38970a0e0c9c8b7ac730ce73a2d52255198ccc5661fae",
       "consumed_by": [
@@ -706,7 +706,7 @@
       "verified_scholarly_identifier": "doi:10.1145/3546947",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "77fab541193fbed72d99db65e9cfe62a84ab3d005ad1fce4fb8feecfeee201d7"
+      "evidence_sha256": "49fd3659b1ffc161022b802bbba00cca50d347bc5b3d4b9874ff825042380be6"
     },
     {
       "position": 44,
@@ -722,7 +722,7 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2026.findings-eacl.207",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "0820afc8ba85b6064752a102b5dadf24c45aa641d836ce8e42fe8ca39ab17c5e"
+      "evidence_sha256": "ea7466e2edc42c25ccc83776a4c9c8247cebf9aaf647925bcd40604499295a21"
     },
     {
       "position": 45,
@@ -738,13 +738,13 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2026.findings-eacl.207",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "0820afc8ba85b6064752a102b5dadf24c45aa641d836ce8e42fe8ca39ab17c5e"
+      "evidence_sha256": "ea7466e2edc42c25ccc83776a4c9c8247cebf9aaf647925bcd40604499295a21"
     },
     {
       "position": 46,
       "claim_id": "CIT-046",
       "citation_key": "kim2025",
-      "manuscript_location": "paper/main.tex:419",
+      "manuscript_location": "paper/main.tex:411",
       "nearby_claim": "STONE combines correctness, detectability, and perplexity-based imperceptibility \\cite{kim2025}.",
       "paragraph_sha256": "60e2bd67091b0abfb4e63a9e4f0c18ad69790da72fe3867bd4203e8719012018",
       "consumed_by": [
@@ -754,13 +754,13 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2026.findings-eacl.207",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "0820afc8ba85b6064752a102b5dadf24c45aa641d836ce8e42fe8ca39ab17c5e"
+      "evidence_sha256": "ea7466e2edc42c25ccc83776a4c9c8247cebf9aaf647925bcd40604499295a21"
     },
     {
       "position": 47,
       "claim_id": "CIT-047",
       "citation_key": "kirchenbauer2023",
-      "manuscript_location": "paper/main.tex:976",
+      "manuscript_location": "paper/main.tex:968",
       "nearby_claim": "Keyed token partitions couple detection to sequence length and token distributions \\cite{kirchenbauer2023}.",
       "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
       "consumed_by": [
@@ -770,13 +770,13 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.mlr.press/v202/kirchenbauer23a.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "fb9b8f73462cdf097978f2b7e54a90cdcdc9fb049da5623dc664d53f8f9b4cbf"
+      "evidence_sha256": "a2f9c48be3df18deb5dbea3facf2d0f881c9a595dceb3be3d589f649663c7e07"
     },
     {
       "position": 48,
       "claim_id": "CIT-048",
       "citation_key": "kirchenbauer2024",
-      "manuscript_location": "paper/main.tex:976",
+      "manuscript_location": "paper/main.tex:968",
       "nearby_claim": "Reliability studies examine paraphrasing, text mixing, and length-dependent detection at specified false-positive rates \\cite{kirchenbauer2024}.",
       "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
       "consumed_by": [
@@ -786,7 +786,7 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.iclr.cc/paper_files/paper/2024/hash/d78e9e4316e1714fbb0f20be66f8044c-Abstract-Conference.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "f80bd9650265a52500ce1b93373faac283e15a51bf0e7e22a371a2c95892b216"
+      "evidence_sha256": "af2e850e5323ed913187dcac0da90dd4ab7b5aa6232d67ff78b345f31d32f580"
     },
     {
       "position": 49,
@@ -802,13 +802,13 @@
       "verified_scholarly_identifier": "doi:10.1109/32.489070",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "9833eb523cd664d07205614971cb7d314dd89cec7ce5e31d0d879050c3c55e95"
+      "evidence_sha256": "bb6d8f812dd30a7f84d046297b8c3dc4571b85b511059727e1fa8a960e4c0eb2"
     },
     {
       "position": 50,
       "claim_id": "CIT-050",
       "citation_key": "le2014emi",
-      "manuscript_location": "paper/main.tex:981",
+      "manuscript_location": "paper/main.tex:973",
       "nearby_claim": "Equivalence modulo inputs conditions transformations on observed executions \\cite{le2014emi}.",
       "paragraph_sha256": "670946b1f1d349f7bcfcb92728bfe466e7f5c6ba303acd531927a44d14f61954",
       "consumed_by": [
@@ -818,7 +818,7 @@
       "verified_scholarly_identifier": "doi:10.1145/2594291.2594334",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "c7ac0d4288db0b7b5e9e34cbd5ce7ae06d778519e67afa35be66e7ddb8f7a539"
+      "evidence_sha256": "dbe8cd317b100311bbe4e33f1bb96429ae0a0959f25822a8e6e707fa3e2d1a7b"
     },
     {
       "position": 51,
@@ -834,13 +834,13 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2024.acl-long.268",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "7daae896bbfaf579a96d1dbc1b0387aaa80f181f0d2de4496cf373ec8873a032"
+      "evidence_sha256": "bfc95c7a4713957f619ef278f226ffc2e269954d2915ffe8f945734b9e6a0f77"
     },
     {
       "position": 52,
       "claim_id": "CIT-052",
       "citation_key": "lee2024",
-      "manuscript_location": "paper/main.tex:419",
+      "manuscript_location": "paper/main.tex:411",
       "nearby_claim": "SWEET reports AUROC and TPR at declared false-positive bounds \\cite{lee2024}.",
       "paragraph_sha256": "60e2bd67091b0abfb4e63a9e4f0c18ad69790da72fe3867bd4203e8719012018",
       "consumed_by": [
@@ -850,13 +850,13 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2024.acl-long.268",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "7daae896bbfaf579a96d1dbc1b0387aaa80f181f0d2de4496cf373ec8873a032"
+      "evidence_sha256": "bfc95c7a4713957f619ef278f226ffc2e269954d2915ffe8f945734b9e6a0f77"
     },
     {
       "position": 53,
       "claim_id": "CIT-053",
       "citation_key": "mackenzie2011",
-      "manuscript_location": "paper/main.tex:990",
+      "manuscript_location": "paper/main.tex:982",
       "nearby_claim": "MacKenzie et al. distinguish failures of reflective and formative models \\cite{mackenzie2011}.",
       "paragraph_sha256": "8c1cc5f556b2df33fe924d58b7cc9bbb5f69b9e8c0aa3bd58f0c1f304480268d",
       "consumed_by": [
@@ -866,13 +866,13 @@
       "verified_scholarly_identifier": "doi:10.2307/23044045",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "978b6763492b798254a39009e6edf1a6101247244d5a06defb0aee51e044525d"
+      "evidence_sha256": "f789bd413f4da65747a1c65f1a7855954066f17fa38d8b134c0ad777021b544d"
     },
     {
       "position": 54,
       "claim_id": "CIT-054",
       "citation_key": "meneely2013",
-      "manuscript_location": "paper/main.tex:990",
+      "manuscript_location": "paper/main.tex:982",
       "nearby_claim": "Meneely et al. separate several software-metric validation philosophies \\cite{meneely2013}.",
       "paragraph_sha256": "8c1cc5f556b2df33fe924d58b7cc9bbb5f69b9e8c0aa3bd58f0c1f304480268d",
       "consumed_by": [
@@ -882,13 +882,13 @@
       "verified_scholarly_identifier": "doi:10.1145/2377656.2377661",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "871e684ea12cffb6373cc7a906ff22d13c84b30a5e92ff2ca4e76db1607f1dee"
+      "evidence_sha256": "bb99e86cc853c1bab8ca57ee34690c89444cf9d0cbf1ab265205fd3b7ee867af"
     },
     {
       "position": 55,
       "claim_id": "CIT-055",
       "citation_key": "messick1995",
-      "manuscript_location": "paper/main.tex:988",
+      "manuscript_location": "paper/main.tex:980",
       "nearby_claim": "Messick integrates score meaning and consequences \\cite{messick1995}.",
       "paragraph_sha256": "6c0242194ad7f9040ed62adcca6edba9d84053ae50c27c4297a369c749de990e",
       "consumed_by": [
@@ -898,13 +898,13 @@
       "verified_scholarly_identifier": "doi:10.1037/0003-066X.50.9.741",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "34b137e05a831233944486548153880a2082d81d7d116bf85cf75315e867f8bc"
+      "evidence_sha256": "e4c8436e0f095cd149029a227d8cd4bb058f0b9931ff894e4292db633123845c"
     },
     {
       "position": 56,
       "claim_id": "CIT-056",
       "citation_key": "monden2000",
-      "manuscript_location": "paper/main.tex:972",
+      "manuscript_location": "paper/main.tex:964",
       "nearby_claim": "Transformation-based identifiers were evaluated in executable Java programs \\cite{monden2000}.",
       "paragraph_sha256": "5fa7327a9f08a900099a761ef70a92f8535b19c5a80d63fd6c3e27edc1df2ab8",
       "consumed_by": [
@@ -914,13 +914,13 @@
       "verified_scholarly_identifier": "doi:10.1109/CMPSAC.2000.884716",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "dde8e8891888be9b9a1a0cb9fe051d66353d005faa0a679715e95b5e67fb7a0b"
+      "evidence_sha256": "bf612cc0c1a058b1d0ee71e4008f234d35c9bee88ae3e2c5e68dda3d495fc9f0"
     },
     {
       "position": 57,
       "claim_id": "CIT-057",
       "citation_key": "musgrave2020",
-      "manuscript_location": "paper/main.tex:992",
+      "manuscript_location": "paper/main.tex:984",
       "nearby_claim": "Standardized protocols can overturn conclusions obtained under heterogeneous evaluation \\cite{musgrave2020}.",
       "paragraph_sha256": "1214703853df27b6a6f69eb075c901608a08cc0242a20470ab6c0849f37d9cdb",
       "consumed_by": [
@@ -930,13 +930,13 @@
       "verified_scholarly_identifier": "doi:10.1007/978-3-030-58595-2_41",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "3c2bf06260d0490ce0c136f611ea3a8fba1b818383add1727aac67e4d542e8ed"
+      "evidence_sha256": "bdb3198242183a42310413cfe03cad31b12110a4c396a857255fe326fffe9c67"
     },
     {
       "position": 58,
       "claim_id": "CIT-058",
       "citation_key": "myles2004register",
-      "manuscript_location": "paper/main.tex:974",
+      "manuscript_location": "paper/main.tex:966",
       "nearby_claim": "Register-allocation watermarks depend on compiler allocation decisions \\cite{myles2004register}.",
       "paragraph_sha256": "e5e2f7716dd358e9ad8580baf1e314c4186ccf0bf30c32721949a0b16f68a98b",
       "consumed_by": [
@@ -946,13 +946,13 @@
       "verified_scholarly_identifier": "doi:10.1007/978-3-540-24691-6_21",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "04d9244f1cd607e24e9aeee744c2556ccdfb078337eafbdd29a729d92f748c10"
+      "evidence_sha256": "115e21ee0400e42fb16b436ef484bd188310639643718225fe1dcd974a0e2946"
     },
     {
       "position": 59,
       "claim_id": "CIT-059",
       "citation_key": "myrtveit2005",
-      "manuscript_location": "paper/main.tex:990",
+      "manuscript_location": "paper/main.tex:982",
       "nearby_claim": "Myrtveit et al. distinguish reliability from validity in comparative prediction \\cite{myrtveit2005}.",
       "paragraph_sha256": "8c1cc5f556b2df33fe924d58b7cc9bbb5f69b9e8c0aa3bd58f0c1f304480268d",
       "consumed_by": [
@@ -962,13 +962,13 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2005.58",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "37db23f0b6c7c50db4f137242e8f6b51e2b7938f528ef3783655a881357bf33f"
+      "evidence_sha256": "d5a50d34ea09af5e15748560ccaff4ea7a10076f89b26c578f47069f5f2b5cea"
     },
     {
       "position": 60,
       "claim_id": "CIT-060",
       "citation_key": "nagra2004threading",
-      "manuscript_location": "paper/main.tex:974",
+      "manuscript_location": "paper/main.tex:966",
       "nearby_claim": "Thread-scheduling watermarks introduce concurrency assumptions \\cite{nagra2004threading}.",
       "paragraph_sha256": "e5e2f7716dd358e9ad8580baf1e314c4186ccf0bf30c32721949a0b16f68a98b",
       "consumed_by": [
@@ -978,13 +978,13 @@
       "verified_scholarly_identifier": "doi:10.1007/978-3-540-30114-1_15",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "44e9c88db263b39bede4b63ad2cf458da76cc782a59329b1c515ea8fe06aaaa2"
+      "evidence_sha256": "743b280c300e09356eacc1f8b657776a52469322a1ca3b019b7e8812e98410d0"
     },
     {
       "position": 61,
       "claim_id": "CIT-061",
       "citation_key": "nagra2002taxonomy",
-      "manuscript_location": "paper/main.tex:972",
+      "manuscript_location": "paper/main.tex:964",
       "nearby_claim": "A functional taxonomy distinguishes authorship, fingerprinting, validation, and licensing marks \\cite{nagra2002taxonomy}.",
       "paragraph_sha256": "5fa7327a9f08a900099a761ef70a92f8535b19c5a80d63fd6c3e27edc1df2ab8",
       "consumed_by": [
@@ -994,13 +994,13 @@
       "verified_scholarly_identifier": "doi:10.1145/563857.563822",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "3943447f81aaf08e20e5274560445859b182cb2ae269705d7cd504bca69f35f0"
+      "evidence_sha256": "33edfd3241f9f2a3238d0d14f737007f6d07e926cf168639b455e2826772e55e"
     },
     {
       "position": 62,
       "claim_id": "CIT-062",
       "citation_key": "necula2000",
-      "manuscript_location": "paper/main.tex:981",
+      "manuscript_location": "paper/main.tex:973",
       "nearby_claim": "Translation validation checks each produced program against a semantic relation \\cite{necula2000}.",
       "paragraph_sha256": "670946b1f1d349f7bcfcb92728bfe466e7f5c6ba303acd531927a44d14f61954",
       "consumed_by": [
@@ -1010,13 +1010,13 @@
       "verified_scholarly_identifier": "doi:10.1145/349299.349314",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "51f403dc35c0fdfed201a1b60ca7d5fd1d19778ee0dcb10f9a4384fb470135b6"
+      "evidence_sha256": "2cdfc722149091f670689f4408eebf42fad44f1367d9830b7bbe6adf3a02036c"
     },
     {
       "position": 63,
       "claim_id": "CIT-063",
       "citation_key": "palsberg2000",
-      "manuscript_location": "paper/main.tex:972",
+      "manuscript_location": "paper/main.tex:964",
       "nearby_claim": "A dynamic-graph watermark implementation measured embedding and retrieval costs and tested resilience against selected program transformations \\cite{palsberg2000}.",
       "paragraph_sha256": "5fa7327a9f08a900099a761ef70a92f8535b19c5a80d63fd6c3e27edc1df2ab8",
       "consumed_by": [
@@ -1026,13 +1026,13 @@
       "verified_scholarly_identifier": "doi:10.1109/ACSAC.2000.898885",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "50097339f709e5a18ce4c469109ee0380a45c9e498a5497cee7601a6ad236a82"
+      "evidence_sha256": "2f0a70f15f3e9bcefcf6bdd70b69b888588e86753aabd73ea1cc8bbad42db8c1"
     },
     {
       "position": 64,
       "claim_id": "CIT-064",
       "citation_key": "papadakis2019",
-      "manuscript_location": "paper/main.tex:979",
+      "manuscript_location": "paper/main.tex:971",
       "nearby_claim": "Mutation surveys document the effects of operator choice, selection, and equivalent mutants \\cite{papadakis2019}.",
       "paragraph_sha256": "39c8602bac9d3812ac9bafb642e5fc35f9993bc5dfe97703f329443c329420e4",
       "consumed_by": [
@@ -1042,13 +1042,13 @@
       "verified_scholarly_identifier": "doi:10.1016/bs.adcom.2018.03.015",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "bde459f72977088ef2316e4f136ced6623cbdcbb93c6997feeecfbecf9ce4dfb"
+      "evidence_sha256": "fa10b618c54529cff13ca130cbe30486c70adcfbf1318d2a01528991356865b8"
     },
     {
       "position": 65,
       "claim_id": "CIT-065",
       "citation_key": "pineau2021",
-      "manuscript_location": "paper/main.tex:992",
+      "manuscript_location": "paper/main.tex:984",
       "nearby_claim": "Reproducibility guidance binds claims to code, data, and reporting choices \\cite{pineau2021}.",
       "paragraph_sha256": "1214703853df27b6a6f69eb075c901608a08cc0242a20470ab6c0849f37d9cdb",
       "consumed_by": [
@@ -1058,13 +1058,13 @@
       "verified_scholarly_identifier": "formal-record:https://www.jmlr.org/papers/v22/20-303.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "2db798d5ab8a07f94d6c18b0909a5b0cb04e5a4caa7e95e7e7fffc40eb80e100"
+      "evidence_sha256": "17a57e577e5f444a06c0e27aefb12b673d7d3d190c6c5f778578c152f99985de"
     },
     {
       "position": 66,
       "claim_id": "CIT-066",
       "citation_key": "recht2019",
-      "manuscript_location": "paper/main.tex:992",
+      "manuscript_location": "paper/main.tex:984",
       "nearby_claim": "Reconstructed test distributions can change measured performance \\cite{recht2019}.",
       "paragraph_sha256": "1214703853df27b6a6f69eb075c901608a08cc0242a20470ab6c0849f37d9cdb",
       "consumed_by": [
@@ -1074,13 +1074,13 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.mlr.press/v97/recht19a.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "9da6dbab3eba146c3310ec30974e9d20159c4aa9ed156b638eea68d212d13b7e"
+      "evidence_sha256": "fa63bcd9f3f56e872734dd5ecb14fee309d3ad7304aeec7d923c3a6492aa8c64"
     },
     {
       "position": 67,
       "claim_id": "CIT-067",
       "citation_key": "roy2009",
-      "manuscript_location": "paper/main.tex:983",
+      "manuscript_location": "paper/main.tex:975",
       "nearby_claim": "Clone surveys require supported clone types to accompany performance claims \\cite{roy2009}.",
       "paragraph_sha256": "a3ea2899f9953e36cacce2d252e3a815aab9cbd71ba96d633eb4ec362528716b",
       "consumed_by": [
@@ -1090,13 +1090,13 @@
       "verified_scholarly_identifier": "doi:10.1016/j.scico.2009.02.007",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "ea2fa01ab46ef2755f3d04894375b0711056eee116ddce001db5b815cd28aedb"
+      "evidence_sha256": "3bb711a19609ff05ebb8fac125602b0bee2bde56f95f34e7209d78a72e2b411f"
     },
     {
       "position": 68,
       "claim_id": "CIT-068",
       "citation_key": "sajnani2016",
-      "manuscript_location": "paper/main.tex:983",
+      "manuscript_location": "paper/main.tex:975",
       "nearby_claim": "SourcererCC scales a token representation distinct from tree similarity \\cite{sajnani2016}.",
       "paragraph_sha256": "a3ea2899f9953e36cacce2d252e3a815aab9cbd71ba96d633eb4ec362528716b",
       "consumed_by": [
@@ -1106,13 +1106,13 @@
       "verified_scholarly_identifier": "doi:10.1145/2884781.2884877",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "9bc692aef911648540126172c92962d58e055865a3151a0515b62f0ac00aef71"
+      "evidence_sha256": "eb8cfc1fcda92f2cdce257f780691b63bb358a64155e3f37a8c4b9cfe74c622a"
     },
     {
       "position": 69,
       "claim_id": "CIT-069",
       "citation_key": "scalabrino2018",
-      "manuscript_location": "paper/main.tex:983",
+      "manuscript_location": "paper/main.tex:975",
       "nearby_claim": "Broader models also retain ratings as the outcome \\cite{scalabrino2018}.",
       "paragraph_sha256": "a3ea2899f9953e36cacce2d252e3a815aab9cbd71ba96d633eb4ec362528716b",
       "consumed_by": [
@@ -1122,13 +1122,13 @@
       "verified_scholarly_identifier": "doi:10.1002/smr.1958",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "0864492332d4bb0161c61725cc045099e8a550a275c58979164a54d76ab9506b"
+      "evidence_sha256": "0e127afdb580260c0c3bcdf52d1d12e8d9f775233d42b8abcdf5bacddf2ccb41"
     },
     {
       "position": 70,
       "claim_id": "CIT-070",
       "citation_key": "schneidewind1992",
-      "manuscript_location": "paper/main.tex:990",
+      "manuscript_location": "paper/main.tex:982",
       "nearby_claim": "Schneidewind validates metrics against a declared quality purpose \\cite{schneidewind1992}.",
       "paragraph_sha256": "8c1cc5f556b2df33fe924d58b7cc9bbb5f69b9e8c0aa3bd58f0c1f304480268d",
       "consumed_by": [
@@ -1138,13 +1138,13 @@
       "verified_scholarly_identifier": "doi:10.1109/32.135774",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "2f7b5e6cb7a40d081e1cf6e0325d6d38a5027052012e83b4ec8b101e782215e7"
+      "evidence_sha256": "51a1f94cf745ec02e6d7580dee13ed3b1e54bac870b6f44f590963c3f39945d5"
     },
     {
       "position": 71,
       "claim_id": "CIT-071",
       "citation_key": "segura2016",
-      "manuscript_location": "paper/main.tex:981",
+      "manuscript_location": "paper/main.tex:973",
       "nearby_claim": "Metamorphic testing derives relations among executions when pointwise outcomes are unavailable \\cite{segura2016}.",
       "paragraph_sha256": "670946b1f1d349f7bcfcb92728bfe466e7f5c6ba303acd531927a44d14f61954",
       "consumed_by": [
@@ -1154,7 +1154,7 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2016.2532875",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "f38be0141d2f8b7d9a89090fa5f1290d1add71c921893e79d2d0755d937e6428"
+      "evidence_sha256": "096a776f74927630e24bedfb068a42130f0e278c2affdfe51ee3ae87158d3cb2"
     },
     {
       "position": 72,
@@ -1170,7 +1170,7 @@
       "verified_scholarly_identifier": "doi:10.1109/TSE.2022.3176725",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "86253a2a3616293ffe2d5f7698c704a62934c72128ad02f3636ae97f45ad4e8b"
+      "evidence_sha256": "66b684971611e2768a3aee22c29681248be64465b7c703238e19685db80b5b13"
     },
     {
       "position": 73,
@@ -1186,13 +1186,13 @@
       "verified_scholarly_identifier": "doi:10.1145/3593434.3593449",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "f50ff44ae83fb2661a8d540a7223a4ada85e41305b4c16135bdf2b15a6223b31"
+      "evidence_sha256": "c15a12d65b09736292e27013737bf3124a3cf2aa7b0804ecc3f2cc28de63389e"
     },
     {
       "position": 74,
       "claim_id": "CIT-074",
       "citation_key": "sotovalero2023",
-      "manuscript_location": "paper/main.tex:994",
+      "manuscript_location": "paper/main.tex:986",
       "nearby_claim": "Coverage-based debloating shows that coverage choice changes the retained program \\cite{sotovalero2023}.",
       "paragraph_sha256": "cd2f4e487c9192f3e0e38970a0e0c9c8b7ac730ce73a2d52255198ccc5661fae",
       "consumed_by": [
@@ -1202,13 +1202,13 @@
       "verified_scholarly_identifier": "doi:10.1145/3546948",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "1b570301dd188e17bc30512e929846f7bc3c21b2cee0db0e34da4d430d1fc006"
+      "evidence_sha256": "0c66592efb1701c54ed0a9ee6e5f1a9573df050b2a820e22e3fbd3bcbd2ba7b5"
     },
     {
       "position": 75,
       "claim_id": "CIT-075",
       "citation_key": "suresh2024",
-      "manuscript_location": "paper/main.tex:976",
+      "manuscript_location": "paper/main.tex:968",
       "nearby_claim": "A recent preprint reports that code transformations described there as semantics-preserving can sharply reduce the detectability of existing generated-code watermarks \\cite{suresh2024}.",
       "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
       "consumed_by": [
@@ -1218,13 +1218,13 @@
       "verified_scholarly_identifier": "doi:10.48550/arXiv.2403.17983",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "c76fc0b41bf91a9a52b3f17aacce1a524ac7d2e376bc4491e7280c2a5ae6fcac"
+      "evidence_sha256": "79c430119ae01f27939d21c5488af28fba9eed00ba4b4628d41a69b0a23652fe"
     },
     {
       "position": 76,
       "claim_id": "CIT-076",
       "citation_key": "svajlenko2014",
-      "manuscript_location": "paper/main.tex:983",
+      "manuscript_location": "paper/main.tex:975",
       "nearby_claim": "BigCloneBench provides a curated inter-project corpus for measuring recall by clone type, functionality, and similarity \\cite{svajlenko2014}.",
       "paragraph_sha256": "a3ea2899f9953e36cacce2d252e3a815aab9cbd71ba96d633eb4ec362528716b",
       "consumed_by": [
@@ -1234,13 +1234,13 @@
       "verified_scholarly_identifier": "doi:10.1109/ICSME.2014.77",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "4662c39f0f3406a9d27d26309848cb7898add3a046eded2c0f65d13b67e22acb"
+      "evidence_sha256": "823ff4e8f71627f5d13a0ca1967ebc6ea828bc146b3d7d4fa9310dc8f42dfa25"
     },
     {
       "position": 77,
       "claim_id": "CIT-077",
       "citation_key": "venkatesan2001",
-      "manuscript_location": "paper/main.tex:972",
+      "manuscript_location": "paper/main.tex:964",
       "nearby_claim": "Graph encodings exposed watermarks to graph-level attacks \\cite{venkatesan2001}.",
       "paragraph_sha256": "5fa7327a9f08a900099a761ef70a92f8535b19c5a80d63fd6c3e27edc1df2ab8",
       "consumed_by": [
@@ -1250,7 +1250,7 @@
       "verified_scholarly_identifier": "doi:10.1007/3-540-45496-9_12",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "f088bbce29624906231eaf9348ed32b76eacfe58f4fd62fcaba171501a7dc110"
+      "evidence_sha256": "c61cde4f9cfe03e34c785e826bf17a25344a9d2e9ac4a0603127fa07bbc11696"
     },
     {
       "position": 78,
@@ -1266,13 +1266,13 @@
       "verified_scholarly_identifier": "doi:10.1145/2668930.2688819",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "2e4ef02b743a4f6b2fe1f380bef7d8ae606bda7fd3ecfa3bb721b4f02ddf10f4"
+      "evidence_sha256": "802cfd91dcbe0105d906d08694e2bd3c2b3ee3cb9a62e956125517dae6baa9e1"
     },
     {
       "position": 79,
       "claim_id": "CIT-079",
       "citation_key": "weyuker1982",
-      "manuscript_location": "paper/main.tex:981",
+      "manuscript_location": "paper/main.tex:973",
       "nearby_claim": "For programs without a practical oracle, partial oracles and pseudo-oracles provide testing alternatives \\cite{weyuker1982}.",
       "paragraph_sha256": "670946b1f1d349f7bcfcb92728bfe466e7f5c6ba303acd531927a44d14f61954",
       "consumed_by": [
@@ -1282,13 +1282,13 @@
       "verified_scholarly_identifier": "doi:10.1093/comjnl/25.4.465",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "7d56b86c35e1e8995ea1be2b6f4d548c45d63393980179b4464d92bdcecc5571"
+      "evidence_sha256": "88761a87cafd9d45eef23d468a36eb67c3e84610348441cd836b4dd5b6be7b8b"
     },
     {
       "position": 80,
       "claim_id": "CIT-080",
       "citation_key": "wu2024dipmark",
-      "manuscript_location": "paper/main.tex:976",
+      "manuscript_location": "paper/main.tex:968",
       "nearby_claim": "DiPmark constrains marginal token probabilities \\cite{wu2024dipmark}.",
       "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
       "consumed_by": [
@@ -1298,7 +1298,7 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.mlr.press/v235/wu24h.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "984cce8a136532ac2dee68a1df6c522edd5c27ef9c16656905841c410a33209e"
+      "evidence_sha256": "a10147ecd8a4f2309c52f294ebf291227386aac5546bbdb32a0b9c1700246190"
     },
     {
       "position": 81,
@@ -1314,7 +1314,7 @@
       "verified_scholarly_identifier": "doi:10.1145/3728952",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "ca87ebff1a39a7b610c2b23a56a7d97aabcc4f2e918f066a1b64582e036fffd6"
+      "evidence_sha256": "92ce3f745b5b1a68efe9b25434437cbaf17a6b3850751175eab0221b8dc7218a"
     },
     {
       "position": 82,
@@ -1330,13 +1330,13 @@
       "verified_scholarly_identifier": "doi:10.1109/SP54263.2024.00097",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "636ec3ff56b043b1b61eef8ae745d9ec9c935f025e1fcfaaf34b16ce290bea24"
+      "evidence_sha256": "893168f02d9933179b9a395620f74a1351837af8fe25aa67a3af7ea916cc640b"
     },
     {
       "position": 83,
       "claim_id": "CIT-083",
       "citation_key": "yang2023",
-      "manuscript_location": "paper/main.tex:419",
+      "manuscript_location": "paper/main.tex:411",
       "nearby_claim": "SrcMarker reports per-bit agreement and exact payload recovery \\cite{yang2023}.",
       "paragraph_sha256": "60e2bd67091b0abfb4e63a9e4f0c18ad69790da72fe3867bd4203e8719012018",
       "consumed_by": [
@@ -1346,13 +1346,13 @@
       "verified_scholarly_identifier": "doi:10.1109/SP54263.2024.00097",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "636ec3ff56b043b1b61eef8ae745d9ec9c935f025e1fcfaaf34b16ce290bea24"
+      "evidence_sha256": "893168f02d9933179b9a395620f74a1351837af8fe25aa67a3af7ea916cc640b"
     },
     {
       "position": 84,
       "claim_id": "CIT-084",
       "citation_key": "yang2011compiler",
-      "manuscript_location": "paper/main.tex:981",
+      "manuscript_location": "paper/main.tex:973",
       "nearby_claim": "Differential testing finds compiler defects through implementation disagreement \\cite{yang2011compiler}.",
       "paragraph_sha256": "670946b1f1d349f7bcfcb92728bfe466e7f5c6ba303acd531927a44d14f61954",
       "consumed_by": [
@@ -1362,7 +1362,7 @@
       "verified_scholarly_identifier": "doi:10.1145/1993498.1993532",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "7b9d7d452ed616fb77c90f3ae25b0f657afcb17886b55b20c8a59839713f4d47"
+      "evidence_sha256": "901ebdbb46f8fe8fd0091b33feac24304ec7beef9ed49c96983aa5649b7a83f2"
     },
     {
       "position": 85,
@@ -1378,13 +1378,13 @@
       "verified_scholarly_identifier": "doi:10.48550/arXiv.2507.05512",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "b1c7c1226db4d6b5f6f234f2e75747a06db89bde9430c183442ea235fcac2969"
+      "evidence_sha256": "108ca1c77c96425d812d353743415e5bcf3d32074715bb865ea2c2c0b740df4e"
     },
     {
       "position": 86,
       "claim_id": "CIT-086",
       "citation_key": "zhang1989",
-      "manuscript_location": "paper/main.tex:983",
+      "manuscript_location": "paper/main.tex:975",
       "nearby_claim": "Tree-edit distance depends on its tree and edit model \\cite{zhang1989}.",
       "paragraph_sha256": "a3ea2899f9953e36cacce2d252e3a815aab9cbd71ba96d633eb4ec362528716b",
       "consumed_by": [
@@ -1394,13 +1394,13 @@
       "verified_scholarly_identifier": "doi:10.1137/0218082",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "2f271f74a46564980e5ce7de89a00b7b07055754c46a6efed9b5a1f4a33a9f20"
+      "evidence_sha256": "2e00066bed723028d9fc3b32c66ac6e5b6f6cec94670732a3365aa0032c429c0"
     },
     {
       "position": 87,
       "claim_id": "CIT-087",
       "citation_key": "zhao2024",
-      "manuscript_location": "paper/main.tex:976",
+      "manuscript_location": "paper/main.tex:968",
       "nearby_claim": "Provable robustness makes the admissible edit model explicit \\cite{zhao2024}.",
       "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
       "consumed_by": [
@@ -1410,13 +1410,13 @@
       "verified_scholarly_identifier": "formal-record:https://proceedings.iclr.cc/paper_files/paper/2024/hash/beae9ed5316bcc48e616754c06c11875-Abstract-Conference.html",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "384177c84fd1cf0759e14300c4b37c505d66e738f8fe06b03f51071678c70caa"
+      "evidence_sha256": "91829cc844c9f422a4fbf32136998070427b0d6e04269ab8b0480155ff0b159b"
     },
     {
       "position": 88,
       "claim_id": "CIT-088",
       "citation_key": "zhi2024",
-      "manuscript_location": "paper/main.tex:994",
+      "manuscript_location": "paper/main.tex:986",
       "nearby_claim": "Seed-selection studies show sensitivity to the initial corpus \\cite{zhi2024}.",
       "paragraph_sha256": "cd2f4e487c9192f3e0e38970a0e0c9c8b7ac730ce73a2d52255198ccc5661fae",
       "consumed_by": [
@@ -1426,7 +1426,7 @@
       "verified_scholarly_identifier": "doi:10.1145/3607190",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "8193c29045e57636c66220f1ede7938ab84fced5ee0578b721074c239130e825"
+      "evidence_sha256": "afd54d555bc500ab1f4238b8927b332dfd4677fef725f76aa0bc96d9f87f7d31"
     },
     {
       "position": 89,
@@ -1442,7 +1442,7 @@
       "verified_scholarly_identifier": "doi:10.48550/arXiv.2312.00273",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "ffde059bfeb8570c839221e21f179475462c5a2dc85c33e9cfa30833870764c7"
+      "evidence_sha256": "8ec92d2e13458dee1ffca56a7d3b0d66aa12d820b5d63178baa65f2e2f0e8a24"
     },
     {
       "position": 90,
@@ -1458,7 +1458,7 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2024.emnlp-demo.7",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "d7290f0b2aa43bece57176f1ccf464570daf7bddd5312a9c01577745eeb81a98"
+      "evidence_sha256": "815eca74febdfbb2ae060ee3f7cb2d8f797764942967aa98cc4c88b1957adabf"
     },
     {
       "position": 91,
@@ -1474,7 +1474,7 @@
       "verified_scholarly_identifier": "doi:10.18653/v1/2025.findings-emnlp.1148",
       "current_position_binding": "PASS",
       "original_body_support": "BODY_SUPPORT_CURRENT_CLAIMS",
-      "evidence_sha256": "7b437d57f5b88b08ea350c72f40cf8944b8d6b089a5cac66aec573486ee85902"
+      "evidence_sha256": "49aec68f9e2324746fd3bb886feb9c3143c25776f8f2e0ef9420d98c128c33cc"
     }
   ],
   "verdict": "PASS_CURRENT_CLAIM_BODY_SUPPORT",

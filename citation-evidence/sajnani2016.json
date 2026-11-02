@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 983,
+      "line": 975,
       "claim": "SourcererCC scales a token representation distinct from tree similarity \\cite{sajnani2016}.",
       "paragraph_sha256": "a3ea2899f9953e36cacce2d252e3a815aab9cbd71ba96d633eb4ec362528716b",
       "consumed_by": [
@@ -25,8 +25,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "5383c9a0fce77661c2d9d4ff5ca2011d481641ec03f86deb32980e298cdbcbea",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "4dacdf79c1d16c0f1b7367419a40b1e8a049f8eb2edab04a858ea422397084ef",
-    "paper/online-supplement.tex": "b714636cadafefd8901906fb4a05e9bbc3d82c93f7a8c84b7edfcf94d74e5e89",
+    "paper/main.tex": "815dd38b080a6cbf198d036b763cd9b65c40eab571c3140891aac843d660964c",
+    "paper/online-supplement.tex": "bd7333a5fd8a49242c6788b233c4e818718695093933d3ca939a7cdd872383d3",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -37,5 +37,5 @@
     "inspected_section": "PDF3 Section3.2 overview and3.3.1 sub-block filtering with bag-of-tokens index",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "9bc692aef911648540126172c92962d58e055865a3151a0515b62f0ac00aef71"
+  "evidence_sha256": "eb8cfc1fcda92f2cdce257f780691b63bb358a64155e3f37a8c4b9cfe74c622a"
 }
