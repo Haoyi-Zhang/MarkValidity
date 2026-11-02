@@ -141,7 +141,13 @@ class ReceivingContractTests(unittest.TestCase):
                     support.indexed(rows, support.key, support.expected_keys(), 'frozen support matrix')
 
     def test_retained_data_analysis_keeps_all_296_comparisons(self):
-        with tempfile.TemporaryDirectory() as tmp, patch.object(subprocess, 'Popen', side_effect=AssertionError('no native execution')):
+        # Linux's platform descriptor may itself invoke uname. Capture this
+        # genuine environment metadata before the no-program-execution guard;
+        # do not mock scientific calculations or mistake metadata for a task run.
+        environment_platform = audit.platform.platform()
+        with tempfile.TemporaryDirectory() as tmp, \
+             patch.object(audit.platform, 'platform', return_value=environment_platform), \
+             patch.object(subprocess, 'Popen', side_effect=AssertionError('no native execution')):
             result = audit.retained_analysis(self.results, Path(tmp))
         self.assertEqual((result['diagnostic_pairs'], result['auc_comparisons']), (576, 296))
 

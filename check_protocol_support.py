@@ -17,7 +17,8 @@ def run(results, out):
     results, out = Path(results).resolve(), Path(out).resolve()
     if out.exists() or out.is_relative_to(results) or results.is_relative_to(out):
         raise ValueError('fresh output disjoint from retained input required')
-    manifest_rows = list(csv.DictReader((results / 'results_manifest.csv').open(encoding='utf-8', newline='')))
+    with (results / 'results_manifest.csv').open(encoding='utf-8', newline='') as stream:
+        manifest_rows = list(csv.DictReader(stream))
     manifest = {r['relative_path']: r for r in manifest_rows}
     if len(manifest) != len(manifest_rows):
         raise ValueError('duplicate manifest entry')
