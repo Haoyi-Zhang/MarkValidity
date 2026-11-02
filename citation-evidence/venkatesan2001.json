@@ -26,7 +26,7 @@
     "paper/current-authors.tex": "5383c9a0fce77661c2d9d4ff5ca2011d481641ec03f86deb32980e298cdbcbea",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
     "paper/main.tex": "815dd38b080a6cbf198d036b763cd9b65c40eab571c3140891aac843d660964c",
-    "paper/online-supplement.tex": "bd7333a5fd8a49242c6788b233c4e818718695093933d3ca939a7cdd872383d3",
+    "paper/online-supplement.tex": "1f42780eeb9567772cfaec681e5c69e56c57b1cb02e2c4549fdecdab74e8a216",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -37,5 +37,5 @@
     "inspected_section": "Printed158-160 Section1/1.1 graph-cut attacks and graph-hashing problem; printed162 Section4 flow-graph framework; printed165-166 Section5.3 Recovery of Watermark, node identification, keyed sampling, adjacency powers and invariants",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "c61cde4f9cfe03e34c785e826bf17a25344a9d2e9ac4a0603127fa07bbc11696"
+  "evidence_sha256": "229cd1c001f4d51e637ebba6102300b553d6a9b36919b9499a617ade6d7d989b"
 }
