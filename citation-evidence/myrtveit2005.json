@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 982,
+      "line": 980,
       "claim": "Myrtveit et al. distinguish reliability from validity in comparative prediction \\cite{myrtveit2005}.",
       "paragraph_sha256": "8c1cc5f556b2df33fe924d58b7cc9bbb5f69b9e8c0aa3bd58f0c1f304480268d",
       "consumed_by": [
@@ -23,10 +23,10 @@
     }
   ],
   "current_source_bindings": {
-    "paper/current-authors.tex": "5383c9a0fce77661c2d9d4ff5ca2011d481641ec03f86deb32980e298cdbcbea",
+    "paper/current-authors.tex": "4bf81e0a1057e26f5bd7287c5445dfb4563fa4479af0281b5d266a92ee912717",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "815dd38b080a6cbf198d036b763cd9b65c40eab571c3140891aac843d660964c",
-    "paper/online-supplement.tex": "1f42780eeb9567772cfaec681e5c69e56c57b1cb02e2c4549fdecdab74e8a216",
+    "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
+    "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -37,5 +37,5 @@
     "inspected_section": "PDFp2/printed381 introduction reliability/validity distinction; PDFp3/printed382 complete Section5.1 Reliability and Validity; PDFp6 Section6 model-choice consistency versus correctness",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "c0109c390aadef01f02f44b61b2bcce4332426d60f46e4036200ab55ac6fd615"
+  "evidence_sha256": "ecee592887abe86df6521ff3558ea4b598ed1590ec1228018a5bd3cbf6ac537f"
 }

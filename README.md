@@ -6,7 +6,7 @@ This package reproduces the construct-validity study for code-watermark evaluati
 
 The retained figure-data tables are the inputs to the Python vector renderer.
 Install Matplotlib and NumPy, then run `python -B scripts/plot_figures.py` from
-this directory. The renderer uses the included Libertine fonts and does not run
+this directory. The renderer uses the manuscript's Linux Libertine O faces and does not run
 experiments. `--only mixture-frontier` rebuilds just the attack-mixture figure;
 the plotted response values and critical weight come from the retained study.
 When a sibling paper directory is present, its consumed figure is updated too.
