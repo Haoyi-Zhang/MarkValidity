@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 980,
+      "line": 982,
       "claim": "Meneely et al. separate several software-metric validation philosophies \\cite{meneely2013}.",
       "paragraph_sha256": "8c1cc5f556b2df33fe924d58b7cc9bbb5f69b9e8c0aa3bd58f0c1f304480268d",
       "consumed_by": [
@@ -25,7 +25,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
+    "paper/main.tex": "dc471eebfb6f0c06ec65b9172fd15fe38b6b53db98993826208615e180bee45a",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "Section4 criteria41-47 pp19-20; Section5 mapping p20 and Sections5.1-5.4 p22",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "a73cea3a155d05e2a026b5b3cae8004e7c86d381d9dee1610b4ac5514d121022"
+  "evidence_sha256": "82262ba1b699dbc845e8b545ccdbf07aa2313cdf5dc9fec21d4ac60e7afb3d77"
 }

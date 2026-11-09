@@ -50,7 +50,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
+    "paper/main.tex": "dc471eebfb6f0c06ec65b9172fd15fe38b6b53db98993826208615e180bee45a",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -62,5 +62,5 @@
     "inspected_section": "Sections 3.2-3.4, Eq.(6), p.9247; wm.py available_message_num and prefix acc",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "ba4f2a64f275e8701c9316dc22ae3bcc9c37082924913e2d6e9526ef2cbff9f7"
+  "evidence_sha256": "f782bb8dd2542e2a8ea0801899d3170cc410e1ea78c6c7059ea5b999daa78a2d"
 }

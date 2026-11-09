@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 962,
+      "line": 964,
       "claim": "Graph encodings exposed watermarks to graph-level attacks \\cite{venkatesan2001}.",
       "paragraph_sha256": "5fa7327a9f08a900099a761ef70a92f8535b19c5a80d63fd6c3e27edc1df2ab8",
       "consumed_by": [
@@ -25,7 +25,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
+    "paper/main.tex": "dc471eebfb6f0c06ec65b9172fd15fe38b6b53db98993826208615e180bee45a",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "Printed158-160 Section1/1.1 graph-cut attacks and graph-hashing problem; printed162 Section4 flow-graph framework; printed165-166 Section5.3 Recovery of Watermark, node identification, keyed sampling, adjacency powers and invariants",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "aa1dd15c74773df8fbf8ef6d0b004c08748b6ab68fbe259c604f4e830b470f1f"
+  "evidence_sha256": "5c0f3e8ff67df828bd29d0e6a79fce0321880473ce74650d5d2100c1a7072435"
 }

@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 978,
+      "line": 980,
       "claim": "Kane's argument-based approach evaluates an interpretation by examining the inferences and assumptions in its interpretive argument \\cite{kane1990argument}.",
       "paragraph_sha256": "6c0242194ad7f9040ed62adcca6edba9d84053ae50c27c4297a369c749de990e",
       "consumed_by": [
@@ -25,7 +25,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
+    "paper/main.tex": "dc471eebfb6f0c06ec65b9172fd15fe38b6b53db98993826208615e180bee45a",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "PDF1-4 identity/copyright/permission; printed1-7(PDF6-12), Interpretations as Arguments pp9-10(PDF14-15), Interpretive Arguments pp13-14(PDF18-19), The Validity Argument p18(PDF23), A Six-Step Process pp34-36 and transition/advantages p37(PDF39-42). PDF1-2 and printed2,9,10 rendered and visually inspected. Visual government cover says ED336428 despite OCR misreading last digit; signed reproduction permission for ERIC visible on original cover.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "0edeb7290944699cd47554b34c4df7fa20bff953d12b7c22ab5c28148f28cf76"
+  "evidence_sha256": "b1e0b310c8ebb3354592c760bd49c28c8455024a0051c8f7c8d09c0544972118"
 }

@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 984,
+      "line": 986,
       "claim": "Seed-selection studies show sensitivity to the initial corpus \\cite{zhi2024}.",
       "paragraph_sha256": "cd2f4e487c9192f3e0e38970a0e0c9c8b7ac730ce73a2d52255198ccc5661fae",
       "consumed_by": [
@@ -25,7 +25,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
+    "paper/main.tex": "dc471eebfb6f0c06ec65b9172fd15fe38b6b53db98993826208615e180bee45a",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "PDF physical1-3 identity/cover/byline/DOI; manuscript5-7 (physical7-9) Sections3.1.1/3.1.2/3.2.1-3.2.3; manuscript10-12 (physical12-14) Sections4.1 and4.2 setup/coverage; manuscript13 (physical15) Table1 visually read; manuscript14 (physical16) coverage and failure comparisons; manuscript20-21 (physical22-23) cross-goal comparison/RQ1 answer/RQ2; manuscript26-27 (physical28-29) seed-size discussion and Section5.2 validity limits.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "b96db4ac0b8c0df355df281f6bacb9ef9b53996a7553e40cf83a93b06555ca78"
+  "evidence_sha256": "9409386400cab6d48d2245719479a3caeeebea868a9ee3971b8112477e238a0a"
 }

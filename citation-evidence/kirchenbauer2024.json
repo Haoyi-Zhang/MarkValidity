@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 966,
+      "line": 968,
       "claim": "Reliability studies examine paraphrasing, text mixing, and length-dependent detection at specified false-positive rates \\cite{kirchenbauer2024}.",
       "paragraph_sha256": "ef4039e40f85f6b1b4ed700a883e50f44b0b94f3ac61464a0b6a77a4d5314c11",
       "consumed_by": [
@@ -36,7 +36,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
+    "paper/main.tex": "dc471eebfb6f0c06ec65b9172fd15fe38b6b53db98993826208615e180bee45a",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -48,5 +48,5 @@
     "inspected_section": "Actual original abstract, introduction/contributions and detection overview, physical1–3; conclusions physical9. Not all45 pages.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "fe7fd763d1a99b2e18e5c20b19af7eab29ce6ff4cb684e70aac2441759c3e67d"
+  "evidence_sha256": "3bf2d774f624e9125b718d1a514a9445b99fa175d0489b4b1fc3b4ab6fb72c77"
 }

@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 987,
+      "line": 989,
       "claim": "Binomial intervals differ materially in coverage \\cite{brown2001}.",
       "paragraph_sha256": "95667086a16abdba94e77141be2bfd7f4455220efa7842dfa26ae135f0e3e957",
       "consumed_by": [
@@ -25,7 +25,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
+    "paper/main.tex": "dc471eebfb6f0c06ec65b9172fd15fe38b6b53db98993826208615e180bee45a",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "Visually read original scan PDF1 identity; PDF3 printed2 Introduction; PDF8 printed7 Figures3-4 and accompanying coverage/discreteness/skewness discussion",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "e0cf30b02e5708ff2fda9250c4096c2d2a3c9a1b6d912213d26286693f4ec9eb"
+  "evidence_sha256": "b546754282cdee14313504bcc855deb89ba4e59d4a9c686c3e4b2c73566050a9"
 }

@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 987,
+      "line": 989,
       "claim": "Zero events still imply a positive upper confidence limit \\cite{hanley1983}.",
       "paragraph_sha256": "95667086a16abdba94e77141be2bfd7f4455220efa7842dfa26ae135f0e3e957",
       "consumed_by": [
@@ -25,7 +25,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
+    "paper/main.tex": "dc471eebfb6f0c06ec65b9172fd15fe38b6b53db98993826208615e180bee45a",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "Retypeset p2, Making Inferences: The Rule of Three; exact-binomial equation and expansion, online lines30–58; Retypeset pp2–3, Tables1–2, online lines64–103",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "baae2c21ac2fa446a420b6c681fdd2dee2aa8a6a3db5c50e8d117c6935e220c9"
+  "evidence_sha256": "150d6430661ecc092a61195b3cda05994a24df1e47b3d81874e9df941d2aa8e2"
 }

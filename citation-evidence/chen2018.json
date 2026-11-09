@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 651,
+      "line": 653,
       "claim": "Metamorphic testing similarly relies on executable relations when direct expected outputs are difficult to obtain \\cite{chen2018}; the benchmark uses exhaustive differential execution where finite domains make it possible.",
       "paragraph_sha256": "d58b0589bd280087f2966176cd35de25241f6746a0d179a8705ddd7712f03951",
       "consumed_by": [
@@ -25,7 +25,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
+    "paper/main.tex": "dc471eebfb6f0c06ec65b9172fd15fe38b6b53db98993826208615e180bee45a",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "Manuscript Section2.2 pp4-5 Definitions1-4 and shortest-path example, original online lines683-1040 retained in A followup/final-body-5.json part0; worker-b actually reinspected these body passages.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "9ba4e08f549fac4f62233a7ff077a0fb5cf6e5b4284160776da2914af2e7b53d"
+  "evidence_sha256": "cfa8332de132083db7ee57abf579695b9328c84824c9be75318ee6c8f73db009"
 }

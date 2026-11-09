@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 964,
+      "line": 966,
       "claim": "Register-allocation watermarks depend on compiler allocation decisions \\cite{myles2004register}.",
       "paragraph_sha256": "e5e2f7716dd358e9ad8580baf1e314c4186ccf0bf30c32721949a0b16f68a98b",
       "consumed_by": [
@@ -25,7 +25,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
+    "paper/main.tex": "dc471eebfb6f0c06ec65b9172fd15fe38b6b53db98993826208615e180bee45a",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "Printed274: exact title/byline/book/volume/pages/year/copyright identity; printed275: Section1 Introduction full non-abstract body, paragraphs1-3 including embed/recognize functions, adding watermark constraints to a graph-coloring problem, and applying QP to a graph-coloring register allocator. Both original pages rendered and visually read.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "15591f34c3d4240e3f13f255dc30f12065fbd8157fc31243544b6b8ee6ec0b0c"
+  "evidence_sha256": "4a1b8733e17d79e92906a6fb027380b7362f732aa610ee122b8566ad9e20ce6a"
 }
