@@ -1,0 +1,75 @@
+{
+  "project": "MarkValidity_TOSEM",
+  "figures": [
+    {
+      "asset": "architecture",
+      "media": [
+        428.0,
+        173.0
+      ],
+      "width": 317.0,
+      "trim": [
+        14,
+        17,
+        95,
+        15
+      ],
+      "targets": [
+        "paper/figures/illustrations/architecture.pdf",
+        "paper/figures/architecture.pdf",
+        "artifact/figures/architecture.pdf"
+      ]
+    },
+    {
+      "asset": "channel-interventions",
+      "media": [
+        426.0,
+        110.0
+      ],
+      "width": 428.4,
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        "artifact/figures/channel-interventions.pdf"
+      ]
+    },
+    {
+      "asset": "execution-scopes",
+      "media": [
+        426.0,
+        110.0
+      ],
+      "width": 428.4,
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        "artifact/figures/execution-scopes.pdf"
+      ]
+    },
+    {
+      "asset": "oracle-gap",
+      "media": [
+        408.0,
+        104.0
+      ],
+      "width": 377.0,
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "targets": [
+        "artifact/figures/oracle-gap.pdf"
+      ]
+    }
+  ]
+}
