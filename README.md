@@ -2,6 +2,19 @@
 
 This package reproduces the construct-validity study for code-watermark evaluation using public CPU resources and standard language runtimes.
 
+## Rebuilding the explanatory diagrams
+
+Create an output directory, then run `python -B figures/rebuild_diagrams.py --output /path/to/figures`
+from the artifact root. This regenerates the explanatory vector PDFs without
+running an experiment or requiring the manuscript. In the collaboration bundle,
+the same command without `--output` updates the diagram targets consumed by the
+sibling `paper/` directory. Other plots have their own generators and inputs.
+
+The source-bound `citation-evidence/` records apply to the source identifiers
+they record. The separate [companion bibliography](companion-bibliography.json)
+documents additional publisher metadata used by the collaboration draft; it
+does not attach that draft's citation locations to the repository's receipts.
+
 ## Rebuilding quantitative figures
 
 The retained figure-data tables are the inputs to the Python vector renderer.
