@@ -143,9 +143,9 @@ def coverage(out,preview):
                     yy=154-7*(m-1)-26*a
                     color=AMBER if missed else '#b9c5ce'
                     d.dot(xx,yy,'',fill=color,edge=color,r=2.35 if missed else 1.5)
-        d.text(x,147,'Py',8.2,ha='left',color=MUTED)
-        d.text(x,121,'JS',8.2,ha='left',color=MUTED)
-        d.text(x+125,141,f'{miss} / 72',16,ha='left',weight='bold',color=AMBER if miss else TEAL)
+        d.text(x,147,'Py',9.2,ha='left',color=MUTED)
+        d.text(x,121,'JS',9.2,ha='left',color=MUTED)
+        d.text(x+125,141,f'{miss} / 72',12.5,ha='left',weight='bold',color=AMBER if miss else TEAL)
         d.text(x+125,123,'mutants missed',9,ha='left',color=MUTED)
     d.dot(13,96,'',fill=AMBER,edge=AMBER,r=2.35)
     d.text(20,96,'Missed',8.7,ha='left',color=AMBER)
@@ -170,7 +170,7 @@ def joint_bounds(out,preview):
     assert [r['denominator'] for r in obs]==[76032,76032]
     assert [(r['lower_numerator'],r['upper_numerator']) for r in obs]==[(122,75722),(17955,55755)]
     f=plt.figure(figsize=(420/72,162/72))
-    a=f.add_axes([.253,.17,.715,.68])
+    a=f.add_axes([.253,.202,.715,.648])
     pct=lambda n,r:100*n/r['denominator']
     for y,r in zip((1.08,.18),obs):
         nums=[r['detected'],r['known']-r['detected'],r['unknown']]
@@ -194,7 +194,7 @@ def joint_bounds(out,preview):
     f.legend(handles=[Patch(facecolor=TEAL,label='Joint event met'),Patch(facecolor=BLUE,hatch='//',label='Not met'),
                       Patch(facecolor='#e4e9ee',edgecolor='#54697a',hatch='..',label='Unmeasured')],
              ncol=3,loc='upper center',bbox_to_anchor=(.58,.995),fontsize=8.3)
-    a.set_xlabel('Share of the same 76,032 configurations (%)',labelpad=3)
+    a.set_xlabel('Share of the same 76,032 configurations (%)',labelpad=2)
     grid(a,'x');save(f,out,'joint-bounds',preview)
 
 def evidence_routes(out,preview):

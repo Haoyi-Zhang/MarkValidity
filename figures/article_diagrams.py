@@ -50,7 +50,7 @@ def evidence_routes():
     d.wire((241,49),(241,24),(287,24),c=S)
     for y,lab,result,c in [(74,'Valid','Both bounds',T),(49,'Unresolved','Upper only',A),
                            (24,'Invalid','Neither bound',S)]:
-        d.txt(263,y+9,lab,8.3,color=c)
+        d.txt(268,y+9,lab,8.3,color=c)
         d.txt(302,y,result,9.2,ha='left',color=c)
     return d
 
