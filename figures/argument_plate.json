@@ -1,0 +1,14 @@
+{
+  "venue": "tosem",
+  "figures": [
+    {
+      "name": "claim-channels"
+    },
+    {
+      "name": "stratum-weights"
+    },
+    {
+      "name": "source-erasure"
+    }
+  ]
+}

@@ -22,6 +22,10 @@ jobs:
           python-version: '3.12'
       - name: Regenerate direct architecture figure
         run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends texlive-fonts-extra texlive-fonts-extra-links
+          kpsewhich LinLibertine_R.otf
+          kpsewhich LibertinusMath-Regular.otf
           python -m pip install matplotlib==3.11.2
           python -B figures/build_figures.py --outdir "${{ runner.temp }}/architecture-figure"
       - name: Regenerate, test, and reconstruct from the flat artifact root
