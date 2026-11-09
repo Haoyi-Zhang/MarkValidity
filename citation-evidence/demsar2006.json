@@ -23,7 +23,7 @@
     }
   ],
   "current_source_bindings": {
-    "paper/current-authors.tex": "4bf81e0a1057e26f5bd7287c5445dfb4563fa4479af0281b5d266a92ee912717",
+    "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
     "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
@@ -37,5 +37,5 @@
     "inspected_section": "Introduction and Sections2-3 pp1-6, especially Section3 p5 distinguishes independent datasets from dependent within-dataset resamples and defines sample size as datasets",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "d8e48ece305af0fb130233f6553df03a84d82ab70c211f977b09755d387e5c33"
+  "evidence_sha256": "2c0e4f2e744b68bcdac11b0d5deb25277ad20d9014f6520773a2ce9bc97c059b"
 }

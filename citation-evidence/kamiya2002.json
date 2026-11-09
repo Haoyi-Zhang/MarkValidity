@@ -35,7 +35,7 @@
     "supported_role": "Transformation of input text and token comparison with syntax-based normalization, not a universal information ordering between tokens and syntax trees."
   },
   "current_source_bindings": {
-    "paper/current-authors.tex": "4bf81e0a1057e26f5bd7287c5445dfb4563fa4479af0281b5d266a92ee912717",
+    "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
     "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
@@ -49,5 +49,5 @@
     "inspected_section": "Printed655, section2.2.2 on identifier regularization, online lines510–544; Printed656–657, section2.3/Figure1: lexical analysis, transformation rules, parameter replacement and match detection, online lines586–779",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "5a8c0620191c774d1d6f63e4453e1a4f0675505c392d4c897fedb109db064c7f"
+  "evidence_sha256": "e40aa92f1f522f087f9be884c07b96ec71c8345b60564658733fa90c96de4656"
 }

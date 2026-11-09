@@ -29,7 +29,7 @@
     "identity_record_boundary": "The unchanged evidence_sha256 field belongs to the prior DOI metadata record; it is not a digest or execution proof of this primary-passage judgment."
   },
   "current_source_bindings": {
-    "paper/current-authors.tex": "4bf81e0a1057e26f5bd7287c5445dfb4563fa4479af0281b5d266a92ee912717",
+    "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
     "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
@@ -43,5 +43,5 @@
     "inspected_section": "Printed pages 372 and 374: Method/Coding of Articles; Discussion/On the Fly Measurement",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "93257a94d3dda08da6c805ab1f9ba15a9664d2e53c4e19d1051f169f93f33f3d"
+  "evidence_sha256": "1661608111dca187ec149072f40ae94ab4491bac77c85510d17c9726c7e86828"
 }

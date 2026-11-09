@@ -23,7 +23,7 @@
     }
   ],
   "current_source_bindings": {
-    "paper/current-authors.tex": "4bf81e0a1057e26f5bd7287c5445dfb4563fa4479af0281b5d266a92ee912717",
+    "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
     "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
@@ -37,5 +37,5 @@
     "inspected_section": "Printed312 Section1.1 quality/attack discussion from retained prior reading; printed313 Sections1.3,2,2.1 static versus runtime carriers; printed316 Section3.3 and Section4/4.1 Definitions1-4 programs, transformations, recognition, static/pure-dynamic recognizers; printed318 Figure3 and Section5.2 heap-graph embedding/recognition",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "f7870be130853ae73f57eff58a1d6cd0731804ad54622482a804da9056e3021a"
+  "evidence_sha256": "dc8490c4aa4aeccd74295e19d94f59997e483d2af3757b1ceb85d2bfff7f7b3b"
 }

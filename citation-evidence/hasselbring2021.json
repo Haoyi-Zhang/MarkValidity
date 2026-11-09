@@ -23,7 +23,7 @@
     }
   ],
   "current_source_bindings": {
-    "paper/current-authors.tex": "4bf81e0a1057e26f5bd7287c5445dfb4563fa4479af0281b5d266a92ee912717",
+    "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
     "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
@@ -37,5 +37,5 @@
     "inspected_section": "Complete PDFpp6-7: Section3.2 benchmark/case-study workloads; Section4 comparison/fairness/relevance/verifiability requirements; Section5 proposed essential/desirable checklist",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "0c66aa0e3e2f065db79e83baf3b8f8bbe432db764d3af5342b35159e612ea32e"
+  "evidence_sha256": "550a9a8aa4aacc808dfbb7bc2ee7dd5bfa53e8c6c0a42c2ac3176045c76c2cf2"
 }

@@ -61,7 +61,7 @@
     "scope": "Perplexity-based imperceptibility, not human naturalness ratings. Legacy citation key kim2025 is unchanged."
   },
   "current_source_bindings": {
-    "paper/current-authors.tex": "4bf81e0a1057e26f5bd7287c5445dfb4563fa4479af0281b5d266a92ee912717",
+    "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
     "paper/main.tex": "bcaf6c62d67f8e1ccfd6408bc10d53cb509b08c2bfbbb456b75d60523be9a3c5",
     "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
@@ -75,5 +75,5 @@
     "inspected_section": "Section 3.2 Eqs.(2)-(9), pp.3992-3994; helper calculate_STEM",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "a9277a2bf83c11f01b29334b9d0d933fd8d73677fa43e01cc17240cdd292ebfa"
+  "evidence_sha256": "28a280774b325ec67eb6b98afdd200651b763d1eb0bceda3f48082a90915a3b0"
 }
