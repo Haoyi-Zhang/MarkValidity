@@ -52,7 +52,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "a22b97e2467325079225b84e7af2cc4e8f295db05e15e9fd0e131e8b77ad66c5",
+    "paper/main.tex": "eaf1900da5c32f40b7678aeab5743ae85ed8654694e64bcbaefb7504a48e184e",
     "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -64,5 +64,5 @@
     "inspected_section": "Retained citation-evidence/arif2026-current.json: pp.10:6-10:7,10:10-10:12,10:16",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "7924525d46ff9a8632e366948f26b01a39394f79ddc7ed7689707c4dc7cfc675"
+  "evidence_sha256": "a738c23c24459dd4c7fdde0ad35c020dd4b0280f62140cfc2955c5836be8fb40"
 }

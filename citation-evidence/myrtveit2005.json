@@ -25,7 +25,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "a22b97e2467325079225b84e7af2cc4e8f295db05e15e9fd0e131e8b77ad66c5",
+    "paper/main.tex": "eaf1900da5c32f40b7678aeab5743ae85ed8654694e64bcbaefb7504a48e184e",
     "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "PDFp2/printed381 introduction reliability/validity distinction; PDFp3/printed382 complete Section5.1 Reliability and Validity; PDFp6 Section6 model-choice consistency versus correctness",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "e9acb2b7d14d96e492443280e36480c39a42571720d921ae996bcc232b4af855"
+  "evidence_sha256": "c37336ded3379ce48301842bcfd110d12e69b8a38fb1aa6d56ffc079c0aaa630"
 }

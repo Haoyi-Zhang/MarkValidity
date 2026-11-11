@@ -25,7 +25,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "a22b97e2467325079225b84e7af2cc4e8f295db05e15e9fd0e131e8b77ad66c5",
+    "paper/main.tex": "eaf1900da5c32f40b7678aeab5743ae85ed8654694e64bcbaefb7504a48e184e",
     "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "PDF3 Section2 Definitions1-3; PDF4 cloneTypes1-4 andSection3; PDF6 Section3.2 representation/normalization; PDF35 Section7 tool-choice intentions and coverage/complexity trade-off",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "d29a1d6619500ecd0a944d27f6f9b09715de30475e4356f3a83cc552f0bf8956"
+  "evidence_sha256": "43bbf0565cbb659e249e72524eef55cc3d016db2feccbc75d755375f54a4bb2d"
 }

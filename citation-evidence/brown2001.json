@@ -25,7 +25,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "a22b97e2467325079225b84e7af2cc4e8f295db05e15e9fd0e131e8b77ad66c5",
+    "paper/main.tex": "eaf1900da5c32f40b7678aeab5743ae85ed8654694e64bcbaefb7504a48e184e",
     "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "Visually read original scan PDF1 identity; PDF3 printed2 Introduction; PDF8 printed7 Figures3-4 and accompanying coverage/discreteness/skewness discussion",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "077e7c277d3dfe76e15afc9f7fbba7de09e79cd052b60baad893a7f19b0643c9"
+  "evidence_sha256": "7ed2c6fbfd8449ec95d920c5b004d1ddbe31354060b2e996bdc46ace4d52525a"
 }

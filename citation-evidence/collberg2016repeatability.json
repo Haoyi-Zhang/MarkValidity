@@ -37,7 +37,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "a22b97e2467325079225b84e7af2cc4e8f295db05e15e9fd0e131e8b77ad66c5",
+    "paper/main.tex": "eaf1900da5c32f40b7678aeab5743ae85ed8654694e64bcbaefb7504a48e184e",
     "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -49,5 +49,5 @@
     "inspected_section": "Official full HTML: Recommendations, the two proposals and Sharing contracts paragraphs; Discussion closing paragraph. Header/byline, DOI and formal issue details read in same page.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "bd3eb63c7680f89c03ff7cb9e440a2dccb00fb08fa9761fb37b6355654c2d389"
+  "evidence_sha256": "43337a29338b4e30c81369f032f308e0f538e129e3da4790f6ec3a656444e3c8"
 }

@@ -25,7 +25,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "a22b97e2467325079225b84e7af2cc4e8f295db05e15e9fd0e131e8b77ad66c5",
+    "paper/main.tex": "eaf1900da5c32f40b7678aeab5743ae85ed8654694e64bcbaefb7504a48e184e",
     "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "Introduction pp2-3; Section2.1 p4 reproducibility/replicability/robustness distinctions; Section5 pp10-11 checklist requirements on procedures/metrics/statistics/code",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "2fc591c71ab11a058a28996ceed3e41badea34a10f1898a1d5d09cb96c4d2205"
+  "evidence_sha256": "a813961960b648710800c1c4eff6a58cd6f4f31bac1198b64ce3cb9cbd416ab3"
 }

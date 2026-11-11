@@ -25,7 +25,7 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "a22b97e2467325079225b84e7af2cc4e8f295db05e15e9fd0e131e8b77ad66c5",
+    "paper/main.tex": "eaf1900da5c32f40b7678aeab5743ae85ed8654694e64bcbaefb7504a48e184e",
     "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
@@ -37,5 +37,5 @@
     "inspected_section": "Manuscript physicalpp2-3 SectionIII/type1-3/Definition1; pp3-4 SectionIV.A main-run subjects/normalization and IV.B reference-corpus construction; pp10-12 SectionV.B.3/V.C program-specific scope and configuration/corpus comparisons",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "97ebde81c667342c093c2ae214dcd30d9fb8c60db51ef5289c46238b647f1b6f"
+  "evidence_sha256": "ce364b138dc6fb6b389b5157e0f6bd21884bb15620392cda831be78b1660cba4"
 }
