@@ -64,13 +64,14 @@ def responses(out,preview):
         a.set_xticklabels(('0','0.5','1'))
         a.set_yticklabels(('0','0.5','1'))
         a.tick_params(length=2.4,width=.55,labelsize=9)
-        a.set_title(title,loc='left',pad=4.5,fontsize=10)
+        a.set_title(title,loc='center',pad=4.5,fontsize=10)
         grid(a,'y')
+    group_center=(axs[0,0].get_position().x0+axs[0,-1].get_position().x1)/2
     handles,labels=axs[0,0].get_legend_handles_labels()
-    f.legend(handles,labels,loc='upper center',bbox_to_anchor=(.54,.991),ncol=3,
+    f.legend(handles,labels,loc='upper center',bbox_to_anchor=(group_center,.991),ncol=3,
              fontsize=9.6,handlelength=2.2)
     f.text(.032,.47,'Detection rate',rotation=90,va='center',ha='center',fontsize=9.8)
-    f.text(.54,.029,'Requested severity',ha='center',fontsize=9.8)
+    f.text(group_center,.029,'Requested severity',ha='center',fontsize=9.8)
     save(f,out,'attack-response',preview)
 
 def transfer(out,preview):
