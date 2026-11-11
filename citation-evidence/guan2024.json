@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 117,
+      "line": 118,
       "claim": "CodeIP uses grammar-aware multi-bit encoding during generation \\cite{guan2024}.",
       "paragraph_sha256": "11ac76cfb070b012d036c647db6d96b503d999b459843f33c2db67dfa16ae3e8",
       "consumed_by": [
@@ -23,7 +23,7 @@
     },
     {
       "file": "paper/main.tex",
-      "line": 394,
+      "line": 413,
       "claim": "CodeIP's paper selects the highest-scoring candidate message \\cite{guan2024}.",
       "paragraph_sha256": "60e2bd67091b0abfb4e63a9e4f0c18ad69790da72fe3867bd4203e8719012018",
       "consumed_by": [
@@ -50,8 +50,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "dc471eebfb6f0c06ec65b9172fd15fe38b6b53db98993826208615e180bee45a",
-    "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
+    "paper/main.tex": "a22b97e2467325079225b84e7af2cc4e8f295db05e15e9fd0e131e8b77ad66c5",
+    "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -62,5 +62,5 @@
     "inspected_section": "Sections 3.2-3.4, Eq.(6), p.9247; wm.py available_message_num and prefix acc",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "f782bb8dd2542e2a8ea0801899d3170cc410e1ea78c6c7059ea5b999daa78a2d"
+  "evidence_sha256": "c5a3e0574af8a868c8908846d81bd6ee3b771c5d7479c9c16c5d9ea024db3044"
 }

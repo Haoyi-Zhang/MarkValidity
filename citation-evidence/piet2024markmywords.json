@@ -9,7 +9,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 169,
+      "line": 172,
       "claim": "MarkMyWords constrains quality and robustness before aggregate optimization~\\cite{piet2024markmywords}.",
       "paragraph_sha256": "cb3c3ceed59d9a2a81663615290d5c7a3adb336af99fe7fe12637fb1f40a38ba",
       "consumed_by": [
@@ -20,8 +20,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "dc471eebfb6f0c06ec65b9172fd15fe38b6b53db98993826208615e180bee45a",
-    "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
+    "paper/main.tex": "a22b97e2467325079225b84e7af2cc4e8f295db05e15e9fd0e131e8b77ad66c5",
+    "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -32,5 +32,5 @@
     "inspected_section": "SectionIV watermarking metrics, quality constraints and aggregation procedure",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "e56e056520d1dcbc67532f860ddbf3a13e8f88f9ad3614960698402c3670fdf3"
+  "evidence_sha256": "c8a7989fd60db988e7a93504caec3f2e20d24da6e15bb0ff54fb558d46a25200"
 }

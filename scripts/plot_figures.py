@@ -126,13 +126,14 @@ def metric_fingerprint():
     cax = fig.add_axes([134.4 / 425, 27 / 255, 239.9 / 425, 6.24 / 255])
     cb = fig.colorbar(mesh, cax=cax, orientation="horizontal",
                       ticks=[-1, -0.5, 0, 0.5, 1])
-    cb.solids.set_rasterized(False)
-    # A vector Gouraud mesh avoids seams between the colorbar's 256 flat cells.
-    # The three stops are the same -1 / 0 / 1 colors as the declared colormap.
+    # Explicit opaque PDF paths stay vector even in readers that rasterize
+    # the default colorbar mesh. Overlap neighboring bands so the viewer
+    # never blends a band edge against a white background.
     cb.solids.set_visible(False)
-    gx, gy = np.meshgrid([-1, 0, 1], [0, 1])
-    cax.pcolormesh(gx, gy, np.tile([-1, 0, 1], (2, 1)), cmap=cmap,
-                  vmin=-1, vmax=1, shading="gouraud", rasterized=False)
+    edges = np.linspace(-1, 1, 129)
+    for lo, hi in zip(edges[:-1], edges[1:]):
+        cax.add_patch(Rectangle((lo, 0), hi-lo+.013, 1,
+                                facecolor=cmap(mesh.norm((lo+hi)/2)), linewidth=0))
     cb.ax.tick_params(length=0, pad=3, labelsize=9.0)
     cb.set_label(r"Standardized intervention coefficient $\beta$", fontsize=9.0, labelpad=2)
     return fig

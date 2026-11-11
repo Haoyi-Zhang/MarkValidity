@@ -41,9 +41,9 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 978,
+      "line": 996,
       "claim": "\\subsection{Measurement validity, benchmark composition, and overfitting}\nArif et al. assess class-level code-quality metrics through exploratory factor analysis on Apache Maven and confirmatory analysis on 22 Java projects \\cite{arif2026}.",
-      "paragraph_sha256": "be93bb42acab439f20b9a1b103a28fac7ea906f5b606468a5bb1d08b605e7c75",
+      "paragraph_sha256": "4c8a8406a82bb1350e404b0eafa5321f945cca24b0815d8a90db96212b27b80c",
       "consumed_by": [
         "paper/main.pdf"
       ]
@@ -52,8 +52,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "dc471eebfb6f0c06ec65b9172fd15fe38b6b53db98993826208615e180bee45a",
-    "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
+    "paper/main.tex": "a22b97e2467325079225b84e7af2cc4e8f295db05e15e9fd0e131e8b77ad66c5",
+    "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -64,5 +64,5 @@
     "inspected_section": "Retained citation-evidence/arif2026-current.json: pp.10:6-10:7,10:10-10:12,10:16",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "c42e41a5e6acc41a4c048dfc8758a16ecb9fb9c17574a51675fced68ca1da7c5"
+  "evidence_sha256": "7924525d46ff9a8632e366948f26b01a39394f79ddc7ed7689707c4dc7cfc675"
 }

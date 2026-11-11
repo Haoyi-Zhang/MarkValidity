@@ -33,7 +33,7 @@ def calibration(out,preview):
     a.scatter(range(22,25),prob[22:],marker='D',s=14,color=AMBER,zorder=4)
     a.axvline(21.5,color=MUTED,lw=.65,ls='--')
     a.set(yscale='log',xlim=(-.6,24.6),ylim=(floor,.4),
-          xticks=[0,6,12,18,22,24],yticks=[1e-7,1e-5,1e-3,1e-1],
+          xticks=[0,6,12,18,22,23,24],yticks=[1e-7,1e-5,1e-3,1e-1],
           xlabel='Matching bits',ylabel='Probability mass')
     a.minorticks_off()
     a.tick_params(labelsize=9)
@@ -131,6 +131,7 @@ def coverage(out,preview):
     langs=('python','javascript')
     tests={(r['task'],r['language'],int(r['mutant_id'])):r for r in rows}
     assert len(tests)==72 and set(tests)=={(key,l,m) for key in order for l in langs for m in (1,2,3)}
+    distinguished='#718698'
     for i,(title,field,miss) in enumerate([('Nominal tests','nominal_equal',6),
                                            ('Complete execution','full_domain_equal',0)]):
         x=11+i*215
@@ -140,26 +141,30 @@ def coverage(out,preview):
                 for m in (1,2,3):
                     missed=truth(tests[key,lang,m],field)
                     xx=x+26+8*j
-                    yy=154-7*(m-1)-26*a
-                    color=AMBER if missed else '#b9c5ce'
-                    d.dot(xx,yy,'',fill=color,edge=color,r=2.35 if missed else 1.5)
-        d.text(x,147,'Py',9.2,ha='left',color=MUTED)
-        d.text(x,121,'JS',9.2,ha='left',color=MUTED)
+                    yy=145-7*(m-1)-26*a
+                    if missed:
+                        d.ax.plot(xx,yy,'x',ms=3.8,mew=.9,color=AMBER)
+                    else:
+                        d.dot(xx,yy,'',fill=distinguished,edge=distinguished,r=1.5)
+        for j in range(len(examples)):
+            d.text(x+26+8*j,156,str(j+1),8.3,color=MUTED)
+        d.text(x,138,'Py',9.2,ha='left',color=MUTED)
+        d.text(x,112,'JS',9.2,ha='left',color=MUTED)
         d.text(x+125,141,f'{miss} / 72',12.5,ha='left',weight='bold',color=AMBER if miss else TEAL)
         d.text(x+125,123,'mutants missed',9,ha='left',color=MUTED)
-    d.dot(13,96,'',fill=AMBER,edge=AMBER,r=2.35)
-    d.text(20,96,'Missed',8.7,ha='left',color=AMBER)
-    d.dot(63,96,'',fill='#b9c5ce',edge='#b9c5ce',r=1.7)
-    d.text(70,96,'Distinguished',8.7,ha='left',color=MUTED)
-    d.head(11,69,'(c) First inputs that distinguish the three missed faults')
+    d.ax.plot(13,89,'x',ms=3.8,mew=.9,color=AMBER)
+    d.text(20,89,'Missed',8.7,ha='left',color=AMBER)
+    d.dot(63,89,'',fill=distinguished,edge=distinguished,r=1.5)
+    d.text(70,89,'Distinguished',8.7,ha='left',color=MUTED)
+    d.head(11,66,r'(c) First distinguishing inputs and outputs (reference $\rightarrow$ mutant)')
     for i,(key,title,inp,ref,mut,index) in enumerate(examples):
         rr=[r for r in survivors if r['task']==key]
         assert {r['language'] for r in rr}==set(langs)
         assert all(int(r['first_mismatch_index'])==index and not truth(r,'full_domain_equal') for r in rr)
         x=11+i*139
-        d.text(x,51,title,9.3,ha='left',weight='bold')
+        d.text(x,49,f'{i+1}  {title}',9.3,ha='left',weight='bold')
         d.text(x,37,f'Input: {inp}',9,ha='left',color=MUTED)
-        d.text(x,23,f'{ref}  vs.  {mut}',9.4,ha='left',weight='bold')
+        d.text(x,23,fr'{ref} $\rightarrow$ {mut}',9.4,ha='left')
     d.save(out,'nominal-survivors',preview)
 
 def joint_bounds(out,preview):
@@ -173,26 +178,29 @@ def joint_bounds(out,preview):
     a=f.add_axes([.253,.202,.715,.648])
     pct=lambda n,r:100*n/r['denominator']
     for y,r in zip((1.08,.18),obs):
-        nums=[r['detected'],r['known']-r['detected'],r['unknown']]
-        assert sum(nums)==r['denominator'] and nums[0]+nums[2]==r['upper_numerator']
+        nums=[r['detected'],r['unknown'],r['known']-r['detected']]
+        assert sum(nums)==r['denominator'] and nums[0]+nums[1]==r['upper_numerator']
         left=0.
-        for n,c,h in zip(nums,[TEAL,BLUE,'#e4e9ee'],['','//','..']):
+        styles=((TEAL,'none',''),('#e4e9ee','#54697a','..'),(BLUE,'white','//'))
+        for n,(c,edge,h) in zip(nums,styles,strict=True):
             v=pct(n,r)
-            a.barh(y+.18,v,left=left,height=.20,color=c,edgecolor='#54697a' if c.startswith('#') else 'white',linewidth=.4,hatch=h)
+            a.barh(y+.18,v,left=left,height=.20,color=c,edgecolor=edge,linewidth=.4,hatch=h)
             left+=v
         lo,hi=pct(r['lower_numerator'],r),pct(r['upper_numerator'],r)
+        a.vlines([lo,hi],y-.09,y+.08,color=MUTED,lw=.55,ls=':')
         a.hlines(y-.09,lo,hi,color=INK,lw=1.2)
         a.plot([lo,hi],[y-.09,y-.09],linestyle='none',marker='|',color=INK,ms=6,clip_on=False)
         # Separate the evidence-supported lower endpoint from the upper endpoint
         # even when the filled green segment is sub-point at publication width.
         a.plot(lo,y-.09,marker='o',color=TEAL,mfc='white',mew=.85,ms=3.8,zorder=4,clip_on=False)
         a.text((lo+hi)/2,y-.27,f'{lo:.2f}% to {hi:.2f}%',fontsize=8.8,ha='center',va='center')
-    a.set(xlim=(0,100),ylim=(-.23,1.52),yticks=(1.20,.30),
+    a.set(xlim=(0,100),ylim=(-.23,1.52),yticks=(1.26,.36),
           yticklabels=('Execution only','Proof + execution'),xticks=(0,25,50,75,100))
     a.tick_params(axis='y',labelsize=8.8,length=0)
     from matplotlib.patches import Patch
-    f.legend(handles=[Patch(facecolor=TEAL,label='Joint event met'),Patch(facecolor=BLUE,hatch='//',label='Not met'),
-                      Patch(facecolor='#e4e9ee',edgecolor='#54697a',hatch='..',label='Unmeasured')],
+    f.legend(handles=[Patch(facecolor=TEAL,label='Success known'),
+                      Patch(facecolor='#e4e9ee',edgecolor='#54697a',hatch='..',label='Undetermined'),
+                      Patch(facecolor=BLUE,edgecolor='white',hatch='//',label='Ruled out')],
              ncol=3,loc='upper center',bbox_to_anchor=(.58,.995),fontsize=8.3)
     a.set_xlabel('Share of the same 76,032 configurations (%)',labelpad=2)
     grid(a,'x');save(f,out,'joint-bounds',preview)

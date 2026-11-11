@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 119,
+      "line": 120,
       "claim": "Construct validity asks whether an operationalization supports the interpretation attached to it \\cite{cronbach1955}.",
       "paragraph_sha256": "2e0b23651fcff9cf4d567650bdeb21370b96af39122e2a57a501a297cbf8007c",
       "consumed_by": [
@@ -25,8 +25,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "dc471eebfb6f0c06ec65b9172fd15fe38b6b53db98993826208615e180bee45a",
-    "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
+    "paper/main.tex": "a22b97e2467325079225b84e7af2cc4e8f295db05e15e9fd0e131e8b77ad66c5",
+    "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -37,5 +37,5 @@
     "inspected_section": "Original sections Kinds of Constructs,Reporting of Construct Validation and summary points4-6,including original printed284 context",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "46686daa779a80bd2d77ed43d3599408e2d44e4480940972f96883badd98f1e1"
+  "evidence_sha256": "3ef51e51c74e12c9bd4ab3d50c911670a60569fccfdc3f5b8b55551bf34f5f32"
 }

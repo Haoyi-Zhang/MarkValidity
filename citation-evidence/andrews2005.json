@@ -14,9 +14,9 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 971,
+      "line": 989,
       "claim": "Comparisons with hand-seeded faults make representativeness empirical \\cite{andrews2005}.",
-      "paragraph_sha256": "39c8602bac9d3812ac9bafb642e5fc35f9993bc5dfe97703f329443c329420e4",
+      "paragraph_sha256": "9a50aad779072fefb14b9dbf74af04816b41b14037a8f32fd272e867538206ed",
       "consumed_by": [
         "paper/main.pdf"
       ]
@@ -25,8 +25,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "dc471eebfb6f0c06ec65b9172fd15fe38b6b53db98993826208615e180bee45a",
-    "paper/online-supplement.tex": "d6af4e34e0e16160037550602d9f0e316b7174f6f2c764d7d003eba815e56aa1",
+    "paper/main.tex": "a22b97e2467325079225b84e7af2cc4e8f295db05e15e9fd0e131e8b77ad66c5",
+    "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -37,5 +37,5 @@
     "inspected_section": "Original Section3/3.1 Experiment Material and Procedure, printed403-404; Section3.5 printed405; Section4.5/5 printed408-409. Worker-b reread retained original-body passages in A followup/final-body-4.json part1 and final-body-6.json parts3-4, not citing-paper summaries.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "8f0eb40f6aecb0ad28dac28d9d3971ed7a5c44760b216b619bc73346bbcc67f0"
+  "evidence_sha256": "efcb8e6196c060553b1f7249cebc6e961191021ae473f0cb4140244b29ff4016"
 }
