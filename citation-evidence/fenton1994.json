@@ -14,18 +14,18 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 120,
+      "line": 99,
       "claim": "Software measurement reaches the same practical conclusion: a convenient numerical representation is not automatically a valid measure of the attribute named after it \\cite{fenton1994}.",
-      "paragraph_sha256": "2e0b23651fcff9cf4d567650bdeb21370b96af39122e2a57a501a297cbf8007c",
+      "paragraph_sha256": "984c3ff48c827853e9e33df743c7d93bb9e6b88d17982adcce5232f4544c6d1e",
       "consumed_by": [
         "paper/main.pdf"
       ]
     },
     {
       "file": "paper/main.tex",
-      "line": 1000,
+      "line": 130,
       "claim": "Fenton starts from an empirical relational system \\cite{fenton1994}.",
-      "paragraph_sha256": "8c1cc5f556b2df33fe924d58b7cc9bbb5f69b9e8c0aa3bd58f0c1f304480268d",
+      "paragraph_sha256": "cbdf6ea24abb46ca9b76b014d709b6ca2ded91159f2e14c5d4058d5244c4b225",
       "consumed_by": [
         "paper/main.pdf"
       ]
@@ -34,8 +34,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "eaf1900da5c32f40b7678aeab5743ae85ed8654694e64bcbaefb7504a48e184e",
-    "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
+    "paper/main.tex": "9905248f8141274b06680712ffd5b1d5a55e18be06819617c3e49160dfecddda",
+    "paper/online-supplement.tex": "c7b1617c61795819c4546e657ee2dba5bfb117f3a797cc6136f50b4adc03c016",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -46,5 +46,5 @@
     "inspected_section": "Printed pp199-200 SectionII.A What Is Measurement and II.B Representational Theory of Measurement: empirical relational systems and representation condition, with continuation into p201",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "8a13026de7afb4d0a70746b7609282e2272cc0570c834ef29b697adabf37570a"
+  "evidence_sha256": "1937d0fe847d8e2d32ebb03c003ba480f76f46dcc45ff7ca7c0d84965cdcb162"
 }

@@ -58,8 +58,10 @@ def responses(out,preview):
             lo=[float(r['lower']) for r in rows];hi=[float(r['upper']) for r in rows]
             assert all(0<=l<=v<=h<=1 for l,v,h in zip(lo,y,hi))
             assert all(abs(v*384-round(v*384))<1e-8 for v in y)
-            a.plot(x,y,color=col,marker=mark,ls=ls,markevery=list(range(j,11,3)),
-                   markersize=3.8,mew=.66,mfc='white',lw=.85,label=carrier.title())
+            a.plot(x,y,color=col,ls=ls,lw=1.02,zorder=2)
+            indices=list(range(j,11,3))
+            a.plot([x[k] for k in indices],[y[k] for k in indices],linestyle='none',
+                   marker=mark,markersize=3.9,mew=.72,mfc='white',color=col,zorder=3)
         a.set(xlim=(-.025,1.025),ylim=(-.08,1.08),xticks=(0,.5,1),yticks=(0,.5,1))
         a.set_xticklabels(('0','0.5','1'))
         a.set_yticklabels(('0','0.5','1'))
@@ -67,8 +69,11 @@ def responses(out,preview):
         a.set_title(title,loc='center',pad=4.5,fontsize=10)
         grid(a,'y')
     group_center=(axs[0,0].get_position().x0+axs[0,-1].get_position().x1)/2
-    handles,labels=axs[0,0].get_legend_handles_labels()
-    f.legend(handles,labels,loc='upper center',bbox_to_anchor=(group_center,.991),ncol=3,
+    from matplotlib.lines import Line2D
+    handles=[Line2D([],[],color=col,marker=mark,ls=ls,lw=1.02,markersize=3.9,
+                    mfc='white',label=label) for (col,mark,ls),label in
+             zip(SERIES,('Lexical','Structural','Hybrid'))]
+    f.legend(handles=handles,loc='upper center',bbox_to_anchor=(group_center,.991),ncol=3,
              fontsize=9.6,handlelength=2.2)
     f.text(.032,.47,'Detection rate',rotation=90,va='center',ha='center',fontsize=9.8)
     f.text(group_center,.029,'Requested severity',ha='center',fontsize=9.8)
@@ -211,8 +216,13 @@ def evidence_routes(out,preview):
     emit('evidence-routes',out,preview)
 
 
+def claim_channels(out,preview):
+    from diagram_ink import emit
+    emit('claim-channels',out,preview)
+
+
 if __name__=='__main__':
     args=arguments();paper_style()
-    for draw in (architecture,calibration,responses,transfer,coverage,joint_bounds,evidence_routes):draw(args.outdir,args.previews)
+    for draw in (architecture,calibration,responses,transfer,coverage,joint_bounds,evidence_routes,claim_channels):draw(args.outdir,args.previews)
     from diagram_ink import emit_supplemental
     emit_supplemental(args.outdir,args.previews)

@@ -14,9 +14,9 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 991,
+      "line": 119,
       "claim": "Differential testing finds compiler defects through implementation disagreement \\cite{yang2011compiler}.",
-      "paragraph_sha256": "670946b1f1d349f7bcfcb92728bfe466e7f5c6ba303acd531927a44d14f61954",
+      "paragraph_sha256": "995710499de7f342cf38ac6950da6880288328cde0a3d17d7675d0aeb02b269b",
       "consumed_by": [
         "paper/main.pdf"
       ]
@@ -25,8 +25,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "eaf1900da5c32f40b7678aeab5743ae85ed8654694e64bcbaefb7504a48e184e",
-    "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
+    "paper/main.tex": "9905248f8141274b06680712ffd5b1d5a55e18be06819617c3e49160dfecddda",
+    "paper/online-supplement.tex": "c7b1617c61795819c4546e657ee2dba5bfb117f3a797cc6136f50b4adc03c016",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -37,5 +37,5 @@
     "inspected_section": "Introduction pp1-2, especially p1 differential Csmith compile/run/output-comparison harness and unique-interpretation requirement",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "7b0aef5e82ffce08e47bcdfea8bb06c31e561e676e1655aa876deb1618f314e2"
+  "evidence_sha256": "a550dcfcc5ebe30298f4da4730e82d343129cf7e491555bcf1cd9636c256fe71"
 }

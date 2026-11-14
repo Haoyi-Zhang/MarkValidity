@@ -14,9 +14,9 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 673,
+      "line": 693,
       "claim": "Metamorphic testing similarly relies on executable relations when direct expected outputs are difficult to obtain \\cite{chen2018}; the benchmark uses exhaustive differential execution where finite domains make it possible.",
-      "paragraph_sha256": "d58b0589bd280087f2966176cd35de25241f6746a0d179a8705ddd7712f03951",
+      "paragraph_sha256": "fdae500ced5c4ec28dcc3b93e6e2b60d98a4dce617dd66883d579989fb5b2b92",
       "consumed_by": [
         "paper/main.pdf"
       ]
@@ -25,8 +25,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "eaf1900da5c32f40b7678aeab5743ae85ed8654694e64bcbaefb7504a48e184e",
-    "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
+    "paper/main.tex": "9905248f8141274b06680712ffd5b1d5a55e18be06819617c3e49160dfecddda",
+    "paper/online-supplement.tex": "c7b1617c61795819c4546e657ee2dba5bfb117f3a797cc6136f50b4adc03c016",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -37,5 +37,5 @@
     "inspected_section": "Manuscript Section2.2 pp4-5 Definitions1-4 and shortest-path example, original online lines683-1040 retained in A followup/final-body-5.json part0; worker-b actually reinspected these body passages.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "f6c976d6749151bb55e4398ee24cd1e2413e8d54f6c122a5f0e6cdce573dc063"
+  "evidence_sha256": "61f649a76ed86d4595e581229258f64133b2d060e4540354b1c7912bb56ada36"
 }

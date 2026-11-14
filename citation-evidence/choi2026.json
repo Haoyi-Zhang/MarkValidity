@@ -14,9 +14,9 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 118,
+      "line": 97,
       "claim": "Another distributes payloads across several syntactic channels \\cite{choi2026}.",
-      "paragraph_sha256": "11ac76cfb070b012d036c647db6d96b503d999b459843f33c2db67dfa16ae3e8",
+      "paragraph_sha256": "fb6623f4a9c4d5fe9aa312fc9d39e12a55ae3141f058f66c7a7ef76d9777210d",
       "consumed_by": [
         "paper/main.pdf"
       ]
@@ -25,8 +25,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "eaf1900da5c32f40b7678aeab5743ae85ed8654694e64bcbaefb7504a48e184e",
-    "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
+    "paper/main.tex": "9905248f8141274b06680712ffd5b1d5a55e18be06819617c3e49160dfecddda",
+    "paper/online-supplement.tex": "c7b1617c61795819c4546e657ee2dba5bfb117f3a797cc6136f50b4adc03c016",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -37,5 +37,5 @@
     "inspected_section": "Complete first-page title/byline/date and Introduction; PDF2 Introduction/approach; PDF3 Sections2.2-2.3 coding/spreading; PDF4 Section3 threat model and4.1 overview; PDF5 Section4.2-4.3 and Table2 naming plus eight structural channels.",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "184f5ede4b5ec8019756783beb408e304a66a2fb28d03a75b221c33908d8666e"
+  "evidence_sha256": "1c7d846a071f07a136889f260c48c2097f36871a38f3a6b56ef4d2ccb0181cc2"
 }

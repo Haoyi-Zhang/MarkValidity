@@ -86,8 +86,16 @@ class ReportingContractTests(unittest.TestCase):
         self.assertEqual(Decimal(threshold['structural']['score']), Decimal('0.4'))
         self.assertEqual(Decimal(threshold['hybrid']['score']), Decimal('0.6'))
         supplement = manuscript_text('online-supplement.tex')
-        self.assertIn('Score & Display order & Winner', supplement)
-        self.assertIn('not a strict preference rank', supplement)
+        self.assertIn('Functional & Lexical & Structural & Hybrid & Winner', supplement)
+        self.assertIn('Position is not a preference rank.', supplement)
+        observed = next(line for line in supplement.splitlines()
+                        if line.startswith('Share of families at or above 0.30 &'))
+        fields = [field.strip() for field in observed.removesuffix(r'\\').split('&')]
+        for field, scheme in zip(fields[1:4], ('lexical', 'structural', 'hybrid')):
+            score, _, position = field.partition(' (')
+            self.assertEqual(Decimal(score), Decimal(threshold[scheme]['score']))
+            self.assertEqual(int(position.rstrip(')')), int(threshold[scheme]['rank']))
+        self.assertEqual(fields[-1], 'Hybrid')
 
 
 if __name__ == '__main__':

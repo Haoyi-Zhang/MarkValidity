@@ -14,9 +14,9 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 982,
+      "line": 110,
       "claim": "Watermarking was later positioned beside obfuscation and tamper resistance \\cite{collberg2002tools}.",
-      "paragraph_sha256": "f7719d46635703f65604d4e245b607eca166c9ec5a0c0caa15534399f8bead0a",
+      "paragraph_sha256": "9a4b773af10febf10f33575051327e057971e3408c7d0d674ea02237836b7154",
       "consumed_by": [
         "paper/main.pdf"
       ]
@@ -25,8 +25,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "eaf1900da5c32f40b7678aeab5743ae85ed8654694e64bcbaefb7504a48e184e",
-    "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
+    "paper/main.tex": "9905248f8141274b06680712ffd5b1d5a55e18be06819617c3e49160dfecddda",
+    "paper/online-supplement.tex": "c7b1617c61795819c4546e657ee2dba5bfb117f3a797cc6136f50b4adc03c016",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -37,5 +37,5 @@
     "inspected_section": "PDF4 printed737 Section1.2/Figure3 taxonomy",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "a8d0b49d3bdfdf0a96e2dd5e546db628869c11a8ce9991b4215d7b2ca2f3aa2a"
+  "evidence_sha256": "a82894fdde803ea1d4b25ef2d9e76139aa0cfc08fdfd6cb48ee1e7a3d8db77ba"
 }

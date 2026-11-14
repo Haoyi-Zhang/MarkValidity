@@ -9,9 +9,9 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 172,
+      "line": 189,
       "claim": "WaterPark studies attack-specific behavior and fixed-false-positive operating points~\\cite{liang2025waterpark}.",
-      "paragraph_sha256": "cb3c3ceed59d9a2a81663615290d5c7a3adb336af99fe7fe12637fb1f40a38ba",
+      "paragraph_sha256": "d3f1041cde7740fc2e759a80e1c3c208c8c964049898b344d05b7434a3a4067b",
       "consumed_by": [
         "paper/main.pdf"
       ]
@@ -20,8 +20,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "eaf1900da5c32f40b7678aeab5743ae85ed8654694e64bcbaefb7504a48e184e",
-    "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
+    "paper/main.tex": "9905248f8141274b06680712ffd5b1d5a55e18be06819617c3e49160dfecddda",
+    "paper/online-supplement.tex": "c7b1617c61795819c4546e657ee2dba5bfb117f3a797cc6136f50b4adc03c016",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -32,5 +32,5 @@
     "inspected_section": "Section3.2, author-PDF p.3, fixed-FPR detection evaluation; AppendicesE–I, intensity and task effects",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "b1bc399b7e33fb3244b2c96189d2a7c4cc55a90b5ef28717d452af90e8af578a"
+  "evidence_sha256": "c9049df8a58f9ba7c56d7d26e558acd22e84217423b6282050a6a9c0fa50e09f"
 }

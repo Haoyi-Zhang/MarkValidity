@@ -14,9 +14,9 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 998,
+      "line": 128,
       "claim": "Messick integrates score meaning and consequences \\cite{messick1995}.",
-      "paragraph_sha256": "6c0242194ad7f9040ed62adcca6edba9d84053ae50c27c4297a369c749de990e",
+      "paragraph_sha256": "5a2d63ec60d0da0917e2ad5f6ebdc18af5a1d30c980402f1a75cd62a3804c062",
       "consumed_by": [
         "paper/main.pdf"
       ]
@@ -25,8 +25,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "eaf1900da5c32f40b7678aeab5743ae85ed8654694e64bcbaefb7504a48e184e",
-    "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
+    "paper/main.tex": "9905248f8141274b06680712ffd5b1d5a55e18be06819617c3e49160dfecddda",
+    "paper/online-supplement.tex": "c7b1617c61795819c4546e657ee2dba5bfb117f3a797cc6136f50b4adc03c016",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -37,5 +37,5 @@
     "inspected_section": "PDF1 printed741 body definition; PDF2 printed742 Comprehensiveness andSourcesofInvalidity; PDF3 printed743 SourcesofEvidence",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "66a84674b2b2df17057a2924c5abfaaae7ef86d68ad80236f24e6c78c3cbb02c"
+  "evidence_sha256": "34eae709598bd4fcb1ba6e540397caa3c028a8da512470f0fb965024fd8a7086"
 }

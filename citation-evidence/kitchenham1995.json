@@ -14,7 +14,7 @@
   "manuscript_occurrences": [
     {
       "file": "paper/main.tex",
-      "line": 205,
+      "line": 222,
       "claim": "Kitchenham et al. argue that converting measurement vectors to scalars requires a model relating the underlying attributes \\cite{kitchenham1995}.",
       "paragraph_sha256": "27e2594a1dcf77fb225c49444d90370c1d73b9a2349f942bd4daf1176ca13058",
       "consumed_by": [
@@ -25,8 +25,8 @@
   "current_source_bindings": {
     "paper/current-authors.tex": "2f54a9034521b4cf9d60eaa7bbae77113d6a5360ed868bf3f5a5c82c0780036e",
     "paper/figdata/source-detection.tex": "d46a2ee2afc60f97dfa57dda0e46df8e0a27ab0f28b7dd72d3b30b08e5dc2f2c",
-    "paper/main.tex": "eaf1900da5c32f40b7678aeab5743ae85ed8654694e64bcbaefb7504a48e184e",
-    "paper/online-supplement.tex": "48f02328b2bc9b49a069b33d2cfdbaa69dd07748e340c9bb937c878491f0eb0d",
+    "paper/main.tex": "9905248f8141274b06680712ffd5b1d5a55e18be06819617c3e49160dfecddda",
+    "paper/online-supplement.tex": "c7b1617c61795819c4546e657ee2dba5bfb117f3a797cc6136f50b4adc03c016",
     "paper/project-repository.tex": "9cdd4507256375154cb467b25033e26f0635d433a5460dce9f697c09b9a6608a"
   },
   "current_claim_support": {
@@ -37,5 +37,5 @@
     "inspected_section": "Original SectionII compound/vector/scalar discussion preceding H and I,printed932-933; implication7 and SectionIII.D.1 attribute definition models",
     "complete_original_paper_read_claimed": false
   },
-  "evidence_sha256": "23e324dc9912b9ffef3f1a311d74ef0ae618e70dd7f273befa5446d29c78dd21"
+  "evidence_sha256": "024c311f5cc69517286687b1f2e9e4250720bfc064aca25df941511aa72447e7"
 }
